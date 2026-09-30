@@ -46,7 +46,7 @@
       "senseTags": ["D"],
       "miscTags": ["MA"],
       "hasToken": true,
-      "tokenHref": {"type": "internal", "path": "bestiary/tokens/UD/Glimmer Gleaner.png"},
+      "tokenHref": {"type": "internal", "path": "bestiary/tokens/UD/Glimmer Gleaner.webp"},
       "hasFluff": true,
       "hasFluffImages": true
     },
@@ -110,7 +110,7 @@
       "miscTags": ["MA"],
       "savingThrowForced": ["dexterity"],
       "hasToken": true,
-      "tokenHref": {"type": "internal", "path": "bestiary/tokens/UD/Vesperglass Prowler.png"},
+      "tokenHref": {"type": "internal", "path": "bestiary/tokens/UD/Vesperglass Prowler.webp"},
       "hasFluff": true,
       "hasFluffImages": true
     },
@@ -191,7 +191,7 @@
       "miscTags": ["MA", "RCH"],
       "savingThrowForced": ["dexterity", "constitution"],
       "hasToken": true,
-      "tokenHref": {"type": "internal", "path": "bestiary/tokens/UD/Kiln of the Ninth Dawn.png"},
+      "tokenHref": {"type": "internal", "path": "bestiary/tokens/UD/Kiln of the Ninth Dawn.webp"},
       "hasFluff": true,
       "hasFluffImages": true
     }

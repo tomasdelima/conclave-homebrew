@@ -10,6 +10,7 @@ import math
 from pathlib import Path
 import re
 import struct
+import subprocess
 import zlib
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,9 +40,19 @@ def dice_average(formula):
     return int(count) * (int(sides) + 1) / 2 + (int(extra or 0) * (-1 if sign == "-" else 1))
 
 
-def png_info(path):
+def image_info(path):
     """Read dimensions and actual alpha range without changing generated images."""
     data = path.read_bytes()
+    if path.suffix.lower() == ".webp":
+        require(data[:4] == b"RIFF" and data[8:12] == b"WEBP", f"Expected WebP: {path}")
+        try:
+            result = subprocess.run(
+                ["dwebp", str(path), "-quiet", "-o", "-"],
+                check=True, capture_output=True, timeout=30,
+            )
+        except FileNotFoundError as exc:
+            raise ValueError("WebP validation requires dwebp from the libwebp tools; on macOS run brew install webp") from exc
+        data = result.stdout
     require(data[:8] == b"\x89PNG\r\n\x1a\n", f"Expected PNG: {path}")
     width, height, depth, color, _, _, interlace = struct.unpack(">IIBBBBB", data[16:29])
     if color != 6:
@@ -130,26 +141,32 @@ def validate(pack):
         allowed_tags = {"atkr", "hit", "h", "damage", "recharge", "actSave", "dc", "actSaveFail", "actSaveSuccess"}
         require(set(re.findall(r"\{@(\w+)", text)) <= allowed_tags, f"Unknown renderer tag: {identity}")
         token = image_path(mon["tokenHref"])
-        width, height, alpha = png_info(token)
+        width, height, alpha = image_info(token)
         require(width == height, f"Token isn't square: {identity}")
         require(alpha and alpha[0] == 0 and alpha[1] == 255 and alpha[2] == [0, 0, 0, 0], f"Token requires real transparent corners and opaque art: {identity}")
         for image in lore[identity]["images"]:
             path = image_path(image["href"])
-            width, height, _ = png_info(path)
+            width, height, _ = image_info(path)
             image["width"], image["height"] = width, height
         print(f"Validated {mon['name']}: CR {mon['cr']}, PB +{pb}, HP and damage dice, lore, artwork, transparent token")
     require(set(lore) == names, "Lore and monsters don't match")
+
+
+def image_data_url(path):
+    mime = {".png": "image/png", ".webp": "image/webp"}.get(path.suffix.lower())
+    require(mime, f"Unsupported image format: {path}")
+    return f"data:{mime};base64," + base64.b64encode(path.read_bytes()).decode()
 
 
 def embed_images(pack):
     portable = copy.deepcopy(pack)
     for mon in portable["monster"]:
         path = image_path(mon["tokenHref"])
-        mon["tokenHref"] = {"type": "external", "url": "data:image/png;base64," + base64.b64encode(path.read_bytes()).decode()}
+        mon["tokenHref"] = {"type": "external", "url": image_data_url(path)}
     for lore in portable["monsterFluff"]:
         for image in lore["images"]:
             path = image_path(image["href"])
-            image["href"] = {"type": "external", "url": "data:image/png;base64," + base64.b64encode(path.read_bytes()).decode()}
+            image["href"] = {"type": "external", "url": image_data_url(path)}
     return portable
 
 

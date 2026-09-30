@@ -97,7 +97,7 @@
       "hasToken": true,
       "tokenHref": {
         "type": "internal",
-        "path": "bestiary/tokens/UD/Glimmer Gleaner.png"
+        "path": "bestiary/tokens/UD/Glimmer Gleaner.webp"
       },
       "hasFluff": true,
       "hasFluffImages": true
@@ -212,7 +212,7 @@
       "hasToken": true,
       "tokenHref": {
         "type": "internal",
-        "path": "bestiary/tokens/UD/Vesperglass Prowler.png"
+        "path": "bestiary/tokens/UD/Vesperglass Prowler.webp"
       },
       "hasFluff": true,
       "hasFluffImages": true
@@ -369,7 +369,7 @@
       "hasToken": true,
       "tokenHref": {
         "type": "internal",
-        "path": "bestiary/tokens/UD/Kiln of the Ninth Dawn.png"
+        "path": "bestiary/tokens/UD/Kiln of the Ninth Dawn.webp"
       },
       "hasFluff": true,
       "hasFluffImages": true
@@ -408,7 +408,7 @@
           "type": "image",
           "href": {
             "type": "internal",
-            "path": "bestiary/UD/Glimmer Gleaner.png"
+            "path": "bestiary/UD/Glimmer Gleaner.webp"
           },
           "title": "Glimmer Gleaner",
           "width": 1312,
@@ -448,7 +448,7 @@
           "type": "image",
           "href": {
             "type": "internal",
-            "path": "bestiary/UD/Vesperglass Prowler.png"
+            "path": "bestiary/UD/Vesperglass Prowler.webp"
           },
           "title": "Vesperglass Prowler",
           "width": 1312,
@@ -488,7 +488,7 @@
           "type": "image",
           "href": {
             "type": "internal",
-            "path": "bestiary/UD/Kiln of the Ninth Dawn.png"
+            "path": "bestiary/UD/Kiln of the Ninth Dawn.webp"
           },
           "title": "Kiln of the Ninth Dawn",
           "width": 1312,

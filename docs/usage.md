@@ -20,12 +20,12 @@ Canonical data lives in `data/`, final image assets in `img/`, and source metada
 
 ## Rebuild after editing
 
-With Python 3.9 or newer, run:
+With Python 3.9 or newer and `dwebp` from the libwebp tools (on macOS, install with `brew install webp`), run:
 
 ```bash
 python3 scripts/build.py
 ```
 
-The build validates source and lore relationships, duplicate identities, CR range, ability scores, HP arithmetic and Hit Die sizes, proficient saving throws, Passive Perception, printed damage averages, renderer tags, image existence, square tokens, and actual transparent PNG corners. It regenerates the exports and local preview.
+The build validates source and lore relationships, duplicate identities, CR range, ability scores, HP arithmetic and Hit Die sizes, proficient saving throws, Passive Perception, printed damage averages, renderer tags, image existence, square tokens, and actual transparent image corners. It regenerates the exports and local preview. Final assets use lossless WebP, including token transparency; portable exports embed them with the `image/webp` media type.
 
 These checks don't replace upstream schema validation, a live import test, or tabletop playtesting.

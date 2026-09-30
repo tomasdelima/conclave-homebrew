@@ -8,7 +8,7 @@
         {"type": "entries", "name": "Signs and encounters", "entries": ["Six-footed tracks circle lantern posts. Ceramic flakes collect beneath warm windows. A bell keeper asks the party to relocate a nest before the evening signal fails; the gleaners' trail leads to a previously unknown dawn fragment."]},
         {"type": "entries", "name": "Place in the ecosystem", "entries": ["Gleaners disperse tiny dawn fragments in nesting material. Vesperglass prowlers follow their glowing trails. A kiln treats a gleaner colony as evidence that a damaged skywork still holds recoverable light."]}
       ],
-      "images": [{"type": "image", "href": {"type": "internal", "path": "bestiary/UD/Glimmer Gleaner.png"}, "title": "Glimmer Gleaner"}]
+      "images": [{"type": "image", "href": {"type": "internal", "path": "bestiary/UD/Glimmer Gleaner.webp"}, "title": "Glimmer Gleaner"}]
     },
     {
       "name": "Vesperglass Prowler",
@@ -18,7 +18,7 @@
         {"type": "entries", "name": "Signs and encounters", "entries": ["Fresh kills lie beside carefully arranged glowing stones. Curved ceramic scratches mark trees above head height. A caravan's stolen cargo has made it a moving beacon; returning the luminous lens may end the hunt without a fight."]},
         {"type": "entries", "name": "Running the creature", "entries": ["Show the players its luminous hunting stones before combat. The prowler teleports into light, so extinguishing ordinary lamps can remove destinations. Follow the Gleam doesn't require a departure point in light. Turn the Facet affects one attack only and consumes its Reaction. The creature isn't immune or resistant to Radiant damage."]}
       ],
-      "images": [{"type": "image", "href": {"type": "internal", "path": "bestiary/UD/Vesperglass Prowler.png"}, "title": "Vesperglass Prowler"}]
+      "images": [{"type": "image", "href": {"type": "internal", "path": "bestiary/UD/Vesperglass Prowler.webp"}, "title": "Vesperglass Prowler"}]
     },
     {
       "name": "Kiln of the Ninth Dawn",
@@ -28,7 +28,7 @@
         {"type": "entries", "name": "Signs and encounters", "entries": ["Brass rings orbit an abandoned tower. Streets acquire glowing survey circles. The kiln announces a village's dawnstone will be reclaimed at first light. The party can seek an alternate supply, demonstrate a fault in the kiln's survey, or fight to interrupt the reclamation."]},
         {"type": "entries", "name": "Running the creature", "entries": ["The kiln explains its task and gives warnings before violence. Its meridian circle is visible and deals no damage. Move the circle to encourage movement; don't add unseen hazards. Recast the Meridian relocates its single circle rather than making another. Legendary Actions share three uses per round, regained at the start of its turn. This draft has no additional Lair Actions or mythic phase."]}
       ],
-      "images": [{"type": "image", "href": {"type": "internal", "path": "bestiary/UD/Kiln of the Ninth Dawn.png"}, "title": "Kiln of the Ninth Dawn"}]
+      "images": [{"type": "image", "href": {"type": "internal", "path": "bestiary/UD/Kiln of the Ninth Dawn.webp"}, "title": "Kiln of the Ninth Dawn"}]
     }
   ]
 }
