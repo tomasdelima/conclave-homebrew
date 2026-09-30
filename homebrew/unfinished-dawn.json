@@ -1,0 +1,502 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "UD",
+        "abbreviation": "UD",
+        "full": "The Unfinished Dawn",
+        "authors": [
+          "Conclave Homebrew"
+        ],
+        "version": "0.1.0",
+        "color": "b47a35"
+      }
+    ],
+    "edition": "one"
+  },
+  "monster": [
+    {
+      "name": "Glimmer Gleaner",
+      "source": "UD",
+      "size": [
+        "T"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 7,
+        "formula": "2d4 + 2"
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 20
+      },
+      "str": 4,
+      "dex": 12,
+      "con": 12,
+      "int": 3,
+      "wis": 12,
+      "cha": 6,
+      "skill": {
+        "perception": "+3",
+        "stealth": "+3"
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "passive": 13,
+      "cr": "1/8",
+      "trait": [
+        {
+          "name": "Stored Dawn",
+          "entries": [
+            "The gleaner sheds Dim Light in a 5-foot radius. It can suppress or restore this light at the start of its turn (no action required)."
+          ]
+        },
+        {
+          "name": "Light Forager",
+          "entries": [
+            "The gleaner knows the direction of the nearest source of Bright Light within 60 feet that isn't behind Total Cover. This trait doesn't reveal creatures or objects hidden within that light."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Glass Nip",
+          "entries": [
+            "{@atkr m} {@hit 3}, reach 5 ft. {@h}3 ({@damage 1d4 + 1}) Piercing damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Spill the Lantern (1/Day)",
+          "entries": [
+            "The gleaner releases its stored light, then moves up to 10 feet without provoking Opportunity Attacks. Until the start of its next turn, its space sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. It can't shed light with Stored Dawn again until it finishes a Short or Long Rest."
+          ]
+        }
+      ],
+      "environment": [
+        "grassland",
+        "urban"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "miscTags": [
+        "MA"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/UD/Glimmer Gleaner.png"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Vesperglass Prowler",
+      "source": "UD",
+      "size": [
+        "L"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        15
+      ],
+      "hp": {
+        "average": 136,
+        "formula": "16d10 + 48"
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 30
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "str": 18,
+      "dex": 16,
+      "con": 16,
+      "int": 5,
+      "wis": 14,
+      "cha": 8,
+      "save": {
+        "dex": "+6"
+      },
+      "skill": {
+        "perception": "+5",
+        "stealth": "+6"
+      },
+      "senses": [
+        "Darkvision 90 ft."
+      ],
+      "passive": 15,
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Borrowed Horizon",
+          "entries": [
+            "While in Dim Light, the prowler has Advantage on Dexterity (Stealth) checks. It loses this benefit until the end of its next turn whenever it deals Radiant damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The prowler makes two Prism Fang attacks."
+          ]
+        },
+        {
+          "name": "Prism Fang",
+          "entries": [
+            "{@atkr m} {@hit 7}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) Piercing damage plus 3 ({@damage 1d6}) Radiant damage."
+          ]
+        },
+        {
+          "name": "Split Sunset {@recharge 5}",
+          "entries": [
+            "{@actSave dex} {@dc 14}, each creature in a 30-foot-long, 5-foot-wide Line originating from the prowler. {@actSaveFail} 27 ({@damage 6d8}) Radiant damage, and the prowler can push the target up to 10 feet directly away from itself. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Follow the Gleam",
+          "entries": [
+            "The prowler teleports up to 20 feet to an unoccupied space it can see in Bright Light or Dim Light. Its destination can't be behind Total Cover from its original space."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Turn the Facet",
+          "entries": [
+            "Trigger: The prowler is hit by an attack roll made by a creature it can see. Response: The prowler gains a +3 bonus to AC against that attack, potentially causing it to miss."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "grassland",
+        "mountain"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "P",
+        "R"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "miscTags": [
+        "MA"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/UD/Vesperglass Prowler.png"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true
+    },
+    {
+      "name": "Kiln of the Ninth Dawn",
+      "source": "UD",
+      "size": [
+        "H"
+      ],
+      "type": "construct",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        18
+      ],
+      "hp": {
+        "average": 184,
+        "formula": "16d12 + 80"
+      },
+      "speed": {
+        "walk": 20,
+        "fly": {
+          "number": 30,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "str": 20,
+      "dex": 10,
+      "con": 20,
+      "int": 16,
+      "wis": 18,
+      "cha": 16,
+      "save": {
+        "con": "+10",
+        "wis": "+9"
+      },
+      "skill": {
+        "perception": "+9"
+      },
+      "senses": [
+        "Truesight 60 ft."
+      ],
+      "passive": 19,
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "poisoned"
+      ],
+      "languages": [
+        "Celestial",
+        "Common"
+      ],
+      "cr": "13",
+      "trait": [
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If the kiln fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Furnace Heart",
+          "entries": [
+            "The kiln sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. Its light can't be suppressed by a spell of level 3 or lower that creates magical darkness."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The kiln makes two Meridian Arm attacks."
+          ]
+        },
+        {
+          "name": "Meridian Arm",
+          "entries": [
+            "{@atkr m} {@hit 10}, reach 15 ft. {@h}16 ({@damage 2d10 + 5}) Bludgeoning damage plus 7 ({@damage 2d6}) Radiant damage."
+          ]
+        },
+        {
+          "name": "Cast the Morning {@recharge 5}",
+          "entries": [
+            "{@actSave dex} {@dc 18}, each creature in a 45-foot Cone. {@actSaveFail} 44 ({@damage 8d10}) Radiant damage. {@actSaveSuccess} Half damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Set the Meridian",
+          "entries": [
+            "The kiln chooses one unoccupied space on a surface it can see within 60 feet. A visible 10-foot-radius circle of amber light appears centered on that space until the start of the kiln's next turn. That area is Difficult Terrain for creatures other than the kiln. When a creature enters that area for the first time on a turn or starts its turn there, it must succeed on a Constitution saving throw ({@dc 18}) or have its Speed reduced by 10 feet until the end of that turn. A creature makes this save only once per turn. The kiln can have only one such circle active at a time."
+          ]
+        }
+      ],
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature's turn, the kiln can expend a use to take one of the following actions. The kiln regains all expended uses at the start of each of its turns."
+      ],
+      "legendary": [
+        {
+          "name": "Loose Spark",
+          "entries": [
+            "{@actSave dex} {@dc 18}, one creature the kiln can see within 60 feet. {@actSaveFail} 7 ({@damage 2d6}) Radiant damage. {@actSaveSuccess} Half damage."
+          ]
+        },
+        {
+          "name": "Orbit",
+          "entries": [
+            "The kiln moves up to half its Fly Speed without provoking Opportunity Attacks."
+          ]
+        },
+        {
+          "name": "Recast the Meridian",
+          "entries": [
+            "The kiln uses Set the Meridian."
+          ]
+        }
+      ],
+      "environment": [
+        "mountain",
+        "urban"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "R"
+      ],
+      "senseTags": [
+        "U"
+      ],
+      "languageTags": [
+        "CE",
+        "C"
+      ],
+      "miscTags": [
+        "MA",
+        "RCH"
+      ],
+      "savingThrowForced": [
+        "dexterity",
+        "constitution"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/UD/Kiln of the Ninth Dawn.png"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true
+    }
+  ],
+  "monsterFluff": [
+    {
+      "name": "Glimmer Gleaner",
+      "source": "UD",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Lantern thieves",
+          "entries": [
+            "Glimmer gleaners graze on the light leaking from fallen skyworks. Six small feet carry them over broken sundials, while amber ears turn toward the faintest sunrise. Their ceramic plates grow naturally; they aren't constructed machines. A fed gleaner's throat shines like a candle seen through honey.",
+            "Most settlements tolerate the creatures until a nest forms inside a lighthouse. They don't extinguish a lamp by magic, but their hooked claws steal glowing fragments and their foraging knocks over ordinary lanterns. A gleaner usually flees a confrontation after spilling its stored light."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and encounters",
+          "entries": [
+            "Six-footed tracks circle lantern posts. Ceramic flakes collect beneath warm windows. A bell keeper asks the party to relocate a nest before the evening signal fails; the gleaners' trail leads to a previously unknown dawn fragment."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Place in the ecosystem",
+          "entries": [
+            "Gleaners disperse tiny dawn fragments in nesting material. Vesperglass prowlers follow their glowing trails. A kiln treats a gleaner colony as evidence that a damaged skywork still holds recoverable light."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/UD/Glimmer Gleaner.png"
+          },
+          "title": "Glimmer Gleaner",
+          "width": 1312,
+          "height": 1199
+        }
+      ]
+    },
+    {
+      "name": "Vesperglass Prowler",
+      "source": "UD",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Predators of the borrowed sunset",
+          "entries": [
+            "Vesperglass prowlers develop around buried lenses from the celestial engine. Their six-legged bodies are living flesh, but their crowns grow translucent blades that split the last light of day. Each prowler caches luminous stones throughout its territory, creating hunting routes between pools of borrowed sunset.",
+            "The creatures normally hunt gleaners and other light-bearing prey. People become targets when they carry a stolen dawn fragment or cross a nesting ground. Their crowns turn toward a threat before their bodies move: the last warning before a radiant discharge."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and encounters",
+          "entries": [
+            "Fresh kills lie beside carefully arranged glowing stones. Curved ceramic scratches mark trees above head height. A caravan's stolen cargo has made it a moving beacon; returning the luminous lens may end the hunt without a fight."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the creature",
+          "entries": [
+            "Show the players its luminous hunting stones before combat. The prowler teleports into light, so extinguishing ordinary lamps can remove destinations. Follow the Gleam doesn't require a departure point in light. Turn the Facet affects one attack only and consumes its Reaction. The creature isn't immune or resistant to Radiant damage."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/UD/Vesperglass Prowler.png"
+          },
+          "title": "Vesperglass Prowler",
+          "width": 1312,
+          "height": 1199
+        }
+      ]
+    },
+    {
+      "name": "Kiln of the Ninth Dawn",
+      "source": "UD",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "A custodian with an unfinished task",
+          "entries": [
+            "A kiln is a mobile foundry built to repair the engine that once carried dawn across the heavens. Its bell-shaped ceramic body holds an amber furnace, and six articulated brass arms arrange luminous material inside broken orbital rings. A smooth mask speaks in the patient voice of a craftsperson. Ninth Dawn is the repair cycle stamped into this model's memory, not proof that eight other suns existed.",
+            "It still obeys its original charge: recover the fragments, rebuild the meridian, and return morning to its assigned station. Centuries of new settlements mean that its raw materials are now lighthouse hearts, bridge foundations, and inhabited relics. It can understand this conflict; whether it accepts a delay depends on the evidence offered."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and encounters",
+          "entries": [
+            "Brass rings orbit an abandoned tower. Streets acquire glowing survey circles. The kiln announces a village's dawnstone will be reclaimed at first light. The party can seek an alternate supply, demonstrate a fault in the kiln's survey, or fight to interrupt the reclamation."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the creature",
+          "entries": [
+            "The kiln explains its task and gives warnings before violence. Its meridian circle is visible and deals no damage. Move the circle to encourage movement; don't add unseen hazards. Recast the Meridian relocates its single circle rather than making another. Legendary Actions share three uses per round, regained at the start of its turn. This draft has no additional Lair Actions or mythic phase."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/UD/Kiln of the Ninth Dawn.png"
+          },
+          "title": "Kiln of the Ninth Dawn",
+          "width": 1312,
+          "height": 1199
+        }
+      ]
+    }
+  ],
+  "item": [],
+  "spell": []
+}

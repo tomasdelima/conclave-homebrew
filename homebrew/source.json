@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "UD",
+        "abbreviation": "UD",
+        "full": "The Unfinished Dawn",
+        "authors": ["Conclave Homebrew"],
+        "version": "0.1.0",
+        "color": "b47a35"
+      }
+    ],
+    "edition": "one"
+  }
+}

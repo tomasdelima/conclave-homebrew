@@ -1,0 +1,34 @@
+{
+  "monsterFluff": [
+    {
+      "name": "Glimmer Gleaner",
+      "source": "UD",
+      "entries": [
+        {"type": "entries", "name": "Lantern thieves", "entries": ["Glimmer gleaners graze on the light leaking from fallen skyworks. Six small feet carry them over broken sundials, while amber ears turn toward the faintest sunrise. Their ceramic plates grow naturally; they aren't constructed machines. A fed gleaner's throat shines like a candle seen through honey.", "Most settlements tolerate the creatures until a nest forms inside a lighthouse. They don't extinguish a lamp by magic, but their hooked claws steal glowing fragments and their foraging knocks over ordinary lanterns. A gleaner usually flees a confrontation after spilling its stored light."]},
+        {"type": "entries", "name": "Signs and encounters", "entries": ["Six-footed tracks circle lantern posts. Ceramic flakes collect beneath warm windows. A bell keeper asks the party to relocate a nest before the evening signal fails; the gleaners' trail leads to a previously unknown dawn fragment."]},
+        {"type": "entries", "name": "Place in the ecosystem", "entries": ["Gleaners disperse tiny dawn fragments in nesting material. Vesperglass prowlers follow their glowing trails. A kiln treats a gleaner colony as evidence that a damaged skywork still holds recoverable light."]}
+      ],
+      "images": [{"type": "image", "href": {"type": "internal", "path": "bestiary/UD/Glimmer Gleaner.png"}, "title": "Glimmer Gleaner"}]
+    },
+    {
+      "name": "Vesperglass Prowler",
+      "source": "UD",
+      "entries": [
+        {"type": "entries", "name": "Predators of the borrowed sunset", "entries": ["Vesperglass prowlers develop around buried lenses from the celestial engine. Their six-legged bodies are living flesh, but their crowns grow translucent blades that split the last light of day. Each prowler caches luminous stones throughout its territory, creating hunting routes between pools of borrowed sunset.", "The creatures normally hunt gleaners and other light-bearing prey. People become targets when they carry a stolen dawn fragment or cross a nesting ground. Their crowns turn toward a threat before their bodies move: the last warning before a radiant discharge."]},
+        {"type": "entries", "name": "Signs and encounters", "entries": ["Fresh kills lie beside carefully arranged glowing stones. Curved ceramic scratches mark trees above head height. A caravan's stolen cargo has made it a moving beacon; returning the luminous lens may end the hunt without a fight."]},
+        {"type": "entries", "name": "Running the creature", "entries": ["Show the players its luminous hunting stones before combat. The prowler teleports into light, so extinguishing ordinary lamps can remove destinations. Follow the Gleam doesn't require a departure point in light. Turn the Facet affects one attack only and consumes its Reaction. The creature isn't immune or resistant to Radiant damage."]}
+      ],
+      "images": [{"type": "image", "href": {"type": "internal", "path": "bestiary/UD/Vesperglass Prowler.png"}, "title": "Vesperglass Prowler"}]
+    },
+    {
+      "name": "Kiln of the Ninth Dawn",
+      "source": "UD",
+      "entries": [
+        {"type": "entries", "name": "A custodian with an unfinished task", "entries": ["A kiln is a mobile foundry built to repair the engine that once carried dawn across the heavens. Its bell-shaped ceramic body holds an amber furnace, and six articulated brass arms arrange luminous material inside broken orbital rings. A smooth mask speaks in the patient voice of a craftsperson. Ninth Dawn is the repair cycle stamped into this model's memory, not proof that eight other suns existed.", "It still obeys its original charge: recover the fragments, rebuild the meridian, and return morning to its assigned station. Centuries of new settlements mean that its raw materials are now lighthouse hearts, bridge foundations, and inhabited relics. It can understand this conflict; whether it accepts a delay depends on the evidence offered."]},
+        {"type": "entries", "name": "Signs and encounters", "entries": ["Brass rings orbit an abandoned tower. Streets acquire glowing survey circles. The kiln announces a village's dawnstone will be reclaimed at first light. The party can seek an alternate supply, demonstrate a fault in the kiln's survey, or fight to interrupt the reclamation."]},
+        {"type": "entries", "name": "Running the creature", "entries": ["The kiln explains its task and gives warnings before violence. Its meridian circle is visible and deals no damage. Move the circle to encourage movement; don't add unseen hazards. Recast the Meridian relocates its single circle rather than making another. Legendary Actions share three uses per round, regained at the start of its turn. This draft has no additional Lair Actions or mythic phase."]}
+      ],
+      "images": [{"type": "image", "href": {"type": "internal", "path": "bestiary/UD/Kiln of the Ninth Dawn.png"}, "title": "Kiln of the Ninth Dawn"}]
+    }
+  ]
+}
