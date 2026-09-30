@@ -1,25 +1,63 @@
 # Monster design and playtest notes
 
-The CR labels are initial design targets for revised fifth edition play, not verified balance claims. The mechanics and lore are newly authored for this collection. Check the three designs at the table before expanding their families.
+CR labels are initial design targets for revised fifth edition play, not verified balance claims. Everything here is newly authored. Nothing has been playtested or imported into a live 5etools instance yet.
 
-## Glimmer Gleaner
+## The feeding rule
 
-CR 1/8, 25 XP, proficiency bonus +2. HP is 7 from 2d4 + 2. Glass Nip averages 3 damage, with +3 to hit. Its escape burst adds movement without damage or a debilitating condition. The light-foraging trait supplies exploration behavior rather than an automatic detection power.
+Every monster in Maliced Lands has three parts. The fear-born version is spelled out below because Frightened is a printed condition; the trigger table after it covers the other emotions with the same structure.
 
-Use one as a nuisance or a small group as an introductory encounter. They flee instead of fighting to the death. Test whether the glowing footprints and broken lamps communicate the problem before initiative. Large groups can still overwhelm very low-level characters through sheer numbers of attacks.
+1. **A hunger.** At least one way to impose the Frightened condition, and it should mirror the fear that made the monster. A drowned caller frightens you by speaking your name. A pit-thing frightens you when your light goes out. Prefer save-based, thematic triggers over a generic Frightful Presence.
+2. **A feeding.** At least one ability that keys on Frightened creatures. Pick one or two from this list and scale with CR:
+   - Bonus damage against a Frightened target
+   - Advantage on attack rolls against Frightened targets
+   - An extra attack or Bonus Action when a creature within 30 feet is Frightened of it
+   - Resistance to all damage, or to Bludgeoning, Piercing, and Slashing, while any creature within 30 feet is Frightened of it
+   - Regain Hit Points at the start of its turn for each Frightened creature within 30 feet
+   - Movement or teleportation toward Frightened creatures without provoking Opportunity Attacks
+   - Frightened creatures have Disadvantage on saving throws against its other effects
+3. **A counter.** Something players can discover in play that turns the feeding off: a rule from the monster's origin (cover your ears, keep the lamps lit), a way to end the Frightened condition, or line of sight. The counter must be findable through observation, a lore check, or a survivor's account. A monster whose only counter is "be immune to fear" is a bad design.
 
-## Vesperglass Prowler
+Monsters of other emotions follow the same three-part structure with their own trigger. Joy, shame, and pride get rows when their first monsters are designed.
 
-CR 5, 1,800 XP, proficiency bonus +3. HP is 136 from 16d10 + 48. Two Prism Fangs average 29 damage before rounding the individual displayed dice components. Split Sunset averages 27 per target, with DC 14. With two targets and one recharge use in three rounds, its raw three-round damage averages about 37 per round before accuracy and saves. Recharge is random, so this is a planning scenario rather than a prediction.
+| Origin | Keys on |
+| --- | --- |
+| Fear-born | Frightened creatures |
+| Longing-born | Creatures separated from all allies, or more than 30 feet from any ally |
+| Grief-born | Creatures below half their Hit Points, and creatures adjacent to a corpse |
+| Rage-born | Creatures that damaged it since its last turn; it grows by being hurt |
+| Envy-born | Creatures holding more than others: the highest current Hit Points, the most magic items, the most gold |
+| Lust-born | Charmed creatures |
 
-AC 15 can rise to 18 against one attack each round, using its Reaction. Teleportation adds positional strength without extra attacks. Test in a room with several visible light sources and cover, then in a dark open space. Watch for the teleporter frustrating melee characters and for lines regularly hitting more than two targets. Adjust HP, destination distance, or discharge damage if needed.
+## Damage assumptions
 
-## Kiln of the Ninth Dawn
+Compute offensive CR assuming the feeding is active half the rounds. A monster whose bonus damage only lands against Frightened targets is not a monster that deals that bonus every round. Record the with-feeding and without-feeding damage per round separately in each monster's notes, so a table can see what steady nerves buy the party.
 
-CR 13, 10,000 XP, proficiency bonus +5. HP is 184 from 16d12 + 80. Two Meridian Arms average 46 damage. Three Loose Sparks average another 21, provided the kiln gets three opportunities to act between its turns. A two-target Cast the Morning averages 88 damage before saves. One cone plus two Multiattacks over three rounds, with all Legendary Action uses spent on sparks, averages 81 damage per round before attack accuracy and saves.
+Defensive CR counts conditional resistance at half value as well. Legendary Resistances never raise printed Hit Points.
 
-The kiln trades damage for movement or relocating its survey. Its two Legendary Resistances help prevent one failed save from ending the encounter; they don't increase printed HP. Set the Meridian deals no damage and never creates multiple circles. Test against four rested level 11 to 13 characters, allowing negotiation and retreat. That party range is a playtest starting point, not a promise of encounter difficulty. Measure cone target count, effective survival time, and whether the movement restriction creates interesting choices. More than two regular cone targets can raise the threat substantially.
+For each monster, write down: HP formula and average, the to-hit and average damage of each attack, save DCs, the three-round damage estimate with and without feeding, and the intended counter. State the party level range it was designed against.
+
+## Scope and CR
+
+Scope of fear sets the band (see `docs/theme.md`). Within a band, the more literal and specific the fear, the lower the CR. A monster made from one family's dread of one particular well sits at CR 1/8 to 1. The fear a whole parish shares about the same well is CR 3 or higher, and the monster should look like it has been fed: larger, more elaborate, with more rules.
+
+Fused monsters at CR 25 and above should carry at least two hungers and two feedings, one per merged fear, and each part should keep its own counter. Killing a fused monster in stages is the intended play pattern.
+
+## First milestone: coast and sea
+
+Candidates only. None of these has a stat block yet. Each one is a specific feeling, a body that portrays it, a rule it obeys, and a counter. The roster is still weighted toward fear; add grief-born candidates before authoring so the coast's three emotions are all represented.
+
+| Working name | CR target | Feeling | Body | Rule and counter |
+| --- | --- | --- | --- | --- |
+| Tidewrack Hand | 1/8 | The undertow grabbing your ankle | A forearm and hand of knotted kelp and swollen grey fingers, severed at the elbow, moving under sand | Only grips in water below the knee. Stand on dry rock and it has nothing. |
+| Netmouth | 1/2 | What comes up in the net | A tangle of net, hooks, and fish-gape that lies still on deck until touched | Plays dead until something warm touches it. Burn or cut the net from a distance. |
+| Drowned Caller | 2 | The drowned coming back | A bloated relative, hung with weed, standing at the tideline calling names | Can only take those who answer to their name. Don't answer. Don't let the children answer. |
+| Shorewaiter | 3 | Longing: those who wait for ships that never came back | A hollow, reaching figure of driftwood and salt crust, always facing the sea | Not hostile unless you take a waiting person from the shore. Hunts drowned callers for the same widows. |
+| Haar Shepherd | 5 | The fog that takes boats, three generations deep | Huge, seen only as a shape in the fog, herding boats with a sound like a bell that isn't there | Feeds while it can't be seen. Fire, wind, or a real bell breaks its herding. |
+
+Playtest order: Tidewrack Hand and Netmouth as a level 1 to 2 nuisance set, Drowned Caller as the first monster with a real rule, Shorewaiter to test how monsters of different emotions compete, Haar Shepherd as a village-scale threat for levels 4 to 6.
 
 ## Revision record
 
-Version 0.1.0 contains three unplaytested drafts. Record party composition, terrain, rounds survived, significant abilities, and adjustments after each session. Don't inflate a CR just because the creature looks imposing. Keep monster, lore, art, and token identities together when revising.
+Version 0.2.0: theme replaced. The Unfinished Dawn drafts (Glimmer Gleaner, Vesperglass Prowler, Kiln of the Ninth Dawn) were removed from the collection along with their art. They remain in git history. No monsters have been authored yet under Maliced Lands.
+
+After each session record party composition, terrain, rounds survived, whether the counter was found and how, how many rounds the feeding was active, and adjustments. Don't inflate a CR because a creature looks imposing. Keep monster, lore, art, and token identities together when revising.

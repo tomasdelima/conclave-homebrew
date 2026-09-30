@@ -15,6 +15,13 @@ import zlib
 
 ROOT = Path(__file__).resolve().parents[1]
 ABILITIES = ("str", "dex", "con", "int", "wis", "cha")
+XP_BY_CR = {
+    "0": "10", "1/8": "25", "1/4": "50", "1/2": "100", "1": "200", "2": "450", "3": "700", "4": "1,100", "5": "1,800",
+    "6": "2,300", "7": "2,900", "8": "3,900", "9": "5,000", "10": "5,900", "11": "7,200", "12": "8,400", "13": "10,000",
+    "14": "11,500", "15": "13,000", "16": "15,000", "17": "18,000", "18": "20,000", "19": "22,000", "20": "25,000",
+    "21": "33,000", "22": "41,000", "23": "50,000", "24": "62,000", "25": "75,000", "26": "90,000", "27": "105,000",
+    "28": "120,000", "29": "135,000", "30": "155,000",
+}
 SECTIONS = {"trait": "Traits", "action": "Actions", "bonus": "Bonus Actions", "reaction": "Reactions", "legendary": "Legendary Actions"}
 
 
@@ -201,8 +208,9 @@ def preview(pack):
     lore = {(entry["name"], entry["source"]): entry for entry in pack["monsterFluff"]}
     cards = []
     links = []
-    sizes = {"T": "Tiny", "L": "Large", "H": "Huge"}
-    alignments = {"U": "Unaligned", "L": "Lawful", "N": "Neutral"}
+    title = pack["_meta"]["sources"][0]["full"]
+    sizes = {"T": "Tiny", "S": "Small", "M": "Medium", "L": "Large", "H": "Huge", "G": "Gargantuan"}
+    alignments = {"L": "Lawful", "N": "Neutral", "C": "Chaotic", "G": "Good", "E": "Evil", "U": "Unaligned", "A": "Any alignment"}
     for mon in pack["monster"]:
         name = html.escape(mon["name"])
         slug = re.sub(r"[^a-z0-9]+", "-", mon["name"].lower())
@@ -243,30 +251,33 @@ def preview(pack):
                     sections.append(f"<div class=ability><h3>{readable(entry['name'])}</h3>{entries_html(entry['entries'])}</div>")
         cr = Fraction(mon["cr"])
         pb = 2 if cr < 5 else 2 + (math.ceil(cr) - 1) // 4
-        xp = {"1/8": "25", "5": "1,800", "13": "10,000"}.get(mon["cr"])
+        xp = XP_BY_CR.get(mon["cr"])
         challenge = f"CR {mon['cr']}" + (f" (XP {xp}; PB +{pb})" if xp else f" (PB +{pb})")
         cards.append(f'''<article id="{slug}" data-search="{name.lower()} cr {mon['cr']}">
 <div class="art"><a href="{art}"><img class="full-art" src="{art}" alt="Full illustration of {name}" loading="lazy"></a>
 <div class="token-row"><img src="{token}" alt="Circular portrait token of {name}" loading="lazy"><div><a href="{art}" download>Download full artwork</a><a href="{token}" download>Download token</a></div></div>
 <details class="lore" open><summary>Ecology and encounters</summary>{entries_html(fluff['entries'])}</details></div>
-<div class="stat"><p class="eyebrow">The Unfinished Dawn · CR {mon['cr']}</p><h1>{name}</h1>
+<div class="stat"><p class="eyebrow">{html.escape(title)} · CR {mon['cr']}</p><h1>{name}</h1>
 <p class="type">{sizes[mon['size'][0]]} {mon['type'].title()}, {' '.join(alignments[x] for x in mon['alignment'])}</p>
 <div class="vitals"><span><b>AC</b> {mon['ac'][0]}</span><span><b>HP</b> {mon['hp']['average']} ({mon['hp']['formula']})</span><span><b>Initiative</b> {initiative:+}</span></div>
 <p><b>Speed</b> {', '.join(speeds)}</p><div class="abilities">{ability_html}</div>{''.join(other)}<p><b>Challenge</b> {challenge}</p>{''.join(sections)}</div></article>''')
+    count = len(pack["monster"])
+    draft = (f"{count} original creature{'s' if count != 1 else ''} for revised fifth edition. CR targets awaiting playtest."
+             if count else "No creatures published yet. Theme settled; the coast and sea family is in design.")
     (ROOT / "index.html").write_text('''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>The Unfinished Dawn Bestiary</title><link rel="stylesheet" href="css/bestiary.css"><script src="js/bestiary.js" defer></script></head>
-<body><header><p class="eyebrow">Conclave Homebrew · First collection</p><h1>The Unfinished Dawn</h1><p>The heavens broke. Life found a way to grow around the pieces.</p><p class="draft">Three original creatures for revised fifth edition. Theme proposal and CR targets awaiting playtest.</p><nav>''' + "".join(links) + '''</nav><div class="toolbar"><label for="search">Find a creature</label><input id="search" type="search" placeholder="Name or CR" autocomplete="off"><a href="homebrew/unfinished-dawn.portable.json" download>Download 5etools pack with images</a></div></header><main>''' + "".join(cards) + '''<p id="no-results" hidden>No matching creatures.</p></main><footer>Artwork and matching transparent tokens generated for this collection. <a href="docs/theme.md">Setting proposal</a> · <a href="docs/design-notes.md">Playtest notes</a></footer></body></html>\n''')
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>''' + html.escape(title) + ''' Bestiary</title><link rel="stylesheet" href="css/bestiary.css"><script src="js/bestiary.js" defer></script></head>
+<body><header><p class="eyebrow">Conclave Homebrew · First collection</p><h1>''' + html.escape(title) + '''</h1><p>What enough people fear, the world makes.</p><p class="draft">''' + draft + '''</p><nav>''' + "".join(links) + '''</nav><div class="toolbar"><label for="search">Find a creature</label><input id="search" type="search" placeholder="Name or CR" autocomplete="off"><a href="homebrew/maliced-lands.portable.json" download>Download 5etools pack with images</a></div></header><main>''' + "".join(cards) + '''<p id="no-results" hidden>No matching creatures.</p></main><footer>Artwork and matching transparent tokens generated for this collection. <a href="docs/theme.md">Setting</a> · <a href="docs/design-notes.md">Playtest notes</a></footer></body></html>\n''')
 
 
 def main():
     pack = read("homebrew/source.json")
-    pack.update(read("data/bestiary/bestiary-ud.json"))
-    pack.update(read("data/bestiary/fluff-bestiary-ud.json"))
+    pack.update(read("data/bestiary/bestiary-ml.json"))
+    pack.update(read("data/bestiary/fluff-bestiary-ml.json"))
     pack.update(read("data/items.json"))
-    pack.update(read("data/spells/spells-ud.json"))
+    pack.update(read("data/spells/spells-ml.json"))
     validate(pack)
-    write_json("homebrew/unfinished-dawn.json", pack)
-    write_json("homebrew/unfinished-dawn.portable.json", embed_images(pack))
+    write_json("homebrew/maliced-lands.json", pack)
+    write_json("homebrew/maliced-lands.portable.json", embed_images(pack))
     preview(pack)
     print("Built standard and embedded-image homebrew packs and index.html")
 

@@ -1,57 +1,18 @@
 {
   "tool": "built-in image_gen",
-  "theme_status": "provisional",
+  "setting": "Maliced Lands",
+  "theme_status": "settled",
+  "content_rating": "fully graphic body horror; gore, viscera, and mutilation are core visual language",
   "token_reference": "https://i.pinimg.com/474x/6d/81/6f/6d816f46f8f3db58221ae16adaa80344.jpg",
-  "assets": [
-    {
-      "name": "Glimmer Gleaner",
-      "kind": "full-art",
-      "path": "img/bestiary/UD/Glimmer Gleaner.webp",
-      "prompt": "Create one finished full-body creature illustration for an original tabletop fantasy bestiary, no text, no labels, no border. World: The Unfinished Dawn, shattered celestial machinery has become a natural ecosystem. Subject: a Glimmer Gleaner, a rabbit-sized original magical scavenger, crouching on weathered stone beside a fallen brass sundial in dusk grass. Its anatomy is a distinct six-legged small mammal with a long tapered snout, two long upright translucent amber-glass ears, pale ivory ceramic overlapping back plates with hairline golden cracks, soft charcoal fur on underside, little brass-colored hooked claws, and a warm amber light organ visible through the translucent throat. Curious, believable, endearing yet wild, not a robot. All six legs anatomically clear; entire body and ears visible with comfortable margins. A few warm motes drawn toward its mouth. Visual language: premium painterly fantasy book illustration, naturalistic anatomy and richly brushed material textures, slate blue shadows, restrained antique brass and ember amber palette, quiet mysterious atmosphere. Landscape background soft and subordinate. Single creature, three-quarter side view with face turned toward viewer; distinctive silhouette; artwork suitable to derive a portrait token from later. Do not copy any existing fantasy monster. No watermark.",
-      "transparent_background": false,
-      "reference_role": "none"
-    },
-    {
-      "name": "Glimmer Gleaner",
-      "kind": "token",
-      "path": "img/bestiary/tokens/UD/Glimmer Gleaner.webp",
-      "prompt": "Edit the supplied Glimmer Gleaner artwork into ONE finished circular virtual tabletop portrait token. Preserve EXACT species identity, face, charcoal fur, ivory ceramic gold-cracked plates, two upright long amber-glass ears, and glowing amber throat from reference image 1. Image 2 is only a COMPOSITION reference: a close-up character portrait inside a thick raised gold-to-copper metallic ring. Do not reproduce image 2's human character. Create a tight head-and-upper-chest portrait of the gleaner with both ears entirely inside the ring, face legible at small token sizes. Circular antique-brass ring with copper shading at bottom right, restrained engraved celestial marks WITHOUT letters. Desaturated slate dusk background INSIDE the circle only. Outside the circular token must be fully transparent actual alpha; no square backdrop, no shadow outside ring, no checkerboard drawn into image, no text. Perfectly centered round ring with equal margins on a square canvas. Premium fantasy painted materials consistent with the source artwork. One token only.",
-      "transparent_background": true,
-      "reference_role": "Corresponding full artwork for character identity; supplied token reference for framing only"
-    },
-    {
-      "name": "Vesperglass Prowler",
-      "kind": "full-art",
-      "path": "img/bestiary/UD/Vesperglass Prowler.webp",
-      "prompt": "Create one full-body creature illustration for an original tabletop fantasy bestiary, no text, no labels, no frame. Match the painterly fantasy rendering, materials, and dusk color palette of the supplied reference Glimmer Gleaner illustration, but depict a DIFFERENT original species, the Vesperglass Prowler. Large six-legged feline predator the size of a horse, charcoal-black velvety fur, lean muscular anatomy and long curling tail, armored shoulders and head with overlapping pale ivory ceramic plates joined by antique brass seams. Above its forehead grows an asymmetrical crown of three swept-back translucent amber glass blades, NOT deer antlers; a warm sunset shines through them. Its chest contains a narrow luminous amber prism behind translucent layered glass. Its face is clearly feline, luminous gold eyes, two sharp glasslike fangs. It prowls through a ruined observatory half swallowed by blue twilight woodland, low predatory stance, head turned toward viewer, entire body and all limbs within the frame, comfortable margins. Atmospheric background secondary, broad slate-blue shadows and amber rim light; believable natural animal that evolved around celestial wreckage, not a robot, not an ordinary big cat wearing armor. A crisp strong silhouette and textured premium fantasy book illustration with restrained cinematic detail. No people, no watermark.",
-      "transparent_background": false,
-      "reference_role": "Glimmer Gleaner illustration for shared material palette and visual style"
-    },
-    {
-      "name": "Vesperglass Prowler",
-      "kind": "token",
-      "path": "img/bestiary/tokens/UD/Vesperglass Prowler.webp",
-      "prompt": "Edit reference image 1, the Vesperglass Prowler full artwork, into ONE matching circular portrait token for a virtual tabletop. Preserve the feline face, luminous amber eyes, glass fangs, pale ceramic forehead armor with gold cracks, charcoal fur, three distinct amber-glass swept-back crown blades, amber throat and shoulders exactly from reference 1. Image 2 is only token framing reference, not its human character. Tight three-quarter portrait of face and upper chest, include crown tips entirely within the ring with a little margin, readable at small scale. A centered perfectly circular thick raised antique gold-brass ring, copper shading on lower right, restrained celestial engraved marks without letters. Inside circle dark desaturated slate blue portrait background. Outside circle fully transparent actual alpha. Square canvas, equal margins, no square background, no outside shadow, no drawn checkerboard, no words, no labels, one token. Rich painted fantasy style consistent with full art.",
-      "transparent_background": true,
-      "reference_role": "Corresponding full artwork for character identity; supplied token reference for framing only"
-    },
-    {
-      "name": "Kiln of the Ninth Dawn",
-      "kind": "full-art",
-      "path": "img/bestiary/UD/Kiln of the Ninth Dawn.webp",
-      "prompt": "Create ONE original full-body creature illustration: Kiln of the Ninth Dawn, a Huge ancient celestial repair construct hovering above a ruined observatory terrace. Reference image supplies ONLY shared illustration style, pale ceramic with gold cracks, weathered brass, amber glass light and slate dusk palette. This subject must be radically different in silhouette: a massive floating bell-shaped ivory ceramic foundry body, six long articulated weathered-brass arms fanning around it in distinct positions, each with a precision sculptor's hand. Broken concentric astrolabe rings orbit its shoulders. A single smooth solemn ivory face mask sits above a central open amber-glass furnace in the bell body; the furnace contains swirling sunrise light, not ordinary flames. No fur, no legs, no feline ears, no animal parts, no clothing. Six arms and whole bell body all visible, entire floating construct within image with generous margins. One lower arm holds a tiny glowing fragment for repair. Engraved circle geometry, no readable words. Gentle but immense and potentially dangerous, ancient craftsman's dignity, no demon expression. Low-angle three-quarter view, ruined brass observatory in subtle background, small luminous survey circle on stone beneath it, premium richly textured painterly fantasy book art, cool blue dusk with warm interior amber glow. One creature only, no watermark, no text, no frame.",
-      "transparent_background": false,
-      "reference_role": "Glimmer Gleaner illustration for shared material palette and visual style"
-    },
-    {
-      "name": "Kiln of the Ninth Dawn",
-      "kind": "token",
-      "path": "img/bestiary/tokens/UD/Kiln of the Ninth Dawn.webp",
-      "prompt": "Edit reference 1 (Kiln of the Ninth Dawn full illustration) into ONE circular virtual tabletop portrait token of the exact same construct. Preserve the solemn ivory ceramic face mask, gold-cracked porcelain, brass astrolabe rings, and amber furnace chest, identity unchanged. Close view with entire face mask and prominent furnace core readable, some shoulder arms framing the body but no need to fit all six arms into a portrait. Reference 2 supplies the composition of a circular character portrait enclosed in a thick raised gold-to-copper metallic ring, not its human subject. Token rim: perfectly circular raised antique brass with copper shading toward lower right and a few engraved celestial geometry marks without letters. Dark desaturated slate blue interior background. Face should be large enough to identify at small scale and amber furnace remain clearly visible. Everything contained inside circular rim. Actual fully transparent alpha outside circle; no external shadow, no rectangular backdrop, no drawn checkerboard. Square canvas, centered circle, equal comfortable margins, no text, no watermark, one token.",
-      "transparent_background": true,
-      "reference_role": "Corresponding full artwork for character identity; supplied token reference for framing only"
-    }
-  ],
+  "token_ring": "One shared ring for every family so tokens read as one collection: a raised circular rim of blackened, pitted iron with a thin old-brass inner lip and a few rust blooms, no lettering. Portrait background inside the ring uses the family's palette. Real alpha transparency outside the ring.",
+  "family_palettes": {
+    "coast": "green-black water, grey foam, salt-white crust, drowned blue-grey flesh, waterlogged wood, rope and net, barnacle",
+    "forest": "wet bark, antler, root, moss over bone, pale fungus, leaf-litter brown, deep shadow green",
+    "mines": "coal black, raw iron, tallow yellow, splintered pit-prop timber, crushed bone, lamp-orange",
+    "city": "plaster and brick dust, soot, lead grey, stained cloth, wax, flesh behind masks",
+    "haunts": "cemetery: wet clay, lichen, tarnished silver, shroud linen; tavern: spilled ale amber, split wood, bruise purple, blood on sawdust; brothel: rouge, silk, candle wax, pox scars, brass bed rails"
+  },
+  "assets": [],
   "asset_encoding": {
     "format": "webp",
     "lossless": true,
