@@ -1,3 +1,4771 @@
 {
-  "monster": []
+  "monster": [
+    {
+      "name": "Tidewrack Hand",
+      "source": "ML",
+      "size": [
+        "T"
+      ],
+      "type": "undead",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "average": 7,
+        "formula": "2d4 + 2"
+      },
+      "speed": {
+        "walk": 10,
+        "swim": 20
+      },
+      "str": 8,
+      "dex": 14,
+      "con": 12,
+      "int": 3,
+      "wis": 12,
+      "cha": 6,
+      "passive": 13,
+      "cr": "1/8",
+      "skill": {
+        "perception": "+3"
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A crew repeatedly imagining the undertow closing around an ankle. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "It can impose Frightened or deal feeding damage only while both it and its target are in water no deeper than 2 feet. Dry ground or deeper water prevents both abilities."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. Once on each of its turns, when it hits a feeding target with Ankle Grip, it deals an extra 1 ({@damage 1d2}) Bludgeoning damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Ankle Grip",
+          "entries": [
+            "{@atkr m} {@hit 4}, reach 5 ft. {@h}2 ({@damage 1d4}) Bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Undertow",
+          "entries": [
+            "{@actSave str} {@dc 11}, one Small or Medium creature within 5 feet standing in water no deeper than 2 feet. {@actSaveFail} The target has the {@condition Grappled|XPHB} condition (escape {@dc 11}) until the end of its next turn. The hand can grapple only one creature at a time. This action deals no damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger (1/Day)",
+          "entries": [
+            "{@actSave wis} {@dc 11}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal",
+        "underwater"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Tidewrack Hand.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [],
+      "conditionInflict": [
+        "frightened",
+        "grappled"
+      ]
+    },
+    {
+      "name": "Rootlisten",
+      "source": "ML",
+      "size": [
+        "S"
+      ],
+      "type": "plant",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 13,
+        "formula": "3d6 + 3"
+      },
+      "speed": {
+        "walk": 20,
+        "climb": 20
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 12,
+      "int": 4,
+      "wis": 14,
+      "cha": 8,
+      "passive": 14,
+      "cr": "1/4",
+      "skill": {
+        "perception": "+4"
+      },
+      "senses": [
+        "Blindsight 30 ft."
+      ],
+      "resist": [
+        "poison"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A household certain that something beneath the leaves hears its whispered plans. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its hunger and feeding require the target to speak or cast a spell with a Verbal component since the end of its previous turn. Silence and quiet movement prevent them."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. It has Advantage on attack rolls against feeding targets. This does not stack with Advantage from Blinded, Prone, or other effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Root Needle",
+          "entries": [
+            "{@atkr m} {@hit 4}, reach 5 ft. {@h}4 ({@damage 1d4 + 2}) Piercing damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger (1/Day)",
+          "entries": [
+            "{@actSave wis} {@dc 12}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Catch the Whisper",
+          "entries": [
+            "Trigger: A creature within 10 feet speaks or casts a spell with a Verbal component. Response: The rootlisten moves up to 10 feet toward that creature without provoking Opportunity Attacks. This movement does not pass through occupied spaces."
+          ]
+        }
+      ],
+      "environment": [
+        "forest"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Rootlisten.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [],
+      "conditionInflict": [
+        "frightened"
+      ]
+    },
+    {
+      "name": "Netmouth",
+      "source": "ML",
+      "size": [
+        "S"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "average": 22,
+        "formula": "4d6 + 8"
+      },
+      "speed": {
+        "walk": 20,
+        "swim": 20
+      },
+      "str": 14,
+      "dex": 10,
+      "con": 14,
+      "int": 3,
+      "wis": 12,
+      "cha": 6,
+      "passive": 13,
+      "cr": "1/2",
+      "skill": {
+        "perception": "+3"
+      },
+      "senses": [
+        "Blindsight 30 ft."
+      ],
+      "resist": [
+        "cold"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "Fishers afraid the next haul will bring something aboard that only pretends to be dead. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its feeding resistance ends until the start of its next turn when it takes Fire or Slashing damage. Its fear requires physical contact with its net."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances."
+          ]
+        },
+        {
+          "name": "Net Body",
+          "entries": [
+            "The netmouth can occupy another creature’s space. It has Disadvantage on Dexterity saving throws against effects that deal Fire damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Hooked Gape",
+          "entries": [
+            "{@atkr m} {@hit 4}, reach 5 ft. {@h}5 ({@damage 1d6 + 2}) Piercing damage."
+          ]
+        },
+        {
+          "name": "Close the Mesh",
+          "entries": [
+            "{@actSave dex} {@dc 11}, one creature sharing its space. {@actSaveFail} The target has the {@condition Restrained|XPHB} condition until the end of its next turn. The netmouth cannot move while restraining a creature this way. A creature within 5 feet can use an action to cut the mesh, ending the condition."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger (1/Day)",
+          "entries": [
+            "{@actSave wis} {@dc 11}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal",
+        "underwater"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Netmouth.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [],
+      "conditionInflict": [
+        "frightened",
+        "restrained"
+      ]
+    },
+    {
+      "name": "Tallow Knocker",
+      "source": "ML",
+      "size": [
+        "S"
+      ],
+      "type": "construct",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        14
+      ],
+      "hp": {
+        "average": 33,
+        "formula": "6d6 + 12"
+      },
+      "speed": {
+        "walk": 30,
+        "burrow": 10
+      },
+      "str": 12,
+      "dex": 14,
+      "con": 14,
+      "int": 8,
+      "wis": 12,
+      "cha": 10,
+      "passive": 13,
+      "cr": "1",
+      "skill": {
+        "perception": "+3"
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "cold"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "Miners listening for the knock that means the ventilation door has sealed. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "A creature carrying an uncovered light source that sheds Bright Light cannot be frightened by its hunger and is not a feeding target."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. Once on its turn, after its Multiattack (or its ordinary attack if it has no Multiattack), it can make one additional attack against a feeding target: {@atkr m} {@hit 4}, reach 5 ft. {@h}4 ({@damage 1d4 + 2}) Fire damage. This is part of the same action, requires a feeding target, and is not granted when it uses another action."
+          ]
+        },
+        {
+          "name": "Melted Joints",
+          "entries": [
+            "While it has the {@condition Grappled|XPHB} condition, its AC is reduced by 2."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Hot Knuckle",
+          "entries": [
+            "{@atkr m} {@hit 4}, reach 5 ft. {@h}7 ({@damage 2d4 + 2}) Fire damage."
+          ]
+        },
+        {
+          "name": "Soot Door (1/Day)",
+          "entries": [
+            "{@actSave con} {@dc 11}, each creature in a 10-foot Cone. {@actSaveFail} 3 ({@damage 1d6}) Fire damage and the {@condition Blinded|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger",
+          "entries": [
+            "{@actSave wis} {@dc 11}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        }
+      ],
+      "environment": [
+        "mountain",
+        "underdark"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Tallow Knocker.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [],
+      "conditionInflict": [
+        "blinded",
+        "frightened"
+      ]
+    },
+    {
+      "name": "Drowned Caller",
+      "source": "ML",
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 58,
+        "formula": "9d8 + 18"
+      },
+      "speed": {
+        "walk": 25,
+        "swim": 40
+      },
+      "str": 16,
+      "dex": 10,
+      "con": 14,
+      "int": 10,
+      "wis": 14,
+      "cha": 16,
+      "passive": 14,
+      "cr": "2",
+      "skill": {
+        "perception": "+4"
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "resist": [
+        "cold"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A bereaved household fearing a drowned relative will come back and ask to be admitted. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its hunger and feeding affect only a creature that willingly answered an audible question spoken by the caller since its last Long Rest. Involuntary speech and compelled responses do not count. Refuse to answer."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. Once on each of its turns, when it hits a feeding target with Remembered Hand, it deals an extra 2 ({@damage 1d4}) Necrotic damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Remembered Hand attacks."
+          ]
+        },
+        {
+          "name": "Remembered Hand",
+          "entries": [
+            "{@atkr m} {@hit 5}, reach 5 ft. {@h}10 ({@damage 2d6 + 3}) Necrotic damage."
+          ]
+        },
+        {
+          "name": "Admission",
+          "entries": [
+            "{@actSave str} {@dc 13}, one creature within 5 feet that willingly answered an audible question spoken by the caller since its last Long Rest. {@actSaveFail} The target has the {@condition Grappled|XPHB} condition (escape {@dc 13}). The caller can grapple only one creature at a time. While Grappled this way, the target cannot speak, but can breathe and use non-Verbal abilities. The target is not suffocating merely because of this effect."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger",
+          "entries": [
+            "{@actSave wis} {@dc 13}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal",
+        "underwater"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Drowned Caller.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "frightened",
+        "grappled"
+      ]
+    },
+    {
+      "name": "Shorewaiter",
+      "source": "ML",
+      "size": [
+        "L"
+      ],
+      "type": "fey",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        14
+      ],
+      "hp": {
+        "average": 90,
+        "formula": "12d10 + 24"
+      },
+      "speed": {
+        "walk": 25,
+        "swim": 40
+      },
+      "str": 14,
+      "dex": 16,
+      "con": 14,
+      "int": 12,
+      "wis": 16,
+      "cha": 14,
+      "passive": 15,
+      "cr": "3",
+      "skill": {
+        "perception": "+5",
+        "stealth": "+5"
+      },
+      "save": {
+        "dex": "+5"
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "cold",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A village unable to stop waiting for a ship whose survivors will never return. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Keep within 30 feet of a conscious ally. Its feeding cannot cross Total Cover; the empty embracing circle always turns toward isolated prey."
+          ]
+        },
+        {
+          "name": "Longing Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that is more than 30 feet from every conscious ally of that creature. All restrictions in Rule of the Body also apply. Once on its turn, immediately after hitting a feeding target, it can move up to 20 feet without provoking Opportunity Attacks, or teleport to an unoccupied space it can see within 10 feet of that target. This movement grants no extra attack."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Saltwood Reach attacks."
+          ]
+        },
+        {
+          "name": "Saltwood Reach",
+          "entries": [
+            "{@atkr m} {@hit 5}, reach 10 ft. {@h}10 ({@damage 2d6 + 3}) Slashing damage."
+          ]
+        },
+        {
+          "name": "Make Room",
+          "entries": [
+            "{@actSave str} {@dc 13}, one Large or smaller creature within 30 feet. {@actSaveFail} The target is pushed up to 20 feet directly away from the shorewaiter, and its Speed is reduced by 10 feet until the end of its next turn. {@actSaveSuccess} No effect."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Longing Hunger",
+          "entries": [
+            "{@actSave str} {@dc 13}, one Large or smaller creature it can see within 60 feet. {@actSaveFail} The monster pulls the target up to 35 feet directly toward itself through an unobstructed path, ending in an unoccupied space. This movement does not provoke Opportunity Attacks. The target then has the {@condition Grappled|XPHB} condition (escape {@dc 13}) until the start of the monster’s next turn from a visible tether. The monster can maintain only one such tether; a new one ends the old one. An adjacent creature can use an action to break the tether."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Turn Seaward",
+          "entries": [
+            "Trigger: A creature ends a turn within 5 feet of the shorewaiter. Response: The shorewaiter moves up to half its Speed toward water without provoking Opportunity Attacks."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal",
+        "underwater"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Shorewaiter.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ]
+    },
+    {
+      "name": "Last Seat",
+      "source": "ML",
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        14
+      ],
+      "hp": {
+        "average": 112,
+        "formula": "15d8 + 45"
+      },
+      "speed": {
+        "walk": 20
+      },
+      "str": 12,
+      "dex": 14,
+      "con": 16,
+      "int": 14,
+      "wis": 16,
+      "cha": 16,
+      "passive": 15,
+      "cr": "4",
+      "skill": {
+        "perception": "+5"
+      },
+      "save": {
+        "con": "+5"
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned",
+        "exhaustion"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A parish mourning the empty places left at its funeral tables. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Cover its chair with an opaque cloth using an action within 5 feet. Until the cloth is removed or destroyed (AC 10, HP 5), it cannot use its hunger or feeding. It can remove the cloth with an action."
+          ]
+        },
+        {
+          "name": "Grief Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has fewer than half its maximum HP, or a creature it can see within 60 feet that is within 10 feet of a corpse. All restrictions in Rule of the Body also apply. At the start of its turn, if at least one feeding target exists, it regains 4 HP. This occurs once per turn, not once per target. It cannot regain HP this way while Incapacitated."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Empty Place attacks."
+          ]
+        },
+        {
+          "name": "Empty Place",
+          "entries": [
+            "{@atkr r} {@hit 5}, range 60 ft. {@h}10 ({@damage 2d6 + 3}) Psychic damage."
+          ]
+        },
+        {
+          "name": "Closed Vigil {@recharge 5}",
+          "entries": [
+            "{@actSave wis} {@dc 13}, one creature within 30 feet that can see the chair. {@actSaveFail} 14 ({@damage 4d6}) Psychic damage, and the target has the {@condition Blinded|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Grief Hunger",
+          "entries": [
+            "{@actSave con} {@dc 13}, one creature it has damaged this turn that it can see within 60 feet. {@actSaveFail} The target has the {@condition Deafened|XPHB} condition until the end of its next turn. If the target has fewer than half its maximum HP, it also has the {@condition Blinded|XPHB} condition for that duration. An adjacent ally can use an action to end one of these conditions caused by this ability."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Pull Up a Chair",
+          "entries": [
+            "Trigger: A creature within 10 feet regains HP. Response: The seat moves up to 10 feet toward it without provoking Opportunity Attacks. This reaction deals no damage and prevents no healing."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Last Seat.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "blinded",
+        "deafened"
+      ]
+    },
+    {
+      "name": "Haar Shepherd",
+      "source": "ML",
+      "size": [
+        "H"
+      ],
+      "type": "elemental",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        15
+      ],
+      "hp": {
+        "average": 133,
+        "formula": "14d12 + 42"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": {
+          "number": 40,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 10,
+      "dex": 16,
+      "con": 16,
+      "int": 12,
+      "wis": 18,
+      "cha": 16,
+      "passive": 17,
+      "cr": "5",
+      "skill": {
+        "perception": "+7",
+        "stealth": "+6"
+      },
+      "save": {
+        "wis": "+7"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "cold",
+        "necrotic"
+      ],
+      "conditionImmune": [
+        "prone"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "Three generations of one harbor fearing the fog that returns boats without crews. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its hunger and feeding require the target to be in Lightly or Heavily Obscured fog. A 10-foot-radius area of Bright Light suppresses its own fog there; an audible struck bell suppresses its fog within 30 feet of the bell until the end of the striker’s next turn."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. Once on each of its turns, when it hits a feeding target with Cold Bell, it deals an extra 3 ({@damage 1d6}) Cold damage."
+          ]
+        },
+        {
+          "name": "Herding Fog",
+          "entries": [
+            "A 20-foot Emanation of Lightly Obscuring fog surrounds the shepherd. The fog does not block Total Cover, prevent breathing, or grant the shepherd sight through other walls. The counter in Rule of the Body suppresses sections of this fog."
+          ]
+        },
+        {
+          "name": "Wind Scattered",
+          "entries": [
+            "If it takes Thunder damage, it loses its Fly Speed until the end of its next turn; it descends safely up to 30 feet rather than falling."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Cold Bell attacks."
+          ]
+        },
+        {
+          "name": "Cold Bell",
+          "entries": [
+            "{@atkr m} {@hit 7}, reach 15 ft. {@h}13 ({@damage 2d8 + 4}) Cold damage."
+          ]
+        },
+        {
+          "name": "Borrowed Bell {@recharge 5}",
+          "entries": [
+            "{@actSave con} {@dc 14}, each creature in a 30-foot Cone. {@actSaveFail} 18 ({@damage 4d8}) Cold damage and the {@condition Deafened|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger",
+          "entries": [
+            "{@actSave wis} {@dc 14}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal",
+        "underwater"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Haar Shepherd.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "deafened",
+        "frightened"
+      ]
+    },
+    {
+      "name": "Redmeasure",
+      "source": "ML",
+      "size": [
+        "L"
+      ],
+      "type": "giant",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        15
+      ],
+      "hp": {
+        "average": 152,
+        "formula": "16d10 + 64"
+      },
+      "speed": {
+        "walk": 30,
+        "burrow": 10
+      },
+      "str": 20,
+      "dex": 10,
+      "con": 18,
+      "int": 10,
+      "wis": 12,
+      "cha": 12,
+      "passive": 14,
+      "cr": "6",
+      "skill": {
+        "perception": "+4"
+      },
+      "save": {
+        "str": "+8"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "fire"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "The rage of miners whose injuries were entered as fractions on an employer’s tally. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its feeding records damage from individual creatures, not conditions or failed attacks. Stop attacking for one round or commit enough force to defeat it before its retaliatory turn."
+          ]
+        },
+        {
+          "name": "Rage Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that dealt damage to it since the end of its previous turn. All restrictions in Rule of the Body also apply. Once on its turn, after its Multiattack (or its ordinary attack if it has no Multiattack), it can make one additional attack against a feeding target: {@atkr m} {@hit 8}, reach 10 ft. {@h}9 ({@damage 1d8 + 5}) Bludgeoning damage. This is part of the same action, requires a feeding target, and is not granted when it uses another action."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Iron Measure attacks."
+          ]
+        },
+        {
+          "name": "Iron Measure",
+          "entries": [
+            "{@atkr m} {@hit 8}, reach 10 ft. {@h}14 ({@damage 2d8 + 5}) Bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Broken Tally {@recharge 5}",
+          "entries": [
+            "{@actSave str} {@dc 16}, each creature in a 15-foot Cube within 30 feet. {@actSaveFail} 18 ({@damage 4d8}) Bludgeoning damage and the {@condition Prone|XPHB} condition. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Rage Hunger",
+          "entries": [
+            "It chooses a creature within 10 feet that it can see. That creature can use its Reaction to make one melee attack against the monster with Advantage. The creature can refuse. If the attack deals damage, it creates this monster’s rage feeding trigger. This ability grants no additional attacks to the monster itself."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Count the Injury",
+          "entries": [
+            "Trigger: It takes damage from a creature it can see. Response: It moves up to 15 feet toward that creature. This movement provokes Opportunity Attacks normally."
+          ]
+        }
+      ],
+      "environment": [
+        "mountain",
+        "underdark"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Redmeasure.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "prone"
+      ]
+    },
+    {
+      "name": "Window Envier",
+      "source": "ML",
+      "size": [
+        "L"
+      ],
+      "type": "ooze",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        15
+      ],
+      "hp": {
+        "average": 161,
+        "formula": "17d10 + 68"
+      },
+      "speed": {
+        "walk": 20,
+        "climb": 20
+      },
+      "str": 14,
+      "dex": 16,
+      "con": 18,
+      "int": 16,
+      "wis": 12,
+      "cha": 16,
+      "passive": 14,
+      "cr": "7",
+      "skill": {
+        "perception": "+4",
+        "stealth": "+6"
+      },
+      "save": {
+        "con": "+7"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "acid"
+      ],
+      "conditionImmune": [
+        "prone"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A city quarter resenting the warm, prosperous rooms visible across a narrow square. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Close or cover its central window with an action within 5 feet, or deal 15 Bludgeoning damage to it in one turn. Its feeding stops until the end of its next turn. Its hunger never requires revealing a player’s private inventory."
+          ]
+        },
+        {
+          "name": "Envy Feeding",
+          "entries": [
+            "A feeding target is the single other creature it can see within 60 feet with the highest current HP among those other creatures; if the highest current HP is tied, there is no feeding target. All restrictions in Rule of the Body also apply. While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances."
+          ]
+        },
+        {
+          "name": "Soft Corners",
+          "entries": [
+            "It can move through a space as narrow as 1 foot without squeezing. If it has the {@condition Restrained|XPHB} condition, it cannot use this trait."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Window Spill attacks."
+          ]
+        },
+        {
+          "name": "Window Spill",
+          "entries": [
+            "{@atkr m} {@hit 6}, reach 10 ft. {@h}13 ({@damage 3d6 + 3}) Acid damage."
+          ]
+        },
+        {
+          "name": "The Better Room",
+          "entries": [
+            "{@actSave wis} {@dc 15}, one creature within 60 feet that can see its central window. {@actSaveFail} The target has the {@condition Charmed|XPHB} condition until the end of its next turn and cannot willingly move farther from the window during that time. This does not compel the target to attack or surrender anything."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Envy Hunger",
+          "entries": [
+            "{@actSave dex} {@dc 15}, one other creature it can see within 60 feet with the highest current HP among other creatures it can see in that range. On a tie the monster chooses one of the tied creatures. {@actSaveFail} The target has the {@condition Restrained|XPHB} condition until the end of its next turn. An adjacent ally can use an action to break the visible binding, ending Restrained. Its attacks against other creatures can break a current-HP tie and establish a feeding target."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Window Envier.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "charmed",
+        "restrained"
+      ]
+    },
+    {
+      "name": "Merry Unending",
+      "source": "ML",
+      "size": [
+        "L"
+      ],
+      "type": "beast",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        16
+      ],
+      "hp": {
+        "average": 170,
+        "formula": "20d10 + 60"
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 18,
+      "dex": 18,
+      "con": 16,
+      "int": 8,
+      "wis": 12,
+      "cha": 18,
+      "passive": 14,
+      "cr": "8",
+      "skill": {
+        "perception": "+4",
+        "stealth": "+7"
+      },
+      "save": {
+        "str": "+7"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "thunder"
+      ],
+      "conditionImmune": [
+        "charmed"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A tavern district insisting that its best night must never be allowed to end. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "A creature can stand from Prone normally. Its hunger requires hearing its rhythm; covering both ears with an action prevents hearing that rhythm until the creature frees either hand."
+          ]
+        },
+        {
+          "name": "Joy Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see, that can hear it, and that has the Prone condition. All restrictions in Rule of the Body also apply. Once on each of its turns, when it hits a feeding target with Dancer Talon, it deals an extra 7 ({@damage 2d6}) Slashing damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Dancer Talon attacks."
+          ]
+        },
+        {
+          "name": "Dancer Talon",
+          "entries": [
+            "{@atkr m} {@hit 7}, reach 10 ft. {@h}17 ({@damage 3d8 + 4}) Slashing damage."
+          ]
+        },
+        {
+          "name": "Splintered Caper {@recharge 5}",
+          "entries": [
+            "{@actSave dex} {@dc 15}, each creature in a 15-foot Emanation. {@actSaveFail} 18 ({@damage 4d8}) Slashing damage and the {@condition Prone|XPHB} condition. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Joy Hunger",
+          "entries": [
+            "{@actSave dex} {@dc 15}, one creature within 30 feet that can hear its rhythm. {@actSaveFail} The target has the {@condition Prone|XPHB} condition. A creature can stand normally; the monster imposes no separate restriction on standing."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "The Laugh Catches",
+          "entries": [
+            "Trigger: A creature within 30 feet ends the Prone condition on itself. Response: The beast moves up to 20 feet toward the creature without provoking Opportunity Attacks. If it has the Deafened condition, it cannot use this reaction."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Merry Unending.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "prone"
+      ]
+    },
+    {
+      "name": "Bellwound",
+      "source": "ML",
+      "size": [
+        "H"
+      ],
+      "type": "plant",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        16
+      ],
+      "hp": {
+        "average": 210,
+        "formula": "20d12 + 80"
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 30
+      },
+      "str": 20,
+      "dex": 8,
+      "con": 18,
+      "int": 12,
+      "wis": 18,
+      "cha": 16,
+      "passive": 18,
+      "cr": "9",
+      "skill": {
+        "perception": "+8"
+      },
+      "save": {
+        "str": "+9",
+        "con": "+8"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Blindsight 30 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A wooded province grieving people buried beyond the reach of its mourning bells. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "An ally can use an action within 5 feet to wipe a target’s eyes or ring a bell, ending the Blinded or Deafened condition respectively caused by Bellwound. Healing above half HP also switches off its wound feeding."
+          ]
+        },
+        {
+          "name": "Grief Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has fewer than half its maximum HP, or a creature it can see within 60 feet that is within 10 feet of a corpse. All restrictions in Rule of the Body also apply. At the start of its turn, if at least one feeding target exists, it regains 9 HP. This occurs once per turn, not once per target. It cannot regain HP this way while Incapacitated."
+          ]
+        },
+        {
+          "name": "Sightless Mourning",
+          "entries": [
+            "Blinded or Deafened creatures have Disadvantage on saving throws against Bellwound’s Hunger, but not its other abilities."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Root Toll attacks."
+          ]
+        },
+        {
+          "name": "Root Toll",
+          "entries": [
+            "{@atkr m} {@hit 9}, reach 15 ft. {@h}18 ({@damage 3d8 + 5}) Bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Mourning Pollen {@recharge 5}",
+          "entries": [
+            "{@actSave con} {@dc 16}, each creature in a 30-foot Cone. {@actSaveFail} 22 ({@damage 4d10}) Poison damage and the {@condition Blinded|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Grief Hunger",
+          "entries": [
+            "{@actSave con} {@dc 16}, one creature it has damaged this turn that it can see within 60 feet. {@actSaveFail} The target has the {@condition Deafened|XPHB} condition until the end of its next turn. If the target has fewer than half its maximum HP, it also has the {@condition Blinded|XPHB} condition for that duration. An adjacent ally can use an action to end one of these conditions caused by this ability."
+          ]
+        },
+        {
+          "name": "The Unheard Bell",
+          "entries": [
+            "{@actSave con} {@dc 16}, one creature it can see within 60 feet. {@actSaveFail} The target has the {@condition Deafened|XPHB} condition until the end of its next turn. This can replace its Hunger Bonus Action, not accompany it."
+          ]
+        }
+      ],
+      "environment": [
+        "forest"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Bellwound.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "blinded",
+        "deafened"
+      ]
+    },
+    {
+      "name": "Seam Duchess",
+      "source": "ML",
+      "size": [
+        "L"
+      ],
+      "type": "elemental",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        17
+      ],
+      "hp": {
+        "average": 228,
+        "formula": "24d10 + 96"
+      },
+      "speed": {
+        "walk": 30,
+        "burrow": 10
+      },
+      "str": 16,
+      "dex": 18,
+      "con": 18,
+      "int": 18,
+      "wis": 14,
+      "cha": 16,
+      "passive": 16,
+      "cr": "10",
+      "skill": {
+        "perception": "+6",
+        "stealth": "+8"
+      },
+      "save": {
+        "dex": "+8",
+        "con": "+8"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "piercing",
+        "fire"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "Mining villages envying the vein reserved for the owner’s favored crews. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its envy selects the other creature with the highest current HP within 60 feet that it can see; ties select none. Equalizing current HP or breaking sight prevents feeding on that creature."
+          ]
+        },
+        {
+          "name": "Envy Feeding",
+          "entries": [
+            "A feeding target is the single other creature it can see within 60 feet with the highest current HP among those other creatures; if the highest current HP is tied, there is no feeding target. All restrictions in Rule of the Body also apply. Once on each of its turns, when it hits a feeding target with Claimed Splinter, it deals an extra 7 ({@damage 2d6}) Piercing damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Claimed Splinter attacks."
+          ]
+        },
+        {
+          "name": "Claimed Splinter",
+          "entries": [
+            "{@atkr m} {@hit 8}, reach 10 ft. {@h}18 ({@damage 4d6 + 4}) Piercing damage."
+          ]
+        },
+        {
+          "name": "Close the Seam {@recharge 5}",
+          "entries": [
+            "{@actSave dex} {@dc 16}, one creature on a stone surface within 60 feet. {@actSaveFail} 27 ({@damage 6d8}) Piercing damage and the {@condition Restrained|XPHB} condition until the end of its next turn. A creature within 5 feet can use an action to break the ore cage, ending Restrained. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Envy Hunger",
+          "entries": [
+            "{@actSave dex} {@dc 16}, one other creature it can see within 60 feet with the highest current HP among other creatures it can see in that range. On a tie the monster chooses one of the tied creatures. {@actSaveFail} The target has the {@condition Restrained|XPHB} condition until the end of its next turn. An adjacent ally can use an action to break the visible binding, ending Restrained. Its attacks against other creatures can break a current-HP tie and establish a feeding target."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Spurn the Poorer Vein",
+          "entries": [
+            "Trigger: An attack hits it while its feeding target is visible. Response: It gains a +3 bonus to AC against that attack, potentially causing it to miss. This reaction works only against an attacker that is not its feeding target."
+          ]
+        }
+      ],
+      "environment": [
+        "mountain",
+        "underdark"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Seam Duchess.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "restrained"
+      ]
+    },
+    {
+      "name": "Velvet Debt",
+      "source": "ML",
+      "size": [
+        "M"
+      ],
+      "type": "fiend",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        17
+      ],
+      "hp": {
+        "average": 204,
+        "formula": "24d8 + 96"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 12,
+      "dex": 20,
+      "con": 18,
+      "int": 18,
+      "wis": 14,
+      "cha": 20,
+      "passive": 16,
+      "cr": "11",
+      "skill": {
+        "perception": "+6",
+        "stealth": "+9"
+      },
+      "save": {
+        "dex": "+9",
+        "cha": "+9"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "fire",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "The possessive desire of patrons who believe payment entitles them to another adult’s attention forever. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "An ally can use an action within 5 feet to visibly tear one of its ledger ribbons, ending one Charmed condition it caused. The fiend cannot charm through Total Cover or target a Deafened creature with its invitation."
+          ]
+        },
+        {
+          "name": "Lust Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Charmed condition caused by this monster. All restrictions in Rule of the Body also apply. Once on its turn, immediately after hitting a feeding target, it can move up to 20 feet without provoking Opportunity Attacks, or teleport to an unoccupied space it can see within 10 feet of that target. This movement grants no extra attack."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Ledger Lash attacks."
+          ]
+        },
+        {
+          "name": "Ledger Lash",
+          "entries": [
+            "{@atkr r} {@hit 9}, range 60 ft. {@h}23 ({@damage 4d8 + 5}) Psychic damage."
+          ]
+        },
+        {
+          "name": "Collect the Ribbon {@recharge 5}",
+          "entries": [
+            "{@actSave wis} {@dc 17}, one creature within 60 feet that has the Charmed condition from this fiend. {@actSaveFail} 27 ({@damage 6d8}) Psychic damage and the {@condition Restrained|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only. Using this action ends the fiend’s Charmed condition on that target after resolving the save."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Lust Hunger",
+          "entries": [
+            "{@actSave wis} {@dc 17}, one creature within 60 feet that can hear its invitation. {@actSaveFail} The target has the {@condition Charmed|XPHB} condition caused by this monster until the end of its next turn. The condition does not compel attacks against allies. A visible ledger ribbon connects target and monster; an adjacent creature can use an action to tear it, ending the condition."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Transfer the Account",
+          "entries": [
+            "Trigger: A creature within 30 feet ends the fiend’s Charmed condition on another creature. Response: The fiend teleports up to 20 feet to an unoccupied space it can see. This does not reapply Charmed."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Velvet Debt.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "charmed",
+        "restrained"
+      ]
+    },
+    {
+      "name": "Parish Inquisitor",
+      "source": "ML",
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        18
+      ],
+      "hp": {
+        "average": 228,
+        "formula": "24d8 + 120"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 12,
+      "con": 20,
+      "int": 18,
+      "wis": 18,
+      "cha": 20,
+      "passive": 18,
+      "cr": "12",
+      "skill": {
+        "perception": "+8"
+      },
+      "save": {
+        "con": "+9",
+        "cha": "+9"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A city convinced its civic virtue entitles it to judge every neighboring settlement. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "A creature that willingly has the Prone condition cannot trigger its pride feeding. The inquisitor’s hunger can still push that creature, but cannot renew the pride mark."
+          ]
+        },
+        {
+          "name": "Pride Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that failed a saving throw against it since the start of its previous turn, except a creature that is willingly Prone. All restrictions in Rule of the Body also apply. It has Advantage on attack rolls against feeding targets. This does not stack with Advantage from Blinded, Prone, or other effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Sentence attacks."
+          ]
+        },
+        {
+          "name": "Sentence",
+          "entries": [
+            "{@atkr r} {@hit 9}, range 60 ft. {@h}23 ({@damage 4d8 + 5}) Radiant damage."
+          ]
+        },
+        {
+          "name": "Sentence of Stillness {@recharge 5}",
+          "entries": [
+            "{@actSave wis} {@dc 17}, one creature within 60 feet that can hear it. {@actSaveFail} 27 ({@damage 6d8}) Radiant damage and the {@condition Stunned|XPHB} condition until the start of the inquisitor’s next turn. {@actSaveSuccess} Half damage only. It cannot use this action against a creature that is willingly Prone."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Pride Hunger",
+          "entries": [
+            "{@actSave wis} {@dc 17}, one creature within 60 feet that can hear its command. A willingly Prone creature is unaffected. {@actSaveFail} The target has the {@condition Prone|XPHB} condition and creates the pride feeding trigger. A creature can submit by willingly dropping Prone at the start of its turn (no action required); standing uses normal movement."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Objection",
+          "entries": [
+            "Trigger: A creature it can see within 30 feet succeeds on a saving throw against it. Response: It moves up to 15 feet without provoking Opportunity Attacks. It cannot change the save result."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Parish Inquisitor.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "prone",
+        "stunned"
+      ]
+    },
+    {
+      "name": "Pathless Mother",
+      "source": "ML",
+      "size": [
+        "H"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        17
+      ],
+      "hp": {
+        "average": 189,
+        "formula": "18d12 + 72"
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 30
+      },
+      "str": 22,
+      "dex": 14,
+      "con": 18,
+      "int": 16,
+      "wis": 20,
+      "cha": 16,
+      "passive": 20,
+      "cr": "13",
+      "skill": {
+        "perception": "+10"
+      },
+      "save": {
+        "str": "+11",
+        "wis": "+10"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A province longing for the road that once brought its missing travelers home. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "A conscious ally within 30 feet disables its longing feeding. Marked trail stones are visible anchors: a creature adjacent to one can use an action to end the mother’s Blinded condition on itself or an ally within 5 feet."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Longing Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that is more than 30 feet from every conscious ally of that creature. All restrictions in Rule of the Body also apply. Once on each of its turns, when it hits a feeding target with Lost Road, it deals an extra 10 ({@damage 3d6}) Slashing damage."
+          ]
+        },
+        {
+          "name": "Rooted to Company",
+          "entries": [
+            "It has Disadvantage on Opportunity Attack rolls against a creature within 5 feet of a conscious ally."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Lost Road attacks."
+          ]
+        },
+        {
+          "name": "Lost Road",
+          "entries": [
+            "{@atkr m} {@hit 11}, reach 15 ft. {@h}24 ({@damage 4d8 + 6}) Slashing damage."
+          ]
+        },
+        {
+          "name": "Turn the Trail {@recharge 5}",
+          "entries": [
+            "{@actSave wis} {@dc 18}, up to two creatures it can see within 60 feet. {@actSaveFail} 27 ({@damage 6d8}) Psychic damage and the {@condition Blinded|XPHB} condition until the end of the target’s next turn. {@actSaveSuccess} Half damage only. Two visible trail stones appear in unoccupied spaces within 5 feet of the mother until its next turn; they enable the counter in Rule of the Body."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Longing Hunger",
+          "entries": [
+            "{@actSave str} {@dc 18}, one Large or smaller creature it can see within 60 feet. {@actSaveFail} The monster pulls the target up to 35 feet directly toward itself through an unobstructed path, ending in an unoccupied space. This movement does not provoke Opportunity Attacks. The target then has the {@condition Grappled|XPHB} condition (escape {@dc 18}) until the start of the monster’s next turn from a visible tether. The monster can maintain only one such tether; a new one ends the old one. An adjacent creature can use an action to break the tether."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Lost Road attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "forest"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Pathless Mother.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "blinded",
+        "grappled"
+      ]
+    },
+    {
+      "name": "Undertoll",
+      "source": "ML",
+      "size": [
+        "H"
+      ],
+      "type": "undead",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        18
+      ],
+      "hp": {
+        "average": 218,
+        "formula": "19d12 + 95"
+      },
+      "speed": {
+        "walk": 25,
+        "swim": 40
+      },
+      "str": 22,
+      "dex": 10,
+      "con": 20,
+      "int": 14,
+      "wis": 18,
+      "cha": 18,
+      "passive": 19,
+      "cr": "14",
+      "skill": {
+        "perception": "+9"
+      },
+      "save": {
+        "str": "+11",
+        "con": "+10"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "resist": [
+        "cold",
+        "necrotic"
+      ],
+      "conditionImmune": [
+        "poisoned",
+        "exhaustion"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A whole coast grieving the bodies the tide has withheld. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its grief feeding requires a wounded target within 10 feet of a corpse. Moving at least 10 feet away or dragging the corpse away turns feeding off. The corpse need not be human."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Grief Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has fewer than half its maximum HP, or a creature it can see within 60 feet that is within 10 feet of a corpse. All restrictions in Rule of the Body also apply. At the start of its turn, if at least one feeding target exists, it regains 14 HP. This occurs once per turn, not once per target. It cannot regain HP this way while Incapacitated."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Funeral Weight attacks."
+          ]
+        },
+        {
+          "name": "Funeral Weight",
+          "entries": [
+            "{@atkr m} {@hit 11}, reach 15 ft. {@h}28 ({@damage 4d10 + 6}) Necrotic damage."
+          ]
+        },
+        {
+          "name": "The Withheld Name {@recharge 5}",
+          "entries": [
+            "{@actSave con} {@dc 17}, each creature in a 30-foot Cone. {@actSaveFail} 33 ({@damage 6d10}) Necrotic damage and the {@condition Deafened|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Grief Hunger",
+          "entries": [
+            "{@actSave con} {@dc 17}, one creature it has damaged this turn that it can see within 60 feet. {@actSaveFail} The target has the {@condition Deafened|XPHB} condition until the end of its next turn. If the target has fewer than half its maximum HP, it also has the {@condition Blinded|XPHB} condition for that duration. An adjacent ally can use an action to end one of these conditions caused by this ability."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Attend the Fallen",
+          "entries": [
+            "Trigger: A creature within 60 feet drops to 0 HP. Response: Undertoll moves up to half its Speed toward it without provoking Opportunity Attacks. This reaction deals no damage to the fallen creature."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Funeral Weight attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal",
+        "underwater"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Undertoll.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "blinded",
+        "deafened"
+      ]
+    },
+    {
+      "name": "Hushweight",
+      "source": "ML",
+      "size": [
+        "H"
+      ],
+      "type": "construct",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        19
+      ],
+      "hp": {
+        "average": 230,
+        "formula": "20d12 + 100"
+      },
+      "speed": {
+        "walk": 25
+      },
+      "str": 24,
+      "dex": 8,
+      "con": 20,
+      "int": 18,
+      "wis": 16,
+      "cha": 14,
+      "passive": 18,
+      "cr": "15",
+      "skill": {
+        "perception": "+8"
+      },
+      "save": {
+        "str": "+12",
+        "con": "+10"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned",
+        "charmed"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A capital terrified that anyone might hear what its sealed records contain. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its feeding resistance ends until the start of its next turn when a creature within 30 feet audibly states a fact it observed about the construct. A Deafened speaker can still speak; a magically silenced one cannot."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances."
+          ]
+        },
+        {
+          "name": "The Record Opens",
+          "entries": [
+            "While it has the Blinded condition, it loses its feeding resistance and cannot use Seal the Square."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Sealed Record attacks."
+          ]
+        },
+        {
+          "name": "Sealed Record",
+          "entries": [
+            "{@atkr m} {@hit 12}, reach 15 ft. {@h}29 ({@damage 4d10 + 7}) Bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Seal the Square {@recharge 5}",
+          "entries": [
+            "{@actSave con} {@dc 16}, each creature in a 20-foot-radius Sphere centered on a point it can see within 60 feet. {@actSaveFail} 33 ({@damage 6d10}) Thunder damage and the {@condition Deafened|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger",
+          "entries": [
+            "{@actSave wis} {@dc 16}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Sealed Record attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Hushweight.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "deafened",
+        "frightened"
+      ]
+    },
+    {
+      "name": "Pit Reprisal",
+      "source": "ML",
+      "size": [
+        "H"
+      ],
+      "type": "giant",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        18
+      ],
+      "hp": {
+        "average": 250,
+        "formula": "20d12 + 120"
+      },
+      "speed": {
+        "walk": 30,
+        "burrow": 10
+      },
+      "str": 24,
+      "dex": 12,
+      "con": 22,
+      "int": 14,
+      "wis": 16,
+      "cha": 16,
+      "passive": 18,
+      "cr": "16",
+      "skill": {
+        "perception": "+8"
+      },
+      "save": {
+        "str": "+12",
+        "con": "+11"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "fire",
+        "thunder"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A province’s rage at employers who sent the next shift into a known collapsing mine. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its feeding applies only against a creature that dealt damage to it since the end of its last turn, and ends if that creature is behind Total Cover. Its rage is not an extra action outside its listed economy."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Rage Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that dealt damage to it since the end of its previous turn. All restrictions in Rule of the Body also apply. Once on each of its turns, when it hits a feeding target with Owner’s Due, it deals an extra 10 ({@damage 3d6}) Bludgeoning damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Owner’s Due attacks."
+          ]
+        },
+        {
+          "name": "Owner’s Due",
+          "entries": [
+            "{@atkr m} {@hit 12}, reach 15 ft. {@h}34 ({@damage 5d10 + 7}) Bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Bring Down the Shift {@recharge 5}",
+          "entries": [
+            "{@actSave dex} {@dc 20}, each creature in a 40-foot-long, 10-foot-wide Line. {@actSaveFail} 44 ({@damage 8d10}) Bludgeoning damage and the {@condition Restrained|XPHB} condition until the end of its next turn. An adjacent creature can use an action to pull a target free. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Rage Hunger",
+          "entries": [
+            "It chooses a creature within 10 feet that it can see. That creature can use its Reaction to make one melee attack against the monster with Advantage. The creature can refuse. If the attack deals damage, it creates this monster’s rage feeding trigger. This ability grants no additional attacks to the monster itself."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Ruptured Temper",
+          "entries": [
+            "Trigger: It takes Cold damage. Response: It ends the Grappled or Restrained condition on itself, then loses its feeding until the start of its next turn. It can choose not to use this reaction."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Owner’s Due attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "mountain",
+        "underdark"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Pit Reprisal.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "restrained"
+      ]
+    },
+    {
+      "name": "Last Dance",
+      "source": "ML",
+      "size": [
+        "H"
+      ],
+      "type": "fiend",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        19
+      ],
+      "hp": {
+        "average": 264,
+        "formula": "23d12 + 115"
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 20,
+      "dex": 22,
+      "con": 20,
+      "int": 16,
+      "wis": 14,
+      "cha": 22,
+      "passive": 18,
+      "cr": "17",
+      "skill": {
+        "perception": "+8",
+        "stealth": "+12"
+      },
+      "save": {
+        "dex": "+12",
+        "cha": "+12"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "fire",
+        "thunder"
+      ],
+      "conditionImmune": [
+        "charmed"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A generation’s desperate joy at the victory night before the next war. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its joy keys on Prone targets that can hear it. Stand up or prevent hearing the rhythm. An ally can use an action to help a willing adjacent creature stand without spending that creature’s movement."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Joy Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see, that can hear it, and that has the Prone condition. All restrictions in Rule of the Body also apply. Once on its turn, after its Multiattack (or its ordinary attack if it has no Multiattack), it can make one additional attack against a feeding target: {@atkr m} {@hit 12}, reach 15 ft. {@h}15 ({@damage 2d8 + 6}) Thunder damage. This is part of the same action, requires a feeding target, and is not granted when it uses another action."
+          ]
+        },
+        {
+          "name": "Quiet Steps",
+          "entries": [
+            "While it has the Deafened condition, its Speed is halved and it cannot use its feeding or Floor Without Rest."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Heelbeat attacks."
+          ]
+        },
+        {
+          "name": "Heelbeat",
+          "entries": [
+            "{@atkr m} {@hit 12}, reach 15 ft. {@h}33 ({@damage 5d10 + 6}) Thunder damage."
+          ]
+        },
+        {
+          "name": "Floor Without Rest {@recharge 5}",
+          "entries": [
+            "{@actSave dex} {@dc 20}, each creature in a 20-foot Emanation. {@actSaveFail} 44 ({@damage 8d10}) Thunder damage and the {@condition Prone|XPHB} condition. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Joy Hunger",
+          "entries": [
+            "{@actSave dex} {@dc 20}, one creature within 30 feet that can hear its rhythm. {@actSaveFail} The target has the {@condition Prone|XPHB} condition. A creature can stand normally; the monster imposes no separate restriction on standing."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Heelbeat attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Last Dance.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "prone"
+      ]
+    },
+    {
+      "name": "Returned Room",
+      "source": "ML",
+      "size": [
+        "H"
+      ],
+      "type": "ooze",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        18
+      ],
+      "hp": {
+        "average": 283,
+        "formula": "21d12 + 147"
+      },
+      "speed": {
+        "walk": 20
+      },
+      "str": 22,
+      "dex": 8,
+      "con": 24,
+      "int": 18,
+      "wis": 18,
+      "cha": 16,
+      "passive": 20,
+      "cr": "18",
+      "skill": {
+        "perception": "+10"
+      },
+      "save": {
+        "con": "+13",
+        "str": "+12"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Blindsight 30 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "immune": [
+        "acid"
+      ],
+      "conditionImmune": [
+        "prone",
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A nation grieving the homes to which its dead will never return. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its grief resistance ends until the start of its next turn when it takes Radiant damage or an adjacent creature restores HP to another creature. Walls inside its body offer no unexplained immunity."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Grief Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has fewer than half its maximum HP, or a creature it can see within 60 feet that is within 10 feet of a corpse. All restrictions in Rule of the Body also apply. While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances."
+          ]
+        },
+        {
+          "name": "No Private Grief",
+          "entries": [
+            "While it has a creature Grappled, its attacks against all other creatures have Disadvantage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Doorway Bite attacks."
+          ]
+        },
+        {
+          "name": "Doorway Bite",
+          "entries": [
+            "{@atkr m} {@hit 12}, reach 15 ft. {@h}33 ({@damage 6d8 + 6}) Acid damage."
+          ]
+        },
+        {
+          "name": "Shut the Door {@recharge 5}",
+          "entries": [
+            "{@actSave str} {@dc 21}, one Huge or smaller creature within 15 feet. {@actSaveFail} 44 ({@damage 8d10}) Acid damage and the {@condition Grappled|XPHB} condition (escape {@dc 21}). While Grappled this way, the target is Restrained. Only one creature can be held. Another creature within 5 feet of the room can use an action to open the door, ending both conditions. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Grief Hunger",
+          "entries": [
+            "{@actSave con} {@dc 21}, one creature it has damaged this turn that it can see within 60 feet. {@actSaveFail} The target has the {@condition Deafened|XPHB} condition until the end of its next turn. If the target has fewer than half its maximum HP, it also has the {@condition Blinded|XPHB} condition for that duration. An adjacent ally can use an action to end one of these conditions caused by this ability."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Doorway Bite attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Returned Room.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "blinded",
+        "deafened",
+        "grappled",
+        "restrained"
+      ]
+    },
+    {
+      "name": "Country Behind Trees",
+      "source": "ML",
+      "size": [
+        "G"
+      ],
+      "type": "dragon",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        20
+      ],
+      "hp": {
+        "average": 363,
+        "formula": "22d20 + 132"
+      },
+      "speed": {
+        "walk": 50,
+        "climb": 40
+      },
+      "str": 26,
+      "dex": 14,
+      "con": 22,
+      "int": 20,
+      "wis": 22,
+      "cha": 18,
+      "passive": 22,
+      "cr": "19",
+      "skill": {
+        "perception": "+12"
+      },
+      "save": {
+        "str": "+14",
+        "con": "+12",
+        "wis": "+12"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "poison",
+        "necrotic"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A generation fearing the country that begins when every familiar forest path turns wrong. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its fear requires seeing an open eye on its crest. A creature can avert its gaze at the start of its turn until the start of its next turn: it cannot see the dragon but is immune to its eye-triggered hunger and feeding during that time."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. Once on each of its turns, when it hits a feeding target with Antler Gape, it deals an extra 14 ({@damage 4d6}) Piercing damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Antler Gape attacks."
+          ]
+        },
+        {
+          "name": "Antler Gape",
+          "entries": [
+            "{@atkr m} {@hit 14}, reach 20 ft. {@h}40 ({@damage 5d12 + 8}) Piercing damage."
+          ]
+        },
+        {
+          "name": "Wrong Country {@recharge 5}",
+          "entries": [
+            "{@actSave wis} {@dc 20}, each creature in a 60-foot Cone that can see its crest. {@actSaveFail} 55 ({@damage 10d10}) Psychic damage and the {@condition Frightened|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger",
+          "entries": [
+            "{@actSave wis} {@dc 20}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "The Eye Closes",
+          "entries": [
+            "Trigger: It takes Radiant damage. Response: It ends the Blinded condition on itself, but its crest closes until the start of its next turn, disabling its hunger and feeding during that time."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Antler Gape attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "forest"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Country Behind Trees.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "frightened"
+      ]
+    },
+    {
+      "name": "Nation Below",
+      "source": "ML",
+      "size": [
+        "G"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        20
+      ],
+      "hp": {
+        "average": 350,
+        "formula": "20d20 + 140"
+      },
+      "speed": {
+        "walk": 30,
+        "burrow": 20
+      },
+      "str": 24,
+      "dex": 10,
+      "con": 24,
+      "int": 22,
+      "wis": 20,
+      "cha": 20,
+      "passive": 21,
+      "cr": "20",
+      "skill": {
+        "perception": "+11"
+      },
+      "save": {
+        "str": "+13",
+        "con": "+13",
+        "int": "+12"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft.",
+        "Tremorsense 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "psychic",
+        "cold"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A nation imagining itself buried alive beneath the wealth it extracted. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its feeding requires a target to be Frightened and Deafened. Ending either condition prevents feeding. A creature can use an action to beat an audible rhythm on a surface, ending Deafened caused by this monster on one creature within 10 feet."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition and that also has the Deafened condition. All restrictions in Rule of the Body also apply. It has Advantage on attack rolls against feeding targets. This does not stack with Advantage from Blinded, Prone, or other effects."
+          ]
+        },
+        {
+          "name": "Thought Has Weight",
+          "entries": [
+            "It cannot teleport while it has the Restrained condition. A creature that ends its Deafened condition has Advantage on its next saving throw against Nation Below before the end of that creature’s next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Burial Thought attacks."
+          ]
+        },
+        {
+          "name": "Burial Thought",
+          "entries": [
+            "{@atkr r} {@hit 12}, range 90 ft. {@h}39 ({@damage 6d10 + 6}) Psychic damage."
+          ]
+        },
+        {
+          "name": "Burial Without Earth {@recharge 5}",
+          "entries": [
+            "{@actSave con} {@dc 20}, each creature in a 30-foot Emanation. {@actSaveFail} 55 ({@damage 10d10}) Psychic damage and the {@condition Deafened|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger",
+          "entries": [
+            "{@actSave wis} {@dc 20}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Burial Thought attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "mountain",
+        "underdark"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Nation Below.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "deafened",
+        "frightened"
+      ]
+    },
+    {
+      "name": "Admiralty of Absence",
+      "source": "ML",
+      "size": [
+        "G"
+      ],
+      "type": "celestial",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        20
+      ],
+      "hp": {
+        "average": 402,
+        "formula": "23d20 + 161"
+      },
+      "speed": {
+        "walk": 0,
+        "fly": {
+          "number": 40,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 22,
+      "dex": 18,
+      "con": 24,
+      "int": 20,
+      "wis": 24,
+      "cha": 24,
+      "passive": 24,
+      "cr": "21",
+      "skill": {
+        "perception": "+14",
+        "stealth": "+11"
+      },
+      "save": {
+        "con": "+14",
+        "wis": "+14",
+        "cha": "+14"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "cold",
+        "force"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "prone"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "An age of coastal communities longing for fleets whose absence has become their national identity. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Remain within 30 feet of a conscious ally. A visible 10-foot-wide rope line created by its isolation attack has AC 15 and HP 20; destroying it ends that attack’s Grappled condition."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Longing Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that is more than 30 feet from every conscious ally of that creature. All restrictions in Rule of the Body also apply. Once on its turn, immediately after hitting a feeding target, it can move up to 20 feet without provoking Opportunity Attacks, or teleport to an unoccupied space it can see within 10 feet of that target. This movement grants no extra attack."
+          ]
+        },
+        {
+          "name": "A Fleet Together",
+          "entries": [
+            "While at least three hostile creatures within 60 feet are each within 5 feet of a conscious ally, its AC is reduced by 2."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Absent Broadside attacks."
+          ]
+        },
+        {
+          "name": "Absent Broadside",
+          "entries": [
+            "{@atkr r} {@hit 14}, range 90 ft. {@h}40 ({@damage 6d10 + 7}) Force damage."
+          ]
+        },
+        {
+          "name": "Take the Last Boat {@recharge 5}",
+          "entries": [
+            "{@actSave str} {@dc 22}, up to two Huge or smaller creatures it can see within 90 feet. {@actSaveFail} 44 ({@damage 8d10}) Force damage, and the target is pulled up to 40 feet toward an unoccupied space the admiralty can see, following a straight unobstructed path. The target then has the {@condition Grappled|XPHB} condition (escape {@dc 22}) from a visible rope line. Up to two lines can exist; new lines end older ones. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Longing Hunger",
+          "entries": [
+            "{@actSave str} {@dc 22}, one Large or smaller creature it can see within 60 feet. {@actSaveFail} The monster pulls the target up to 35 feet directly toward itself through an unobstructed path, ending in an unoccupied space. This movement does not provoke Opportunity Attacks. The target then has the {@condition Grappled|XPHB} condition (escape {@dc 22}) until the start of the monster’s next turn from a visible tether. The monster can maintain only one such tether; a new one ends the old one. An adjacent creature can use an action to break the tether."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Absent Broadside attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal",
+        "underwater"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Admiralty of Absence.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ]
+    },
+    {
+      "name": "Lord of Other Windows",
+      "source": "ML",
+      "size": [
+        "G"
+      ],
+      "type": "fiend",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        21
+      ],
+      "hp": {
+        "average": 420,
+        "formula": "24d20 + 168"
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 40
+      },
+      "str": 20,
+      "dex": 20,
+      "con": 24,
+      "int": 26,
+      "wis": 18,
+      "cha": 24,
+      "passive": 21,
+      "cr": "22",
+      "skill": {
+        "perception": "+11",
+        "stealth": "+12"
+      },
+      "save": {
+        "int": "+15",
+        "con": "+14",
+        "cha": "+14"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "psychic",
+        "fire"
+      ],
+      "conditionImmune": [
+        "charmed"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A nation’s envy of a capital that appears to possess every comfortable life. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "The envy target is the single other creature with the highest current HP it can see within 60 feet. Ties select none. Covering or shattering its golden room stops feeding until the start of its next turn; an action within 5 feet or 25 Bludgeoning damage in a turn does so."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Envy Feeding",
+          "entries": [
+            "A feeding target is the single other creature it can see within 60 feet with the highest current HP among those other creatures; if the highest current HP is tied, there is no feeding target. All restrictions in Rule of the Body also apply. Once on each of its turns, when it hits a feeding target with Other Life, it deals an extra 14 ({@damage 4d6}) Psychic damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Other Life attacks."
+          ]
+        },
+        {
+          "name": "Other Life",
+          "entries": [
+            "{@atkr r} {@hit 15}, range 90 ft. {@h}46 ({@damage 7d10 + 8}) Psychic damage."
+          ]
+        },
+        {
+          "name": "The Fortune Elsewhere {@recharge 5}",
+          "entries": [
+            "{@actSave int} {@dc 22}, up to two creatures it can see within 90 feet. {@actSaveFail} 55 ({@damage 10d10}) Psychic damage and the {@condition Blinded|XPHB} condition until the end of the target’s next turn. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Envy Hunger",
+          "entries": [
+            "{@actSave dex} {@dc 22}, one other creature it can see within 60 feet with the highest current HP among other creatures it can see in that range. On a tie the monster chooses one of the tied creatures. {@actSaveFail} The target has the {@condition Restrained|XPHB} condition until the end of its next turn. An adjacent ally can use an action to break the visible binding, ending Restrained. Its attacks against other creatures can break a current-HP tie and establish a feeding target."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Close the Shutters",
+          "entries": [
+            "Trigger: It is hit by a ranged attack roll. Response: It gains a +4 bonus to AC against that attack, potentially causing it to miss, but cannot use its feeding until the start of its next turn."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Other Life attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Lord of Other Windows.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "blinded",
+        "restrained"
+      ]
+    },
+    {
+      "name": "Unconfessed",
+      "source": "ML",
+      "size": [
+        "G"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        20
+      ],
+      "hp": {
+        "average": 455,
+        "formula": "26d20 + 182"
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 30
+      },
+      "str": 24,
+      "dex": 18,
+      "con": 24,
+      "int": 22,
+      "wis": 22,
+      "cha": 26,
+      "passive": 23,
+      "cr": "23",
+      "skill": {
+        "perception": "+13",
+        "stealth": "+11"
+      },
+      "save": {
+        "cha": "+15",
+        "str": "+14",
+        "con": "+14"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "necrotic",
+        "poison"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "A generation’s shared shame at the debts and abuses it concealed behind respectable doors. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its shame requires a target to be Prone and within 10 feet of any other creature. Stand up or separate from the witness. Its hunger does not use real players’ secrets or require roleplaying a confession."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Shame Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see, that has the Prone condition, and that is within 10 feet of another creature. All restrictions in Rule of the Body also apply. Once on its turn, after its Multiattack (or its ordinary attack if it has no Multiattack), it can make one additional attack against a feeding target: {@atkr m} {@hit 15}, reach 20 ft. {@h}21 ({@damage 3d8 + 8}) Necrotic damage. This is part of the same action, requires a feeding target, and is not granted when it uses another action."
+          ]
+        },
+        {
+          "name": "Unwitnessed",
+          "entries": [
+            "Its feeding is disabled while it has the Blinded condition. Its ordinary attacks and damage still work."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Covered Face attacks."
+          ]
+        },
+        {
+          "name": "Covered Face",
+          "entries": [
+            "{@atkr r} {@hit 15}, range 90 ft. {@h}46 ({@damage 7d10 + 8}) Necrotic damage."
+          ]
+        },
+        {
+          "name": "All the Witnesses {@recharge 5}",
+          "entries": [
+            "{@actSave wis} {@dc 23}, each creature in a 30-foot Cone. {@actSaveFail} 55 ({@damage 10d10}) Necrotic damage and the {@condition Prone|XPHB} condition. {@actSaveSuccess} Half damage only."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Shame Hunger",
+          "entries": [
+            "{@actSave wis} {@dc 23}, one creature within 60 feet that it can see and that is within 10 feet of another creature. {@actSaveFail} The target has the {@condition Prone|XPHB} condition and cannot make Opportunity Attacks until the end of its next turn. This effect requires no actual confession or personal disclosure."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Covered Face attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Unconfessed.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "prone"
+      ]
+    },
+    {
+      "name": "Crown Without Subjects",
+      "source": "ML",
+      "size": [
+        "G"
+      ],
+      "type": "construct",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        22
+      ],
+      "hp": {
+        "average": 499,
+        "formula": "27d20 + 216"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 28,
+      "dex": 10,
+      "con": 26,
+      "int": 24,
+      "wis": 20,
+      "cha": 24,
+      "passive": 22,
+      "cr": "24",
+      "skill": {
+        "perception": "+12"
+      },
+      "save": {
+        "str": "+16",
+        "con": "+15",
+        "int": "+14"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "resist": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "poisoned",
+        "charmed"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "An empire’s pride in the claim that all living people owe it obedience. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its pride feeding does not affect a creature that is Prone willingly. Taking the Prone condition at the start of a turn costs no action; standing still costs normal movement."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Pride Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that failed a saving throw against it since the start of its previous turn, except a creature that is willingly Prone. All restrictions in Rule of the Body also apply. While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances."
+          ]
+        },
+        {
+          "name": "The Unbowed Hand",
+          "entries": [
+            "It cannot make Opportunity Attacks against willingly Prone creatures. This does not prevent its normal attacks."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Royal Hand attacks."
+          ]
+        },
+        {
+          "name": "Royal Hand",
+          "entries": [
+            "{@atkr m} {@hit 16}, reach 20 ft. {@h}54 ({@damage 7d12 + 9}) Radiant damage."
+          ]
+        },
+        {
+          "name": "Kneel Beneath the Charter {@recharge 5}",
+          "entries": [
+            "{@actSave str} {@dc 22}, each creature in a 30-foot Emanation. {@actSaveFail} 55 ({@damage 10d10}) Radiant damage, and an unwilling target has the {@condition Prone|XPHB} condition. {@actSaveSuccess} Half damage only. Willingly Prone creatures are immune to the damage of this action."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Pride Hunger",
+          "entries": [
+            "{@actSave wis} {@dc 22}, one creature within 60 feet that can hear its command. A willingly Prone creature is unaffected. {@actSaveFail} The target has the {@condition Prone|XPHB} condition and creates the pride feeding trigger. A creature can submit by willingly dropping Prone at the start of its turn (no action required); standing uses normal movement."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Royal Hand attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Crown Without Subjects.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "prone"
+      ]
+    },
+    {
+      "name": "Wreck-Parish Confluence",
+      "source": "ML",
+      "size": [
+        "G"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        21
+      ],
+      "hp": {
+        "average": 518,
+        "formula": "28d20 + 224"
+      },
+      "speed": {
+        "walk": 25,
+        "swim": 40
+      },
+      "str": 26,
+      "dex": 12,
+      "con": 26,
+      "int": 20,
+      "wis": 24,
+      "cha": 24,
+      "passive": 25,
+      "cr": "25",
+      "skill": {
+        "perception": "+15"
+      },
+      "save": {
+        "str": "+16",
+        "con": "+16",
+        "wis": "+15"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "cold",
+        "necrotic"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "Fear of the deep fused with grief for an age of unrecovered drowned people. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Its fear half fails on dry ground; its grief half requires a wounded target within 10 feet of a corpse. These are independent counters and each organ can be broken by its stage rules."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. This primary feeding ends when the primary organ breaks under Divided Body. Once on each of its turns, when it hits a feeding target with Wreckhand, it deals an extra 17 ({@damage 5d6}) Necrotic damage."
+          ]
+        },
+        {
+          "name": "Grief Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has fewer than half its maximum HP, or a creature it can see within 60 feet that is within 10 feet of a corpse. Rule of the Body applies independently to this feeding, which ends when its organ breaks under Divided Body. At the start of its turn, if a feeding target exists, it regains 25 HP. It cannot do so while Incapacitated."
+          ]
+        },
+        {
+          "name": "Divided Body",
+          "entries": [
+            "When its current HP first reaches 345 or fewer, its fog bell breaks. Its Fear Hunger and Fear Feeding permanently stop working for this encounter. When its current HP first reaches 172 or fewer, its mourning wheel breaks. Its Grief Hunger and Grief Feeding permanently stop working for this encounter. Broken organs cannot be restored by HP recovery. These thresholds do not grant extra turns, restore HP, or reset Legendary Action uses. The creature dies normally at 0 HP; disabling organs does not unmake it. The remaining organs retain their own counters."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Wreckhand attacks."
+          ]
+        },
+        {
+          "name": "Wreckhand",
+          "entries": [
+            "{@atkr m} {@hit 16}, reach 20 ft. {@h}53 ({@damage 7d12 + 8}) Necrotic damage."
+          ]
+        },
+        {
+          "name": "Two Bells at Once {@recharge 5}",
+          "entries": [
+            "{@actSave con} {@dc 23}, each creature in a 60-foot Cone. {@actSaveFail} 66 ({@damage 12d10}) Necrotic damage and the {@condition Deafened|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only. If its mourning wheel is broken, the damage is 33 ({@damage 6d10}) and there is no Deafened effect."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave wis} {@dc 23}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        },
+        {
+          "name": "Grief Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave con} {@dc 23}, one creature it has damaged this turn that it can see within 60 feet. {@actSaveFail} The target has the {@condition Deafened|XPHB} condition until the end of its next turn. If the target has fewer than half its maximum HP, it also has the {@condition Blinded|XPHB} condition for that duration. An adjacent ally can use an action to end one of these conditions caused by this ability."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Wreckhand attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal",
+        "underwater"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Wreck-Parish Confluence.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "blinded",
+        "deafened",
+        "frightened"
+      ]
+    },
+    {
+      "name": "Root-and-Rail Concord",
+      "source": "ML",
+      "size": [
+        "G"
+      ],
+      "type": "plant",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        21
+      ],
+      "hp": {
+        "average": 507,
+        "formula": "29d20 + 203"
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 30
+      },
+      "str": 28,
+      "dex": 14,
+      "con": 24,
+      "int": 22,
+      "wis": 26,
+      "cha": 22,
+      "passive": 26,
+      "cr": "26",
+      "skill": {
+        "perception": "+16"
+      },
+      "save": {
+        "str": "+17",
+        "wis": "+16",
+        "con": "+15"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "poison",
+        "piercing"
+      ],
+      "conditionImmune": [
+        "charmed"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "Fear of getting lost fused with longing for the roads that once led home. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Averting sight from the watching face prevents its fear feeding; staying within 30 feet of a conscious ally prevents its longing feeding. Its stage rules break the two faces separately."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. This primary feeding ends when the primary organ breaks under Divided Body. It has Advantage on attack rolls against feeding targets. This does not stack with Advantage from Blinded, Prone, or other effects."
+          ]
+        },
+        {
+          "name": "Longing Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that is more than 30 feet from every conscious ally of that creature. Rule of the Body applies independently to this feeding, which ends when its organ breaks under Divided Body. After hitting a feeding target, once on its turn it can pull that target up to 20 feet toward itself. A straight unobstructed path and unoccupied destination are required. This movement does not provoke Opportunity Attacks."
+          ]
+        },
+        {
+          "name": "Divided Body",
+          "entries": [
+            "When its current HP first reaches 338 or fewer, its watching face breaks. Its Fear Hunger and Fear Feeding permanently stop working for this encounter. When its current HP first reaches 169 or fewer, its hollow face breaks. Its Longing Hunger and Longing Feeding permanently stop working for this encounter. Broken organs cannot be restored by HP recovery. These thresholds do not grant extra turns, restore HP, or reset Legendary Action uses. The creature dies normally at 0 HP; disabling organs does not unmake it. The remaining organs retain their own counters."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Track Maw attacks."
+          ]
+        },
+        {
+          "name": "Track Maw",
+          "entries": [
+            "{@atkr m} {@hit 17}, reach 20 ft. {@h}53 ({@damage 8d10 + 9}) Slashing damage."
+          ]
+        },
+        {
+          "name": "The Road Turns Inward {@recharge 5}",
+          "entries": [
+            "{@actSave dex} {@dc 24}, each creature in a 60-foot-long, 10-foot-wide Line. {@actSaveFail} 66 ({@damage 12d10}) Slashing damage and the {@condition Restrained|XPHB} condition until the end of its next turn. An adjacent creature can use an action to cut the roots, ending Restrained. {@actSaveSuccess} Half damage only. If its hollow face is broken, this action cannot impose Restrained."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave wis} {@dc 24}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        },
+        {
+          "name": "Longing Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave str} {@dc 24}, one Large or smaller creature it can see within 60 feet. {@actSaveFail} The monster pulls the target up to 35 feet directly toward itself through an unobstructed path, ending in an unoccupied space. This movement does not provoke Opportunity Attacks. The target then has the {@condition Grappled|XPHB} condition (escape {@dc 24}) until the start of the monster’s next turn from a visible tether. The monster can maintain only one such tether; a new one ends the old one. An adjacent creature can use an action to break the tether."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Track Maw attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "forest"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Root-and-Rail Concord.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "frightened",
+        "grappled",
+        "restrained"
+      ]
+    },
+    {
+      "name": "Furnace of the Unpaid",
+      "source": "ML",
+      "size": [
+        "G"
+      ],
+      "type": "elemental",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        22
+      ],
+      "hp": {
+        "average": 585,
+        "formula": "30d20 + 270"
+      },
+      "speed": {
+        "walk": 30,
+        "burrow": 10
+      },
+      "str": 28,
+      "dex": 12,
+      "con": 28,
+      "int": 24,
+      "wis": 20,
+      "cha": 24,
+      "passive": 23,
+      "cr": "27",
+      "skill": {
+        "perception": "+13"
+      },
+      "save": {
+        "str": "+17",
+        "con": "+17",
+        "int": "+15"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft.",
+        "Tremorsense 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "immune": [
+        "fire"
+      ],
+      "resist": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "An age of laboring rage fused with envy of the owners’ untouched wealth. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Do not damage it before a turn unless ready for retaliation; break sight or tie the highest current HP to switch off its separate envy feeding. The furnace and counting mask break in separate stages."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Rage Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that dealt damage to it since the end of its previous turn. All restrictions in Rule of the Body also apply. This primary feeding ends when the primary organ breaks under Divided Body. Once on its turn, after its Multiattack (or its ordinary attack if it has no Multiattack), it can make one additional attack against a feeding target: {@atkr m} {@hit 17}, reach 20 ft. {@h}27 ({@damage 4d8 + 9}) Fire damage. This is part of the same action, requires a feeding target, and is not granted when it uses another action."
+          ]
+        },
+        {
+          "name": "Envy Feeding",
+          "entries": [
+            "A feeding target is the single other creature it can see within 60 feet with the highest current HP among those other creatures; if the highest current HP is tied, there is no feeding target. Rule of the Body applies independently to this feeding, which ends when its organ breaks under Divided Body. It has Advantage on its first attack roll each turn against its feeding target."
+          ]
+        },
+        {
+          "name": "Divided Body",
+          "entries": [
+            "When its current HP first reaches 390 or fewer, its furnace breaks. Its Rage Hunger and Rage Feeding permanently stop working for this encounter. When its current HP first reaches 195 or fewer, its counting mask breaks. Its Envy Hunger and Envy Feeding permanently stop working for this encounter. Broken organs cannot be restored by HP recovery. These thresholds do not grant extra turns, restore HP, or reset Legendary Action uses. The creature dies normally at 0 HP; disabling organs does not unmake it. The remaining organs retain their own counters."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Unpaid Blow attacks."
+          ]
+        },
+        {
+          "name": "Unpaid Blow",
+          "entries": [
+            "{@atkr m} {@hit 17}, reach 20 ft. {@h}61 ({@damage 8d12 + 9}) Fire damage."
+          ]
+        },
+        {
+          "name": "The Final Shift {@recharge 5}",
+          "entries": [
+            "{@actSave con} {@dc 25}, each creature in a 60-foot Cone. {@actSaveFail} 66 ({@damage 12d10}) Fire damage and the {@condition Poisoned|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only. If its furnace is broken, the damage becomes Bludgeoning and this action cannot impose Poisoned."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Rage Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. It chooses a creature within 10 feet that it can see. That creature can use its Reaction to make one melee attack against the monster with Advantage. The creature can refuse. If the attack deals damage, it creates this monster’s rage feeding trigger. This ability grants no additional attacks to the monster itself."
+          ]
+        },
+        {
+          "name": "Envy Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave dex} {@dc 25}, one other creature it can see within 60 feet with the highest current HP among other creatures it can see in that range. On a tie the monster chooses one of the tied creatures. {@actSaveFail} The target has the {@condition Restrained|XPHB} condition until the end of its next turn. An adjacent ally can use an action to break the visible binding, ending Restrained. Its attacks against other creatures can break a current-HP tie and establish a feeding target."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Unpaid Blow attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "mountain",
+        "underdark"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Furnace of the Unpaid.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "poisoned",
+        "restrained"
+      ]
+    },
+    {
+      "name": "City That Watches",
+      "source": "ML",
+      "size": [
+        "G"
+      ],
+      "type": "celestial",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        23
+      ],
+      "hp": {
+        "average": 592,
+        "formula": "32d20 + 256"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 40
+      },
+      "str": 26,
+      "dex": 16,
+      "con": 26,
+      "int": 26,
+      "wis": 26,
+      "cha": 28,
+      "passive": 26,
+      "cr": "28",
+      "skill": {
+        "perception": "+16",
+        "stealth": "+11"
+      },
+      "save": {
+        "cha": "+17",
+        "str": "+16",
+        "con": "+16"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "radiant",
+        "thunder"
+      ],
+      "conditionImmune": [
+        "charmed"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "Fear of public judgment fused with pride in a nation’s supposed innocence. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "An audible observed fact stops its fear armor for one round; willingly going Prone prevents its pride feeding. Neither counter disables the other half. Its stage rules remove the corresponding organs."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. This primary feeding ends when the primary organ breaks under Divided Body. While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances."
+          ]
+        },
+        {
+          "name": "Pride Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that failed a saving throw against it since the start of its previous turn, except a creature that is willingly Prone. Rule of the Body applies independently to this feeding, which ends when its organ breaks under Divided Body. Once on its turn when it hits a feeding target, that target has Disadvantage on the next saving throw it makes against this monster before the start of the monster’s next turn."
+          ]
+        },
+        {
+          "name": "Divided Body",
+          "entries": [
+            "When its current HP first reaches 394 or fewer, its watching mask breaks. Its Fear Hunger and Fear Feeding permanently stop working for this encounter. When its current HP first reaches 197 or fewer, its throne seal breaks. Its Pride Hunger and Pride Feeding permanently stop working for this encounter. Broken organs cannot be restored by HP recovery. These thresholds do not grant extra turns, restore HP, or reset Legendary Action uses. The creature dies normally at 0 HP; disabling organs does not unmake it. The remaining organs retain their own counters."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Public Sentence attacks."
+          ]
+        },
+        {
+          "name": "Public Sentence",
+          "entries": [
+            "{@atkr r} {@hit 17}, range 90 ft. {@h}61 ({@damage 8d12 + 9}) Radiant damage."
+          ]
+        },
+        {
+          "name": "The Public Verdict {@recharge 5}",
+          "entries": [
+            "{@actSave wis} {@dc 25}, each creature in a 60-foot Cone. {@actSaveFail} 66 ({@damage 12d10}) Radiant damage and the {@condition Frightened|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only. If its watching mask is broken, there is no Frightened effect."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave wis} {@dc 25}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        },
+        {
+          "name": "Pride Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave wis} {@dc 25}, one creature within 60 feet that can hear its command. A willingly Prone creature is unaffected. {@actSaveFail} The target has the {@condition Prone|XPHB} condition and creates the pride feeding trigger. A creature can submit by willingly dropping Prone at the start of its turn (no action required); standing uses normal movement."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Public Sentence attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/City That Watches.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "frightened",
+        "prone"
+      ]
+    },
+    {
+      "name": "House of All Last Nights",
+      "source": "ML",
+      "size": [
+        "G"
+      ],
+      "type": "fiend",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        22
+      ],
+      "hp": {
+        "average": 643,
+        "formula": "33d20 + 297"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 24,
+      "dex": 24,
+      "con": 28,
+      "int": 24,
+      "wis": 22,
+      "cha": 28,
+      "passive": 25,
+      "cr": "29",
+      "skill": {
+        "perception": "+15",
+        "stealth": "+16"
+      },
+      "save": {
+        "con": "+18",
+        "cha": "+18",
+        "str": "+16"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "psychic",
+        "necrotic"
+      ],
+      "conditionImmune": [
+        "charmed"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "Possessive desire, shame at what was concealed, and the joy that refused to end, fused across generations of urban haunts. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Tear an adjacent ledger ribbon to end one Charmed condition it caused; stand up to stop shame and joy feeding. Covering both ears prevents its dance hunger until either hand is freed. Its three faces fail in stages."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Lust Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Charmed condition caused by this monster. All restrictions in Rule of the Body also apply. This primary feeding ends when the primary organ breaks under Divided Body. Once on each of its turns, when it hits a feeding target with Last Invitation, it deals an extra 21 ({@damage 6d6}) Psychic damage."
+          ]
+        },
+        {
+          "name": "Shame Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see, that has the Prone condition, and that is within 10 feet of another creature. Rule of the Body applies independently to this feeding, which ends when its organ breaks under Divided Body. Once on its turn, when it hits a feeding target, it deals an extra 14 ({@damage 4d6}) Psychic damage."
+          ]
+        },
+        {
+          "name": "Joy Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see, that can hear it, and that has the Prone condition. Rule of the Body applies independently to this feeding, which ends when its organ breaks under Divided Body. Its Speed increases by 10 feet while a feeding target exists. It still cannot move while Grappled or Restrained."
+          ]
+        },
+        {
+          "name": "Divided Body",
+          "entries": [
+            "When its current HP first reaches 482 or fewer, its ledger face breaks. Its Lust Hunger and Lust Feeding permanently stop working for this encounter. When its current HP first reaches 321 or fewer, its witness veil breaks. Its Shame Hunger and Shame Feeding permanently stop working for this encounter. When its current HP first reaches 160 or fewer, its dance face breaks. Its Joy Hunger and Joy Feeding permanently stop working for this encounter. Broken organs cannot be restored by HP recovery. These thresholds do not grant extra turns, restore HP, or reset Legendary Action uses. The creature dies normally at 0 HP; disabling organs does not unmake it. The remaining organs retain their own counters."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 2 Last Invitation attacks."
+          ]
+        },
+        {
+          "name": "Last Invitation",
+          "entries": [
+            "{@atkr m} {@hit 18}, reach 20 ft. {@h}61 ({@damage 8d12 + 9}) Psychic damage."
+          ]
+        },
+        {
+          "name": "Doors of the Last Night {@recharge 5}",
+          "entries": [
+            "{@actSave cha} {@dc 26}, up to three creatures within 90 feet. {@actSaveFail} 66 ({@damage 12d10}) Psychic damage, and the target teleports to an unoccupied space on the ground within 20 feet of the house that the house can see. {@actSaveSuccess} Half damage only. If its ledger face is broken, the teleport does not occur. This action never sends a target to another plane or removes it from the encounter."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Lust Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave wis} {@dc 26}, one creature within 60 feet that can hear its invitation. {@actSaveFail} The target has the {@condition Charmed|XPHB} condition caused by this monster until the end of its next turn. The condition does not compel attacks against allies. A visible ledger ribbon connects target and monster; an adjacent creature can use an action to tear it, ending the condition."
+          ]
+        },
+        {
+          "name": "Shame Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave wis} {@dc 26}, one creature within 60 feet that it can see and that is within 10 feet of another creature. {@actSaveFail} The target has the {@condition Prone|XPHB} condition and cannot make Opportunity Attacks until the end of its next turn. This effect requires no actual confession or personal disclosure."
+          ]
+        },
+        {
+          "name": "Joy Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave dex} {@dc 26}, one creature within 30 feet that can hear its rhythm. {@actSaveFail} The target has the {@condition Prone|XPHB} condition. A creature can stand normally; the monster imposes no separate restriction on standing."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Last Invitation attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/House of All Last Nights.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "charmed",
+        "prone"
+      ]
+    },
+    {
+      "name": "Country of Teeth",
+      "source": "ML",
+      "size": [
+        "G"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        23
+      ],
+      "hp": {
+        "average": 697,
+        "formula": "34d20 + 340"
+      },
+      "speed": {
+        "walk": 40,
+        "swim": 40,
+        "climb": 30
+      },
+      "str": 30,
+      "dex": 18,
+      "con": 30,
+      "int": 26,
+      "wis": 28,
+      "cha": 28,
+      "passive": 28,
+      "cr": "30",
+      "skill": {
+        "perception": "+18",
+        "stealth": "+13"
+      },
+      "save": {
+        "str": "+19",
+        "con": "+19",
+        "wis": "+18"
+      },
+      "initiative": {
+        "proficiency": 1
+      },
+      "senses": [
+        "Darkvision 120 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "resist": [
+        "cold",
+        "fire",
+        "necrotic",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "poisoned",
+        "exhaustion"
+      ],
+      "trait": [
+        {
+          "name": "Emotion Made Flesh",
+          "entries": [
+            "Fear, grief, rage, envy, and longing accumulated across the same country until their territorial monsters joined into one body. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+          ]
+        },
+        {
+          "name": "Rule of the Body",
+          "entries": [
+            "Keep together, end Frightened, leave corpse-adjacent squares, and break sight when singled out by envy. Its separate retaliation still threatens creatures that damage it. Five visible organs fail at printed HP thresholds; no reconciliation unmakes it."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If it fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Fear Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. This primary feeding ends when the primary organ breaks under Divided Body. Once on each of its turns, when it hits a feeding target with Province Bite, it deals an extra 21 ({@damage 6d6}) Force damage."
+          ]
+        },
+        {
+          "name": "Grief Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that has fewer than half its maximum HP, or a creature it can see within 60 feet that is within 10 feet of a corpse. Rule of the Body applies independently to this feeding, which ends when its organ breaks under Divided Body. At the start of its turn, if a feeding target exists, it regains 30 HP. It cannot do so while Incapacitated."
+          ]
+        },
+        {
+          "name": "Rage Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that dealt damage to it since the end of its previous turn. Rule of the Body applies independently to this feeding, which ends when its organ breaks under Divided Body. Once on its turn, when it hits a feeding target, it deals an extra 14 ({@damage 4d6}) Psychic damage."
+          ]
+        },
+        {
+          "name": "Envy Feeding",
+          "entries": [
+            "A feeding target is the single other creature it can see within 60 feet with the highest current HP among those other creatures; if the highest current HP is tied, there is no feeding target. Rule of the Body applies independently to this feeding, which ends when its organ breaks under Divided Body. It has Advantage on its first attack roll each turn against its feeding target."
+          ]
+        },
+        {
+          "name": "Longing Feeding",
+          "entries": [
+            "A feeding target is a creature within 60 feet that it can see and that is more than 30 feet from every conscious ally of that creature. Rule of the Body applies independently to this feeding, which ends when its organ breaks under Divided Body. After hitting a feeding target, once on its turn it can pull that target up to 20 feet toward itself. A straight unobstructed path and unoccupied destination are required. This movement does not provoke Opportunity Attacks."
+          ]
+        },
+        {
+          "name": "The Parts Cannot Agree",
+          "entries": [
+            "When a creature disables at least two of its feedings with their counters at the same time, that creature has Advantage on saving throws against The Country Closes until the start of the country’s next turn."
+          ]
+        },
+        {
+          "name": "Divided Body",
+          "entries": [
+            "When its current HP first reaches 580 or fewer, its fog bell breaks. Its Fear Hunger and Fear Feeding permanently stop working for this encounter. When its current HP first reaches 464 or fewer, its mourning mask breaks. Its Grief Hunger and Grief Feeding permanently stop working for this encounter. When its current HP first reaches 348 or fewer, its furnace breaks. Its Rage Hunger and Rage Feeding permanently stop working for this encounter. When its current HP first reaches 232 or fewer, its jealous window breaks. Its Envy Hunger and Envy Feeding permanently stop working for this encounter. When its current HP first reaches 116 or fewer, its hollow arch breaks. Its Longing Hunger and Longing Feeding permanently stop working for this encounter. Broken organs cannot be restored by HP recovery. These thresholds do not grant extra turns, restore HP, or reset Legendary Action uses. The creature dies normally at 0 HP; disabling organs does not unmake it. The remaining organs retain their own counters."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "It makes 3 Province Bite attacks."
+          ]
+        },
+        {
+          "name": "Province Bite",
+          "entries": [
+            "{@atkr m} {@hit 19}, reach 20 ft. {@h}62 ({@damage 8d12 + 10}) Force damage."
+          ]
+        },
+        {
+          "name": "The Country Closes {@recharge 5}",
+          "entries": [
+            "{@actSave dex} {@dc 26}, each creature in a 90-foot-long, 20-foot-wide Line. {@actSaveFail} 77 ({@damage 14d10}) Force damage and the {@condition Prone|XPHB} condition. {@actSaveSuccess} Half damage only. When its furnace organ is broken, this attack’s damage is 55 ({@damage 10d10})."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Fear Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave wis} {@dc 26}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+          ]
+        },
+        {
+          "name": "Grief Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave con} {@dc 26}, one creature it has damaged this turn that it can see within 60 feet. {@actSaveFail} The target has the {@condition Deafened|XPHB} condition until the end of its next turn. If the target has fewer than half its maximum HP, it also has the {@condition Blinded|XPHB} condition for that duration. An adjacent ally can use an action to end one of these conditions caused by this ability."
+          ]
+        },
+        {
+          "name": "Rage Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. It chooses a creature within 10 feet that it can see. That creature can use its Reaction to make one melee attack against the monster with Advantage. The creature can refuse. If the attack deals damage, it creates this monster’s rage feeding trigger. This ability grants no additional attacks to the monster itself."
+          ]
+        },
+        {
+          "name": "Envy Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave dex} {@dc 26}, one other creature it can see within 60 feet with the highest current HP among other creatures it can see in that range. On a tie the monster chooses one of the tied creatures. {@actSaveFail} The target has the {@condition Restrained|XPHB} condition until the end of its next turn. An adjacent ally can use an action to break the visible binding, ending Restrained. Its attacks against other creatures can break a current-HP tie and establish a feeding target."
+          ]
+        },
+        {
+          "name": "Longing Hunger",
+          "entries": [
+            "If this emotion’s organ has been broken by Divided Body, this ability cannot be used. {@actSave str} {@dc 26}, one Large or smaller creature it can see within 60 feet. {@actSaveFail} The monster pulls the target up to 35 feet directly toward itself through an unobstructed path, ending in an unoccupied space. This movement does not provoke Opportunity Attacks. The target then has the {@condition Grappled|XPHB} condition (escape {@dc 26}) until the start of the monster’s next turn from a visible tether. The monster can maintain only one such tether; a new one ends the old one. An adjacent creature can use an action to break the tether."
+          ]
+        }
+      ],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "Legendary Action Uses: 3. Immediately after another creature’s turn, it can expend uses to take one of the following actions. It cannot do so while Incapacitated. It regains all expended uses at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Territorial Step",
+          "entries": [
+            "It moves up to half its Speed without provoking Opportunity Attacks. If it has a Fly Speed, it can use that speed instead. Grappled or Restrained still prevents this movement."
+          ]
+        },
+        {
+          "name": "Claim the Ground",
+          "entries": [
+            "It chooses one 10-foot square on a surface it can see within 60 feet. That square becomes visibly Difficult Terrain for creatures other than this monster until the start of its next turn. It can maintain only one square at a time; a new one replaces the previous one."
+          ]
+        },
+        {
+          "name": "Punish the Trespass (Costs 2 Uses)",
+          "entries": [
+            "It makes one Province Bite attack. This attack cannot activate the once-on-its-turn damage or extra-attack feedings."
+          ]
+        }
+      ],
+      "environment": [
+        "any"
+      ],
+      "hasToken": true,
+      "tokenHref": {
+        "type": "internal",
+        "path": "bestiary/tokens/ML/Country of Teeth.webp"
+      },
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "blinded",
+        "deafened",
+        "frightened",
+        "grappled",
+        "prone",
+        "restrained"
+      ]
+    }
+  ]
 }

@@ -70,8 +70,8 @@ Fully graphic. Gore, viscera, exposed anatomy, and mutilation are core visual la
 
 Full illustrations show the whole subject in its habitat. Tokens use a close portrait inside one shared ring, a raised rim of blackened, pitted iron with a thin old-brass lip, transparent outside the circle. Keep the face or identifying feature legible on a battle map. Retain the same anatomy, colors, and distinguishing features in both versions.
 
-## First milestone
+## Collection scope
 
-The campaign begins on the coast, so the coast and sea family ships first: low-tier creatures drawn from the coast's three emotions, fear, longing, and grief. Candidate roster and CR targets are in `docs/design-notes.md`. Forest, mines, city, and haunts follow, each starting at low tier before any family climbs.
+The campaign begins on the coast. The expanded roster now spans every CR from 1/8 through 30 and all five biome families, with nine emotional origins and fused powers at the top of the range. The complete roster is in `docs/bestiary-index.md`, and individual mechanics and playtest assumptions are in `docs/monster-playtests.md`. This is CR coverage across the collection, not a separate entry at every CR within each biome.
 
 Spells and items stay empty until the first monsters have been at a table. When they arrive, spells should raise, dampen, or redirect shared feeling, and items should be made from monsters or made against them, with an identifiable maker.

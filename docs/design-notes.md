@@ -27,6 +27,9 @@ Monsters of other emotions follow the same three-part structure with their own t
 | Rage-born | Creatures that damaged it since its last turn; it grows by being hurt |
 | Envy-born | Creatures holding more than others: the highest current Hit Points, the most magic items, the most gold |
 | Lust-born | Charmed creatures |
+| Joy-born | Prone creatures that can hear the monster's rhythm |
+| Shame-born | Prone creatures within 10 feet of another creature, a visible witness |
+| Pride-born | Creatures that failed a save against the monster since the start of its previous turn, except willingly Prone creatures |
 
 ## Damage assumptions
 
@@ -42,9 +45,9 @@ Scope of fear sets the band (see `docs/theme.md`). Within a band, the more liter
 
 Fused monsters at CR 25 and above should carry at least two hungers and two feedings, one per merged fear, and each part should keep its own counter. Killing a fused monster in stages is the intended play pattern.
 
-## First milestone: coast and sea
+## Coast and sea starting designs
 
-Candidates only. None of these has a stat block yet. Each one is a specific feeling, a body that portrays it, a rule it obeys, and a counter. The roster is still weighted toward fear; add grief-born candidates before authoring so the coast's three emotions are all represented.
+These starting concepts now have stat blocks in the full CR roster. Last Seat, Bellwound, Undertoll, and Returned Room develop grief feeding across the other tiers and biomes. Each creature has a specific feeling, a body that portrays it, a rule it obeys, and a counter.
 
 | Working name | CR target | Feeling | Body | Rule and counter |
 | --- | --- | --- | --- | --- |
@@ -57,6 +60,12 @@ Candidates only. None of these has a stat block yet. Each one is a specific feel
 Playtest order: Tidewrack Hand and Netmouth as a level 1 to 2 nuisance set, Drowned Caller as the first monster with a real rule, Shorewaiter to test how monsters of different emotions compete, Haar Shepherd as a village-scale threat for levels 4 to 6.
 
 ## Revision record
+
+Version 0.3.0: the requested full roster covers CR 1/8, 1/4, 1/2, and 1–30 across all five biome families, all fourteen creature types, and all nine emotions. CR 25–30 creatures have multiple independently countered feedings and visible organ thresholds. See [the roster](bestiary-index.md), [individual playtest records](monster-playtests.md), and the structured calculations in `monster-notes.json`. All are unplaytested designs; no live import has been checked.
+
+Baseline damage calculations use ordinary attacks and, where available, one two-use Legendary Attack per round. Recharge actions replace the whole action and must also be evaluated against one and two targets. The build checks arithmetic and assets; it does not certify CR. Condition durations and ally-assisted escapes are part of the intended threat budget.
+
+Conditions use the revised [Rules Glossary](https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary). Action economy follows [How to Use a Monster](https://www.dndbeyond.com/sources/dnd/br-2024/how-to-use-a-monster). No published monster design was copied.
 
 Version 0.2.0: theme replaced. The Unfinished Dawn drafts (Glimmer Gleaner, Vesperglass Prowler, Kiln of the Ninth Dawn) were removed from the collection along with their art. They remain in git history. No monsters have been authored yet under Maliced Lands.
 

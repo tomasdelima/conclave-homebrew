@@ -5,8 +5,10 @@
         "json": "ML",
         "abbreviation": "ML",
         "full": "Maliced Lands",
-        "authors": ["Conclave Homebrew"],
-        "version": "0.2.0",
+        "authors": [
+          "Conclave Homebrew"
+        ],
+        "version": "0.3.0",
         "color": "4a1c1c"
       }
     ],

@@ -77,6 +77,7 @@ def image_info(path):
     stride = width * 4
     previous = bytearray(stride)
     minimum, maximum = 255, 0
+    transparent_pixels = 0
     corners = []
     for y in range(height):
         offset = y * (stride + 1)
@@ -102,10 +103,11 @@ def image_info(path):
             row[x] = (row[x] + predictor) & 255
         alpha = row[3::4]
         minimum, maximum = min(minimum, min(alpha)), max(maximum, max(alpha))
+        transparent_pixels += alpha.count(0)
         if y in (0, height - 1):
             corners.extend((alpha[0], alpha[-1]))
         previous = row
-    return width, height, (minimum, maximum, corners)
+    return width, height, (minimum, maximum, corners, transparent_pixels / (width * height))
 
 
 def image_path(href):
@@ -116,7 +118,7 @@ def image_path(href):
     return path
 
 
-def validate(pack):
+def validate(pack, *, check_images=True):
     sources = {source["json"] for source in pack["_meta"]["sources"]}
     monsters = pack["monster"]
     lore = {(entry["name"], entry["source"]): entry for entry in pack["monsterFluff"]}
@@ -145,12 +147,17 @@ def validate(pack):
         text = json.dumps(mon)
         for displayed, formula in re.findall(r"(\d+) \(\{@damage ([^}]+)\}\)", text):
             require(int(displayed) == math.floor(dice_average(formula)), f"Incorrect damage average: {identity} {formula}")
-        allowed_tags = {"atkr", "hit", "h", "damage", "recharge", "actSave", "dc", "actSaveFail", "actSaveSuccess"}
+        allowed_tags = {"atkr", "hit", "h", "damage", "recharge", "actSave", "dc", "actSaveFail", "actSaveSuccess", "condition"}
         require(set(re.findall(r"\{@(\w+)", text)) <= allowed_tags, f"Unknown renderer tag: {identity}")
+        if not check_images:
+            continue
         token = image_path(mon["tokenHref"])
         width, height, alpha = image_info(token)
         require(width == height, f"Token isn't square: {identity}")
-        require(alpha and alpha[0] == 0 and alpha[1] == 255 and alpha[2] == [0, 0, 0, 0], f"Token requires real transparent corners and opaque art: {identity}")
+        # Permit a one-byte alpha residue at an isolated corner, but require
+        # a substantial area of completely transparent pixels, not a painted
+        # background or a token which merely has a few transparent pixels.
+        require(alpha and alpha[0] == 0 and alpha[1] == 255 and max(alpha[2]) <= 1 and alpha[3] >= 0.10, f"Token requires real transparent surroundings and opaque art: {identity}")
         for image in lore[identity]["images"]:
             path = image_path(image["href"])
             width, height, _ = image_info(path)
@@ -177,6 +184,47 @@ def embed_images(pack):
     return portable
 
 
+def write_portable_exports(pack):
+    """Keep each embedded-image pack below 40 MiB for ordinary repository hosting."""
+    limit = 40 * 1024 * 1024
+    base = {key: copy.deepcopy(value) for key, value in pack.items() if key not in ("monster", "monsterFluff")}
+    lore = {(m["name"], m["source"]): m for m in pack["monsterFluff"]}
+    chunks = []
+    current = {**copy.deepcopy(base), "monster": [], "monsterFluff": []}
+    current_size = len(json.dumps(current, indent=2).encode())
+    for mon in pack["monster"]:
+        one = embed_images({**copy.deepcopy(base), "monster": [mon], "monsterFluff": [lore[(mon["name"], mon["source"])]]})
+        estimated = len(json.dumps(one, indent=2, ensure_ascii=False).encode())
+        require(estimated < limit, f"One creature exceeds portable pack size limit: {mon['name']}")
+        if current["monster"] and current_size + estimated > limit:
+            chunks.append(current)
+            current = {**copy.deepcopy(base), "monster": [], "monsterFluff": []}
+            current_size = len(json.dumps(current, indent=2).encode())
+        current["monster"].extend(one["monster"])
+        current["monsterFluff"].extend(one["monsterFluff"])
+        current_size += estimated
+    if current["monster"] or not chunks:
+        chunks.append(current)
+    manifest = []
+    active = set()
+    if len(chunks) == 1:
+        paths = ["homebrew/maliced-lands.portable.json"]
+    else:
+        paths = [f"homebrew/portable/maliced-lands-{i:02}.portable.json" for i in range(1, len(chunks) + 1)]
+        legacy = ROOT / "homebrew/maliced-lands.portable.json"
+        if legacy.is_file():
+            legacy.unlink()
+    for path, chunk in zip(paths, chunks):
+        write_json(path, chunk)
+        active.add((ROOT / path).resolve())
+        manifest.append({"path": path, "bytes": (ROOT / path).stat().st_size, "monsters": [m["name"] for m in chunk["monster"]]})
+    for path in (ROOT / "homebrew/portable").glob("maliced-lands-*.portable.json"):
+        if path.resolve() not in active:
+            path.unlink()
+    write_json("homebrew/portable/index.json", {"source": "ML", "monsterCount": len(pack["monster"]), "packs": manifest})
+    return manifest
+
+
 def readable(text):
     def replace(match):
         tag, value = match.group(1), (match.group(2) or "").strip()
@@ -185,7 +233,7 @@ def readable(text):
             "hit": f"{int(value):+}" if tag == "hit" else "",
             "h": "Hit:",
             "recharge": f"(Recharge {value}–6)",
-            "actSave": {"dex": "Dexterity", "con": "Constitution", "str": "Strength", "wis": "Wisdom"}.get(value, value) + " Saving Throw:",
+            "actSave": {"dex": "Dexterity", "con": "Constitution", "str": "Strength", "wis": "Wisdom", "int": "Intelligence", "cha": "Charisma"}.get(value, value) + " Saving Throw:",
             "dc": f"DC {value}",
             "actSaveFail": "Failure:",
             "actSaveSuccess": "Success:",
@@ -204,11 +252,12 @@ def entries_html(entries):
     return "".join(parts)
 
 
-def preview(pack):
+def preview(pack, portable_exports):
     lore = {(entry["name"], entry["source"]): entry for entry in pack["monsterFluff"]}
     cards = []
     links = []
     title = pack["_meta"]["sources"][0]["full"]
+    records = {(m["name"], "ML"): m for m in read("docs/roster.json")}
     sizes = {"T": "Tiny", "S": "Small", "M": "Medium", "L": "Large", "H": "Huge", "G": "Gargantuan"}
     alignments = {"L": "Lawful", "N": "Neutral", "C": "Chaotic", "G": "Good", "E": "Evil", "U": "Unaligned", "A": "Any alignment"}
     for mon in pack["monster"]:
@@ -234,7 +283,7 @@ def preview(pack):
         for key, label in (("save", "Saving Throws"), ("skill", "Skills")):
             if mon.get(key):
                 other.append(f"<p><b>{label}</b> " + ", ".join(f"{k.upper() if key == 'save' else k.title()} {v}" for k, v in mon[key].items()) + "</p>")
-        for key, label in (("immune", "Damage Immunities"), ("conditionImmune", "Condition Immunities"), ("languages", "Languages")):
+        for key, label in (("resist", "Damage Resistances"), ("vulnerable", "Damage Vulnerabilities"), ("immune", "Damage Immunities"), ("conditionImmune", "Condition Immunities"), ("languages", "Languages")):
             if mon.get(key):
                 other.append(f"<p><b>{label}</b> {html.escape(', '.join(mon[key]))}</p>")
         senses = ", ".join(mon.get("senses", []))
@@ -253,20 +302,24 @@ def preview(pack):
         pb = 2 if cr < 5 else 2 + (math.ceil(cr) - 1) // 4
         xp = XP_BY_CR.get(mon["cr"])
         challenge = f"CR {mon['cr']}" + (f" (XP {xp}; PB +{pb})" if xp else f" (PB +{pb})")
-        cards.append(f'''<article id="{slug}" data-search="{name.lower()} cr {mon['cr']}">
+        design = records.get((mon["name"], mon["source"]), {})
+        family = html.escape(design.get("biome", ""))
+        emotion = html.escape(design.get("emotion", "").replace("+", ", "))
+        cards.append(f'''<article id="{slug}" data-search="{name.lower()} cr {mon['cr']} {family} {emotion} {mon['type']}">
 <div class="art"><a href="{art}"><img class="full-art" src="{art}" alt="Full illustration of {name}" loading="lazy"></a>
 <div class="token-row"><img src="{token}" alt="Circular portrait token of {name}" loading="lazy"><div><a href="{art}" download>Download full artwork</a><a href="{token}" download>Download token</a></div></div>
 <details class="lore" open><summary>Ecology and encounters</summary>{entries_html(fluff['entries'])}</details></div>
-<div class="stat"><p class="eyebrow">{html.escape(title)} · CR {mon['cr']}</p><h1>{name}</h1>
+<div class="stat"><p class="eyebrow">{html.escape(title)} · CR {mon['cr']}</p><h1>{name}</h1><p>{family.title()} · {emotion.title()}</p>
 <p class="type">{sizes[mon['size'][0]]} {mon['type'].title()}, {' '.join(alignments[x] for x in mon['alignment'])}</p>
 <div class="vitals"><span><b>AC</b> {mon['ac'][0]}</span><span><b>HP</b> {mon['hp']['average']} ({mon['hp']['formula']})</span><span><b>Initiative</b> {initiative:+}</span></div>
 <p><b>Speed</b> {', '.join(speeds)}</p><div class="abilities">{ability_html}</div>{''.join(other)}<p><b>Challenge</b> {challenge}</p>{''.join(sections)}</div></article>''')
     count = len(pack["monster"])
     draft = (f"{count} original creature{'s' if count != 1 else ''} for revised fifth edition. CR targets awaiting playtest."
              if count else "No creatures published yet. Theme settled; the coast and sea family is in design.")
+    downloads = " ".join(f'<a href="{html.escape(p["path"])}" download>Download image pack {i}</a>' for i, p in enumerate(portable_exports, 1))
     (ROOT / "index.html").write_text('''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>''' + html.escape(title) + ''' Bestiary</title><link rel="stylesheet" href="css/bestiary.css"><script src="js/bestiary.js" defer></script></head>
-<body><header><p class="eyebrow">Conclave Homebrew · First collection</p><h1>''' + html.escape(title) + '''</h1><p>What enough people fear, the world makes.</p><p class="draft">''' + draft + '''</p><nav>''' + "".join(links) + '''</nav><div class="toolbar"><label for="search">Find a creature</label><input id="search" type="search" placeholder="Name or CR" autocomplete="off"><a href="homebrew/maliced-lands.portable.json" download>Download 5etools pack with images</a></div></header><main>''' + "".join(cards) + '''<p id="no-results" hidden>No matching creatures.</p></main><footer>Artwork and matching transparent tokens generated for this collection. <a href="docs/theme.md">Setting</a> · <a href="docs/design-notes.md">Playtest notes</a></footer></body></html>\n''')
+<body><header><p class="eyebrow">Conclave Homebrew · Bestiary</p><h1>''' + html.escape(title) + '''</h1><p>What enough people feel, the world makes.</p><p class="draft">''' + draft + '''</p><nav>''' + "".join(links) + '''</nav><div class="toolbar"><label for="search">Find a creature</label><input id="search" type="search" placeholder="Name, CR, biome, emotion, or type" autocomplete="off"></div><p>Import every image pack to load the complete collection. ''' + downloads + '''</p></header><main>''' + "".join(cards) + '''<p id="no-results" hidden>No matching creatures.</p></main><footer>Artwork and matching transparent tokens generated for this collection. <a href="docs/theme.md">Setting</a> · <a href="docs/design-notes.md">Design notes</a> · <a href="docs/monster-playtests.md">Individual playtest records</a></footer></body></html>\n''')
 
 
 def main():
@@ -277,8 +330,8 @@ def main():
     pack.update(read("data/spells/spells-ml.json"))
     validate(pack)
     write_json("homebrew/maliced-lands.json", pack)
-    write_json("homebrew/maliced-lands.portable.json", embed_images(pack))
-    preview(pack)
+    portable_exports = write_portable_exports(pack)
+    preview(pack, portable_exports)
     print("Built standard and embedded-image homebrew packs and index.html")
 
 

@@ -10,9 +10,579 @@
     "forest": "wet bark, antler, root, moss over bone, pale fungus, leaf-litter brown, deep shadow green",
     "mines": "coal black, raw iron, tallow yellow, splintered pit-prop timber, crushed bone, lamp-orange",
     "city": "plaster and brick dust, soot, lead grey, stained cloth, wax, flesh behind masks",
-    "haunts": "cemetery: wet clay, lichen, tarnished silver, shroud linen; tavern: spilled ale amber, split wood, bruise purple, blood on sawdust; brothel: rouge, silk, candle wax, pox scars, brass bed rails"
+    "haunts": "cemetery: wet clay, lichen, tarnished silver, shroud linen; tavern: spilled ale amber, split wood, bruise purple, blood on sawdust; brothel: rouge, silk, candle wax, pox scars, brass bed rails",
+    "confluence": "coastal fog and salt, wet roots and pale fungus, lamp-orange furnace iron, city plaster, restrained deep red cracks"
   },
-  "assets": [],
+  "assets": [
+    {
+      "name": "Tidewrack Hand",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Tidewrack Hand.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, a world where shared emotions become territorial living monsters. Subject: Tidewrack Hand; emotional origin: A crew repeatedly imagining the undertow closing around an ankle. Anatomy and setting: A crawling bundle of five swollen grey finger shapes bound to knotted kelp, ending in a salt-white shell cuff; no open wound. It hides just below ankle-deep surf beside a dry stone step. Palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Frightening, predatory, ominous and physically believable within its impossible anatomy. Entire creature and every identifying feature visible with comfortable margins, habitat subordinate, single creature only, no people. Premium painterly dark fantasy book art with textured materials, cinematic directional lighting, strong readable silhouette, controlled shadows so anatomy remains legible. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no existing copyrighted monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Tidewrack Hand",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Tidewrack Hand.webp",
+      "prompt": "Edit the supplied full artwork of Tidewrack Hand into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A crawling bundle of five swollen grey finger shapes bound to knotted kelp, ending in a salt-white shell cuff; no open wound. It hides just below ankle-deep surf beside a dry stone step.. Tight close-up of its face or identifying central organ; for a hand creature show the distinctive whole hand, for a chair show the hollow seat. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Tidewrack Hand.webp"
+    },
+    {
+      "name": "Rootlisten",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Rootlisten.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, a world where shared emotions become territorial living monsters. Subject: Rootlisten; emotional origin: A household certain that something beneath the leaves hears its whispered plans. Anatomy and setting: A squat, headless root animal whose riblike bark cage contains a single sideways ear; thin root toes and clusters of closed seed-eyes along its spine. It listens beneath rain-black forest leaves. Palette: wet bark, antler, root, moss over bone-white wood, pale fungus, leaf-litter brown, deep shadow green. Frightening, predatory, ominous and physically believable within its impossible anatomy. Entire creature and every identifying feature visible with comfortable margins, habitat subordinate, single creature only, no people. Premium painterly dark fantasy book art with textured materials, cinematic directional lighting, strong readable silhouette, controlled shadows so anatomy remains legible. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no existing copyrighted monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Rootlisten",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Rootlisten.webp",
+      "prompt": "Edit the supplied full artwork of Rootlisten into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A squat, headless root animal whose riblike bark cage contains a single sideways ear; thin root toes and clusters of closed seed-eyes along its spine. It listens beneath rain-black forest leaves.. Tight close-up of its face or identifying central organ; for a hand creature show the distinctive whole hand, for a chair show the hollow seat. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: wet bark, antler, root, moss over bone-white wood, pale fungus, leaf-litter brown, deep shadow green. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Rootlisten.webp"
+    },
+    {
+      "name": "Netmouth",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Netmouth.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, a world where shared emotions become territorial living monsters. Subject: Netmouth; emotional origin: Fishers afraid the next haul will bring something aboard that only pretends to be dead. Anatomy and setting: A crab-sized tangle of soaked fishing net folded around a circular fishlike mouth, hooks as jointed feet, black pearls for eyes, silvery scales caught in its mesh. It waits on an abandoned wet boat deck. Palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Frightening, predatory, ominous and physically believable within its impossible anatomy. Entire creature and every identifying feature visible with comfortable margins, habitat subordinate, single creature only, no people. Premium painterly dark fantasy book art with textured materials, cinematic directional lighting, strong readable silhouette, controlled shadows so anatomy remains legible. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no existing copyrighted monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Netmouth",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Netmouth.webp",
+      "prompt": "Edit the supplied full artwork of Netmouth into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A crab-sized tangle of soaked fishing net folded around a circular fishlike mouth, hooks as jointed feet, black pearls for eyes, silvery scales caught in its mesh. It waits on an abandoned wet boat deck.. Tight close-up of its face or identifying central organ; for a hand creature show the distinctive whole hand, for a chair show the hollow seat. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Netmouth.webp"
+    },
+    {
+      "name": "Tallow Knocker",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Tallow Knocker.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Tallow Knocker; origin: Miners listening for the knock that means the ventilation door has sealed. Anatomy and setting: A child-sized but unmistakably nonhuman figure made of stacked mine lamps and solidified yellow tallow, long iron knuckles, wick eyes inside a wooden pit-prop cage. No human child present. It crouches at a mine ventilation door. Palette: coal black, raw iron, tallow yellow, splintered pit-prop timber, lamp-orange, restrained deep red cracks. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Tallow Knocker",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Tallow Knocker.webp",
+      "prompt": "Edit the supplied full artwork of Tallow Knocker into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A child-sized but unmistakably nonhuman figure made of stacked mine lamps and solidified yellow tallow, long iron knuckles, wick eyes inside a wooden pit-prop cage. No human child present. It crouches at a mine ventilation door.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: coal black, raw iron, tallow yellow, splintered pit-prop timber, lamp-orange, restrained deep red cracks. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Tallow Knocker.webp",
+      "refinements": [
+        {
+          "prompt": "Edit this supplied circular monster token. Preserve its exact artwork, monster anatomy, colors, blackened iron ring and brass lip. Remove the solid black background outside the circular metallic ring and any small protruding claws: that entire outside area must be actual zero-alpha transparency, with no black/white fill, no checkerboard, no shadow. Keep all artwork inside the ring fully opaque and preserve the ring itself. Center the intact token on a square canvas with 5 percent transparent margin on every side; no cropped ring. Output one transparent RGBA PNG.",
+          "reference_role": "Earlier token derived from matching full artwork",
+          "transparent_background": true
+        }
+      ]
+    },
+    {
+      "name": "Drowned Caller",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Drowned Caller.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Drowned Caller; origin: A bereaved household fearing a drowned relative will come back and ask to be admitted. Anatomy and setting: A broad swollen adult humanoid silhouette with blue-grey salt-crusted skin, an unnaturally long throat, a face like a half-remembered adult relative, weed and abandoned net draped as a coat. It stands at a tide line without a weapon. Palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Drowned Caller",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Drowned Caller.webp",
+      "prompt": "Edit the supplied full artwork of Drowned Caller into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A broad swollen adult humanoid silhouette with blue-grey salt-crusted skin, an unnaturally long throat, a face like a half-remembered adult relative, weed and abandoned net draped as a coat. It stands at a tide line without a weapon.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Drowned Caller.webp"
+    },
+    {
+      "name": "Shorewaiter",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Shorewaiter.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Shorewaiter; origin: A village unable to stop waiting for a ship whose survivors will never return. Anatomy and setting: A hollow tall driftwood body shaped like a person leaning seaward, arms forming a vast empty embracing circle, salt crust on empty face and no visible flesh inside its torso. Its feet root into pebbles near a wrecked watch shelter. Palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Shorewaiter",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Shorewaiter.webp",
+      "prompt": "Edit the supplied full artwork of Shorewaiter into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A hollow tall driftwood body shaped like a person leaning seaward, arms forming a vast empty embracing circle, salt crust on empty face and no visible flesh inside its torso. Its feet root into pebbles near a wrecked watch shelter.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Shorewaiter.webp"
+    },
+    {
+      "name": "Last Seat",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Last Seat.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Last Seat; origin: A parish mourning the empty places left at its funeral tables. Anatomy and setting: A cemetery chair walking on four shroud-wrapped arm-shaped legs, its empty seat occupied only by a human-shaped hollow in wet clay, a tarnished silver mourning bell beneath the backrest. No seated person. Rainy graveyard. Palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Last Seat",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Last Seat.webp",
+      "prompt": "Edit the supplied full artwork of Last Seat into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A cemetery chair walking on four shroud-wrapped arm-shaped legs, its empty seat occupied only by a human-shaped hollow in wet clay, a tarnished silver mourning bell beneath the backrest. No seated person. Rainy graveyard.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Last Seat.webp"
+    },
+    {
+      "name": "Haar Shepherd",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Haar Shepherd.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Haar Shepherd; origin: Three generations of one harbor fearing the fog that returns boats without crews. Anatomy and setting: A vast bell-shaped fog creature suspended above tide flats, grey foam ribs and trailing net curtains outlining a hollow dark head, three floating drowned-blue eyes and rope limbs herding empty boats. Its outline remains legible against the fog. Palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Haar Shepherd",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Haar Shepherd.webp",
+      "prompt": "Edit the supplied full artwork of Haar Shepherd into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A vast bell-shaped fog creature suspended above tide flats, grey foam ribs and trailing net curtains outlining a hollow dark head, three floating drowned-blue eyes and rope limbs herding empty boats. Its outline remains legible against the fog.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Haar Shepherd.webp"
+    },
+    {
+      "name": "Redmeasure",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Redmeasure.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Redmeasure; origin: The rage of miners whose injuries were entered as fractions on an employer’s tally. Anatomy and setting: A tall mine-born giant with a body of bruised grey hide reinforced by splintered pit props, a measuring chain embedded around its shoulders, an enormous split wooden tally in place of its face, oversized iron hands. A dark red glow escapes cracks without exposed viscera. Palette: coal black, raw iron, tallow yellow, splintered pit-prop timber, lamp-orange, restrained deep red cracks. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Redmeasure",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Redmeasure.webp",
+      "prompt": "Edit the supplied full artwork of Redmeasure into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A tall mine-born giant with a body of bruised grey hide reinforced by splintered pit props, a measuring chain embedded around its shoulders, an enormous split wooden tally in place of its face, oversized iron hands. A dark red glow escapes cracks without exposed viscera.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: coal black, raw iron, tallow yellow, splintered pit-prop timber, lamp-orange, restrained deep red cracks. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Redmeasure.webp"
+    },
+    {
+      "name": "Window Envier",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Window Envier.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Window Envier; origin: A city quarter resenting the warm, prosperous rooms visible across a narrow square. Anatomy and setting: A low four-legged mass of lead-grey translucent plaster slime, many small intact windowpanes floating within it, each reflecting a richer room, a single amber eye behind a warped bay window face. It flows over a soot-black city square. Palette: plaster and brick dust, soot, lead grey, stained cloth, wax, faces behind masks. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Window Envier",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Window Envier.webp",
+      "prompt": "Edit the supplied full artwork of Window Envier into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A low four-legged mass of lead-grey translucent plaster slime, many small intact windowpanes floating within it, each reflecting a richer room, a single amber eye behind a warped bay window face. It flows over a soot-black city square.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: plaster and brick dust, soot, lead grey, stained cloth, wax, faces behind masks. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Window Envier.webp"
+    },
+    {
+      "name": "Merry Unending",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Merry Unending.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Merry Unending; origin: A tavern district insisting that its best night must never be allowed to end. Anatomy and setting: A dreadful antlerless carnival animal with six jointed dancer legs, bruise-purple hide, a stretched fixed porcelain grin and ale-amber eyes, split tavern stools growing from its spine. An unmistakably nonhuman beast on sawdust; no festive human crowd. Palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Merry Unending",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Merry Unending.webp",
+      "prompt": "Edit the supplied full artwork of Merry Unending into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A dreadful antlerless carnival animal with six jointed dancer legs, bruise-purple hide, a stretched fixed porcelain grin and ale-amber eyes, split tavern stools growing from its spine. An unmistakably nonhuman beast on sawdust; no festive human crowd.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Merry Unending.webp"
+    },
+    {
+      "name": "Bellwound",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Bellwound.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Bellwound; origin: A wooded province grieving people buried beyond the reach of its mourning bells. Anatomy and setting: An enormous grieving forest plant with a bowed bell-shaped bark torso, hollow hanging root hands, pale closed fungus flowers shaped like eyelids, a mossy bone-white wooden heart behind a closed lattice. An abandoned woodland burial grove. Palette: wet bark, antler, root, moss over bone-white wood, pale fungus, leaf-litter brown, deep shadow green. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Bellwound",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Bellwound.webp",
+      "prompt": "Edit the supplied full artwork of Bellwound into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: An enormous grieving forest plant with a bowed bell-shaped bark torso, hollow hanging root hands, pale closed fungus flowers shaped like eyelids, a mossy bone-white wooden heart behind a closed lattice. An abandoned woodland burial grove.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: wet bark, antler, root, moss over bone-white wood, pale fungus, leaf-litter brown, deep shadow green. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Bellwound.webp"
+    },
+    {
+      "name": "Seam Duchess",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Seam Duchess.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Seam Duchess; origin: Mining villages envying the vein reserved for the owner’s favored crews. Anatomy and setting: A regal upright vein of living ore, raw iron plates moving around a coal-black core, lamp-orange gemstones as jealous eyes, many slender metal fingers weighing a little empty pan. A gown-shaped base made of jagged mineral folds in a mine seam. Palette: coal black, raw iron, tallow yellow, splintered pit-prop timber, lamp-orange, restrained deep red cracks. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Seam Duchess",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Seam Duchess.webp",
+      "prompt": "Edit the supplied full artwork of Seam Duchess into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A regal upright vein of living ore, raw iron plates moving around a coal-black core, lamp-orange gemstones as jealous eyes, many slender metal fingers weighing a little empty pan. A gown-shaped base made of jagged mineral folds in a mine seam.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: coal black, raw iron, tallow yellow, splintered pit-prop timber, lamp-orange, restrained deep red cracks. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Seam Duchess.webp"
+    },
+    {
+      "name": "Velvet Debt",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Velvet Debt.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Velvet Debt; origin: The possessive desire of patrons who believe payment entitles them to another adult’s attention forever. Anatomy and setting: An adult-sized fully clothed fiend with an elongated faceless wax mask, a high-collared burgundy silk robe, brass bed-rail fingers, long sealed ledger ribbons and a candle flame reflected in each knuckle. Nonsexual, no nudity, sinister debt collector in an empty candlelit room. Palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Velvet Debt",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Velvet Debt.webp",
+      "prompt": "Edit the supplied full artwork of Velvet Debt into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: An adult-sized fully clothed fiend with an elongated faceless wax mask, a high-collared burgundy silk robe, brass bed-rail fingers, long sealed ledger ribbons and a candle flame reflected in each knuckle. Nonsexual, no nudity, sinister debt collector in an empty candlelit room.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Velvet Debt.webp"
+    },
+    {
+      "name": "Parish Inquisitor",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Parish Inquisitor.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Parish Inquisitor; origin: A city convinced its civic virtue entitles it to judge every neighboring settlement. Anatomy and setting: An uncanny adult humanoid with layered plaster masks instead of a face, a black civic robe buttoned with wax seals, lead-grey elongated hands carrying an empty measuring frame, and a crown of soot-coated municipal keys. No real-world religious symbols. Walled city courtyard. Palette: plaster and brick dust, soot, lead grey, stained cloth, wax, faces behind masks. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Parish Inquisitor",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Parish Inquisitor.webp",
+      "prompt": "Edit the supplied full artwork of Parish Inquisitor into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: An uncanny adult humanoid with layered plaster masks instead of a face, a black civic robe buttoned with wax seals, lead-grey elongated hands carrying an empty measuring frame, and a crown of soot-coated municipal keys. No real-world religious symbols. Walled city courtyard.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: plaster and brick dust, soot, lead grey, stained cloth, wax, faces behind masks. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Parish Inquisitor.webp"
+    },
+    {
+      "name": "Pathless Mother",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Pathless Mother.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Pathless Mother; origin: A province longing for the road that once brought its missing travelers home. Anatomy and setting: A huge nonhuman four-legged woodland guardian with a hollow arched bark body, many reaching root arms, a face made of two empty trail tunnels, a crown of moss-laden crooked branches. No mother or children represented. It straddles two paths that circle into each other. Palette: wet bark, antler, root, moss over bone-white wood, pale fungus, leaf-litter brown, deep shadow green. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Pathless Mother",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Pathless Mother.webp",
+      "prompt": "Edit the supplied full artwork of Pathless Mother into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A huge nonhuman four-legged woodland guardian with a hollow arched bark body, many reaching root arms, a face made of two empty trail tunnels, a crown of moss-laden crooked branches. No mother or children represented. It straddles two paths that circle into each other.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: wet bark, antler, root, moss over bone-white wood, pale fungus, leaf-litter brown, deep shadow green. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Pathless Mother.webp"
+    },
+    {
+      "name": "Undertoll",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Undertoll.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Undertoll; origin: A whole coast grieving the bodies the tide has withheld. Anatomy and setting: A gigantic tide bell walking on many pale shroud-bound hands, its shell body encrusted with barnacles and blue-grey funeral masks, its central mouth ringing without a tongue. Shore cemetery washed by grey foam, full body visible. Palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Undertoll",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Undertoll.webp",
+      "prompt": "Edit the supplied full artwork of Undertoll into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gigantic tide bell walking on many pale shroud-bound hands, its shell body encrusted with barnacles and blue-grey funeral masks, its central mouth ringing without a tongue. Shore cemetery washed by grey foam, full body visible.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Undertoll.webp"
+    },
+    {
+      "name": "Hushweight",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Hushweight.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Hushweight; origin: A capital terrified that anyone might hear what its sealed records contain. Anatomy and setting: A massive civic construct of lead filing drawers and soot-stained plaster, folded black cloth wings shaped like shutters, one sealed wax face, very long iron stamp arms. Heavy silhouette leaning over an empty city street; no affiliation insignia. Palette: plaster and brick dust, soot, lead grey, stained cloth, wax, faces behind masks. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Hushweight",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Hushweight.webp",
+      "prompt": "Edit the supplied full artwork of Hushweight into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A massive civic construct of lead filing drawers and soot-stained plaster, folded black cloth wings shaped like shutters, one sealed wax face, very long iron stamp arms. Heavy silhouette leaning over an empty city street; no affiliation insignia.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: plaster and brick dust, soot, lead grey, stained cloth, wax, faces behind masks. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Hushweight.webp"
+    },
+    {
+      "name": "Pit Reprisal",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Pit Reprisal.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Pit Reprisal; origin: A province’s rage at employers who sent the next shift into a known collapsing mine. Anatomy and setting: A huge broad-backed mine giant of charcoal stone and scarred iron with a furnace-bright chest behind closed rib-shaped grilles, foreman coats fused into its back, a face of crossed broken pick handles. Huge blunt fists and tallow-yellow eyes. Palette: coal black, raw iron, tallow yellow, splintered pit-prop timber, lamp-orange, restrained deep red cracks. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Pit Reprisal",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Pit Reprisal.webp",
+      "prompt": "Edit the supplied full artwork of Pit Reprisal into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A huge broad-backed mine giant of charcoal stone and scarred iron with a furnace-bright chest behind closed rib-shaped grilles, foreman coats fused into its back, a face of crossed broken pick handles. Huge blunt fists and tallow-yellow eyes.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: coal black, raw iron, tallow yellow, splintered pit-prop timber, lamp-orange, restrained deep red cracks. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Pit Reprisal.webp"
+    },
+    {
+      "name": "Last Dance",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Last Dance.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Last Dance; origin: A generation’s desperate joy at the victory night before the next war. Anatomy and setting: A huge upright fiend made of intertwined empty tavern coats and split floorboards, many elegant but impossible jointed legs, a fixed bruise-purple mask and ale-amber bell eyes, long hands setting the rhythm. Empty ruined tavern, no human dancers. Palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Last Dance",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Last Dance.webp",
+      "prompt": "Edit the supplied full artwork of Last Dance into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A huge upright fiend made of intertwined empty tavern coats and split floorboards, many elegant but impossible jointed legs, a fixed bruise-purple mask and ale-amber bell eyes, long hands setting the rhythm. Empty ruined tavern, no human dancers.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Last Dance.webp"
+    },
+    {
+      "name": "Returned Room",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Returned Room.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Returned Room; origin: A nation grieving the homes to which its dead will never return. Anatomy and setting: A huge walking cemetery-room organism, wet clay walls sagging like skin, shroud curtains forming four thick legs, a single doorway mouth and intact tarnished mirrors showing empty chairs. Lichen and bone-white lintels, unsettling architecture with a legible central face. Palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Returned Room",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Returned Room.webp",
+      "prompt": "Edit the supplied full artwork of Returned Room into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A huge walking cemetery-room organism, wet clay walls sagging like skin, shroud curtains forming four thick legs, a single doorway mouth and intact tarnished mirrors showing empty chairs. Lichen and bone-white lintels, unsettling architecture with a legible central face.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Returned Room.webp"
+    },
+    {
+      "name": "Country Behind Trees",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Country Behind Trees.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Country Behind Trees; origin: A generation fearing the country that begins when every familiar forest path turns wrong. Anatomy and setting: A gargantuan wingless forest dragon with a long low serpentine body built from intertwined wet bark and root, a crest of closed pale fungal eyes, rows of antler-shaped teeth, many tiny leglike branches. Never a conventional scaled dragon. It curves through a forest of wrong-way trees. Palette: wet bark, antler, root, moss over bone-white wood, pale fungus, leaf-litter brown, deep shadow green. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Country Behind Trees",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Country Behind Trees.webp",
+      "prompt": "Edit the supplied full artwork of Country Behind Trees into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gargantuan wingless forest dragon with a long low serpentine body built from intertwined wet bark and root, a crest of closed pale fungal eyes, rows of antler-shaped teeth, many tiny leglike branches. Never a conventional scaled dragon. It curves through a forest of wrong-way trees.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: wet bark, antler, root, moss over bone-white wood, pale fungus, leaf-litter brown, deep shadow green. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Country Behind Trees.webp"
+    },
+    {
+      "name": "Nation Below",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Nation Below.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Nation Below; origin: A nation imagining itself buried alive beneath the wealth it extracted. Anatomy and setting: A gargantuan underground aberration, a broad inverted lantern-shell head above a towering body of coal-black stacked hollow faces and pit timber, many enormous reaching iron-like arms, tallow light in its eye sockets. It towers in a vast empty cavern. Palette: coal black, raw iron, tallow yellow, splintered pit-prop timber, lamp-orange, restrained deep red cracks. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Nation Below",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Nation Below.webp",
+      "prompt": "Edit the supplied full artwork of Nation Below into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gargantuan underground aberration, a broad inverted lantern-shell head above a towering body of coal-black stacked hollow faces and pit timber, many enormous reaching iron-like arms, tallow light in its eye sockets. It towers in a vast empty cavern.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: coal black, raw iron, tallow yellow, splintered pit-prop timber, lamp-orange, restrained deep red cracks. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Nation Below.webp"
+    },
+    {
+      "name": "Admiralty of Absence",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Admiralty of Absence.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Admiralty of Absence; origin: An age of coastal communities longing for fleets whose absence has become their national identity. Anatomy and setting: A gargantuan levitating celestial made of a hollow driftwood ship hull bent upright into a body, ropes as reaching arms, empty salt-white face like a distant lighthouse aperture, grey sail folds as wings without feathers. It waits over black water, entire body and wings contained in frame. Palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Admiralty of Absence",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Admiralty of Absence.webp",
+      "prompt": "Edit the supplied full artwork of Admiralty of Absence into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gargantuan levitating celestial made of a hollow driftwood ship hull bent upright into a body, ropes as reaching arms, empty salt-white face like a distant lighthouse aperture, grey sail folds as wings without feathers. It waits over black water, entire body and wings contained in frame.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Admiralty of Absence.webp"
+    },
+    {
+      "name": "Lord of Other Windows",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Lord of Other Windows.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Lord of Other Windows; origin: A nation’s envy of a capital that appears to possess every comfortable life. Anatomy and setting: A gargantuan fiend assembled from mismatched walled-city facades, stained silk hands, lead-framed window eyes, a many-storeyed elongated face with one wealthy golden room at its center. Jagged brick legs and a narrow soot cloak; no generic horned devil. Palette: plaster and brick dust, soot, lead grey, stained cloth, wax, faces behind masks. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Lord of Other Windows",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Lord of Other Windows.webp",
+      "prompt": "Edit the supplied full artwork of Lord of Other Windows into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gargantuan fiend assembled from mismatched walled-city facades, stained silk hands, lead-framed window eyes, a many-storeyed elongated face with one wealthy golden room at its center. Jagged brick legs and a narrow soot cloak; no generic horned devil.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: plaster and brick dust, soot, lead grey, stained cloth, wax, faces behind masks. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Lord of Other Windows.webp"
+    },
+    {
+      "name": "Unconfessed",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Unconfessed.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Unconfessed; origin: A generation’s shared shame at the debts and abuses it concealed behind respectable doors. Anatomy and setting: A gargantuan fully draped creature of folded mourning silk and sealed wax, many adult-shaped empty masks hanging inside its vast hood, brass rails forming a cage around its faceless torso, long fingers attempting to cover its own mask. No nudity, no sexual imagery. A deserted courtyard behind shuttered windows. Palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Unconfessed",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Unconfessed.webp",
+      "prompt": "Edit the supplied full artwork of Unconfessed into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gargantuan fully draped creature of folded mourning silk and sealed wax, many adult-shaped empty masks hanging inside its vast hood, brass rails forming a cage around its faceless torso, long fingers attempting to cover its own mask. No nudity, no sexual imagery. A deserted courtyard behind shuttered windows.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Unconfessed.webp"
+    },
+    {
+      "name": "Crown Without Subjects",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Crown Without Subjects.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Crown Without Subjects; origin: An empire’s pride in the claim that all living people owe it obedience. Anatomy and setting: A gargantuan walking crown construct, black iron and cracked civic plaster arches forming a circular torso, wax seal eyes around an empty throne core, enormous lead hands reaching down from a towering white mask. Imposing imperial geometry; no real-world political symbols. Palette: plaster and brick dust, soot, lead grey, stained cloth, wax, faces behind masks. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Crown Without Subjects",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Crown Without Subjects.webp",
+      "prompt": "Edit the supplied full artwork of Crown Without Subjects into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gargantuan walking crown construct, black iron and cracked civic plaster arches forming a circular torso, wax seal eyes around an empty throne core, enormous lead hands reaching down from a towering white mask. Imposing imperial geometry; no real-world political symbols.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: plaster and brick dust, soot, lead grey, stained cloth, wax, faces behind masks. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Crown Without Subjects.webp"
+    },
+    {
+      "name": "Wreck-Parish Confluence",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Wreck-Parish Confluence.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Wreck-Parish Confluence; origin: Fear of the deep fused with grief for an age of unrecovered drowned people. Anatomy and setting: A gargantuan visibly composite sea monster: a blue-grey net-hung bell body, salt-white mourning masks grafted around its central eye, separate shroud-clay hands reaching from its sides, wreck timbers as legs. Two clearly distinct organs: a fog bell and a silver funeral wheel. Black coastal water. Palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Wreck-Parish Confluence",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Wreck-Parish Confluence.webp",
+      "prompt": "Edit the supplied full artwork of Wreck-Parish Confluence into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gargantuan visibly composite sea monster: a blue-grey net-hung bell body, salt-white mourning masks grafted around its central eye, separate shroud-clay hands reaching from its sides, wreck timbers as legs. Two clearly distinct organs: a fog bell and a silver funeral wheel. Black coastal water.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: green-black water, grey foam, salt-white crust, drowned blue-grey surfaces, waterlogged wood, rope and net, barnacle. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Wreck-Parish Confluence.webp"
+    },
+    {
+      "name": "Root-and-Rail Concord",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Root-and-Rail Concord.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Root-and-Rail Concord; origin: Fear of getting lost fused with longing for the roads that once led home. Anatomy and setting: A gargantuan composite forest creature with an antler-toothed bark maw, a separate hollow driftwood embracing chest, railroad-like root tracks wrapping its many legs, pale fungal listening ears. Two distinct faces express vigilance and absence. An abandoned woodland road. Palette: wet bark, antler, root, moss over bone-white wood, pale fungus, leaf-litter brown, deep shadow green. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Root-and-Rail Concord",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Root-and-Rail Concord.webp",
+      "prompt": "Edit the supplied full artwork of Root-and-Rail Concord into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gargantuan composite forest creature with an antler-toothed bark maw, a separate hollow driftwood embracing chest, railroad-like root tracks wrapping its many legs, pale fungal listening ears. Two distinct faces express vigilance and absence. An abandoned woodland road.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: wet bark, antler, root, moss over bone-white wood, pale fungus, leaf-litter brown, deep shadow green. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Root-and-Rail Concord.webp"
+    },
+    {
+      "name": "Furnace of the Unpaid",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Furnace of the Unpaid.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Furnace of the Unpaid; origin: An age of laboring rage fused with envy of the owners’ untouched wealth. Anatomy and setting: A gargantuan fused mining monster with a massive iron-worker body around a closed furnace grille, a separate raw-ore regal mask at one shoulder, tally teeth, many metal counting fingers and chains around pit-prop limbs. Rage is red heat and envy is cold polished metal, both visible. Palette: coal black, raw iron, tallow yellow, splintered pit-prop timber, lamp-orange, restrained deep red cracks. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Furnace of the Unpaid",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Furnace of the Unpaid.webp",
+      "prompt": "Edit the supplied full artwork of Furnace of the Unpaid into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gargantuan fused mining monster with a massive iron-worker body around a closed furnace grille, a separate raw-ore regal mask at one shoulder, tally teeth, many metal counting fingers and chains around pit-prop limbs. Rage is red heat and envy is cold polished metal, both visible.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: coal black, raw iron, tallow yellow, splintered pit-prop timber, lamp-orange, restrained deep red cracks. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Furnace of the Unpaid.webp"
+    },
+    {
+      "name": "City That Watches",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/City That Watches.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject City That Watches; origin: Fear of public judgment fused with pride in a nation’s supposed innocence. Anatomy and setting: A gargantuan fused civic celestial with soot-black shutter wings, a plaster magistrate mask above a ring of accusing window eyes, an empty throne chest held by iron stamp arms, wax halos like official seals. Two separate faces for fear and pride, immense empty city square. Palette: plaster and brick dust, soot, lead grey, stained cloth, wax, faces behind masks. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "City That Watches",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/City That Watches.webp",
+      "prompt": "Edit the supplied full artwork of City That Watches into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gargantuan fused civic celestial with soot-black shutter wings, a plaster magistrate mask above a ring of accusing window eyes, an empty throne chest held by iron stamp arms, wax halos like official seals. Two separate faces for fear and pride, immense empty city square.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: plaster and brick dust, soot, lead grey, stained cloth, wax, faces behind masks. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/City That Watches.webp"
+    },
+    {
+      "name": "House of All Last Nights",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/House of All Last Nights.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject House of All Last Nights; origin: Possessive desire, shame at what was concealed, and the joy that refused to end, fused across generations of urban haunts. Anatomy and setting: A gargantuan visibly composite haunted house creature: shroud-linen cemetery walls, a tavern grin of split dark floorboards, and a fully closed burgundy silk-and-brass ledger face. Three distinct faces and uneven walking foundation legs, sinister and nonsexual. No human bodies. Palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "House of All Last Nights",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/House of All Last Nights.webp",
+      "prompt": "Edit the supplied full artwork of House of All Last Nights into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gargantuan visibly composite haunted house creature: shroud-linen cemetery walls, a tavern grin of split dark floorboards, and a fully closed burgundy silk-and-brass ledger face. Three distinct faces and uneven walking foundation legs, sinister and nonsexual. No human bodies.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: cemetery wet clay, lichen, tarnished silver and shroud linen; tavern spilled ale amber, split wood and bruise purple; fully clothed silk figures with rouge, candle wax and brass rails. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/House of All Last Nights.webp"
+    },
+    {
+      "name": "Country of Teeth",
+      "kind": "full-art",
+      "path": "img/bestiary/ML/Country of Teeth.webp",
+      "prompt": "Create ONE finished full-body original nightmare monster illustration for Maliced Lands, where shared emotions become territorial living monsters. Subject Country of Teeth; origin: Fear, grief, rage, envy, and longing accumulated across the same country until their territorial monsters joined into one body. Anatomy and setting: A gargantuan landscape-scale composite nightmare, a low coastline-shaped body walking on enormous root and mine-prop legs, five distinctly readable heads: fog bell, mourning mask, furnace grille, jealous window, and hollow driftwood arch. Lead city walls and grey nets join the parts. Central head dominant, entire creature fits with generous margins. No generic hydra, no normal dragon. Palette: distinct material zones combining green-black sea, forest roots, coal iron, civic plaster, mourning linen. Frightening predatory menace, physically believable impossible anatomy, entire creature visible with comfortable margins, single creature, no people. Premium painterly dark fantasy book art, richly textured materials, cinematic directional lighting, strong readable silhouette, habitat subordinate and controlled shadows. Disturbing non-graphic horror; no explicit viscera, no bloody dismemberment, no sexual imagery. No conventional fantasy armor, no copied monster designs, no text, no labels, no frame, no watermark.",
+      "transparent_background": false,
+      "reference_role": "none"
+    },
+    {
+      "name": "Country of Teeth",
+      "kind": "token",
+      "path": "img/bestiary/tokens/ML/Country of Teeth.webp",
+      "prompt": "Edit the supplied full artwork of Country of Teeth into ONE matching virtual tabletop portrait token. Preserve this exact original monster's anatomy, materials, colors, and identifying feature. Identity: A gargantuan landscape-scale composite nightmare, a low coastline-shaped body walking on enormous root and mine-prop legs, five distinctly readable heads: fog bell, mourning mask, furnace grille, jealous window, and hollow driftwood arch. Lead city walls and grey nets join the parts. Central head dominant, entire creature fits with generous margins. No generic hydra, no normal dragon.. Tight close-up of its face or identifying central organ. Use a centered perfectly circular raised rim of blackened, pitted iron with a thin old-brass inner lip, small rust blooms and no lettering. The entire ring and identifying anatomy fit inside a SQUARE canvas with at least 5 percent transparent margin on every side. The portrait background INSIDE the ring follows this palette: distinct material zones combining green-black sea, forest roots, coal iron, civic plaster, mourning linen. Real completely transparent alpha outside the circle; no square backdrop, no external shadows, no checkerboard drawn into the image. Dark painted fantasy portrait, readable at small sizes, no people, no text, no watermark, one token only.",
+      "transparent_background": true,
+      "reference_role": "Matching full artwork; shared iron token ring specification",
+      "derived_from": "img/bestiary/ML/Country of Teeth.webp"
+    }
+  ],
   "asset_encoding": {
     "format": "webp",
     "lossless": true,

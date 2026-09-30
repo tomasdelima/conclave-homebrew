@@ -1,0 +1,69 @@
+{
+  "source": "ML",
+  "monsterCount": 33,
+  "packs": [
+    {
+      "path": "homebrew/portable/maliced-lands-01.portable.json",
+      "bytes": 38835011,
+      "monsters": [
+        "Tidewrack Hand",
+        "Rootlisten",
+        "Netmouth",
+        "Tallow Knocker",
+        "Drowned Caller",
+        "Shorewaiter",
+        "Last Seat"
+      ]
+    },
+    {
+      "path": "homebrew/portable/maliced-lands-02.portable.json",
+      "bytes": 39269425,
+      "monsters": [
+        "Haar Shepherd",
+        "Redmeasure",
+        "Window Envier",
+        "Merry Unending",
+        "Bellwound",
+        "Seam Duchess",
+        "Velvet Debt"
+      ]
+    },
+    {
+      "path": "homebrew/portable/maliced-lands-03.portable.json",
+      "bytes": 39726293,
+      "monsters": [
+        "Parish Inquisitor",
+        "Pathless Mother",
+        "Undertoll",
+        "Hushweight",
+        "Pit Reprisal",
+        "Last Dance",
+        "Returned Room"
+      ]
+    },
+    {
+      "path": "homebrew/portable/maliced-lands-04.portable.json",
+      "bytes": 40177744,
+      "monsters": [
+        "Country Behind Trees",
+        "Nation Below",
+        "Admiralty of Absence",
+        "Lord of Other Windows",
+        "Unconfessed",
+        "Crown Without Subjects",
+        "Wreck-Parish Confluence"
+      ]
+    },
+    {
+      "path": "homebrew/portable/maliced-lands-05.portable.json",
+      "bytes": 29509667,
+      "monsters": [
+        "Root-and-Rail Concord",
+        "Furnace of the Unpaid",
+        "City That Watches",
+        "House of All Last Nights",
+        "Country of Teeth"
+      ]
+    }
+  ]
+}

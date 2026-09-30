@@ -1,3 +1,1753 @@
 {
-  "monsterFluff": []
+  "monsterFluff": [
+    {
+      "name": "Tidewrack Hand",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A crew repeatedly imagining the undertow closing around an ankle. Its power was fed by a household or crew. A crawling bundle of five swollen grey finger shapes bound to knotted kelp, ending in a salt-white shell cuff; no open wound. It hides just below ankle-deep surf beside a dry stone step.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "It can impose Frightened or deal feeding damage only while both it and its target are in water no deeper than 2 feet. Dry ground or deeper water prevents both abilities."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Tidewrack Hand.webp"
+          },
+          "title": "Tidewrack Hand"
+        }
+      ]
+    },
+    {
+      "name": "Rootlisten",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A household certain that something beneath the leaves hears its whispered plans. Its power was fed by a household or crew. A squat, headless root animal whose riblike bark cage contains a single sideways ear; thin root toes and clusters of closed seed-eyes along its spine. It listens beneath rain-black forest leaves.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Trail marks loop back on themselves; a Hush decree forbids singing the lost-road ballad."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its hunger and feeding require the target to speak or cast a spell with a Verbal component since the end of its previous turn. Silence and quiet movement prevent them."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Rootlisten.webp"
+          },
+          "title": "Rootlisten"
+        }
+      ]
+    },
+    {
+      "name": "Netmouth",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "Fishers afraid the next haul will bring something aboard that only pretends to be dead. Its power was fed by a household or crew. A crab-sized tangle of soaked fishing net folded around a circular fishlike mouth, hooks as jointed feet, black pearls for eyes, silvery scales caught in its mesh. It waits on an abandoned wet boat deck.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its feeding resistance ends until the start of its next turn when it takes Fire or Slashing damage. Its fear requires physical contact with its net."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Netmouth.webp"
+          },
+          "title": "Netmouth"
+        }
+      ]
+    },
+    {
+      "name": "Tallow Knocker",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "Miners listening for the knock that means the ventilation door has sealed. Its power was fed by a household or crew. A child-sized but unmistakably nonhuman figure made of stacked mine lamps and solidified yellow tallow, long iron knuckles, wick eyes inside a wooden pit-prop cage. No human child present. It crouches at a mine ventilation door.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "A creature carrying an uncovered light source that sheds Bright Light cannot be frightened by its hunger and is not a feeding target."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Tallow Knocker.webp"
+          },
+          "title": "Tallow Knocker"
+        }
+      ]
+    },
+    {
+      "name": "Drowned Caller",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A bereaved household fearing a drowned relative will come back and ask to be admitted. Its power was fed by a household or crew. A broad swollen adult humanoid silhouette with blue-grey salt-crusted skin, an unnaturally long throat, a face like a half-remembered adult relative, weed and abandoned net draped as a coat. It stands at a tide line without a weapon.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its hunger and feeding affect only a creature that willingly answered an audible question spoken by the caller since its last Long Rest. Involuntary speech and compelled responses do not count. Refuse to answer."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Drowned Caller.webp"
+          },
+          "title": "Drowned Caller"
+        }
+      ]
+    },
+    {
+      "name": "Shorewaiter",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A village unable to stop waiting for a ship whose survivors will never return. Its power was fed by a village or parish. A hollow tall driftwood body shaped like a person leaning seaward, arms forming a vast empty embracing circle, salt crust on empty face and no visible flesh inside its torso. Its feet root into pebbles near a wrecked watch shelter.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Keep within 30 feet of a conscious ally. Its feeding cannot cross Total Cover; the empty embracing circle always turns toward isolated prey."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Shorewaiter.webp"
+          },
+          "title": "Shorewaiter"
+        }
+      ]
+    },
+    {
+      "name": "Last Seat",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A parish mourning the empty places left at its funeral tables. Its power was fed by a village or parish. A cemetery chair walking on four shroud-wrapped arm-shaped legs, its empty seat occupied only by a human-shaped hollow in wet clay, a tarnished silver mourning bell beneath the backrest. No seated person. Rainy graveyard.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Cover its chair with an opaque cloth using an action within 5 feet. Until the cloth is removed or destroyed (AC 10, HP 5), it cannot use its hunger or feeding. It can remove the cloth with an action."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Last Seat.webp"
+          },
+          "title": "Last Seat"
+        }
+      ]
+    },
+    {
+      "name": "Haar Shepherd",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "Three generations of one harbor fearing the fog that returns boats without crews. Its power was fed by a village or parish. A vast bell-shaped fog creature suspended above tide flats, grey foam ribs and trailing net curtains outlining a hollow dark head, three floating drowned-blue eyes and rope limbs herding empty boats. Its outline remains legible against the fog.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its hunger and feeding require the target to be in Lightly or Heavily Obscured fog. A 10-foot-radius area of Bright Light suppresses its own fog there; an audible struck bell suppresses its fog within 30 feet of the bell until the end of the striker’s next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Haar Shepherd.webp"
+          },
+          "title": "Haar Shepherd"
+        }
+      ]
+    },
+    {
+      "name": "Redmeasure",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "The rage of miners whose injuries were entered as fractions on an employer’s tally. Its power was fed by a village or parish. A tall mine-born giant with a body of bruised grey hide reinforced by splintered pit props, a measuring chain embedded around its shoulders, an enormous split wooden tally in place of its face, oversized iron hands. A dark red glow escapes cracks without exposed viscera.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its feeding records damage from individual creatures, not conditions or failed attacks. Stop attacking for one round or commit enough force to defeat it before its retaliatory turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Redmeasure.webp"
+          },
+          "title": "Redmeasure"
+        }
+      ]
+    },
+    {
+      "name": "Window Envier",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A city quarter resenting the warm, prosperous rooms visible across a narrow square. Its power was fed by a village or parish. A low four-legged mass of lead-grey translucent plaster slime, many small intact windowpanes floating within it, each reflecting a richer room, a single amber eye behind a warped bay window face. It flows over a soot-black city square.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Close or cover its central window with an action within 5 feet, or deal 15 Bludgeoning damage to it in one turn. Its feeding stops until the end of its next turn. Its hunger never requires revealing a player’s private inventory."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Window Envier.webp"
+          },
+          "title": "Window Envier"
+        }
+      ]
+    },
+    {
+      "name": "Merry Unending",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A tavern district insisting that its best night must never be allowed to end. Its power was fed by a village or parish. A dreadful antlerless carnival animal with six jointed dancer legs, bruise-purple hide, a stretched fixed porcelain grin and ale-amber eyes, split tavern stools growing from its spine. An unmistakably nonhuman beast on sawdust; no festive human crowd.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "A creature can stand from Prone normally. Its hunger requires hearing its rhythm; covering both ears with an action prevents hearing that rhythm until the creature frees either hand."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Merry Unending.webp"
+          },
+          "title": "Merry Unending"
+        }
+      ]
+    },
+    {
+      "name": "Bellwound",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A wooded province grieving people buried beyond the reach of its mourning bells. Its power was fed by a province. An enormous grieving forest plant with a bowed bell-shaped bark torso, hollow hanging root hands, pale closed fungus flowers shaped like eyelids, a mossy bone-white wooden heart behind a closed lattice. An abandoned woodland burial grove.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Trail marks loop back on themselves; a Hush decree forbids singing the lost-road ballad."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "An ally can use an action within 5 feet to wipe a target’s eyes or ring a bell, ending the Blinded or Deafened condition respectively caused by Bellwound. Healing above half HP also switches off its wound feeding."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Bellwound.webp"
+          },
+          "title": "Bellwound"
+        }
+      ]
+    },
+    {
+      "name": "Seam Duchess",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "Mining villages envying the vein reserved for the owner’s favored crews. Its power was fed by a province. A regal upright vein of living ore, raw iron plates moving around a coal-black core, lamp-orange gemstones as jealous eyes, many slender metal fingers weighing a little empty pan. A gown-shaped base made of jagged mineral folds in a mine seam.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its envy selects the other creature with the highest current HP within 60 feet that it can see; ties select none. Equalizing current HP or breaking sight prevents feeding on that creature."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Seam Duchess.webp"
+          },
+          "title": "Seam Duchess"
+        }
+      ]
+    },
+    {
+      "name": "Velvet Debt",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "The possessive desire of patrons who believe payment entitles them to another adult’s attention forever. Its power was fed by a province. An adult-sized fully clothed fiend with an elongated faceless wax mask, a high-collared burgundy silk robe, brass bed-rail fingers, long sealed ledger ribbons and a candle flame reflected in each knuckle. Nonsexual, no nudity, sinister debt collector in an empty candlelit room.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "An ally can use an action within 5 feet to visibly tear one of its ledger ribbons, ending one Charmed condition it caused. The fiend cannot charm through Total Cover or target a Deafened creature with its invitation."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Velvet Debt.webp"
+          },
+          "title": "Velvet Debt"
+        }
+      ]
+    },
+    {
+      "name": "Parish Inquisitor",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A city convinced its civic virtue entitles it to judge every neighboring settlement. Its power was fed by a province. An uncanny adult humanoid with layered plaster masks instead of a face, a black civic robe buttoned with wax seals, lead-grey elongated hands carrying an empty measuring frame, and a crown of soot-coated municipal keys. No real-world religious symbols. Walled city courtyard.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "A creature that willingly has the Prone condition cannot trigger its pride feeding. The inquisitor’s hunger can still push that creature, but cannot renew the pride mark."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Parish Inquisitor.webp"
+          },
+          "title": "Parish Inquisitor"
+        }
+      ]
+    },
+    {
+      "name": "Pathless Mother",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A province longing for the road that once brought its missing travelers home. Its power was fed by a province. A huge nonhuman four-legged woodland guardian with a hollow arched bark body, many reaching root arms, a face made of two empty trail tunnels, a crown of moss-laden crooked branches. No mother or children represented. It straddles two paths that circle into each other.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Trail marks loop back on themselves; a Hush decree forbids singing the lost-road ballad."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "A conscious ally within 30 feet disables its longing feeding. Marked trail stones are visible anchors: a creature adjacent to one can use an action to end the mother’s Blinded condition on itself or an ally within 5 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Pathless Mother.webp"
+          },
+          "title": "Pathless Mother"
+        }
+      ]
+    },
+    {
+      "name": "Undertoll",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A whole coast grieving the bodies the tide has withheld. Its power was fed by a province. A gigantic tide bell walking on many pale shroud-bound hands, its shell body encrusted with barnacles and blue-grey funeral masks, its central mouth ringing without a tongue. Shore cemetery washed by grey foam, full body visible.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its grief feeding requires a wounded target within 10 feet of a corpse. Moving at least 10 feet away or dragging the corpse away turns feeding off. The corpse need not be human."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Undertoll.webp"
+          },
+          "title": "Undertoll"
+        }
+      ]
+    },
+    {
+      "name": "Hushweight",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A capital terrified that anyone might hear what its sealed records contain. Its power was fed by a province. A massive civic construct of lead filing drawers and soot-stained plaster, folded black cloth wings shaped like shutters, one sealed wax face, very long iron stamp arms. Heavy silhouette leaning over an empty city street; no affiliation insignia.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its feeding resistance ends until the start of its next turn when a creature within 30 feet audibly states a fact it observed about the construct. A Deafened speaker can still speak; a magically silenced one cannot."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Hushweight.webp"
+          },
+          "title": "Hushweight"
+        }
+      ]
+    },
+    {
+      "name": "Pit Reprisal",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A province’s rage at employers who sent the next shift into a known collapsing mine. Its power was fed by a province. A huge broad-backed mine giant of charcoal stone and scarred iron with a furnace-bright chest behind closed rib-shaped grilles, foreman coats fused into its back, a face of crossed broken pick handles. Huge blunt fists and tallow-yellow eyes.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its feeding applies only against a creature that dealt damage to it since the end of its last turn, and ends if that creature is behind Total Cover. Its rage is not an extra action outside its listed economy."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Pit Reprisal.webp"
+          },
+          "title": "Pit Reprisal"
+        }
+      ]
+    },
+    {
+      "name": "Last Dance",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A generation’s desperate joy at the victory night before the next war. Its power was fed by a nation or age. A huge upright fiend made of intertwined empty tavern coats and split floorboards, many elegant but impossible jointed legs, a fixed bruise-purple mask and ale-amber bell eyes, long hands setting the rhythm. Empty ruined tavern, no human dancers.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its joy keys on Prone targets that can hear it. Stand up or prevent hearing the rhythm. An ally can use an action to help a willing adjacent creature stand without spending that creature’s movement."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Last Dance.webp"
+          },
+          "title": "Last Dance"
+        }
+      ]
+    },
+    {
+      "name": "Returned Room",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A nation grieving the homes to which its dead will never return. Its power was fed by a nation or age. A huge walking cemetery-room organism, wet clay walls sagging like skin, shroud curtains forming four thick legs, a single doorway mouth and intact tarnished mirrors showing empty chairs. Lichen and bone-white lintels, unsettling architecture with a legible central face.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its grief resistance ends until the start of its next turn when it takes Radiant damage or an adjacent creature restores HP to another creature. Walls inside its body offer no unexplained immunity."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Returned Room.webp"
+          },
+          "title": "Returned Room"
+        }
+      ]
+    },
+    {
+      "name": "Country Behind Trees",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A generation fearing the country that begins when every familiar forest path turns wrong. Its power was fed by a nation or age. A gargantuan wingless forest dragon with a long low serpentine body built from intertwined wet bark and root, a crest of closed pale fungal eyes, rows of antler-shaped teeth, many tiny leglike branches. Never a conventional scaled dragon. It curves through a forest of wrong-way trees.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Trail marks loop back on themselves; a Hush decree forbids singing the lost-road ballad."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its fear requires seeing an open eye on its crest. A creature can avert its gaze at the start of its turn until the start of its next turn: it cannot see the dragon but is immune to its eye-triggered hunger and feeding during that time."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Country Behind Trees.webp"
+          },
+          "title": "Country Behind Trees"
+        }
+      ]
+    },
+    {
+      "name": "Nation Below",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A nation imagining itself buried alive beneath the wealth it extracted. Its power was fed by a nation or age. A gargantuan underground aberration, a broad inverted lantern-shell head above a towering body of coal-black stacked hollow faces and pit timber, many enormous reaching iron-like arms, tallow light in its eye sockets. It towers in a vast empty cavern.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its feeding requires a target to be Frightened and Deafened. Ending either condition prevents feeding. A creature can use an action to beat an audible rhythm on a surface, ending Deafened caused by this monster on one creature within 10 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Nation Below.webp"
+          },
+          "title": "Nation Below"
+        }
+      ]
+    },
+    {
+      "name": "Admiralty of Absence",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "An age of coastal communities longing for fleets whose absence has become their national identity. Its power was fed by a nation or age. A gargantuan levitating celestial made of a hollow driftwood ship hull bent upright into a body, ropes as reaching arms, empty salt-white face like a distant lighthouse aperture, grey sail folds as wings without feathers. It waits over black water, entire body and wings contained in frame.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Remain within 30 feet of a conscious ally. A visible 10-foot-wide rope line created by its isolation attack has AC 15 and HP 20; destroying it ends that attack’s Grappled condition."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Admiralty of Absence.webp"
+          },
+          "title": "Admiralty of Absence"
+        }
+      ]
+    },
+    {
+      "name": "Lord of Other Windows",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A nation’s envy of a capital that appears to possess every comfortable life. Its power was fed by a nation or age. A gargantuan fiend assembled from mismatched walled-city facades, stained silk hands, lead-framed window eyes, a many-storeyed elongated face with one wealthy golden room at its center. Jagged brick legs and a narrow soot cloak; no generic horned devil.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "The envy target is the single other creature with the highest current HP it can see within 60 feet. Ties select none. Covering or shattering its golden room stops feeding until the start of its next turn; an action within 5 feet or 25 Bludgeoning damage in a turn does so."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Lord of Other Windows.webp"
+          },
+          "title": "Lord of Other Windows"
+        }
+      ]
+    },
+    {
+      "name": "Unconfessed",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "A generation’s shared shame at the debts and abuses it concealed behind respectable doors. Its power was fed by a nation or age. A gargantuan fully draped creature of folded mourning silk and sealed wax, many adult-shaped empty masks hanging inside its vast hood, brass rails forming a cage around its faceless torso, long fingers attempting to cover its own mask. No nudity, no sexual imagery. A deserted courtyard behind shuttered windows.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its shame requires a target to be Prone and within 10 feet of any other creature. Stand up or separate from the witness. Its hunger does not use real players’ secrets or require roleplaying a confession."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Unconfessed.webp"
+          },
+          "title": "Unconfessed"
+        }
+      ]
+    },
+    {
+      "name": "Crown Without Subjects",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "An empire’s pride in the claim that all living people owe it obedience. Its power was fed by a nation or age. A gargantuan walking crown construct, black iron and cracked civic plaster arches forming a circular torso, wax seal eyes around an empty throne core, enormous lead hands reaching down from a towering white mask. Imposing imperial geometry; no real-world political symbols.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its pride feeding does not affect a creature that is Prone willingly. Taking the Prone condition at the start of a turn costs no action; standing still costs normal movement."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Crown Without Subjects.webp"
+          },
+          "title": "Crown Without Subjects"
+        }
+      ]
+    },
+    {
+      "name": "Wreck-Parish Confluence",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "Fear of the deep fused with grief for an age of unrecovered drowned people. Its power was fed by overlapping great populations. A gargantuan visibly composite sea monster: a blue-grey net-hung bell body, salt-white mourning masks grafted around its central eye, separate shroud-clay hands reaching from its sides, wreck timbers as legs. Two clearly distinct organs: a fog bell and a silver funeral wheel. Black coastal water.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Its fear half fails on dry ground; its grief half requires a wounded target within 10 feet of a corpse. These are independent counters and each organ can be broken by its stage rules."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Wreck-Parish Confluence.webp"
+          },
+          "title": "Wreck-Parish Confluence"
+        }
+      ]
+    },
+    {
+      "name": "Root-and-Rail Concord",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "Fear of getting lost fused with longing for the roads that once led home. Its power was fed by overlapping great populations. A gargantuan composite forest creature with an antler-toothed bark maw, a separate hollow driftwood embracing chest, railroad-like root tracks wrapping its many legs, pale fungal listening ears. Two distinct faces express vigilance and absence. An abandoned woodland road.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Trail marks loop back on themselves; a Hush decree forbids singing the lost-road ballad."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Averting sight from the watching face prevents its fear feeding; staying within 30 feet of a conscious ally prevents its longing feeding. Its stage rules break the two faces separately."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Root-and-Rail Concord.webp"
+          },
+          "title": "Root-and-Rail Concord"
+        }
+      ]
+    },
+    {
+      "name": "Furnace of the Unpaid",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "An age of laboring rage fused with envy of the owners’ untouched wealth. Its power was fed by overlapping great populations. A gargantuan fused mining monster with a massive iron-worker body around a closed furnace grille, a separate raw-ore regal mask at one shoulder, tally teeth, many metal counting fingers and chains around pit-prop limbs. Rage is red heat and envy is cold polished metal, both visible.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Do not damage it before a turn unless ready for retaliation; break sight or tie the highest current HP to switch off its separate envy feeding. The furnace and counting mask break in separate stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Furnace of the Unpaid.webp"
+          },
+          "title": "Furnace of the Unpaid"
+        }
+      ]
+    },
+    {
+      "name": "City That Watches",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "Fear of public judgment fused with pride in a nation’s supposed innocence. Its power was fed by overlapping great populations. A gargantuan fused civic celestial with soot-black shutter wings, a plaster magistrate mask above a ring of accusing window eyes, an empty throne chest held by iron stamp arms, wax halos like official seals. Two separate faces for fear and pride, immense empty city square.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "An audible observed fact stops its fear armor for one round; willingly going Prone prevents its pride feeding. Neither counter disables the other half. Its stage rules remove the corresponding organs."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/City That Watches.webp"
+          },
+          "title": "City That Watches"
+        }
+      ]
+    },
+    {
+      "name": "House of All Last Nights",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "Possessive desire, shame at what was concealed, and the joy that refused to end, fused across generations of urban haunts. Its power was fed by overlapping great populations. A gargantuan visibly composite haunted house creature: shroud-linen cemetery walls, a tavern grin of split dark floorboards, and a fully closed burgundy silk-and-brass ledger face. Three distinct faces and uneven walking foundation legs, sinister and nonsexual. No human bodies.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Tear an adjacent ledger ribbon to end one Charmed condition it caused; stand up to stop shame and joy feeding. Covering both ears prevents its dance hunger until either hand is freed. Its three faces fail in stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/House of All Last Nights.webp"
+          },
+          "title": "House of All Last Nights"
+        }
+      ]
+    },
+    {
+      "name": "Country of Teeth",
+      "source": "ML",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Origin and domain",
+          "entries": [
+            "Fear, grief, rage, envy, and longing accumulated across the same country until their territorial monsters joined into one body. Its power was fed by overlapping great populations. A gargantuan landscape-scale composite nightmare, a low coastline-shaped body walking on enormous root and mine-prop legs, five distinctly readable heads: fog bell, mourning mask, furnace grille, jealous window, and hollow driftwood arch. Lead city walls and grey nets join the parts. Central head dominant, entire creature fits with generous margins. No generic hydra, no normal dragon.",
+            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
+            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs and the Hush",
+          "entries": [
+            "Several incompatible signs arrive together; censored provincial maps end along the same advancing border."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rule and counter",
+          "entries": [
+            "Keep together, end Frightened, leave corpse-adjacent squares, and break sight when singled out by envy. Its separate retaliation still threatens creatures that damage it. Five visible organs fail at printed HP thresholds; no reconciliation unmakes it."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running the encounter",
+          "entries": [
+            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Playtest status",
+          "entries": [
+            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+          ]
+        }
+      ],
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "internal",
+            "path": "bestiary/ML/Country of Teeth.webp"
+          },
+          "title": "Country of Teeth"
+        }
+      ]
+    }
+  ]
 }

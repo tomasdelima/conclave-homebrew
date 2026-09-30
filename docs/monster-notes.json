@@ -1,0 +1,1550 @@
+[
+  {
+    "name": "Tidewrack Hand",
+    "cr": "1/8",
+    "biome": "coast",
+    "emotions": [
+      "fear"
+    ],
+    "role": "finisher",
+    "hpFormula": "2d4 + 2",
+    "hpAverage": 7,
+    "attackName": "Ankle Grip",
+    "attackToHit": 4,
+    "attackFormula": "1d4",
+    "attackAverage": 2.5,
+    "saveDC": 11,
+    "attacksPerMultiattack": 1,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 2.5,
+    "rawDprWithFeeding": 4.0,
+    "rawDprHalfFeeding": 3.25,
+    "threeRoundDamageWithoutFeeding": 7.5,
+    "threeRoundDamageWithFeeding": 12.0,
+    "threeRoundDamageHalfFeeding": 9.75,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      1,
+      2
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "It can impose Frightened or deal feeding damage only while both it and its target are in water no deeper than 2 feet. Dry ground or deeper water prevents both abilities.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Rootlisten",
+    "cr": "1/4",
+    "biome": "forest",
+    "emotions": [
+      "fear"
+    ],
+    "role": "precision hunter",
+    "hpFormula": "3d6 + 3",
+    "hpAverage": 13,
+    "attackName": "Root Needle",
+    "attackToHit": 4,
+    "attackFormula": "1d4 + 2",
+    "attackAverage": 4.5,
+    "saveDC": 12,
+    "attacksPerMultiattack": 1,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 4.5,
+    "rawDprWithFeeding": 4.5,
+    "rawDprHalfFeeding": 4.5,
+    "threeRoundDamageWithoutFeeding": 13.5,
+    "threeRoundDamageWithFeeding": 13.5,
+    "threeRoundDamageHalfFeeding": 13.5,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": true,
+    "partyLevelRange": [
+      1,
+      2
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its hunger and feeding require the target to speak or cast a spell with a Verbal component since the end of its previous turn. Silence and quiet movement prevent them.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Netmouth",
+    "cr": "1/2",
+    "biome": "coast",
+    "emotions": [
+      "fear"
+    ],
+    "role": "conditional defender",
+    "hpFormula": "4d6 + 8",
+    "hpAverage": 22,
+    "attackName": "Hooked Gape",
+    "attackToHit": 4,
+    "attackFormula": "1d6 + 2",
+    "attackAverage": 5.5,
+    "saveDC": 11,
+    "attacksPerMultiattack": 1,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 5.5,
+    "rawDprWithFeeding": 5.5,
+    "rawDprHalfFeeding": 5.5,
+    "threeRoundDamageWithoutFeeding": 16.5,
+    "threeRoundDamageWithFeeding": 16.5,
+    "threeRoundDamageHalfFeeding": 16.5,
+    "defensiveFeeding": "While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances.",
+    "conditionalResistanceDutyCycleAssumption": 0.5,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      1,
+      2
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its feeding resistance ends until the start of its next turn when it takes Fire or Slashing damage. Its fear requires physical contact with its net.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Tallow Knocker",
+    "cr": "1",
+    "biome": "mines",
+    "emotions": [
+      "fear"
+    ],
+    "role": "retaliating striker",
+    "hpFormula": "6d6 + 12",
+    "hpAverage": 33,
+    "attackName": "Hot Knuckle",
+    "attackToHit": 4,
+    "attackFormula": "2d4 + 2",
+    "attackAverage": 7.0,
+    "saveDC": 11,
+    "attacksPerMultiattack": 1,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 7.0,
+    "rawDprWithFeeding": 11.5,
+    "rawDprHalfFeeding": 9.25,
+    "threeRoundDamageWithoutFeeding": 21.0,
+    "threeRoundDamageWithFeeding": 34.5,
+    "threeRoundDamageHalfFeeding": 27.75,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      1,
+      2
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "A creature carrying an uncovered light source that sheds Bright Light cannot be frightened by its hunger and is not a feeding target.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Drowned Caller",
+    "cr": "2",
+    "biome": "coast",
+    "emotions": [
+      "fear"
+    ],
+    "role": "finisher",
+    "hpFormula": "9d8 + 18",
+    "hpAverage": 58,
+    "attackName": "Remembered Hand",
+    "attackToHit": 5,
+    "attackFormula": "2d6 + 3",
+    "attackAverage": 10.0,
+    "saveDC": 13,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 20.0,
+    "rawDprWithFeeding": 22.5,
+    "rawDprHalfFeeding": 21.25,
+    "threeRoundDamageWithoutFeeding": 60.0,
+    "threeRoundDamageWithFeeding": 67.5,
+    "threeRoundDamageHalfFeeding": 63.75,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      1,
+      3
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its hunger and feeding affect only a creature that willingly answered an audible question spoken by the caller since its last Long Rest. Involuntary speech and compelled responses do not count. Refuse to answer.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Shorewaiter",
+    "cr": "3",
+    "biome": "coast",
+    "emotions": [
+      "longing"
+    ],
+    "role": "isolating skirmisher",
+    "hpFormula": "12d10 + 24",
+    "hpAverage": 90,
+    "attackName": "Saltwood Reach",
+    "attackToHit": 5,
+    "attackFormula": "2d6 + 3",
+    "attackAverage": 10.0,
+    "saveDC": 13,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 20.0,
+    "rawDprWithFeeding": 20.0,
+    "rawDprHalfFeeding": 20.0,
+    "threeRoundDamageWithoutFeeding": 60.0,
+    "threeRoundDamageWithFeeding": 60.0,
+    "threeRoundDamageHalfFeeding": 60.0,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      1,
+      4
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Keep within 30 feet of a conscious ally. Its feeding cannot cross Total Cover; the empty embracing circle always turns toward isolated prey.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Last Seat",
+    "cr": "4",
+    "biome": "haunts",
+    "emotions": [
+      "grief"
+    ],
+    "role": "attrition threat",
+    "hpFormula": "15d8 + 45",
+    "hpAverage": 112,
+    "attackName": "Empty Place",
+    "attackToHit": 5,
+    "attackFormula": "2d6 + 3",
+    "attackAverage": 10.0,
+    "saveDC": 13,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 20.0,
+    "rawDprWithFeeding": 20.0,
+    "rawDprHalfFeeding": 20.0,
+    "threeRoundDamageWithoutFeeding": 60.0,
+    "threeRoundDamageWithFeeding": 60.0,
+    "threeRoundDamageHalfFeeding": 60.0,
+    "defensiveFeeding": "At the start of its turn, if at least one feeding target exists, it regains 4 HP. This occurs once per turn, not once per target. It cannot regain HP this way while Incapacitated.",
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      2,
+      5
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Cover its chair with an opaque cloth using an action within 5 feet. Until the cloth is removed or destroyed (AC 10, HP 5), it cannot use its hunger or feeding. It can remove the cloth with an action.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Haar Shepherd",
+    "cr": "5",
+    "biome": "coast",
+    "emotions": [
+      "fear"
+    ],
+    "role": "finisher",
+    "hpFormula": "14d12 + 42",
+    "hpAverage": 133,
+    "attackName": "Cold Bell",
+    "attackToHit": 7,
+    "attackFormula": "2d8 + 4",
+    "attackAverage": 13.0,
+    "saveDC": 14,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 26.0,
+    "rawDprWithFeeding": 29.5,
+    "rawDprHalfFeeding": 27.75,
+    "threeRoundDamageWithoutFeeding": 78.0,
+    "threeRoundDamageWithFeeding": 88.5,
+    "threeRoundDamageHalfFeeding": 83.25,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      3,
+      6
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its hunger and feeding require the target to be in Lightly or Heavily Obscured fog. A 10-foot-radius area of Bright Light suppresses its own fog there; an audible struck bell suppresses its fog within 30 feet of the bell until the end of the striker’s next turn.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Redmeasure",
+    "cr": "6",
+    "biome": "mines",
+    "emotions": [
+      "rage"
+    ],
+    "role": "retaliating striker",
+    "hpFormula": "16d10 + 64",
+    "hpAverage": 152,
+    "attackName": "Iron Measure",
+    "attackToHit": 8,
+    "attackFormula": "2d8 + 5",
+    "attackAverage": 14.0,
+    "saveDC": 16,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 28.0,
+    "rawDprWithFeeding": 37.5,
+    "rawDprHalfFeeding": 32.75,
+    "threeRoundDamageWithoutFeeding": 84.0,
+    "threeRoundDamageWithFeeding": 112.5,
+    "threeRoundDamageHalfFeeding": 98.25,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      4,
+      7
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its feeding records damage from individual creatures, not conditions or failed attacks. Stop attacking for one round or commit enough force to defeat it before its retaliatory turn.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Window Envier",
+    "cr": "7",
+    "biome": "city",
+    "emotions": [
+      "envy"
+    ],
+    "role": "conditional defender",
+    "hpFormula": "17d10 + 68",
+    "hpAverage": 161,
+    "attackName": "Window Spill",
+    "attackToHit": 6,
+    "attackFormula": "3d6 + 3",
+    "attackAverage": 13.5,
+    "saveDC": 15,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 27.0,
+    "rawDprWithFeeding": 27.0,
+    "rawDprHalfFeeding": 27.0,
+    "threeRoundDamageWithoutFeeding": 81.0,
+    "threeRoundDamageWithFeeding": 81.0,
+    "threeRoundDamageHalfFeeding": 81.0,
+    "defensiveFeeding": "While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances.",
+    "conditionalResistanceDutyCycleAssumption": 0.5,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      5,
+      8
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Close or cover its central window with an action within 5 feet, or deal 15 Bludgeoning damage to it in one turn. Its feeding stops until the end of its next turn. Its hunger never requires revealing a player’s private inventory.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Merry Unending",
+    "cr": "8",
+    "biome": "haunts",
+    "emotions": [
+      "joy"
+    ],
+    "role": "finisher",
+    "hpFormula": "20d10 + 60",
+    "hpAverage": 170,
+    "attackName": "Dancer Talon",
+    "attackToHit": 7,
+    "attackFormula": "3d8 + 4",
+    "attackAverage": 17.5,
+    "saveDC": 15,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 35.0,
+    "rawDprWithFeeding": 42.0,
+    "rawDprHalfFeeding": 38.5,
+    "threeRoundDamageWithoutFeeding": 105.0,
+    "threeRoundDamageWithFeeding": 126.0,
+    "threeRoundDamageHalfFeeding": 115.5,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      6,
+      9
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "A creature can stand from Prone normally. Its hunger requires hearing its rhythm; covering both ears with an action prevents hearing that rhythm until the creature frees either hand.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Bellwound",
+    "cr": "9",
+    "biome": "forest",
+    "emotions": [
+      "grief"
+    ],
+    "role": "attrition threat",
+    "hpFormula": "20d12 + 80",
+    "hpAverage": 210,
+    "attackName": "Root Toll",
+    "attackToHit": 9,
+    "attackFormula": "3d8 + 5",
+    "attackAverage": 18.5,
+    "saveDC": 16,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 37.0,
+    "rawDprWithFeeding": 37.0,
+    "rawDprHalfFeeding": 37.0,
+    "threeRoundDamageWithoutFeeding": 111.0,
+    "threeRoundDamageWithFeeding": 111.0,
+    "threeRoundDamageHalfFeeding": 111.0,
+    "defensiveFeeding": "At the start of its turn, if at least one feeding target exists, it regains 9 HP. This occurs once per turn, not once per target. It cannot regain HP this way while Incapacitated.",
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      7,
+      10
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "An ally can use an action within 5 feet to wipe a target’s eyes or ring a bell, ending the Blinded or Deafened condition respectively caused by Bellwound. Healing above half HP also switches off its wound feeding.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Seam Duchess",
+    "cr": "10",
+    "biome": "mines",
+    "emotions": [
+      "envy"
+    ],
+    "role": "finisher",
+    "hpFormula": "24d10 + 96",
+    "hpAverage": 228,
+    "attackName": "Claimed Splinter",
+    "attackToHit": 8,
+    "attackFormula": "4d6 + 4",
+    "attackAverage": 18.0,
+    "saveDC": 16,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 36.0,
+    "rawDprWithFeeding": 43.0,
+    "rawDprHalfFeeding": 39.5,
+    "threeRoundDamageWithoutFeeding": 108.0,
+    "threeRoundDamageWithFeeding": 129.0,
+    "threeRoundDamageHalfFeeding": 118.5,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      8,
+      11
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its envy selects the other creature with the highest current HP within 60 feet that it can see; ties select none. Equalizing current HP or breaking sight prevents feeding on that creature.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Velvet Debt",
+    "cr": "11",
+    "biome": "haunts",
+    "emotions": [
+      "lust"
+    ],
+    "role": "isolating skirmisher",
+    "hpFormula": "24d8 + 96",
+    "hpAverage": 204,
+    "attackName": "Ledger Lash",
+    "attackToHit": 9,
+    "attackFormula": "4d8 + 5",
+    "attackAverage": 23.0,
+    "saveDC": 17,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 46.0,
+    "rawDprWithFeeding": 46.0,
+    "rawDprHalfFeeding": 46.0,
+    "threeRoundDamageWithoutFeeding": 138.0,
+    "threeRoundDamageWithFeeding": 138.0,
+    "threeRoundDamageHalfFeeding": 138.0,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      9,
+      12
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "An ally can use an action within 5 feet to visibly tear one of its ledger ribbons, ending one Charmed condition it caused. The fiend cannot charm through Total Cover or target a Deafened creature with its invitation.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Parish Inquisitor",
+    "cr": "12",
+    "biome": "city",
+    "emotions": [
+      "pride"
+    ],
+    "role": "precision hunter",
+    "hpFormula": "24d8 + 120",
+    "hpAverage": 228,
+    "attackName": "Sentence",
+    "attackToHit": 9,
+    "attackFormula": "4d8 + 5",
+    "attackAverage": 23.0,
+    "saveDC": 17,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 0,
+    "rawDprWithoutFeeding": 46.0,
+    "rawDprWithFeeding": 46.0,
+    "rawDprHalfFeeding": 46.0,
+    "threeRoundDamageWithoutFeeding": 138.0,
+    "threeRoundDamageWithFeeding": 138.0,
+    "threeRoundDamageHalfFeeding": 138.0,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": true,
+    "partyLevelRange": [
+      10,
+      13
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "A creature that willingly has the Prone condition cannot trigger its pride feeding. The inquisitor’s hunger can still push that creature, but cannot renew the pride mark.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Pathless Mother",
+    "cr": "13",
+    "biome": "forest",
+    "emotions": [
+      "longing"
+    ],
+    "role": "finisher",
+    "hpFormula": "18d12 + 72",
+    "hpAverage": 189,
+    "attackName": "Lost Road",
+    "attackToHit": 11,
+    "attackFormula": "4d8 + 6",
+    "attackAverage": 24.0,
+    "saveDC": 18,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 24.0,
+    "rawDprWithoutFeeding": 72.0,
+    "rawDprWithFeeding": 82.5,
+    "rawDprHalfFeeding": 77.25,
+    "threeRoundDamageWithoutFeeding": 216.0,
+    "threeRoundDamageWithFeeding": 247.5,
+    "threeRoundDamageHalfFeeding": 231.75,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      11,
+      14
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "A conscious ally within 30 feet disables its longing feeding. Marked trail stones are visible anchors: a creature adjacent to one can use an action to end the mother’s Blinded condition on itself or an ally within 5 feet.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Undertoll",
+    "cr": "14",
+    "biome": "coast",
+    "emotions": [
+      "grief"
+    ],
+    "role": "attrition threat",
+    "hpFormula": "19d12 + 95",
+    "hpAverage": 218,
+    "attackName": "Funeral Weight",
+    "attackToHit": 11,
+    "attackFormula": "4d10 + 6",
+    "attackAverage": 28.0,
+    "saveDC": 17,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 28.0,
+    "rawDprWithoutFeeding": 84.0,
+    "rawDprWithFeeding": 84.0,
+    "rawDprHalfFeeding": 84.0,
+    "threeRoundDamageWithoutFeeding": 252.0,
+    "threeRoundDamageWithFeeding": 252.0,
+    "threeRoundDamageHalfFeeding": 252.0,
+    "defensiveFeeding": "At the start of its turn, if at least one feeding target exists, it regains 14 HP. This occurs once per turn, not once per target. It cannot regain HP this way while Incapacitated.",
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      12,
+      15
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its grief feeding requires a wounded target within 10 feet of a corpse. Moving at least 10 feet away or dragging the corpse away turns feeding off. The corpse need not be human.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Hushweight",
+    "cr": "15",
+    "biome": "city",
+    "emotions": [
+      "fear"
+    ],
+    "role": "conditional defender",
+    "hpFormula": "20d12 + 100",
+    "hpAverage": 230,
+    "attackName": "Sealed Record",
+    "attackToHit": 12,
+    "attackFormula": "4d10 + 7",
+    "attackAverage": 29.0,
+    "saveDC": 16,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 29.0,
+    "rawDprWithoutFeeding": 87.0,
+    "rawDprWithFeeding": 87.0,
+    "rawDprHalfFeeding": 87.0,
+    "threeRoundDamageWithoutFeeding": 261.0,
+    "threeRoundDamageWithFeeding": 261.0,
+    "threeRoundDamageHalfFeeding": 261.0,
+    "defensiveFeeding": "While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances.",
+    "conditionalResistanceDutyCycleAssumption": 0.5,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      13,
+      16
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its feeding resistance ends until the start of its next turn when a creature within 30 feet audibly states a fact it observed about the construct. A Deafened speaker can still speak; a magically silenced one cannot.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Pit Reprisal",
+    "cr": "16",
+    "biome": "mines",
+    "emotions": [
+      "rage"
+    ],
+    "role": "finisher",
+    "hpFormula": "20d12 + 120",
+    "hpAverage": 250,
+    "attackName": "Owner’s Due",
+    "attackToHit": 12,
+    "attackFormula": "5d10 + 7",
+    "attackAverage": 34.5,
+    "saveDC": 20,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 34.5,
+    "rawDprWithoutFeeding": 103.5,
+    "rawDprWithFeeding": 114.0,
+    "rawDprHalfFeeding": 108.75,
+    "threeRoundDamageWithoutFeeding": 310.5,
+    "threeRoundDamageWithFeeding": 342.0,
+    "threeRoundDamageHalfFeeding": 326.25,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      14,
+      17
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its feeding applies only against a creature that dealt damage to it since the end of its last turn, and ends if that creature is behind Total Cover. Its rage is not an extra action outside its listed economy.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Last Dance",
+    "cr": "17",
+    "biome": "haunts",
+    "emotions": [
+      "joy"
+    ],
+    "role": "retaliating striker",
+    "hpFormula": "23d12 + 115",
+    "hpAverage": 264,
+    "attackName": "Heelbeat",
+    "attackToHit": 12,
+    "attackFormula": "5d10 + 6",
+    "attackAverage": 33.5,
+    "saveDC": 20,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 33.5,
+    "rawDprWithoutFeeding": 100.5,
+    "rawDprWithFeeding": 115.5,
+    "rawDprHalfFeeding": 108.0,
+    "threeRoundDamageWithoutFeeding": 301.5,
+    "threeRoundDamageWithFeeding": 346.5,
+    "threeRoundDamageHalfFeeding": 324.0,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      15,
+      18
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its joy keys on Prone targets that can hear it. Stand up or prevent hearing the rhythm. An ally can use an action to help a willing adjacent creature stand without spending that creature’s movement.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Returned Room",
+    "cr": "18",
+    "biome": "haunts",
+    "emotions": [
+      "grief"
+    ],
+    "role": "conditional defender",
+    "hpFormula": "21d12 + 147",
+    "hpAverage": 283,
+    "attackName": "Doorway Bite",
+    "attackToHit": 12,
+    "attackFormula": "6d8 + 6",
+    "attackAverage": 33.0,
+    "saveDC": 21,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 33.0,
+    "rawDprWithoutFeeding": 99.0,
+    "rawDprWithFeeding": 99.0,
+    "rawDprHalfFeeding": 99.0,
+    "threeRoundDamageWithoutFeeding": 297.0,
+    "threeRoundDamageWithFeeding": 297.0,
+    "threeRoundDamageHalfFeeding": 297.0,
+    "defensiveFeeding": "While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances.",
+    "conditionalResistanceDutyCycleAssumption": 0.5,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      16,
+      19
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its grief resistance ends until the start of its next turn when it takes Radiant damage or an adjacent creature restores HP to another creature. Walls inside its body offer no unexplained immunity.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Country Behind Trees",
+    "cr": "19",
+    "biome": "forest",
+    "emotions": [
+      "fear"
+    ],
+    "role": "finisher",
+    "hpFormula": "22d20 + 132",
+    "hpAverage": 363,
+    "attackName": "Antler Gape",
+    "attackToHit": 14,
+    "attackFormula": "5d12 + 8",
+    "attackAverage": 40.5,
+    "saveDC": 20,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 40.5,
+    "rawDprWithoutFeeding": 121.5,
+    "rawDprWithFeeding": 135.5,
+    "rawDprHalfFeeding": 128.5,
+    "threeRoundDamageWithoutFeeding": 364.5,
+    "threeRoundDamageWithFeeding": 406.5,
+    "threeRoundDamageHalfFeeding": 385.5,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      17,
+      20
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its fear requires seeing an open eye on its crest. A creature can avert its gaze at the start of its turn until the start of its next turn: it cannot see the dragon but is immune to its eye-triggered hunger and feeding during that time.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Nation Below",
+    "cr": "20",
+    "biome": "mines",
+    "emotions": [
+      "fear"
+    ],
+    "role": "precision hunter",
+    "hpFormula": "20d20 + 140",
+    "hpAverage": 350,
+    "attackName": "Burial Thought",
+    "attackToHit": 12,
+    "attackFormula": "6d10 + 6",
+    "attackAverage": 39.0,
+    "saveDC": 20,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 39.0,
+    "rawDprWithoutFeeding": 117.0,
+    "rawDprWithFeeding": 117.0,
+    "rawDprHalfFeeding": 117.0,
+    "threeRoundDamageWithoutFeeding": 351.0,
+    "threeRoundDamageWithFeeding": 351.0,
+    "threeRoundDamageHalfFeeding": 351.0,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": true,
+    "partyLevelRange": [
+      18,
+      20
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its feeding requires a target to be Frightened and Deafened. Ending either condition prevents feeding. A creature can use an action to beat an audible rhythm on a surface, ending Deafened caused by this monster on one creature within 10 feet.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Admiralty of Absence",
+    "cr": "21",
+    "biome": "coast",
+    "emotions": [
+      "longing"
+    ],
+    "role": "isolating skirmisher",
+    "hpFormula": "23d20 + 161",
+    "hpAverage": 402,
+    "attackName": "Absent Broadside",
+    "attackToHit": 14,
+    "attackFormula": "6d10 + 7",
+    "attackAverage": 40.0,
+    "saveDC": 22,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 40.0,
+    "rawDprWithoutFeeding": 120.0,
+    "rawDprWithFeeding": 120.0,
+    "rawDprHalfFeeding": 120.0,
+    "threeRoundDamageWithoutFeeding": 360.0,
+    "threeRoundDamageWithFeeding": 360.0,
+    "threeRoundDamageHalfFeeding": 360.0,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      18,
+      20
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Remain within 30 feet of a conscious ally. A visible 10-foot-wide rope line created by its isolation attack has AC 15 and HP 20; destroying it ends that attack’s Grappled condition.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Lord of Other Windows",
+    "cr": "22",
+    "biome": "city",
+    "emotions": [
+      "envy"
+    ],
+    "role": "finisher",
+    "hpFormula": "24d20 + 168",
+    "hpAverage": 420,
+    "attackName": "Other Life",
+    "attackToHit": 15,
+    "attackFormula": "7d10 + 8",
+    "attackAverage": 46.5,
+    "saveDC": 22,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 46.5,
+    "rawDprWithoutFeeding": 139.5,
+    "rawDprWithFeeding": 153.5,
+    "rawDprHalfFeeding": 146.5,
+    "threeRoundDamageWithoutFeeding": 418.5,
+    "threeRoundDamageWithFeeding": 460.5,
+    "threeRoundDamageHalfFeeding": 439.5,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      18,
+      20
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "The envy target is the single other creature with the highest current HP it can see within 60 feet. Ties select none. Covering or shattering its golden room stops feeding until the start of its next turn; an action within 5 feet or 25 Bludgeoning damage in a turn does so.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Unconfessed",
+    "cr": "23",
+    "biome": "haunts",
+    "emotions": [
+      "shame"
+    ],
+    "role": "retaliating striker",
+    "hpFormula": "26d20 + 182",
+    "hpAverage": 455,
+    "attackName": "Covered Face",
+    "attackToHit": 15,
+    "attackFormula": "7d10 + 8",
+    "attackAverage": 46.5,
+    "saveDC": 23,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 46.5,
+    "rawDprWithoutFeeding": 139.5,
+    "rawDprWithFeeding": 161.0,
+    "rawDprHalfFeeding": 150.25,
+    "threeRoundDamageWithoutFeeding": 418.5,
+    "threeRoundDamageWithFeeding": 483.0,
+    "threeRoundDamageHalfFeeding": 450.75,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      18,
+      20
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its shame requires a target to be Prone and within 10 feet of any other creature. Stand up or separate from the witness. Its hunger does not use real players’ secrets or require roleplaying a confession.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Crown Without Subjects",
+    "cr": "24",
+    "biome": "city",
+    "emotions": [
+      "pride"
+    ],
+    "role": "conditional defender",
+    "hpFormula": "27d20 + 216",
+    "hpAverage": 499,
+    "attackName": "Royal Hand",
+    "attackToHit": 16,
+    "attackFormula": "7d12 + 9",
+    "attackAverage": 54.5,
+    "saveDC": 22,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 54.5,
+    "rawDprWithoutFeeding": 163.5,
+    "rawDprWithFeeding": 163.5,
+    "rawDprHalfFeeding": 163.5,
+    "threeRoundDamageWithoutFeeding": 490.5,
+    "threeRoundDamageWithFeeding": 490.5,
+    "threeRoundDamageHalfFeeding": 490.5,
+    "defensiveFeeding": "While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances.",
+    "conditionalResistanceDutyCycleAssumption": 0.5,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      18,
+      20
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its pride feeding does not affect a creature that is Prone willingly. Taking the Prone condition at the start of a turn costs no action; standing still costs normal movement.",
+    "stages": [],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Wreck-Parish Confluence",
+    "cr": "25",
+    "biome": "coast",
+    "emotions": [
+      "fear",
+      "grief"
+    ],
+    "role": "finisher",
+    "hpFormula": "28d20 + 224",
+    "hpAverage": 518,
+    "attackName": "Wreckhand",
+    "attackToHit": 16,
+    "attackFormula": "7d12 + 8",
+    "attackAverage": 53.5,
+    "saveDC": 23,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 53.5,
+    "rawDprWithoutFeeding": 160.5,
+    "rawDprWithFeeding": 178.0,
+    "rawDprHalfFeeding": 169.25,
+    "threeRoundDamageWithoutFeeding": 481.5,
+    "threeRoundDamageWithFeeding": 534.0,
+    "threeRoundDamageHalfFeeding": 507.75,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      18,
+      20
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Its fear half fails on dry ground; its grief half requires a wounded target within 10 feet of a corpse. These are independent counters and each organ can be broken by its stage rules.",
+    "stages": [
+      {
+        "emotion": "fear",
+        "organ": "fog bell",
+        "hpThreshold": 345
+      },
+      {
+        "emotion": "grief",
+        "organ": "mourning wheel",
+        "hpThreshold": 172
+      }
+    ],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Root-and-Rail Concord",
+    "cr": "26",
+    "biome": "forest",
+    "emotions": [
+      "fear",
+      "longing"
+    ],
+    "role": "precision hunter",
+    "hpFormula": "29d20 + 203",
+    "hpAverage": 507,
+    "attackName": "Track Maw",
+    "attackToHit": 17,
+    "attackFormula": "8d10 + 9",
+    "attackAverage": 53.0,
+    "saveDC": 24,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 53.0,
+    "rawDprWithoutFeeding": 159.0,
+    "rawDprWithFeeding": 159.0,
+    "rawDprHalfFeeding": 159.0,
+    "threeRoundDamageWithoutFeeding": 477.0,
+    "threeRoundDamageWithFeeding": 477.0,
+    "threeRoundDamageHalfFeeding": 477.0,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": true,
+    "partyLevelRange": [
+      18,
+      20
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Averting sight from the watching face prevents its fear feeding; staying within 30 feet of a conscious ally prevents its longing feeding. Its stage rules break the two faces separately.",
+    "stages": [
+      {
+        "emotion": "fear",
+        "organ": "watching face",
+        "hpThreshold": 338
+      },
+      {
+        "emotion": "longing",
+        "organ": "hollow face",
+        "hpThreshold": 169
+      }
+    ],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Furnace of the Unpaid",
+    "cr": "27",
+    "biome": "mines",
+    "emotions": [
+      "rage",
+      "envy"
+    ],
+    "role": "retaliating striker",
+    "hpFormula": "30d20 + 270",
+    "hpAverage": 585,
+    "attackName": "Unpaid Blow",
+    "attackToHit": 17,
+    "attackFormula": "8d12 + 9",
+    "attackAverage": 61.0,
+    "saveDC": 25,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 61.0,
+    "rawDprWithoutFeeding": 183.0,
+    "rawDprWithFeeding": 210.0,
+    "rawDprHalfFeeding": 196.5,
+    "threeRoundDamageWithoutFeeding": 549.0,
+    "threeRoundDamageWithFeeding": 630.0,
+    "threeRoundDamageHalfFeeding": 589.5,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": true,
+    "partyLevelRange": [
+      18,
+      20
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Do not damage it before a turn unless ready for retaliation; break sight or tie the highest current HP to switch off its separate envy feeding. The furnace and counting mask break in separate stages.",
+    "stages": [
+      {
+        "emotion": "rage",
+        "organ": "furnace",
+        "hpThreshold": 390
+      },
+      {
+        "emotion": "envy",
+        "organ": "counting mask",
+        "hpThreshold": 195
+      }
+    ],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "City That Watches",
+    "cr": "28",
+    "biome": "city",
+    "emotions": [
+      "fear",
+      "pride"
+    ],
+    "role": "conditional defender",
+    "hpFormula": "32d20 + 256",
+    "hpAverage": 592,
+    "attackName": "Public Sentence",
+    "attackToHit": 17,
+    "attackFormula": "8d12 + 9",
+    "attackAverage": 61.0,
+    "saveDC": 25,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 61.0,
+    "rawDprWithoutFeeding": 183.0,
+    "rawDprWithFeeding": 183.0,
+    "rawDprHalfFeeding": 183.0,
+    "threeRoundDamageWithoutFeeding": 549.0,
+    "threeRoundDamageWithFeeding": 549.0,
+    "threeRoundDamageHalfFeeding": 549.0,
+    "defensiveFeeding": "While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances.",
+    "conditionalResistanceDutyCycleAssumption": 0.5,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      18,
+      20
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "An audible observed fact stops its fear armor for one round; willingly going Prone prevents its pride feeding. Neither counter disables the other half. Its stage rules remove the corresponding organs.",
+    "stages": [
+      {
+        "emotion": "fear",
+        "organ": "watching mask",
+        "hpThreshold": 394
+      },
+      {
+        "emotion": "pride",
+        "organ": "throne seal",
+        "hpThreshold": 197
+      }
+    ],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "House of All Last Nights",
+    "cr": "29",
+    "biome": "haunts",
+    "emotions": [
+      "lust",
+      "shame",
+      "joy"
+    ],
+    "role": "finisher",
+    "hpFormula": "33d20 + 297",
+    "hpAverage": 643,
+    "attackName": "Last Invitation",
+    "attackToHit": 18,
+    "attackFormula": "8d12 + 9",
+    "attackAverage": 61.0,
+    "saveDC": 26,
+    "attacksPerMultiattack": 2,
+    "legendaryAttackAveragePerRound": 61.0,
+    "rawDprWithoutFeeding": 183.0,
+    "rawDprWithFeeding": 218.0,
+    "rawDprHalfFeeding": 200.5,
+    "threeRoundDamageWithoutFeeding": 549.0,
+    "threeRoundDamageWithFeeding": 654.0,
+    "threeRoundDamageHalfFeeding": 601.5,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": false,
+    "partyLevelRange": [
+      18,
+      20
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Tear an adjacent ledger ribbon to end one Charmed condition it caused; stand up to stop shame and joy feeding. Covering both ears prevents its dance hunger until either hand is freed. Its three faces fail in stages.",
+    "stages": [
+      {
+        "emotion": "lust",
+        "organ": "ledger face",
+        "hpThreshold": 482
+      },
+      {
+        "emotion": "shame",
+        "organ": "witness veil",
+        "hpThreshold": 321
+      },
+      {
+        "emotion": "joy",
+        "organ": "dance face",
+        "hpThreshold": 160
+      }
+    ],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  },
+  {
+    "name": "Country of Teeth",
+    "cr": "30",
+    "biome": "confluence",
+    "emotions": [
+      "fear",
+      "grief",
+      "rage",
+      "envy",
+      "longing"
+    ],
+    "role": "finisher",
+    "hpFormula": "34d20 + 340",
+    "hpAverage": 697,
+    "attackName": "Province Bite",
+    "attackToHit": 19,
+    "attackFormula": "8d12 + 10",
+    "attackAverage": 62.0,
+    "saveDC": 26,
+    "attacksPerMultiattack": 3,
+    "legendaryAttackAveragePerRound": 62.0,
+    "rawDprWithoutFeeding": 248.0,
+    "rawDprWithFeeding": 283.0,
+    "rawDprHalfFeeding": 265.5,
+    "threeRoundDamageWithoutFeeding": 744.0,
+    "threeRoundDamageWithFeeding": 849.0,
+    "threeRoundDamageHalfFeeding": 796.5,
+    "defensiveFeeding": null,
+    "conditionalResistanceDutyCycleAssumption": 0,
+    "accuracyFeeding": true,
+    "partyLevelRange": [
+      18,
+      20
+    ],
+    "partyAssumption": "Four rested characters; fractional CRs are one creature or a small nuisance group, not a solo boss. CR 21+ requires a prepared level 18–20 party with escape routes and tailored terrain.",
+    "counter": "Keep together, end Frightened, leave corpse-adjacent squares, and break sight when singled out by envy. Its separate retaliation still threatens creatures that damage it. Five visible organs fail at printed HP thresholds; no reconciliation unmakes it.",
+    "stages": [
+      {
+        "emotion": "fear",
+        "organ": "fog bell",
+        "hpThreshold": 580
+      },
+      {
+        "emotion": "grief",
+        "organ": "mourning mask",
+        "hpThreshold": 464
+      },
+      {
+        "emotion": "rage",
+        "organ": "furnace",
+        "hpThreshold": 348
+      },
+      {
+        "emotion": "envy",
+        "organ": "jealous window",
+        "hpThreshold": 232
+      },
+      {
+        "emotion": "longing",
+        "organ": "hollow arch",
+        "hpThreshold": 116
+      }
+    ],
+    "assumptions": [
+      "Raw damage before attack accuracy, critical hits, saving throws, Resistance, and condition synergies. One legendary attack costing two uses per round if enough other turns occur.",
+      "Feeding is active half the rounds for the midpoint scenario; with/without values describe all/none. Extra feeding attacks require targets and cannot accompany a special action.",
+      "The baseline uses Multiattack each round. Special actions replace the whole action; evaluate their separately printed damage against one and two targets during playtest. Bonus hunger deals no extra HP damage.",
+      "Advantage feedings change hit probability, not listed raw damage, and are recorded separately. Conditional resistance is modeled at half uptime and never changes printed HP.",
+      "Healing and secondary fused defensive/movement feedings are not converted into fictional DPR. Stage damage decreases are not included in the opening-phase ceiling.",
+      "All active conditions and tethers have their printed duration and ally-assisted counter; innate immunities remain applicable."
+    ],
+    "liveImportChecked": false,
+    "tabletopBalanceChecked": false
+  }
+]
