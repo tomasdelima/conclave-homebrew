@@ -16,9 +16,9 @@ The modern [upstream renderer](https://github.com/5etools-mirror-3/5etools-src/b
 
 ## File layout
 
-Canonical data lives in `data/`, final image assets in `img/`, and source metadata and generated exports in `homebrew/`. Setting and design notes live in `docs/`. Generation prompts and asset provenance live in `art/prompts.json`. Preview styling and behavior live in `css/` and `js/`.
+Canonical data lives in `data/`, final image assets in `img/`, and source metadata and generated exports in `homebrew/`. Lair actions and regional effects live in `data/bestiary/legendarygroups.json`, and the reader-facing primer in `data/variantrules-ml.json`; both are merged into the exports by the build. Setting and design notes live in `docs/`. Generation prompts and asset provenance live in `art/prompts.json`. Preview styling and behavior live in `css/` and `js/`.
 
-`docs/bestiary-index.md` summarizes CR, biome, emotion, type, and role. `docs/monster-playtests.md` and `docs/monster-notes.json` record individual damage estimates and counters. The preview search accepts names, CRs, biomes, emotions, and types.
+`docs/bestiary-index.md` summarizes CR, clan, clan trait, emotion, role, and which creatures hold a lair. `docs/monster-playtests.md` and `docs/monster-notes.json` record individual damage estimates and counters. The preview search accepts names, CRs, biomes, emotions, and types, and the preview opens with the same primer that ships inside the exports.
 
 ## Rebuild after editing
 
@@ -33,4 +33,4 @@ The build validates source and lore relationships, duplicate identities, CR rang
 
 These checks don't replace upstream schema validation, a live import test, or tabletop playtesting.
 
-The roster check also verifies complete CR, biome, emotional-family, and creature-type coverage; matching damage and organ-stage notes; and two lossless WebP prompt records per monster.
+The roster check also verifies complete CR, biome, emotional-family, and creature-type coverage; that each creature carries its clan trait and states both its emotion trigger and its counter in its own stat block; that the retired template traits are absent; that every creature at CR 17 or above resolves to a legendary group; matching damage and organ-stage notes; and two lossless WebP prompt records per monster.

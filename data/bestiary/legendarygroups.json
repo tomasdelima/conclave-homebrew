@@ -1,0 +1,382 @@
+{
+  "legendaryGroup": [
+    {
+      "name": "Admiralty of Absence",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the admiralty takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The water withdraws from the whole shore at once. Each creature standing in water within 120 feet of the admiralty makes a DC 22 Strength saving throw. On a failed save, the creature is pulled 20 feet toward the open sea and has the {@condition Prone|XPHB} condition.",
+            "A sail that is not there crosses the sky. Each creature within 120 feet of the admiralty that has no conscious ally within 30 feet of it makes a DC 22 Wisdom saving throw, taking 17 ({@damage 5d6}) Psychic damage on a failed save and half as much on a success.",
+            "Grey fog fills the harbor. The lair becomes Lightly Obscured until the end of the admiralty's next turn, and the admiralty can teleport up to 60 feet to an unoccupied space it can see within the fog."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the admiralty's shore is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "No vessel that leaves this coast is sighted again from land, whatever its course. Lookouts report an empty horizon even while the vessel is plainly visible from the water.",
+            "The names of everyone lost at sea from this parish appear scratched into doorposts and keels overnight, in handwriting the living recognize as their own.",
+            "Nobody in the region can describe the face of a person who left by sea. They remember the name, the voyage, and the day, and nothing else."
+          ]
+        },
+        "If the admiralty dies, these effects fade over 1d10 days, and the names weather off the doorposts last."
+      ]
+    },
+    {
+      "name": "City That Watches",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the city takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Every window becomes an eye. Each creature within 120 feet of the city makes a DC 25 Wisdom saving throw or has the {@condition Frightened|XPHB} condition until the end of the city's next turn.",
+            "The square is called to order. Each creature within 90 feet of the city that is not willingly {@condition Prone|XPHB} makes a DC 25 Charisma saving throw, taking 24 ({@damage 7d6}) Radiant damage on a failed save and half as much on a success.",
+            "The streets rearrange. Each creature within 120 feet of the city is teleported to an unoccupied space the city can see within 30 feet of it. A creature can refuse by succeeding on a DC 25 Wisdom saving throw."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the city's walls is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Within 6 miles, anything done out of doors is known by morning, correctly, by everyone, with no one able to name a source.",
+            "The city's own crimes are absent from every record kept inside its walls, including records written elsewhere and carried in.",
+            "Visitors are judged at the gate by a court that does not convene and is never wrong about who they are."
+          ]
+        },
+        "If the city dies, these effects fade over 1d10 days, and the records fill back in with what was taken out."
+      ]
+    },
+    {
+      "name": "Country Behind Trees",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the country takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Every path turns. Each creature within 120 feet of the country that is moving along a trail makes a DC 21 Wisdom saving throw or has the {@condition Blinded|XPHB} condition until the end of the country's next turn.",
+            "The trees close ranks. A 30-foot-radius area the country can see within 120 feet fills with thorn and trunk until the end of the country's next turn. That area is Difficult Terrain and grants Half Cover.",
+            "The crest opens wide. Each creature within 60 feet of the country that can see its crest makes a DC 21 Wisdom saving throw or has the {@condition Frightened|XPHB} condition until the end of the country's next turn."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the country's forest is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Trails within 6 miles don't end where they are supposed to. A road walked twice arrives in two different places.",
+            "Anyone who sleeps in the forest wakes one mile further in, with their bedding undisturbed and their boots clean.",
+            "No map of this forest agrees with another, and all of them are accurate on the day they are drawn."
+          ]
+        },
+        "If the country dies, these effects fade over 1d10 days, and the trails are the last to settle."
+      ]
+    },
+    {
+      "name": "Country of Teeth",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the country takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The border moves. Each creature within 120 feet of the country makes a DC 26 Strength saving throw or is pulled 20 feet toward it and has the {@condition Prone|XPHB} condition.",
+            "Five mouths speak at once and disagree. Each creature within 90 feet of the country makes a DC 26 Wisdom saving throw, taking 24 ({@damage 7d6}) Psychic damage on a failed save and half as much on a success.",
+            "The ground remembers another country. A 60-foot-radius area the country can see within 120 feet becomes water, forest floor, worked stone, or city flagstone, the country's choice, until the end of its next turn. That area is Difficult Terrain for creatures other than the country."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the country's borders is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "No two people within 6 miles agree on which country they are standing in, and all of them are correct.",
+            "Every feeling in the region is held in common. A private grief becomes a parish's grief inside a day.",
+            "The Hush has abandoned this country. Its records end mid-sentence, and its officers are among the dead here."
+          ]
+        },
+        "If the country dies, these effects end immediately, and the five countries it ate stay eaten."
+      ]
+    },
+    {
+      "name": "Crown Without Subjects",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the crown takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The charter is read. Each creature within 90 feet of the crown that can hear it makes a DC 23 Wisdom saving throw or has the {@condition Prone|XPHB} condition. A creature that is willingly Prone is unaffected.",
+            "The flagstones raise a dais. A 20-foot-radius area the crown can see within 90 feet rises 10 feet until the end of the crown's next turn; creatures in that area when it rises make a DC 23 Dexterity saving throw or have the Prone condition.",
+            "Gold light falls on the unbowed. Each creature within 60 feet of the crown that is not willingly Prone makes a DC 23 Constitution saving throw, taking 21 ({@damage 6d6}) Radiant damage on a failed save and half as much on a success."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the crown's seat is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Every oath sworn within 6 miles is sworn to the crown, whatever words are used and whoever is meant.",
+            "Coins minted in the region come out blank on the ruler's side, in every press, every time.",
+            "Nobody in this country can remember the name of a living monarch, though they are certain they owe one obedience."
+          ]
+        },
+        "If the crown dies, these effects end immediately, and the next coins struck bear an ordinary face."
+      ]
+    },
+    {
+      "name": "Furnace of the Unpaid",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the furnace takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The shift bell rings. Each creature within 90 feet of the furnace makes a DC 25 Constitution saving throw, taking 24 ({@damage 7d6}) Fire damage on a failed save and half as much on a success.",
+            "Slag runs across the floor. A 30-foot-radius area the furnace can see within 90 feet is covered in molten slag until the end of the furnace's next turn. That area is Difficult Terrain, and a creature that starts its turn there takes 17 ({@damage 5d6}) Fire damage.",
+            "The counting mask reads the roll. Each creature within 60 feet of the furnace that has taken no damage since the start of the furnace's last turn makes a DC 25 Dexterity saving throw or has the {@condition Restrained|XPHB} condition until the end of the furnace's next turn."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the furnace's workings is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "No fire within 6 miles can be put out by water. It has to be smothered, or allowed to finish.",
+            "Wages paid in this region are short by the same amount in every purse, and the difference is never found.",
+            "The owners' houses stand untouched and warm while the valley freezes, and no one has lived in them for years."
+          ]
+        },
+        "If the furnace dies, these effects end immediately, and the first fire lit afterward goes out in water as it should."
+      ]
+    },
+    {
+      "name": "House of All Last Nights",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the house takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The band strikes up. Each creature within 90 feet of the house that can hear the bandstand makes a DC 26 Dexterity saving throw or has the {@condition Prone|XPHB} condition.",
+            "Ribbons run out from the ledger. Each creature within 60 feet of the house makes a DC 26 Wisdom saving throw or has the {@condition Charmed|XPHB} condition caused by the house until the end of the house's next turn. A creature within 5 feet of a charmed creature can take an action to tear the ribbon, ending the condition.",
+            "Every private room opens onto the floor. Each creature within 90 feet of the house makes a DC 26 Charisma saving throw, taking 24 ({@damage 7d6}) Psychic damage on a failed save and half as much on a success. No player is required to disclose anything."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the house is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Nobody within 6 miles can end an evening. They arrive home at dawn with no account of the hours and no wish to give one.",
+            "Debts contracted in this region are never settled. Payment is accepted, recorded, and the debt stands.",
+            "Every house in the district has one door its owners did not install and will not open."
+          ]
+        },
+        "If the house dies, these effects fade over 1d10 days, and the extra doors are bricked up by neighbors who will not discuss them."
+      ]
+    },
+    {
+      "name": "Last Dance",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the dance takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The tune starts again from the top. Each creature within 60 feet of the dance that can hear the bandstand makes a DC 20 Dexterity saving throw or has the {@condition Prone|XPHB} condition.",
+            "The floorboards buckle into steps. A 30-foot-radius area the dance can see within 90 feet becomes Difficult Terrain until the end of the dance's next turn.",
+            "Lamps gutter and the hall fills with the crowd that isn't there. Each creature within 60 feet of the dance makes a DC 20 Wisdom saving throw, taking 17 ({@damage 5d6}) Psychic damage on a failed save and half as much on a success."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the dance's hall is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "No musician within 6 miles can finish a tune. Players stop two bars from the end and cannot say why.",
+            "Everyone in the district dreams the same night, the one before the war, and wakes certain it was last night.",
+            "Dancing is a licensed activity here. The Hush issues permits, refuses most of them, and will not explain the refusals."
+          ]
+        },
+        "If the dance dies, these effects fade over 1d10 days, and the last thing to go is the dreaming."
+      ]
+    },
+    {
+      "name": "Lord of Other Windows",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the lord takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Every window lights at once. Each creature within 120 feet of the lord that can see a lit window makes a DC 22 Wisdom saving throw, taking 21 ({@damage 6d6}) Psychic damage on a failed save and half as much on a success.",
+            "The square narrows. A 40-foot-radius area the lord can see within 120 feet is crowded with facades until the end of the lord's next turn; that area is Difficult Terrain, and the lord has Advantage on attack rolls against creatures within it.",
+            "The lord trades two rooms. Two creatures the lord can see within 90 feet each make a DC 22 Charisma saving throw, and each creature that fails swaps places with the other."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the lord's quarter is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Every house within 6 miles looks poorer from the outside than it is, and its neighbor looks richer than it is.",
+            "Rents in the quarter rise overnight, in handwriting no clerk admits to, and are always paid.",
+            "A person who inherits money in this region is not seen again in the quarter, though their letters keep arriving."
+          ]
+        },
+        "If the lord dies, these effects fade over 1d10 days, and the rents fall last."
+      ]
+    },
+    {
+      "name": "Nation Below",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the nation takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The roof settles. Each creature within 120 feet of the nation makes a DC 21 Dexterity saving throw, taking 21 ({@damage 6d6}) Bludgeoning damage on a failed save and half as much on a success.",
+            "The air goes dead. Sound carries nowhere in the lair until the end of the nation's next turn; each creature within 60 feet of the nation makes a DC 21 Constitution saving throw or has the {@condition Deafened|XPHB} condition for that duration.",
+            "Firedamp seeps up. Each uncovered open flame within 120 feet of the nation is extinguished, and each creature within 10 feet of an extinguished flame makes a DC 21 Dexterity saving throw, taking 17 ({@damage 5d6}) Fire damage on a failed save and half as much on a success."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the nation's workings is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Nobody within 6 miles can say how deep the workings go. Every answer given is a different number, honestly meant.",
+            "Pit ponies and canaries will not go below the second level, and no handling moves them.",
+            "The owners' ledgers in this region show the same shift worked twice, in two different hands."
+          ]
+        },
+        "If the nation dies, these effects end immediately, and the workings are found to have an ordinary floor."
+      ]
+    },
+    {
+      "name": "Returned Room",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the room takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Doors open in the air. Each creature within 60 feet of the room makes a DC 20 Wisdom saving throw or is teleported to an unoccupied space the room can see within 30 feet of it.",
+            "The walls weep. A 20-foot-radius area the room can see within 60 feet is covered in clinging grave-clay until the end of the room's next turn. That area is Difficult Terrain, and a creature that starts its turn there takes 10 ({@damage 3d6}) Acid damage.",
+            "Every mirror in the lair shows an empty chair. Each creature within 60 feet of the room that can see a reflective surface makes a DC 20 Charisma saving throw, taking 17 ({@damage 5d6}) Psychic damage on a failed save and half as much on a success."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the room's cemetery is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Houses in the region are found with one room more than they were built with, always furnished and always cold.",
+            "Nothing buried here stays where it was put. Graves are found reopened from the inside, empty and tidy.",
+            "A family that moves away within 6 miles arrives at the new house to find their old parlor already in it."
+          ]
+        },
+        "If the room dies, these effects end immediately, and the extra rooms are gone by morning."
+      ]
+    },
+    {
+      "name": "Root-and-Rail Concord",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the concord takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The rails and the roots agree. A 40-foot-radius area the concord can see within 120 feet becomes a tangle of sleepers and root until the end of the concord's next turn. That area is Difficult Terrain, and a creature that starts its turn there makes a DC 24 Strength saving throw or has the {@condition Restrained|XPHB} condition until the end of its turn.",
+            "The watching face opens. Each creature within 60 feet of the concord that can see it makes a DC 24 Wisdom saving throw or has the {@condition Frightened|XPHB} condition until the end of the concord's next turn.",
+            "The hollow face calls. Each creature within 120 feet of the concord that has no conscious ally within 30 feet of it makes a DC 24 Wisdom saving throw, taking 24 ({@damage 7d6}) Psychic damage on a failed save and half as much on a success."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the concord's forest is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "A railway runs through this forest that no company laid and no company can find to lift.",
+            "Travelers within 6 miles arrive at a station that is on no timetable, and are always the only passenger waiting.",
+            "Anyone who walks out of this forest alone walks out a day late and cannot account for the day."
+          ]
+        },
+        "If the concord dies, these effects fade over 1d10 days, and the rails rust through within the year."
+      ]
+    },
+    {
+      "name": "Unconfessed",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the unconfessed takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The veil passes over the square. Each creature within 60 feet of the unconfessed makes a DC 23 Charisma saving throw or has the {@condition Blinded|XPHB} condition until the end of the unconfessed's next turn.",
+            "The ground gives at the knees. Each creature within 60 feet of the unconfessed that is within 10 feet of another creature makes a DC 23 Dexterity saving throw or has the {@condition Prone|XPHB} condition.",
+            "Doors stand open on rooms that should be private. Each creature within 90 feet of the unconfessed makes a DC 23 Wisdom saving throw, taking 21 ({@damage 6d6}) Psychic damage on a failed save and half as much on a success. No player is required to disclose anything."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the unconfessed's parish is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "No door within 6 miles stays shut. Latches lift, bolts draw, and nobody is ever found to have done it.",
+            "Written confessions in the parish copy themselves onto the next page in the same hand.",
+            "Everyone in the region knows one thing about a neighbor that they could not have learned, and none of them will say it."
+          ]
+        },
+        "If the unconfessed dies, these effects end immediately, and the doors hold again from that night."
+      ]
+    },
+    {
+      "name": "Wreck-Parish Confluence",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the confluence takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Bells ring from under the water. Each creature within 120 feet of the confluence that can hear them makes a DC 24 Constitution saving throw, taking 21 ({@damage 6d6}) Thunder damage on a failed save and half as much on a success. A creature that fails also has the {@condition Deafened|XPHB} condition until the end of the confluence's next turn.",
+            "The tide comes up through the floor. A 40-foot-radius area the confluence can see within 120 feet fills with knee-deep water until the end of the confluence's next turn. That area is Difficult Terrain for creatures other than the confluence.",
+            "The drowned surface. Three corpses rise in unoccupied spaces the confluence can see within 60 feet and float there until the end of the confluence's next turn. They are ordinary corpses, and a creature within 10 feet of one can be targeted by The Names Not Read."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the confluence's wreck is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Every church bell rings at the wrong hour, always two strokes short of the count, and no clapper can be removed that doesn't grow back by morning.",
+            "The sea returns nothing. Wreckage, cargo, and the drowned all stay down, and nets come up cut.",
+            "Mourners in the region can't finish a funeral. The words are forgotten at the graveside by everyone present at the same moment."
+          ]
+        },
+        "If the confluence dies, these effects end immediately, and the coast gives up its dead over the following tide."
+      ]
+    }
+  ]
+}

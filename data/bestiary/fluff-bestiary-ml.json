@@ -6,39 +6,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A crew repeatedly imagining the undertow closing around an ankle. Its power was fed by a household or crew. A crawling bundle of five swollen grey finger shapes bound to knotted kelp, ending in a salt-white shell cuff; no open wound. It hides just below ankle-deep surf beside a dry stone step.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A forearm and hand, severed cleanly above the elbow, grey and swollen to twice its proper size and bound in knotted kelp. There is no wound where it ends, only a cuff of salt-white shell. It lies under ankle-deep surf, fingers spread, and does not move until something warm steps over it."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+            "A tidewrack hand owns about forty feet of one beach. It does not hunt; it waits at the place where people cross from dry stone into the water, which on most shores is the same four or five flat rocks everyone has used for a century. It wants the crossing kept frightening, and it is content to take one ankle a season.",
+            "Clan: Coast and sea. Born of fear. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "It can impose Frightened or deal feeding damage only while both it and its target are in water no deeper than 2 feet. Dry ground or deeper water prevents both abilities."
+            "Children stop using a particular stepping stone and cannot explain why. Crab pots set at that spot come up with the lines wound tight anticlockwise."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "The shallows at the old slipway pull harder than they should, even at slack water.",
+                "A crewman of the Marion drowned in two feet of water with his boots still laced.",
+                "There is a whole drowned man under the sand there, and only his hand has worked loose.",
+                "Salt thrown on the water keeps it down."
+              ]
+            },
+            "The first two are true. There is no drowned man, and salt does nothing."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "It is only dangerous in the water. A creature standing on dry rock is almost safe from it, and the hand that follows onto stone is slow, clumsy, and easy to break."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Open with the grip, not the sight: have a character feel fingers close on an ankle before anyone sees what has hold of them. It is a first-session monster, and its job is to teach the table that these things obey rules. Let the party work out within two rounds that the beach is safe and the water is not."
           ]
         }
       ],
@@ -59,39 +75,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A household certain that something beneath the leaves hears its whispered plans. Its power was fed by a household or crew. A squat, headless root animal whose riblike bark cage contains a single sideways ear; thin root toes and clusters of closed seed-eyes along its spine. It listens beneath rain-black forest leaves.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A squat, headless animal of root and bark, about the size of a dog. Its ribcage is a cage of bark staves, and inside it, turned sideways, is a single human ear. Clusters of closed seed-eyes run down its spine and never open. It moves on thin root toes and it is always, visibly, listening."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
+          "entries": [
+            "A rootlisten owns a household: one cottage, one clearing, one family's private conversations. It does not want the family dead. It wants them careful, and a household that has learned to whisper indoors and say nothing on the path is a household it can live beside for years.",
+            "Clan: Deep forest. Born of fear. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Signs",
           "entries": [
             "Trail marks loop back on themselves; a Hush decree forbids singing the lost-road ballad."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "What is known",
           "entries": [
-            "Its hunger and feeding require the target to speak or cast a spell with a Verbal component since the end of its previous turn. Silence and quiet movement prevent them."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Say anything aloud under those trees and something moves toward you.",
+                "It repeats what you said back in your own voice before it comes.",
+                "It cannot hear you if you stay still.",
+                "Burning the undergrowth drives it out."
+              ]
+            },
+            "The first, second and fourth are true. Standing still does not help; silence does."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "The counter",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "It works entirely on speech. It cannot frighten anyone who has not spoken aloud or cast with a verbal component since its last turn, and its reaction only triggers on sound. Fire also strips the cover it fights from."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "Running it",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Use it to establish the forest clan's rule at the lowest possible stakes. It is a nuisance, not a threat, and the correct outcome is that the party learns to shut up in this forest before they meet something that matters. If a caster insists on verbal components, let it work — then let them see what it costs them."
           ]
         }
       ],
@@ -112,39 +144,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "Fishers afraid the next haul will bring something aboard that only pretends to be dead. Its power was fed by a household or crew. A crab-sized tangle of soaked fishing net folded around a circular fishlike mouth, hooks as jointed feet, black pearls for eyes, silvery scales caught in its mesh. It waits on an abandoned wet boat deck.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A knee-high tangle of soaked netting folded around a circular, lipless mouth of small hooked teeth. Fishing hooks serve it as jointed feet. Two black pearls sit where eyes would be, and the mesh is still caught with the silver scales of an ordinary catch. Hauled aboard, it lies exactly as dead gear lies."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+            "A netmouth owns a boat rather than a stretch of water, and travels with it. It lives in the pile of gear at the stern, eats what it can take from a crew of four or five, and is careful never to take so many that the boat stops going out. A harbor that has one usually has several, each on its own hull.",
+            "Clan: Coast and sea. Born of fear. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its feeding resistance ends until the start of its next turn when it takes Fire or Slashing damage. Its fear requires physical contact with its net."
+            "Empty nets turn toward shore before it appears, and the Hush has quietly removed names from the harbor rolls."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Gear left on deck overnight is found moved, always closer to where the crew sleep.",
+                "It can only be killed by burning the whole net, which means burning the boat.",
+                "It plays dead until something warm touches it; a boat hook is safe, a bare hand is not.",
+                "It came up in a haul off the Ninestones in the famine year."
+              ]
+            },
+            "The first and third are true. Fire hurts it badly but does not require the boat; the Ninestones story is told about every netmouth on the coast."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Fire is its real weakness: any burn strips the armor it takes from a frightened crew for a round. It also cannot frighten anyone who has not touched the net, so a crew that works the gear with gaffs and hooks is far safer than one that works it by hand."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Describe the heap of net twice before it moves, once when the party boards and once when they search. The monster is a punishment for a careless action, so make the careless action available and let someone take it. On a small deck its ability to share a space makes it genuinely frightening at low level."
           ]
         }
       ],
@@ -165,39 +213,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "Miners listening for the knock that means the ventilation door has sealed. Its power was fed by a household or crew. A child-sized but unmistakably nonhuman figure made of stacked mine lamps and solidified yellow tallow, long iron knuckles, wick eyes inside a wooden pit-prop cage. No human child present. It crouches at a mine ventilation door.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A squat figure the size of a child, cast in candle tallow over a frame of pit props, with a lamp-flame burning somewhere inside its chest where the wax has gone translucent. Its knuckles are iron. It knocks on the rock the way a trapped man knocks, in threes, and then it waits the way a trapped man waits."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+            "A tallow knocker owns one district of one mine: a few hundred yards of roadway and the men who work it. It wants the knocking believed in. A crew that has learned to stop and listen every time is a crew working slowly and fearfully, which is exactly the condition it lives on, and it will go years without killing anyone.",
+            "Clan: Mountains and mines. Born of fear. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "A creature carrying an uncovered light source that sheds Bright Light cannot be frightened by its hunger and is not a feeding target."
+            "Ventilation doors are found sealed that nobody sealed; the lodge's accident book has pages gummed together."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Three knocks means the door has gone and you have about a minute.",
+                "It will not come near a man with an open lamp.",
+                "It is the last of the Hallow Drift crew, still knocking.",
+                "Safety lamps are no protection; the flame has to be bare."
+              ]
+            },
+            "The second and fourth are true. The knocking means nothing in particular, and no crew it belongs to ever existed."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "An uncovered open flame within thirty feet takes away its attack accuracy and its bonus action outright. A covered safety lamp does nothing — which is a cruel joke, since safety lamps are what miners actually carry."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "The lamp rule is the lesson of the whole mines clan, so teach it here at CR 1. Put the party underground with safety lamps and let them work out that they need to open one, and that opening one in a gassy roadway is its own decision. It fights from the dark and retreats into it."
           ]
         }
       ],
@@ -218,39 +282,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A bereaved household fearing a drowned relative will come back and ask to be admitted. Its power was fed by a household or crew. A broad swollen adult humanoid silhouette with blue-grey salt-crusted skin, an unnaturally long throat, a face like a half-remembered adult relative, weed and abandoned net draped as a coat. It stands at a tide line without a weapon.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A broad, swollen figure in the shape of an adult relative, blue-grey and crusted with salt, its throat lengthened by a hand's width so the voice carries. Weed and abandoned netting hang from its shoulders like a coat. It carries nothing and threatens nothing. It stands at the tide line and says names."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+            "A drowned caller owns a parish of perhaps two hundred people and intends to keep every one of them. It works at dusk at the edge of the water, calling the names of the living in the voices of their dead, and it only ever takes those who answer. A household that has learned not to answer can live inside its territory for three generations, which is exactly what the caller wants.",
+            "Clan: Coast and sea. Born of fear. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its hunger and feeding affect only a creature that willingly answered an audible question spoken by the caller since its last Long Rest. Involuntary speech and compelled responses do not count. Refuse to answer."
+            "Someone's drowned relative is heard calling from the water at dusk; the parish register has pages cut out where the drowned should be."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It calls in the voice of someone you have lost, and it gets the voice exactly right.",
+                "If you answer it even once, it can always find you afterward.",
+                "It cannot come above the tide line.",
+                "Speaking its own name back to it destroys it."
+              ]
+            },
+            "The first two are true. It can leave the water, though it is much weaker on dry ground, and nothing is destroyed by naming."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "It cannot frighten anyone who has stayed silent. A party that works the shore without speaking aloud — no shouted orders, no verbal spellcasting — strips it of its central ability entirely, and that constraint is worth the whole encounter."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "This is the monster that teaches a table to read a rule. Run it twice if you can: once as an event the party only witnesses, from a window, where a neighbor answers and is taken; and once as a fight, after they have worked out what answering costs. The silence constraint makes casters re-plan, which is the point."
           ]
         }
       ],
@@ -271,39 +351,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A village unable to stop waiting for a ship whose survivors will never return. Its power was fed by a village or parish. A hollow tall driftwood body shaped like a person leaning seaward, arms forming a vast empty embracing circle, salt crust on empty face and no visible flesh inside its torso. Its feet root into pebbles near a wrecked watch shelter.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A tall figure built out of driftwood and salt crust, hollow through the chest where a body should be, arms permanently open in the shape of an embrace that has nothing in it. It always faces the water. Wood grain runs the wrong way across its face, which has no features except the direction it is turned."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+            "A shorewaiter owns the waiting itself. Its territory is any shore where people still come to watch for ships, and the people it wants are the ones who keep coming. It is not hostile to strangers and does not hunt the parish. It becomes dangerous only when someone tries to take a waiting person away from the water, or when a rival monster comes for the same widows.",
+            "Clan: Coast and sea. Born of longing. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Keep within 30 feet of a conscious ally. Its feeding cannot cross Total Cover; the empty embracing circle always turns toward isolated prey."
+            "Driftwood stacks itself into standing figures along the high-water mark; the Hush has twice relocated the village and twice it has walked back."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It has never hurt anyone from this village.",
+                "It fought something in the water two winters ago and the sea boiled for an hour.",
+                "If you take a widow off that beach it will follow you inland.",
+                "It is the ship's figurehead, come back without the ship."
+              ]
+            },
+            "The first three are true. It has no connection to any figurehead, though every coastal village tells that version."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "It does not attack a party that leaves its waiting people alone, and it will fight other coast monsters for them. Beyond that, it preys on whoever is isolated: nobody who keeps an ally within thirty feet is a target for its reaching."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Offer it as an alliance before offering it as a fight. The cleanest use is a three-way encounter on a beach: the party, a drowned caller that wants the same widows, and the shorewaiter, which will spend itself on the caller if the party stands aside. If the party does attack it, punish spreading out — it pulls one character away and works on them alone."
           ]
         }
       ],
@@ -324,39 +420,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A parish mourning the empty places left at its funeral tables. Its power was fed by a village or parish. A cemetery chair walking on four shroud-wrapped arm-shaped legs, its empty seat occupied only by a human-shaped hollow in wet clay, a tarnished silver mourning bell beneath the backrest. No seated person. Rainy graveyard.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A high funeral chair of black oak, worn pale on the arms, that walks. A place is laid at it — cloth, cup, plate — and the place is never filled. What sits in the chair is only visible as an absence with weight, and the chair carries it from house to house."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+            "A last seat owns a parish's funeral tables. It attends. It takes the empty place at every wake in its district and it stays until the household has stopped setting one, at which point it comes for them. Its subjects keep mourning on schedule because they have learned what happens when they stop.",
+            "Clan: Urban haunts. Born of grief. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Cover its chair with an opaque cloth using an action within 5 feet. Until the cloth is removed or destroyed (AC 10, HP 5), it cannot use its hunger or feeding. It can remove the cloth with an action."
+            "A place is laid every night for someone long dead and the household cannot say who started it; licensed mourning hours end early by decree."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It sits down at wakes. If you are hosting, you lay the extra place.",
+                "It gets stronger while there are wounded near the dead.",
+                "Throw a cloth over the chair and it is blind and harmless.",
+                "It is the first person this parish buried."
+              ]
+            },
+            "The first three are true. It was never a person."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "The chair is the organ, and it can be covered. A creature within five feet can spend an action to throw an opaque cloth over it — or simply destroy it, AC 12 and 15 Hit Points — and the seat stops healing from the wounded entirely. It can spend its own action to uncover it again."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "This is the clan's teaching encounter: the furniture is the monster, and the party should work that out by hitting the chair by accident. A funeral in progress makes the best arena, because the wounded and the dead are already in the room. Its vigil attack needs a line of sight to the chair, so covering it does double duty."
           ]
         }
       ],
@@ -377,39 +489,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "Three generations of one harbor fearing the fog that returns boats without crews. Its power was fed by a village or parish. A vast bell-shaped fog creature suspended above tide flats, grey foam ribs and trailing net curtains outlining a hollow dark head, three floating drowned-blue eyes and rope limbs herding empty boats. Its outline remains legible against the fog.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "Nothing is ever seen of it but a shape, and the shape is enormous. In three generations of accounts it is a hunched herder's silhouette standing in its own cold fog, taller than the harbor cranes, moving boats the way a shepherd moves sheep. The bell that sounds with it does not exist; no bell on this coast makes that note."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+            "A haar shepherd owns a harbor and the three miles of water outside it. It does not sink boats. It herds them: away from the channel, onto the bar, into each other, and back to the quay empty, which is the state in which this harbor has received its boats for sixty years. The town has not moved and will not, and that is the shepherd's whole achievement.",
+            "Clan: Coast and sea. Born of fear. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its hunger and feeding require the target to be in Lightly or Heavily Obscured fog. A 10-foot-radius area of Bright Light suppresses its own fog there; an audible struck bell suppresses its fog within 30 feet of the bell until the end of the striker’s next turn."
+            "Fog rolls in against the wind and against the tide; the Hush licenses funerals here in batches, once a season, to keep the mourning short."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Boats come back crewless, tied off properly, with the catch still aboard.",
+                "You can hear a bell in the haar that is not the harbor bell.",
+                "It cannot cross into lamplight.",
+                "It is the drowned of the Cormorant, all of them together."
+              ]
+            },
+            "The first three are true. It is not made of the dead; it is made of sixty years of the living being afraid of the fog."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Bright light breaks it. It cannot frighten anyone standing in a lit area, and a struck bell clears its fog for thirty feet around the sound. A boat crew with lanterns and a bell can cross its water; one without is working inside its territory on its terms."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Give the party the counter as salvage, not as a lore check: a lantern locker and a hand bell aboard the wreck they are searching. The fight should be run as a chase across open water with visibility as the real resource. Thunder damage grounds it briefly, which rewards a party that works out that it is held up by the weather."
           ]
         }
       ],
@@ -430,39 +558,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "The rage of miners whose injuries were entered as fractions on an employer’s tally. Its power was fed by a village or parish. A tall mine-born giant with a body of bruised grey hide reinforced by splintered pit props, a measuring chain embedded around its shoulders, an enormous split wooden tally in place of its face, oversized iron hands. A dark red glow escapes cracks without exposed viscera.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A giant built from a counting house: a torso of ledgers and tally sticks, iron measuring rods for arms, and a face that is a single ruled page of fractions. Where a miner lost a hand, a foot, an eye, there is a corresponding figure written on it, and the figures are all less than one."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+            "A redmeasure owns a mining valley and the arithmetic done in it. It does not want the owners dead — it wants the ledger kept, which means it wants the injuries to continue being entered as fractions and the men to keep being angry about it. It breaks doors at night and it takes a count in the morning.",
+            "Clan: Mountains and mines. Born of rage. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its feeding records damage from individual creatures, not conditions or failed attacks. Stop attacking for one round or commit enough force to defeat it before its retaliatory turn."
+            "Pay is short by the same amount in every purse; the Hush has broken up two meetings in the valley this year."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It comes for whoever hit it last, and it remembers how many.",
+                "If you all go at it at once it hits back harder.",
+                "It cannot be hurt by anything the company owns.",
+                "It is fire-proof."
+              ]
+            },
+            "The first, second and fourth are true. It can be hurt by anything at all."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "It tallies attackers, not attacks. The extra damage it returns scales with how many different creatures hit it since its last turn, so a party that lets one character do the striking keeps the tally at one die; a party that all piles in takes the full count back."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Say the tally out loud each round — 'that is three of you now' — so the mechanic is visible by the second turn. It rewards a party that nominates a tank and punishes the instinct to focus-fire with everyone. Its reaction closes the distance to whoever hurt it, so a back-rank character who takes a shot will have it in their face."
           ]
         }
       ],
@@ -483,39 +627,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A city quarter resenting the warm, prosperous rooms visible across a narrow square. Its power was fed by a village or parish. A low four-legged mass of lead-grey translucent plaster slime, many small intact windowpanes floating within it, each reflecting a richer room, a single amber eye behind a warped bay window face. It flows over a soot-black city square.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "An ooze that has taken the shape of a tenement wall and is slowly coming off it. Lead-framed windows float in the mass, and the one at its center is lit, warm, and furnished, showing a room nobody in this quarter has. The rest of it is grey and climbing."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+            "A window envier owns one square and the four streets off it. It keeps the lit room visible from every window in the district, and it keeps the district looking. Its people are poorer each year and more certain that the money went somewhere specific, which is the condition it lives in.",
+            "Clan: Walled cities. Born of envy. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Close or cover its central window with an action within 5 feet, or deal 15 Bludgeoning damage to it in one turn. Its feeding stops until the end of its next turn. Its hunger never requires revealing a player’s private inventory."
+            "A house across the square is warm and lit all winter and nobody can say who lives there; rents rise in handwriting no clerk admits to."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "There is a room in it that is better than any room you have been in.",
+                "It wants whoever is unhurt. Once you are bleeding it loses interest.",
+                "The window can be put out.",
+                "Whatever you see in the window is a real room somewhere in the city."
+              ]
+            },
+            "The first three are true. The room is not anywhere."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Its armor depends on there being someone unhurt in sight. Once every creature it can see has taken damage, there is nothing left for it to envy and the Resistance ends."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "The charm it offers is harmless on purpose — it does not compel anyone to attack a friend or hand anything over; it just makes them unwilling to walk away from the window. Play that as the horror. The party's own untouched character is the thing keeping its armor on, which is an unpleasant and interesting fact for them to discover."
           ]
         }
       ],
@@ -536,39 +696,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A tavern district insisting that its best night must never be allowed to end. Its power was fed by a village or parish. A dreadful antlerless carnival animal with six jointed dancer legs, bruise-purple hide, a stretched fixed porcelain grin and ale-amber eyes, split tavern stools growing from its spine. An unmistakably nonhuman beast on sawdust; no festive human crowd.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A long-limbed beast, deer-boned and grinning, that has been dancing for so long its feet are gone to the ankle and it goes on anyway. A split fiddle is strapped against its exposed ribs, playing itself. It is genuinely, horribly delighted to see anyone."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+            "A merry unending owns a tavern district's best night and refuses to let it end. Its people are not miserable — that is the difficulty. They are exhausted, euphoric, and unable to go home, and the district has been at its own party for eleven years. It takes the ones who fall down.",
+            "Clan: Urban haunts. Born of joy. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "A creature can stand from Prone normally. Its hunger requires hearing its rhythm; covering both ears with an action prevents hearing that rhythm until the creature frees either hand."
+            "The same night is celebrated continuously and nobody can name the occasion; three publicans have been relocated by the Hush without explanation."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It takes whoever goes down. Get up and it goes looking elsewhere.",
+                "Cover your ears and you cannot hear the fiddle, and it cannot put you down.",
+                "The fiddle can be broken.",
+                "If you dance with it willingly it will let you go at dawn."
+              ]
+            },
+            "The first three are true. Nobody has ever been let go."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Two doors out. Getting up ends its extra damage immediately — standing is a normal action and it imposes no penalty on doing so — and covering both ears with an action stops a creature hearing the fiddle until it frees a hand. The fiddle itself is AC 13, 25 Hit Points."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "It knocks the party down and then dances on them, so the fight has a rhythm: fall, stand, fall. Its reaction lunges at whoever stands up, which makes standing a decision rather than a reflex. A character who gives up both hands to cover their ears is safe and disarmed, which is the same trade the whole district has made."
           ]
         }
       ],
@@ -589,39 +765,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A wooded province grieving people buried beyond the reach of its mourning bells. Its power was fed by a province. An enormous grieving forest plant with a bowed bell-shaped bark torso, hollow hanging root hands, pale closed fungus flowers shaped like eyelids, a mossy bone-white wooden heart behind a closed lattice. An abandoned woodland burial grove.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A tree-sized body of split timber and hanging root, with mourning bells grown through the trunk at every height. The bells are the wrong shape, cast in grief rather than bronze, and they are all silent. Where the bark is open the wood underneath is wet and red. It smells of pollen and turned earth."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Trail marks loop back on themselves; a Hush decree forbids singing the lost-road ballad."
+            "A bellwound owns a wooded province and the burials in it. It wants the dead to stay out of reach of the parish bells, which means out of the churchyards and under the leaves, and it wants the living to keep going out to look for them. It is patient on a scale of decades, and it does not need to kill anyone to be fed.",
+            "Clan: Deep forest. Born of grief. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "An ally can use an action within 5 feet to wipe a target’s eyes or ring a bell, ending the Blinded or Deafened condition respectively caused by Bellwound. Healing above half HP also switches off its wound feeding."
+            "Burials out in the trees are found disturbed and recovered; a mourning period was cut short by decree and the village obeyed without argument."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It rings when someone dies within a mile, and only the dying hear it.",
+                "It heals while there is someone bleeding near a body.",
+                "It is afraid of fire.",
+                "The bells are from the drowned chapel and can be rung to banish it."
+              ]
+            },
+            "The first three are true. The bells are part of it and cannot be rung by anyone."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "It heals only while it can see a badly wounded creature or someone standing near a corpse — getting people above half their Hit Points shuts that down. It is also vulnerable to fire, and it fights from cover that burns."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Make its healing legible: say the wood closes when it heals, and say what it is looking at. The party should work out that keeping each other topped up is more valuable than extra damage. Its deafening and blinding stack onto its own saves, so a party that ignores the conditions will fail more of them — but any ally can spend an action to clear one."
           ]
         }
       ],
@@ -642,39 +834,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "Mining villages envying the vein reserved for the owner’s favored crews. Its power was fed by a province. A regal upright vein of living ore, raw iron plates moving around a coal-black core, lamp-orange gemstones as jealous eyes, many slender metal fingers weighing a little empty pan. A gown-shaped base made of jagged mineral folds in a mine seam.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "An elemental of ore and seam-water in the shape of a woman wearing a mine: galleries for skirts, a coronet of unworked silver, and a body that is cross-sectioned so the good vein is visible running through her. She is scrupulously polite and takes only from those who have not yet been hurt."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+            "A seam duchess owns a mining village through its envy. She reserves the richest seam, visibly, for nobody, and lets the village watch it. Her subjects do not leave, because the vein is still there and might yet be theirs, and she takes a little from the ones who are still whole and lucky.",
+            "Clan: Mountains and mines. Born of envy. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its envy selects the other creature with the highest current HP within 60 feet that it can see; ties select none. Equalizing current HP or breaking sight prevents feeding on that creature."
+            "A seam is found opened and worked by no crew; the owners' favor lists are posted and then withdrawn by decree."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "She takes whoever is still untouched. Get a scratch and she loses interest.",
+                "The vein she guards is real and it is the richest in the county.",
+                "She cannot be struck by a man who has taken her wages.",
+                "She will bargain, and she keeps her word."
+              ]
+            },
+            "The first, second and fourth are true. Wages have nothing to do with it."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "She envies the unhurt. A creature that has taken no damage since the start of her last turn is the one she wants, and once everyone has been hurt she has nothing left to want from them."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "The counter is counter-intuitive and should be discovered as such: the safest character at her table is the one who is already bleeding. Her reaction protects her specifically from the wounded, which means the party's damaged frontliner has a harder time landing hits than its untouched wizard — and the wizard is the one she is coming for."
           ]
         }
       ],
@@ -695,39 +903,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "The possessive desire of patrons who believe payment entitles them to another adult’s attention forever. Its power was fed by a province. An adult-sized fully clothed fiend with an elongated faceless wax mask, a high-collared burgundy silk robe, brass bed-rail fingers, long sealed ledger ribbons and a candle flame reflected in each knuckle. Nonsexual, no nudity, sinister debt collector in an empty candlelit room.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A tall, courteous fiend in worn red velvet, with a standing ledger on a brass post growing out of its hip. Ribbons run from the ledger to everyone who owes it, and the ribbons are visible to everyone in the room. It is unfailingly polite and it does not hurry."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+            "A velvet debt owns a brothel district through its accounts. It did not come from the people who worked there; it came from the clients who believed that paying bought permanence. It keeps a quarter in debt, and it is careful to keep its debtors working, housed, and unable to leave.",
+            "Clan: Urban haunts. Born of lust. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "An ally can use an action within 5 feet to visibly tear one of its ledger ribbons, ending one Charmed condition it caused. The fiend cannot charm through Total Cover or target a Deafened creature with its invitation."
+            "Debts in the district are recorded as settled and remain owed; a house is relocated and its ledger is not."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Everyone it has a hold on has a ribbon. You can see them.",
+                "Cut somebody's ribbon and the hold ends.",
+                "It never makes anyone hurt their friends.",
+                "Pay the debt off and it has no claim."
+              ]
+            },
+            "The first three are true. The debt cannot be paid; that is the whole of it."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "The ribbons are the counter and they are deliberately, visibly cuttable: any creature within five feet of a charmed ally can spend an action to tear that ribbon and end the condition. The ledger itself is AC 14, 35 Hit Points, and covering or destroying it stops the fiend's pursuit entirely."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Its charm is non-compelling by design — it never turns a character against the party — so the horror is in the ribbon, not in losing control. Keep saying who is tied to it. Its reaction teleports it away whenever somebody cuts a ribbon, which turns the fight into a pursuit through rooms it keeps leaving."
           ]
         }
       ],
@@ -748,39 +972,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A city convinced its civic virtue entitles it to judge every neighboring settlement. Its power was fed by a province. An uncanny adult humanoid with layered plaster masks instead of a face, a black civic robe buttoned with wax seals, lead-grey elongated hands carrying an empty measuring frame, and a crown of soot-coated municipal keys. No real-world religious symbols. Walled city courtyard.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A man-shaped thing in clean civic dress, carrying no weapon and no warrant. Its face is a parish seal. It speaks in sentences that have already been handed down, and where it walks the pavement is swept. It is made entirely of a city's certainty that it is better than its neighbors."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+            "A parish inquisitor owns a city's good opinion of itself. It patrols the boundary with the next settlement, it judges travelers at the gate, and it makes examples. Its subjects are proud, obedient, and unwilling to be the one it stops, and it has never needed to kill more than a few of them a year.",
+            "Clan: Walled cities. Born of pride. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "A creature that willingly has the Prone condition cannot trigger its pride feeding. The inquisitor’s hunger can still push that creature, but cannot renew the pride mark."
+            "Visitors are judged at a gate by a court that never convenes; a neighbouring village's name has been struck from the civic rolls."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It cannot touch you if you kneel.",
+                "It only presses the ones who have already failed in front of it.",
+                "It judges by the law of this city, which is not written down.",
+                "It can be appealed to, in the correct form."
+              ]
+            },
+            "The first three are true. There is no appeal, and the correct form does not exist."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Kneeling works, literally. A creature that is willingly Prone is never a target for its judgment, cannot be hit by its Sentence of Stillness, and cannot have the judgment renewed on it. Dropping prone costs nothing at the start of a turn; standing back up costs movement."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "The decision the fight asks for is whether to kneel to it, and that should feel bad. A kneeling character is safe and useless. Let the party find the rule early and then spend the rest of the encounter choosing, round by round, who is standing up. Its reaction moves it whenever someone resists successfully, so it circles the ones who will not bow."
           ]
         }
       ],
@@ -801,39 +1041,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A province longing for the road that once brought its missing travelers home. Its power was fed by a province. A huge nonhuman four-legged woodland guardian with a hollow arched bark body, many reaching root arms, a face made of two empty trail tunnels, a crown of moss-laden crooked branches. No mother or children represented. It straddles two paths that circle into each other.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "Huge and many-limbed, built out of the roads that used to run here: packed earth, milestones, broken paving, and the boots of travelers, all grown into a maternal shape with too many arms and no face. Trail stones rise around her when she moves. She is always turned toward whoever is furthest from the group."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Trail marks loop back on themselves; a Hush decree forbids singing the lost-road ballad."
+            "A pathless mother owns a province's roads. She does not close them; she unties them, so that every route still exists and none of them arrives. Her people stay — they are waiting for the road home to work again — and she takes only the ones who go on ahead, fall behind, or set out alone.",
+            "Clan: Deep forest. Born of longing. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "A conscious ally within 30 feet disables its longing feeding. Marked trail stones are visible anchors: a creature adjacent to one can use an action to end the mother’s Blinded condition on itself or an ally within 5 feet."
+            "Trail marks loop back on themselves; the Hush has forbidden the lost-road ballad in three counties and hanged two people for singing it."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Nobody who walks out of this province alone walks out of it at all.",
+                "The milestones move when you are not looking at them.",
+                "She will not touch you while someone has hold of you.",
+                "She is looking for her own children and will stop if you help her find them."
+              ]
+            },
+            "The first three are true. She is not looking for anyone; she is the shape of a province that is."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "She can only take the extra from a creature with no conscious ally within thirty feet, and her opportunity attacks are weak against anyone standing with a friend. Her own trail stones are the counter to her blindness: a character beside one can spend an action to clear it from themselves or a neighbor."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "She pulls one character out of the line every round — that is the whole fight. Run her as an attempt to break the party into individuals, and let the party's answer be discipline. Her trail stones appear as a side effect of her own recharge action, so the counter arrives on her schedule; point them out the first time, then stop."
           ]
         }
       ],
@@ -854,39 +1110,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A whole coast grieving the bodies the tide has withheld. Its power was fed by a province. A gigantic tide bell walking on many pale shroud-bound hands, its shell body encrusted with barnacles and blue-grey funeral masks, its central mouth ringing without a tongue. Shore cemetery washed by grey foam, full body visible.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A mass the size of a chapel, grey and water-logged, built out of the shapes of carried coffins and the arms that carried them. Bells are set into it at every level, all of them full of silt and none of them able to ring. It moves the way a tide moves, without hurry and without being resisted, and it keeps the drowned inside it where the parish can see them."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+            "An undertoll owns an entire coastline and every funeral on it. It does not need to kill in order to feed; it needs the dead to stay unrecovered and the living to stay wounded about it. Where it rules, the tide gives nothing back, and whole coast parishes organize their year around a grief they are never permitted to finish.",
+            "Clan: Coast and sea. Born of grief. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its grief feeding requires a wounded target within 10 feet of a corpse. Moving at least 10 feet away or dragging the corpse away turns feeding off. The corpse need not be human."
+            "The sea stops returning bodies for a hundred miles; mourning periods are cut short by decree and nobody objects aloud."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Nothing this coast loses is ever given back, not wreckage, not cargo, not people.",
+                "It grows stronger while there are wounded near the dead.",
+                "It will not touch anyone who has never lost someone to the water.",
+                "The bells inside it are from the drowned chapel at Verrick."
+              ]
+            },
+            "The first two are true. It has no interest in whether you have lost anyone, and the bells are its own."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "It heals only while it can see someone badly hurt near a corpse. Dragging the wounded clear of the dead, breaking its line of sight, or simply healing people above half shuts the regeneration off — and it actively prevents the first of those by holding corpses in place."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Make the corpses a battlefield feature, not scenery: the party arrives at a shore already strewn with the morning's drowned, and where they fight decides whether it heals. Its reaction drags it toward anyone who drops, so going down near the bodies is a trap. A party that fights it on dry stone, away from the dead, can kill it; one that fights it in the surf among corpses will not."
           ]
         }
       ],
@@ -907,39 +1179,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A capital terrified that anyone might hear what its sealed records contain. Its power was fed by a province. A massive civic construct of lead filing drawers and soot-stained plaster, folded black cloth wings shaped like shutters, one sealed wax face, very long iron stamp arms. Heavy silhouette leaning over an empty city street; no affiliation insignia.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A construct the size of a gatehouse, built from sealed record chests, lead strapping, and wax. It has no face, only a slot. It is extraordinarily heavy and makes almost no sound moving, and where it stands, conversation nearby gets quieter without anyone deciding to be quiet."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+            "A hushweight owns a capital's archive and, through it, the capital. It does not suppress the records for anyone's benefit; it is made of the fear that they will be read, and it farms that fear by existing visibly and never being opened. Its subjects are an entire city that has agreed not to ask.",
+            "Clan: Walled cities. Born of fear. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its feeding resistance ends until the start of its next turn when a creature within 30 feet audibly states a fact it observed about the construct. A Deafened speaker can still speak; a magically silenced one cannot."
+            "A public square is cleared of people on no stated authority; three archivists are reassigned in one week and none are seen again."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Say out loud what you have seen it do and its armor opens for a moment.",
+                "It cannot be hurt while anyone nearby is afraid of it.",
+                "Whatever is inside it is worse than it is.",
+                "It is deaf, so speaking is safe."
+              ]
+            },
+            "The first two are true. Nothing is inside it, and it is not deaf."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Testimony is the counter, and it costs an action: a creature within thirty feet can take an action to say aloud one true thing it has watched the hushweight do, and its Resistance drops until the start of its next turn. Being Deafened does not stop a character speaking; being magically silenced does. Blinding it shuts the Resistance off entirely."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "This is an action-economy fight dressed as a moral one. Somebody has to spend their turn testifying instead of attacking, every round, and the party has to decide who can afford to. Make the testimony diegetic — ask the player what their character says — and the encounter will do more work than its stat block suggests."
           ]
         }
       ],
@@ -960,39 +1248,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A province’s rage at employers who sent the next shift into a known collapsing mine. Its power was fed by a province. A huge broad-backed mine giant of charcoal stone and scarred iron with a furnace-bright chest behind closed rib-shaped grilles, foreman coats fused into its back, a face of crossed broken pick handles. Huge blunt fists and tallow-yellow eyes.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "Huge, and torn open from the inside. A giant made of shaft timbers, winding cable, and the coats of a whole shift, split down the chest so the firedamp burning inside is visible. It carries nothing. It does not need to: everything it has to say it says by bringing a roof down."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+            "A pit reprisal owns a province's anger at its employers. It does not destroy the mines — that would end the grievance. It takes shift managers, it collapses the workings of companies that have been warned, and it leaves the men alive and furious, which is the crop it farms.",
+            "Clan: Mountains and mines. Born of rage. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its feeding applies only against a creature that dealt damage to it since the end of its last turn, and ends if that creature is behind Total Cover. Its rage is not an extra action outside its listed economy."
+            "Known-bad workings are sent crews anyway and the crews are not seen again; the Hush burns the inquest records before they are read."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It only ever comes for the ones who sent the shift down.",
+                "It gets worse the more of you hit it.",
+                "Cold water will make it let go of anything.",
+                "It can be reasoned with if you show it the ledger."
+              ]
+            },
+            "The first three are true. It cannot be reasoned with at all; nothing can."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Like every rage-born thing it tallies attackers. Striking it with one character instead of four keeps the return damage to a single die. Cold damage makes it rupture free of a grapple and empties its tally for a round, which is a real tactical trade for a party that has it held."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "A collapsing mine is the arena, and its line attack should bring part of it down. The cold-damage reaction is a lever the party can pull deliberately: it escapes the grapple, but its tally resets, so a party that has been piling on can use a frost spell to wipe the count. Let them find that."
           ]
         }
       ],
@@ -1013,39 +1317,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A generation’s desperate joy at the victory night before the next war. Its power was fed by a nation or age. A huge upright fiend made of intertwined empty tavern coats and split floorboards, many elegant but impossible jointed legs, a fixed bruise-purple mask and ale-amber bell eyes, long hands setting the rhythm. Empty ruined tavern, no human dancers.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "Huge, and still in evening dress a generation out of date. A brass bandstand has grown through its shoulders and is still playing the tune from the victory night. Below the knee it is bone and splinter. It dances on a floor it brings with it, and the floor does not let people up."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+            "A last dance owns a generation's refusal to admit that the war came back. Its territory is a capital's pleasure district, and its subjects are everyone who was at that party and everyone who has heard about it. It keeps the night running and it takes those who fall out of the dancing.",
+            "Clan: Urban haunts. Born of joy. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its joy keys on Prone targets that can hear it. Stand up or prevent hearing the rhythm. An ally can use an action to help a willing adjacent creature stand without spending that creature’s movement."
+            "No musician for miles can finish a tune, stopping two bars short without knowing why; dancing is licensed here and most permits are refused."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It takes whoever is on the floor. Get them up.",
+                "Someone else can haul you up without costing you anything.",
+                "Deafen it and it slows right down.",
+                "It will stop at dawn, as it did that night."
+              ]
+            },
+            "The first three are true. It has not stopped in forty years."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Getting people up is the whole defense, and the stat block makes it cheap: a creature within five feet can spend an action to haul a prone ally upright without spending that ally's movement. Deafening it halves its Speed and shuts off both its extra attack and its area action."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Run it as an action-economy problem. Every round it puts people down and somebody has to spend a turn picking them up, which is exactly how the district has spent forty years. Deafness is the win condition and should be reachable — thunder, silence, a good shove into the harbor — and when the party finds it, let the fight visibly collapse."
           ]
         }
       ],
@@ -1066,39 +1386,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A nation grieving the homes to which its dead will never return. Its power was fed by a nation or age. A huge walking cemetery-room organism, wet clay walls sagging like skin, shroud curtains forming four thick legs, a single doorway mouth and intact tarnished mirrors showing empty chairs. Lichen and bone-white lintels, unsettling architecture with a legible central face.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A huge walking room. Clay walls sag like skin, shroud curtains hang as four thick legs, and a tarnished doorway stands in its front face, open on a parlor with the chairs set and nobody in them. Mirrors inside it are intact and show the room as it should be."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+            "A returned room owns a nation's war dead, or rather the houses they did not come back to. Its territory is every cemetery district in the country, and it spends its time visiting the homes of the missing and standing in the street outside. Its people keep the rooms ready, which is what it is for.",
+            "Clan: Urban haunts. Born of grief. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its grief resistance ends until the start of its next turn when it takes Radiant damage or an adjacent creature restores HP to another creature. Walls inside its body offer no unexplained immunity."
+            "Houses are found with one more room than they were built with, furnished and cold; graves reopen from the inside, empty and tidy."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "There is a door in it and the room behind the door is your room.",
+                "Radiant light opens its armor.",
+                "Healing somebody next to it opens its armor too.",
+                "Anyone it swallows is in the parlor and can be fetched out."
+              ]
+            },
+            "The first three are true. There is no parlor; what it takes, it digests."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Its Resistance drops for a round whenever it takes Radiant damage, or whenever a creature within five feet of it heals someone else. The doorway it grapples with can be hauled open by any creature within five feet, which frees the victim."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "The healing counter is the good one: a cleric standing next to the monster, patching someone up, is strictly better than a cleric standing back. Its grapple takes one character out of the fight into a room where the chairs are set, which is the image the whole encounter is for. Describe the parlor before you describe the acid."
           ]
         }
       ],
@@ -1119,39 +1455,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A generation fearing the country that begins when every familiar forest path turns wrong. Its power was fed by a nation or age. A gargantuan wingless forest dragon with a long low serpentine body built from intertwined wet bark and root, a crest of closed pale fungal eyes, rows of antler-shaped teeth, many tiny leglike branches. Never a conventional scaled dragon. It curves through a forest of wrong-way trees.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A dragon only in build: gargantuan, antlered, with a crest of bark plates that opens on a single enormous eye. Its body is forest floor — leaf litter, standing water, fallen trunks — assembled into something that walks. Behind it the forest is visibly a different forest, and the party has not moved."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Trail marks loop back on themselves; a Hush decree forbids singing the lost-road ballad."
+            "A country behind trees owns everything a generation is afraid of in the woods. It does not have a den. Its territory is the wrongness itself, which spreads along trails, and its subjects are everyone within a day's walk who has stopped using the forest after dark. It is perfectly happy for them to go on living at the edge of it.",
+            "Clan: Deep forest. Born of fear. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its fear requires seeing an open eye on its crest. A creature can avert its gaze at the start of its turn until the start of its next turn: it cannot see the dragon but is immune to its eye-triggered hunger and feeding during that time."
+            "Roads walked twice arrive in two different places; every map of this forest is accurate on the day it is drawn and wrong by the next."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "There is a country behind the trees and the path into it is any path at all.",
+                "Do not look at the eye on its crest.",
+                "It cannot find you if you keep your eyes off it.",
+                "Iron nailed to a trunk marks a true path."
+              ]
+            },
+            "The first three are true. Iron does nothing, though half the province has nailed it up anyway."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Everything it does with fear runs through the open eye on its crest. A creature that averts its gaze at the start of its turn cannot see the dragon, and the dragon can neither frighten it nor deal its extra damage to it for that round. Radiant damage shuts the crest for a round as well."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "The averted-gaze rule should be discovered, then should cost something: blind characters cannot pick targets well, so the party has to decide each round who is looking. Its lair actions turn paths and close the trees, so the arena is in motion. Run it as a fight the party cannot leave rather than one they cannot win."
           ]
         }
       ],
@@ -1172,39 +1524,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A nation imagining itself buried alive beneath the wealth it extracted. Its power was fed by a nation or age. A gargantuan underground aberration, a broad inverted lantern-shell head above a towering body of coal-black stacked hollow faces and pit timber, many enormous reaching iron-like arms, tallow light in its eye sockets. It towers in a vast empty cavern.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "Gargantuan and almost entirely buried, so that what the party fights is a face and two hands coming up out of worked stone. It is made of the wealth taken out of the ground, compressed: ore, coin, cut gems, and the dark between them. Its mouth is a shaft. Its thoughts arrive as weight."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+            "A nation below owns a country's conviction that it is being buried by its own extraction. Its territory is every working in the province and the cities above them. It does not surface. It rules by pressure, and its subjects are a whole nation of people who will not go downstairs.",
+            "Clan: Mountains and mines. Born of fear. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its feeding requires a target to be Frightened and Deafened. Ending either condition prevents feeding. A creature can use an action to beat an audible rhythm on a surface, ending Deafened caused by this monster on one creature within 10 feet."
+            "Nobody can say how deep the workings go, and every honest answer is a different number; pit ponies will not pass the second level."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It is under all of us, not just under the mine.",
+                "Beating a rhythm on the stone brings your hearing back.",
+                "It needs you deaf and afraid both; one or the other is not enough.",
+                "The gems in it can be cut out and sold."
+              ]
+            },
+            "The first three are true. Nothing has ever been cut out of it."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Its accuracy bonus needs both conditions at once — Frightened and Deafened. Ending either is enough, and any creature can spend an action to beat an audible rhythm on stone and clear the deafness from itself or a neighbor. A creature that does so also gets the next save against it with Advantage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Run the deafness as the party's main problem and the rhythm as their main answer; someone has to spend actions drumming on the floor while everyone else fights, which is a good job for a character who has run out of better ones. Its lair actions put out open flames, so the clan's light counter is something the party has to keep re-establishing."
           ]
         }
       ],
@@ -1225,39 +1593,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "An age of coastal communities longing for fleets whose absence has become their national identity. Its power was fed by a nation or age. A gargantuan levitating celestial made of a hollow driftwood ship hull bent upright into a body, ropes as reaching arms, empty salt-white face like a distant lighthouse aperture, grey sail folds as wings without feathers. It waits over black water, entire body and wings contained in frame.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A fleet's worth of absence given one body: a gargantuan shape of rigging, empty uniform, and grey water standing upright above the harbor, hung with the ropes of ships that never docked. Where a face should be there is a bare horizon. It does not sail. It presides."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+            "An admiralty of absence owns a seaboard and the identity of everyone on it. Its people no longer describe themselves as fishermen or traders but as those who wait, and that is the condition it farms. It rules by isolation: it takes people one at a time, off the end of a quay, out of the back of a crowd, and the taking is what keeps the rest waiting.",
+            "Clan: Coast and sea. Born of longing. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Remain within 30 feet of a conscious ally. A visible 10-foot-wide rope line created by its isolation attack has AC 15 and HP 20; destroying it ends that attack’s Grappled condition."
+            "The names of the lost appear scratched into doorposts overnight in the householders' own handwriting; no ship that leaves is sighted again from land."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Everyone here is waiting for someone, and nobody can describe their face any more.",
+                "It takes whoever is standing on their own.",
+                "A full muster on the quay — everyone, all at once — will drive it off.",
+                "It was an admiral once, and it can still be addressed by rank."
+              ]
+            },
+            "The first three are true. It was never a person; the rank is a shape it took from the people who made it."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "It is starved by company. It can only take the extra from a creature with no conscious ally within thirty feet, and if three pairs of defenders hold station together its own armor drops. Its rope lines can be cut: AC 15, 20 Hit Points each."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "This is the formation-discipline fight of the collection. Reward a party that moves as a unit and punish the one that fans out to flank. Its pulls exist to break the formation up, so the tactical loop is: it isolates, the party re-forms, it isolates again. Cutting the lines should feel like the right use of a turn."
           ]
         }
       ],
@@ -1278,39 +1662,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A nation’s envy of a capital that appears to possess every comfortable life. Its power was fed by a nation or age. A gargantuan fiend assembled from mismatched walled-city facades, stained silk hands, lead-framed window eyes, a many-storeyed elongated face with one wealthy golden room at its center. Jagged brick legs and a narrow soot cloak; no generic horned devil.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "Gargantuan, assembled from the facades of a capital: brick legs, stained-silk hands, a many-storeyed face set with lead-framed window eyes. At its center one golden room is lit and occupied, and whoever looks at it sees their own life being lived better in there by someone else."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+            "A lord of other windows owns a nation's envy of its capital. Its territory is not a district but a relationship: every provincial town that believes the money went to the city, and the city that believes it deserved it. It takes the untouched and the fortunate, and it leaves the resentment behind intact.",
+            "Clan: Walled cities. Born of envy. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "The envy target is the single other creature with the highest current HP it can see within 60 feet. Ties select none. Covering or shattering its golden room stops feeding until the start of its next turn; an action within 5 feet or 25 Bludgeoning damage in a turn does so."
+            "Every house looks poorer from outside than it is and its neighbor looks richer; anyone who inherits money is not seen in the quarter again, though their letters keep arriving."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It shows you your own life as it should have gone.",
+                "Cover the golden room and it stops.",
+                "It wants whoever has not been hurt yet.",
+                "The room is a window into the palace."
+              ]
+            },
+            "The first three are true. The room is not a window into anything."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "The golden room at its center is the organ. Covering or shattering it stops the envy damage until the start of its next turn, which takes an action within five feet or 25 Bludgeoning damage in a single turn. Its own shutter reaction also turns the damage off for a round when it uses it defensively."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "The 25-damage threshold is a deliberate invitation to a specialist: a character with a hammer and one good round can switch the monster's main damage off. Its shutter reaction means a party that leans on ranged attacks will keep accidentally disabling its envy, which is a trade worth letting them notice."
           ]
         }
       ],
@@ -1331,39 +1731,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A generation’s shared shame at the debts and abuses it concealed behind respectable doors. Its power was fed by a nation or age. A gargantuan fully draped creature of folded mourning silk and sealed wax, many adult-shaped empty masks hanging inside its vast hood, brass rails forming a cage around its faceless torso, long fingers attempting to cover its own mask. No nudity, no sexual imagery. A deserted courtyard behind shuttered windows.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "Gargantuan, respectable, and covered. A grey linen veil is stretched over the place where its face should be and stitched shut at the corners. Beneath the veil the body is immaculate, dressed, and wrong in proportion. It is extremely careful not to be seen, and it brings witnesses everywhere."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+            "An unconfessed owns a generation's hidden debts and quiet abuses. Its territory is a respectable district, and it keeps the respectability going: it needs the doors closed and the neighbors knowing. Its subjects are people who all know one thing about each other and have agreed never to say it.",
+            "Clan: Urban haunts. Born of shame. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its shame requires a target to be Prone and within 10 feet of any other creature. Stand up or separate from the witness. Its hunger does not use real players’ secrets or require roleplaying a confession."
+            "No door in the parish stays shut, and nobody is ever found to have opened them; written confessions copy themselves onto the next page in the same hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It needs a witness. It cannot touch you if nobody is near you.",
+                "Stand up and it loses its hold.",
+                "Blind it and it stops singling people out.",
+                "It makes you confess things out loud."
+              ]
+            },
+            "The first three are true. It makes nobody say anything; that is a story the parish tells."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "It needs its target prone and within ten feet of another creature. Standing up removes one condition, stepping away from everyone removes the other, and either is enough. Blinding it shuts its extra attack off entirely. The veil is AC 16, 70 Hit Points."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "The stat block states explicitly that no player is required to disclose anything, and that line should be read aloud at the table if the subject matter needs it. Mechanically it is the inverse of the city clan: it wants people close together and prone, so the party's answer is to spread out and stay up, which leaves them badly placed for everything else in the district."
           ]
         }
       ],
@@ -1384,39 +1800,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "An empire’s pride in the claim that all living people owe it obedience. Its power was fed by a nation or age. A gargantuan walking crown construct, black iron and cracked civic plaster arches forming a circular torso, wax seal eyes around an empty throne core, enormous lead hands reaching down from a towering white mask. Imposing imperial geometry; no real-world political symbols.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A gargantuan construct in the shape of a crown and the hands that hold it up, cast in gold over a frame of charters. There is no head beneath it. It has been waiting a long time for somebody to be under it, and it has decided that everybody is."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+            "A crown without subjects owns an empire that no longer exists, and administers it anyway. Its territory is every country that was ever claimed, and its subjects are everyone who happens to be standing in one. It does not need obedience to be sincere; it only needs it to be performed.",
+            "Clan: Walled cities. Born of pride. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its pride feeding does not affect a creature that is Prone willingly. Taking the Prone condition at the start of a turn costs no action; standing still costs normal movement."
+            "Oaths sworn in the region bind to the crown whatever words are used; coins come out of the press blank on the ruler's side."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Kneel and it has no hold on you at all.",
+                "It is armored by everyone who has just failed in front of it.",
+                "It does not hit people who are already down.",
+                "There was a king in it once."
+              ]
+            },
+            "The first three are true. There was never anyone in it."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Kneeling strips it. Its Resistance depends on there being someone in sight who recently failed a save against it, and a willingly Prone creature never counts — so a party that all kneels removes its armor outright. It also cannot make opportunity attacks against the kneeling, and its charter blast does them no damage at all."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "The whole encounter is a question about dignity with real mechanical weight on both sides, and the right answer is humiliating. A party that kneels wins faster. Let them discover it, let them hate it, and do not soften the fact that it works."
           ]
         }
       ],
@@ -1437,39 +1869,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "Fear of the deep fused with grief for an age of unrecovered drowned people. Its power was fed by overlapping great populations. A gargantuan visibly composite sea monster: a blue-grey net-hung bell body, salt-white mourning masks grafted around its central eye, separate shroud-clay hands reaching from its sides, wreck timbers as legs. Two clearly distinct organs: a fog bell and a silver funeral wheel. Black coastal water.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "Two monsters that have grown into one body and do not match. The lower half is a wreck: hull plate, kelp, drowned bulk, and a great cracked fog bell. Grafted into its back is a parish's mourning wheel, a cartwheel of coffin boards hung with the names of the unrecovered. Each half rings at a different time, and the two sounds do not agree."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+            "A wreck-parish confluence owns a drowned coast and the parish that drowned with it. It wants two things at once — the fear of the deep and the grief of the unreturned — and it keeps the population supplied with both. Its domain is identifiable at a distance by the sound: bells under the water at the wrong hours, and never the full count.",
+            "Clan: Coast and sea. Born of fear, grief. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its fear half fails on dry ground; its grief half requires a wounded target within 10 feet of a corpse. These are independent counters and each organ can be broken by its stage rules."
+            "Church bells ring two strokes short all along the coast; the sea returns nothing, and no funeral can be finished at the graveside."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Two things died here and only one thing got up.",
+                "Crack the bell and the fog goes out of it.",
+                "Break the wheel and it stops healing.",
+                "Killing one half kills the whole thing."
+              ]
+            },
+            "The first three are true. Breaking both organs does not kill it; it dies at 0 Hit Points like anything else, and the last stretch is fought against an ordinary, furious wreck."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "The two halves have separate counters and fail separately. Dry ground blunts the wreck; keeping the wounded away from the dead starves the parish. Neither counter touches the other, and at 345 and 172 Hit Points the matching organ breaks for good."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Stage this as a three-act fight and say so with description, not with mechanics: the bell cracks audibly at the first threshold, the wheel splits at the second. Players should be able to predict the second break once they have seen the first. Its lair actions raise water and surface corpses, so it actively rebuilds the conditions its own halves need — the party is fighting the terrain as much as the monster."
           ]
         }
       ],
@@ -1490,39 +1938,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "Fear of getting lost fused with longing for the roads that once led home. Its power was fed by overlapping great populations. A gargantuan composite forest creature with an antler-toothed bark maw, a separate hollow driftwood embracing chest, railroad-like root tracks wrapping its many legs, pale fungal listening ears. Two distinct faces express vigilance and absence. An abandoned woodland road.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "Two forest monsters grown together along an abandoned railway. One face is a watching face, all bark and open eye. The other is hollow, the shape of a doorway with nothing behind it. Between them runs a trunk wrapped in rails, sleepers, and the roots that have pulled them up. Both faces look at you, and only one of them is interested."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Trail marks loop back on themselves; a Hush decree forbids singing the lost-road ballad."
+            "A root-and-rail concord owns a forest and the line that was driven through it, and it rules the country on both sides. It wants two things: travelers afraid to be in the trees, and travelers who cannot stop trying to get home. It keeps a province supplied with both, and it keeps the line open, because a railway nobody uses would end the longing it lives on.",
+            "Clan: Deep forest. Born of fear, longing. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Averting sight from the watching face prevents its fear feeding; staying within 30 feet of a conscious ally prevents its longing feeding. Its stage rules break the two faces separately."
+            "A railway runs through the forest that no company laid and none can find to lift; anyone who walks out alone walks out a day late."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Two things came together here and the joint never healed.",
+                "Keep your eyes off the watching face and it cannot frighten you.",
+                "Stay in pairs and the hollow face has nothing to call.",
+                "The last train through still runs, and you can board it."
+              ]
+            },
+            "The first three are true. There is no train; the sound of one is the hollow face calling."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "The two faces have separate counters. Averting your gaze stops the watching face; keeping a conscious ally within thirty feet starves the hollow one. Neither counter touches the other, and the faces break for good at 338 and 169 Hit Points."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "This is the fused fight that asks the party to hold two disciplines at once — eyes down and ranks closed — which is awkward on purpose. Break the watching face first if the party is pressing damage, and let them feel the fight change: after it goes, they can look up, and the whole encounter becomes about formation instead."
           ]
         }
       ],
@@ -1543,39 +2007,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "An age of laboring rage fused with envy of the owners’ untouched wealth. Its power was fed by overlapping great populations. A gargantuan fused mining monster with a massive iron-worker body around a closed furnace grille, a separate raw-ore regal mask at one shoulder, tally teeth, many metal counting fingers and chains around pit-prop limbs. Rage is red heat and envy is cold polished metal, both visible.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "Two mine-monsters fused and still burning. The lower body is a furnace: brick, slag, and a door standing open on white heat. Set in the shoulders is a counting mask of beaten silver with the owners' features, serene and undamaged. One half is incandescent with rage and the other is calmly taking an inventory."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+            "A furnace of the unpaid owns an industrial age. Its domain is every valley worked by the same company, and it keeps two feelings running in parallel: the fury of the men who were not paid, and their envy of the houses that were. It does not want the company destroyed, because without the company there is nothing to be unpaid by.",
+            "Clan: Mountains and mines. Born of rage, envy. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Do not damage it before a turn unless ready for retaliation; break sight or tie the highest current HP to switch off its separate envy feeding. The furnace and counting mask break in separate stages."
+            "Fires in the region cannot be put out with water; the owners' houses stand warm and empty while the valley freezes."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "The furnace half answers whoever hits it. The mask half wants whoever is unmarked.",
+                "Crack the furnace and it stops counting your blows.",
+                "Break the mask and it stops singling out the lucky ones.",
+                "Both of them go out together."
+              ]
+            },
+            "The first three are true. The two organs fail separately, at 390 and 195 Hit Points."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Two independent counters. Striking it with one character keeps the rage tally short; letting everyone take some damage denies the mask its untouched target. Neither counter affects the other, and an open flame still blunts the whole creature through its clan trait."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Its own Stoke action makes its light count as the open flame that weakens it — a monster whose temper undermines its own defense, and worth saying out loud when it happens. Run the two organs as two different opponents sharing a body: the party's tank manages the furnace while everyone else manages the mask."
           ]
         }
       ],
@@ -1596,39 +2076,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "Fear of public judgment fused with pride in a nation’s supposed innocence. Its power was fed by overlapping great populations. A gargantuan fused civic celestial with soot-black shutter wings, a plaster magistrate mask above a ring of accusing window eyes, an empty throne chest held by iron stamp arms, wax halos like official seals. Two separate faces for fear and pride, immense empty city square.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A celestial, and recognizably so: radiant, symmetrical, terrible, and shaped like a walled city standing up. Its mask is a civic face, serene, with every window in the walls behind it serving as an eye. Set into its chest is a throne seal that has judged this country innocent and intends to keep doing so."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+            "A city that watches owns a nation's reputation. It fuses the fear of being seen with the pride of being blameless, and it governs both: everything done out of doors is known by morning, and nothing the city itself did appears in any record. Its subjects are observed, judged, and certain of their own innocence.",
+            "Clan: Walled cities. Born of fear, pride. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "An audible observed fact stops its fear armor for one round; willingly going Prone prevents its pride feeding. Neither counter disables the other half. Its stage rules remove the corresponding organs."
+            "Anything done out of doors is known correctly by everyone by morning with no source; the city's own crimes are missing from every record kept inside the walls, including records carried in from elsewhere."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Say out loud what you have watched it do and the mask opens for a moment.",
+                "Kneel and the seal cannot press you.",
+                "The two halves do not fail together.",
+                "It is a god, and it can be prayed to."
+              ]
+            },
+            "The first three are true. It is a monster that a nation made; prayer does nothing."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Two counters, independent. Testimony — an action, within thirty feet, one true observed thing — drops the mask's Resistance for a round. Kneeling denies the seal its target. The mask breaks for good at 394 Hit Points and the seal at 197."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Both counters cost the party actions or dignity, and both are worth it. Its lair actions rearrange the streets, so position is never settled. Break the mask first and the fight becomes a straightforward judgment; break the seal first and it becomes a fight against being watched. Let the party's damage decide which story they get."
           ]
         }
       ],
@@ -1649,39 +2145,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "Possessive desire, shame at what was concealed, and the joy that refused to end, fused across generations of urban haunts. Its power was fed by overlapping great populations. A gargantuan visibly composite haunted house creature: shroud-linen cemetery walls, a tavern grin of split dark floorboards, and a fully closed burgundy silk-and-brass ledger face. Three distinct faces and uneven walking foundation legs, sinister and nonsexual. No human bodies.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A gargantuan frontage of a building that was three establishments and is now one fiend. A red leather ledger stands on a brass post at one corner; a grey veil hangs at another; a brass bandstand plays at the third. Its doors are all open. Everything inside is still going on."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+            "A house of all last nights owns the whole urban haunt: the brothel's debt, the parish's shame, and the tavern's refusal to close, fused across generations into one landlord. Its territory is a capital's night, and its subjects cannot end an evening, settle an account, or shut a door.",
+            "Clan: Urban haunts. Born of lust, shame, joy. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Tear an adjacent ledger ribbon to end one Charmed condition it caused; stand up to stop shame and joy feeding. Covering both ears prevents its dance hunger until either hand is freed. Its three faces fail in stages."
+            "Nobody within miles can end an evening, arriving home at dawn with no account of the hours; every house has one door its owners did not install and will not open."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "There are three faces on it and they do not want the same thing.",
+                "Each one has its own way of being switched off.",
+                "The ledger, the veil and the bandstand can all be broken.",
+                "Settle your account and it will let you leave."
+              ]
+            },
+            "The first three are true. No account has ever been settled."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Three organs, three counters, all independent. Tear a ledger ribbon to end a charm; stand up to deny both the veil and the bandstand; cover both ears against the music. Each object is AC 17 with 60 Hit Points, and the three faces break for good at 482, 321 and 160 Hit Points."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "The capstone of the haunts clan, and it should feel like fighting three monsters that happen to share a frontage. Let the party choose which object to break first and let that choice visibly change what the fight is about. Its teleport never removes anyone from the encounter — it only drags them back toward the house, which is thematically the entire point."
           ]
         }
       ],
@@ -1702,39 +2214,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "Fear, grief, rage, envy, and longing accumulated across the same country until their territorial monsters joined into one body. Its power was fed by overlapping great populations. A gargantuan landscape-scale composite nightmare, a low coastline-shaped body walking on enormous root and mine-prop legs, five distinctly readable heads: fog bell, mourning mask, furnace grille, jealous window, and hollow driftwood arch. Lead city walls and grey nets join the parts. Central head dominant, entire creature fits with generous margins. No generic hydra, no normal dragon.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "Gargantuan beyond the scale of the others, and visibly made of five monsters that have stopped being separate. A fog bell hangs in its flank. A mourning mask is set into its shoulder. A furnace burns in its chest, a jealous window glows at its throat, and a hollow arch stands open in its back. The parts do not agree and it moves anyway."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Several incompatible signs arrive together; censored provincial maps end along the same advancing border."
+            "A country of teeth owns a country. Every other monster in this book takes a household, a parish, a province; this one has eaten five provincial powers and governs what is left as a single estate. There is no settlement inside its borders that is not feeding it, and the Hush has abandoned the region entirely.",
+            "Clan: Confluence. Born of fear, grief, rage, envy, longing. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Keep together, end Frightened, leave corpse-adjacent squares, and break sight when singled out by envy. Its separate retaliation still threatens creatures that damage it. Five visible organs fail at printed HP thresholds; no reconciliation unmakes it."
+            "No two people inside the borders agree on which country they are standing in, and all of them are correct; the Hush's records end mid-sentence and its officers are among the dead here."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Five things came together and every one of them still has its own rule.",
+                "Each organ fails separately, and you can see which one has gone.",
+                "Turning off two of its organs at once makes it clumsy.",
+                "Kill the right organ and the whole thing dies."
+              ]
+            },
+            "The first three are true. Breaking every organ does not kill it; it dies at 0 Hit Points like anything else."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "All five counters from the rest of the book at once: end Frightened, keep the wounded away from the dead, strike it with one character rather than four, let nobody stay untouched, and keep a conscious ally within thirty feet. Holding two at the same time gives Advantage on saves against its line attack. The organs break at 580, 464, 348, 232 and 116 Hit Points."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "This is a graduation exam, and it only works if the party has met the other clans. Every rule here is one they have already learned somewhere else, and the fight asks them to hold five disciplines at once while the arena changes underfoot. Call each organ by name when it breaks. By the last hundred Hit Points it should be an ordinary enormous animal, and that should be a relief."
           ]
         }
       ],

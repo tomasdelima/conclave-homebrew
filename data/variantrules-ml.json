@@ -1,0 +1,68 @@
+{
+  "variantrule": [
+    {
+      "name": "How Maliced Lands Monsters Work",
+      "source": "ML",
+      "ruleType": "V",
+      "entries": [
+        "Every monster in this collection was made by people feeling the same thing together for long enough. Fear, grief, rage, envy, longing, lust, joy, shame, and pride all do it, and none of them is special. Once made, a monster is real and independent: the feeling can fade and the monster stays. There is no ritual of calm and no reconciliation that unmakes one. They have to be destroyed by hand.",
+        "They want territory and subjects, not extermination. A monster keeps its people alive, inside its domain, and feeling, because that is the ground it grows in.",
+        {
+          "type": "entries",
+          "name": "Clan",
+          "entries": [
+            "Monsters bred by the same landscape fight the same way, and each clan carries one shared trait that says how. A stat block's clan trait is always the first trait listed.",
+            {
+              "type": "list",
+              "items": [
+                "Tidebound (coast and sea). Strong in the water, badly weakened on dry ground.",
+                "Underleaf (deep forest). Fights from cover that can be burned or cleared.",
+                "Deepsign (mountains and mines). Reads the rock, and is blunted by an uncovered open flame.",
+                "Crowded Ground (walled cities). Strong against people standing close together, weak against people who spread out.",
+                "Anchored (urban haunts). Carries a physical object that is part of its body, with its own AC and Hit Points, that can be broken or covered."
+              ]
+            },
+            "Fused monsters at the top of the range carry more than one clan's rules at once, in visibly separate organs."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Trigger",
+          "entries": [
+            "The emotion that made a monster decides whom it preys on. Each monster says so in plain words in its own traits; there is no table to look up.",
+            {
+              "type": "list",
+              "items": [
+                "Fear-born things key on Frightened creatures.",
+                "Grief-born things key on creatures below half their Hit Points and creatures near a corpse.",
+                "Rage-born things key on whoever has damaged them, and grow worse the more different people join in.",
+                "Envy-born things key on whoever has not been hurt yet.",
+                "Longing-born things key on creatures with no conscious ally within 30 feet.",
+                "Lust-born things key on Charmed creatures.",
+                "Joy-born things key on Prone creatures that can hear them.",
+                "Shame-born things key on Prone creatures with a witness nearby.",
+                "Pride-born things key on creatures that have just failed a saving throw against them, and are powerless against anyone who kneels."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Counter",
+          "entries": [
+            "Every monster here can be switched off, at least partly, by something the players can discover: a rule from its origin, a condition to end, an object to break, a formation to hold. The counter is printed in the stat block and repeated in the lore entry. Refusing a monster what feeds it is meant to be a real tactical resource, and the published Challenge Rating assumes the party finds the counter for roughly half the fight.",
+            "A monster's counter never requires a character to be immune to anything. If your players work out the rule, let it work."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "At the table",
+          "entries": [
+            "This material is written for a mature table and its artwork is explicit. Nothing in any stat block requires a player to disclose a real secret, describe a real fear, reveal a character's private inventory, or roleplay a confession. Where a monster's origin touches those subjects, the mechanics are deliberately kept to conditions, damage, and position.",
+            "Challenge Ratings in this collection are design targets. They have not been verified at a table."
+          ]
+        }
+      ]
+    }
+  ]
+}

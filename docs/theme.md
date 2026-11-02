@@ -60,9 +60,47 @@ Fusion is how the top of the range works. When several great feelings overlap in
 
 ## Signature mechanic
 
-Every monster is fed by the emotion that made it, and its stat block says how. Each emotion has a signature trigger. Fear is the only one that maps straight onto a printed condition, so fear-born things key on Frightened creatures. Lust-born things key on Charmed creatures. Grief-born things key on the wounded and on corpses. Rage-born things key on whoever hurt them. Envy-born things key on whoever has the most. Longing-born things key on the isolated. Joy, shame, and pride get triggers when their first monsters are designed.
+Two things shape every monster, and both are printed in its stat block.
 
-Every monster can produce its own trigger, at least one of its abilities keys on it, and players can find a counter. Bonus damage, advantage, extra attacks, resistances, and healing are all in play. Refusing to give a monster what feeds it is a tactical resource: steady nerves against fear-born things, staying together against longing-born things, not striking a rage-born thing until you're ready to finish it. The full rule and the trigger table are in `docs/design-notes.md`.
+**Clan** is the landscape that bred it, and it decides how the monster fights. Every member of a
+clan carries the same plainly named trait, always listed first, with its counter built into the
+trait text. Each clan's counter uses a different tactical axis, so the five families do not play
+alike.
+
+| Clan | Shared trait | What it does | How a party answers it |
+| --- | --- | --- | --- |
+| Coast and sea | Tidebound | Advantage on attacks in, on, or above water; halved Speed and Disadvantage on dry ground | Fight it on dry rock |
+| Deep forest | Underleaf | Half Cover and free movement while within 5 feet of trees, undergrowth, or its own roots | Burn the growth, or pull it into the open |
+| Mountains and mines | Deepsign | Tremorsense 60 ft.; Disadvantage on attacks and no Bonus Action while a creature within 30 feet carries an uncovered open flame | Open a lamp, and accept being seen |
+| Walled cities | Crowded Ground | Advantage against a creature within 5 feet of another; Disadvantage against a creature with nobody within 15 feet | Spread out |
+| Urban haunts | Anchored | A named object in its space, with printed AC and Hit Points, gates its emotion trait | Break the object, or cover it with a cloth |
+
+Walled cities and the longing-born are deliberate opposites: one punishes standing together, the
+other punishes standing alone. A party that learns one lesson too well is badly placed for the
+other.
+
+**Emotion** is what made the monster, and it decides whom it preys on. Each monster states its
+own trigger in plain words; there is no shared vocabulary to look up and no glossary to carry.
+
+| Origin | Preys on |
+| --- | --- |
+| Fear-born | Frightened creatures |
+| Grief-born | Creatures below half their Hit Points, and creatures near a corpse |
+| Rage-born | Whoever has damaged it; worse the more different creatures join in |
+| Envy-born | Whoever has taken no damage since the start of its last turn |
+| Longing-born | Creatures with no conscious ally within 30 feet |
+| Lust-born | Charmed creatures |
+| Joy-born | Prone creatures that can hear it |
+| Shame-born | Prone creatures with a witness within 10 feet |
+| Pride-born | Creatures that failed a saving throw against it, except anyone willingly Prone |
+
+Every monster can produce its own trigger, at least one of its traits keys on it, and players can
+find a counter. Refusing a monster what feeds it is a tactical resource: steady nerves against
+fear-born things, closed ranks against longing-born things, one striker rather than four against
+rage-born things, and a knee against the pride-born. The full rule is in `docs/design-notes.md`.
+
+Monsters at CR 17 and above hold a domain outright, with lair actions and regional effects. Below
+that a monster owns a household, a parish, or a province, but not a country.
 
 ## Appearance
 

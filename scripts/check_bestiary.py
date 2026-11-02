@@ -2,7 +2,32 @@
 """Check the Maliced Lands roster contract and its authored design records."""
 
 import json
+from fractions import Fraction
 from build import ROOT, dice_average, require
+
+# Each biome family shares one plainly named trait, carried by every member.
+CLAN_TRAIT = {
+    "coast": "Tidebound",
+    "forest": "Underleaf",
+    "mines": "Deepsign",
+    "city": "Crowded Ground",
+    "haunts": "Anchored",
+    "confluence": "Every Country at Once",
+}
+
+# Emotion sets the trigger. Each monster's traits must say, in plain words,
+# whom it preys on, so a stat block read alone still explains itself.
+EMOTION_TRIGGER = {
+    "fear": ["Frightened"],
+    "grief": ["fewer than half its Hit Points"],
+    "rage": ["damaged it since"],
+    "envy": ["taken no damage since"],
+    "longing": ["no conscious ally within 30 feet"],
+    "lust": ["Charmed"],
+    "joy": ["Prone", "hear"],
+    "shame": ["Prone", "within 10 feet of another creature"],
+    "pride": ["failed a saving throw against it"],
+}
 
 
 def read(path):
@@ -21,6 +46,8 @@ def main():
     require({"fear", "grief", "longing", "rage", "envy", "joy", "lust", "shame", "pride"} <= {e for m in notes for e in m["emotions"]}, "Missing emotional family")
     require({"aberration", "beast", "celestial", "construct", "dragon", "elemental", "fey", "fiend", "giant", "humanoid", "monstrosity", "ooze", "plant", "undead"} <= {m["type"] for m in monsters}, "Missing creature type")
     by_name = {m["name"]: m for m in monsters}
+    by_roster = {m["name"]: m for m in roster}
+    group_names = {(g["name"], g["source"]) for g in read("data/bestiary/legendarygroups.json")["legendaryGroup"]}
     for n in notes:
         m = by_name[n["name"]]
         require(m["source"] == "ML" and m["cr"] == n["cr"], f"Source/CR mismatch: {m['name']}")
@@ -32,13 +59,21 @@ def main():
         for suffix in ("WithoutFeeding", "WithFeeding", "HalfFeeding"):
             require(n["threeRoundDamage" + suffix] == 3 * n["rawDpr" + suffix], f"Incorrect three-round model: {m['name']}")
         traits = {t["name"]: t for t in m["trait"]}
-        bonus = {b["name"] for b in m["bonus"]}
-        require("Rule of the Body" in traits and n["counter"] in traits["Rule of the Body"]["entries"], f"Counter mismatch: {m['name']}")
+        trait_text = " ".join(e for t in m["trait"] for e in t["entries"] if isinstance(e, str))
+        clan = CLAN_TRAIT[by_roster[m["name"]]["biome"]]
+        require(clan in traits, f"Missing clan trait {clan!r}: {m['name']}")
+        require(n["counter"] in trait_text, f"Counter not stated in the stat block: {m['name']}")
         for emotion in n["emotions"]:
-            hunger = emotion.title() + " Hunger"
-            require(emotion.title() + " Feeding" in traits and any(b == hunger or b.startswith(hunger + " (") for b in bonus), f"Incomplete hunger loop: {m['name']}")
+            for phrase in EMOTION_TRIGGER[emotion]:
+                require(phrase in trait_text, f"{emotion.title()} trigger not stated in the stat block: {m['name']} ({phrase!r})")
+        for legacy in ("Rule of the Body", "Emotion Made Flesh"):
+            require(legacy not in traits, f"Retired template trait still present: {m['name']} {legacy}")
+        require("feeding target" not in trait_text.lower(), f"Retired jargon still present: {m['name']}")
+        if Fraction(m["cr"]) >= 17:
+            ref = m.get("legendaryGroup")
+            require(ref and (ref["name"], ref["source"]) in group_names, f"CR 17+ creature needs lair actions: {m['name']}")
         if n["stages"]:
-            stage_text = " ".join(traits["Divided Body"]["entries"])
+            stage_text = " ".join(e for e in traits["Divided Body"]["entries"] if isinstance(e, str))
             thresholds = [s["hpThreshold"] for s in n["stages"]]
             require(thresholds == sorted(set(thresholds), reverse=True), f"Invalid stage order: {m['name']}")
             require(all(0 < v < m["hp"]["average"] for v in thresholds), f"Invalid stage HP: {m['name']}")

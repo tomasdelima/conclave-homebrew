@@ -4,7 +4,7 @@
   "packs": [
     {
       "path": "homebrew/portable/maliced-lands-01.portable.json",
-      "bytes": 38835011,
+      "bytes": 38870676,
       "monsters": [
         "Tidewrack Hand",
         "Rootlisten",
@@ -17,7 +17,7 @@
     },
     {
       "path": "homebrew/portable/maliced-lands-02.portable.json",
-      "bytes": 39269425,
+      "bytes": 39303424,
       "monsters": [
         "Haar Shepherd",
         "Redmeasure",
@@ -30,7 +30,7 @@
     },
     {
       "path": "homebrew/portable/maliced-lands-03.portable.json",
-      "bytes": 39726293,
+      "bytes": 39762245,
       "monsters": [
         "Parish Inquisitor",
         "Pathless Mother",
@@ -43,7 +43,7 @@
     },
     {
       "path": "homebrew/portable/maliced-lands-04.portable.json",
-      "bytes": 40177744,
+      "bytes": 40213884,
       "monsters": [
         "Country Behind Trees",
         "Nation Below",
@@ -56,7 +56,7 @@
     },
     {
       "path": "homebrew/portable/maliced-lands-05.portable.json",
-      "bytes": 29509667,
+      "bytes": 29541430,
       "monsters": [
         "Root-and-Rail Concord",
         "Furnace of the Unpaid",

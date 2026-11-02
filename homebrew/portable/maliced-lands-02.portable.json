@@ -8,12 +8,458 @@
         "authors": [
           "Conclave Homebrew"
         ],
-        "version": "0.3.0",
+        "version": "0.4.0",
         "color": "4a1c1c"
       }
     ],
     "edition": "one"
   },
+  "legendaryGroup": [
+    {
+      "name": "Admiralty of Absence",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the admiralty takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The water withdraws from the whole shore at once. Each creature standing in water within 120 feet of the admiralty makes a DC 22 Strength saving throw. On a failed save, the creature is pulled 20 feet toward the open sea and has the {@condition Prone|XPHB} condition.",
+            "A sail that is not there crosses the sky. Each creature within 120 feet of the admiralty that has no conscious ally within 30 feet of it makes a DC 22 Wisdom saving throw, taking 17 ({@damage 5d6}) Psychic damage on a failed save and half as much on a success.",
+            "Grey fog fills the harbor. The lair becomes Lightly Obscured until the end of the admiralty's next turn, and the admiralty can teleport up to 60 feet to an unoccupied space it can see within the fog."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the admiralty's shore is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "No vessel that leaves this coast is sighted again from land, whatever its course. Lookouts report an empty horizon even while the vessel is plainly visible from the water.",
+            "The names of everyone lost at sea from this parish appear scratched into doorposts and keels overnight, in handwriting the living recognize as their own.",
+            "Nobody in the region can describe the face of a person who left by sea. They remember the name, the voyage, and the day, and nothing else."
+          ]
+        },
+        "If the admiralty dies, these effects fade over 1d10 days, and the names weather off the doorposts last."
+      ]
+    },
+    {
+      "name": "City That Watches",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the city takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Every window becomes an eye. Each creature within 120 feet of the city makes a DC 25 Wisdom saving throw or has the {@condition Frightened|XPHB} condition until the end of the city's next turn.",
+            "The square is called to order. Each creature within 90 feet of the city that is not willingly {@condition Prone|XPHB} makes a DC 25 Charisma saving throw, taking 24 ({@damage 7d6}) Radiant damage on a failed save and half as much on a success.",
+            "The streets rearrange. Each creature within 120 feet of the city is teleported to an unoccupied space the city can see within 30 feet of it. A creature can refuse by succeeding on a DC 25 Wisdom saving throw."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the city's walls is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Within 6 miles, anything done out of doors is known by morning, correctly, by everyone, with no one able to name a source.",
+            "The city's own crimes are absent from every record kept inside its walls, including records written elsewhere and carried in.",
+            "Visitors are judged at the gate by a court that does not convene and is never wrong about who they are."
+          ]
+        },
+        "If the city dies, these effects fade over 1d10 days, and the records fill back in with what was taken out."
+      ]
+    },
+    {
+      "name": "Country Behind Trees",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the country takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Every path turns. Each creature within 120 feet of the country that is moving along a trail makes a DC 21 Wisdom saving throw or has the {@condition Blinded|XPHB} condition until the end of the country's next turn.",
+            "The trees close ranks. A 30-foot-radius area the country can see within 120 feet fills with thorn and trunk until the end of the country's next turn. That area is Difficult Terrain and grants Half Cover.",
+            "The crest opens wide. Each creature within 60 feet of the country that can see its crest makes a DC 21 Wisdom saving throw or has the {@condition Frightened|XPHB} condition until the end of the country's next turn."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the country's forest is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Trails within 6 miles don't end where they are supposed to. A road walked twice arrives in two different places.",
+            "Anyone who sleeps in the forest wakes one mile further in, with their bedding undisturbed and their boots clean.",
+            "No map of this forest agrees with another, and all of them are accurate on the day they are drawn."
+          ]
+        },
+        "If the country dies, these effects fade over 1d10 days, and the trails are the last to settle."
+      ]
+    },
+    {
+      "name": "Country of Teeth",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the country takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The border moves. Each creature within 120 feet of the country makes a DC 26 Strength saving throw or is pulled 20 feet toward it and has the {@condition Prone|XPHB} condition.",
+            "Five mouths speak at once and disagree. Each creature within 90 feet of the country makes a DC 26 Wisdom saving throw, taking 24 ({@damage 7d6}) Psychic damage on a failed save and half as much on a success.",
+            "The ground remembers another country. A 60-foot-radius area the country can see within 120 feet becomes water, forest floor, worked stone, or city flagstone, the country's choice, until the end of its next turn. That area is Difficult Terrain for creatures other than the country."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the country's borders is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "No two people within 6 miles agree on which country they are standing in, and all of them are correct.",
+            "Every feeling in the region is held in common. A private grief becomes a parish's grief inside a day.",
+            "The Hush has abandoned this country. Its records end mid-sentence, and its officers are among the dead here."
+          ]
+        },
+        "If the country dies, these effects end immediately, and the five countries it ate stay eaten."
+      ]
+    },
+    {
+      "name": "Crown Without Subjects",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the crown takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The charter is read. Each creature within 90 feet of the crown that can hear it makes a DC 23 Wisdom saving throw or has the {@condition Prone|XPHB} condition. A creature that is willingly Prone is unaffected.",
+            "The flagstones raise a dais. A 20-foot-radius area the crown can see within 90 feet rises 10 feet until the end of the crown's next turn; creatures in that area when it rises make a DC 23 Dexterity saving throw or have the Prone condition.",
+            "Gold light falls on the unbowed. Each creature within 60 feet of the crown that is not willingly Prone makes a DC 23 Constitution saving throw, taking 21 ({@damage 6d6}) Radiant damage on a failed save and half as much on a success."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the crown's seat is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Every oath sworn within 6 miles is sworn to the crown, whatever words are used and whoever is meant.",
+            "Coins minted in the region come out blank on the ruler's side, in every press, every time.",
+            "Nobody in this country can remember the name of a living monarch, though they are certain they owe one obedience."
+          ]
+        },
+        "If the crown dies, these effects end immediately, and the next coins struck bear an ordinary face."
+      ]
+    },
+    {
+      "name": "Furnace of the Unpaid",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the furnace takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The shift bell rings. Each creature within 90 feet of the furnace makes a DC 25 Constitution saving throw, taking 24 ({@damage 7d6}) Fire damage on a failed save and half as much on a success.",
+            "Slag runs across the floor. A 30-foot-radius area the furnace can see within 90 feet is covered in molten slag until the end of the furnace's next turn. That area is Difficult Terrain, and a creature that starts its turn there takes 17 ({@damage 5d6}) Fire damage.",
+            "The counting mask reads the roll. Each creature within 60 feet of the furnace that has taken no damage since the start of the furnace's last turn makes a DC 25 Dexterity saving throw or has the {@condition Restrained|XPHB} condition until the end of the furnace's next turn."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the furnace's workings is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "No fire within 6 miles can be put out by water. It has to be smothered, or allowed to finish.",
+            "Wages paid in this region are short by the same amount in every purse, and the difference is never found.",
+            "The owners' houses stand untouched and warm while the valley freezes, and no one has lived in them for years."
+          ]
+        },
+        "If the furnace dies, these effects end immediately, and the first fire lit afterward goes out in water as it should."
+      ]
+    },
+    {
+      "name": "House of All Last Nights",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the house takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The band strikes up. Each creature within 90 feet of the house that can hear the bandstand makes a DC 26 Dexterity saving throw or has the {@condition Prone|XPHB} condition.",
+            "Ribbons run out from the ledger. Each creature within 60 feet of the house makes a DC 26 Wisdom saving throw or has the {@condition Charmed|XPHB} condition caused by the house until the end of the house's next turn. A creature within 5 feet of a charmed creature can take an action to tear the ribbon, ending the condition.",
+            "Every private room opens onto the floor. Each creature within 90 feet of the house makes a DC 26 Charisma saving throw, taking 24 ({@damage 7d6}) Psychic damage on a failed save and half as much on a success. No player is required to disclose anything."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the house is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Nobody within 6 miles can end an evening. They arrive home at dawn with no account of the hours and no wish to give one.",
+            "Debts contracted in this region are never settled. Payment is accepted, recorded, and the debt stands.",
+            "Every house in the district has one door its owners did not install and will not open."
+          ]
+        },
+        "If the house dies, these effects fade over 1d10 days, and the extra doors are bricked up by neighbors who will not discuss them."
+      ]
+    },
+    {
+      "name": "Last Dance",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the dance takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The tune starts again from the top. Each creature within 60 feet of the dance that can hear the bandstand makes a DC 20 Dexterity saving throw or has the {@condition Prone|XPHB} condition.",
+            "The floorboards buckle into steps. A 30-foot-radius area the dance can see within 90 feet becomes Difficult Terrain until the end of the dance's next turn.",
+            "Lamps gutter and the hall fills with the crowd that isn't there. Each creature within 60 feet of the dance makes a DC 20 Wisdom saving throw, taking 17 ({@damage 5d6}) Psychic damage on a failed save and half as much on a success."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the dance's hall is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "No musician within 6 miles can finish a tune. Players stop two bars from the end and cannot say why.",
+            "Everyone in the district dreams the same night, the one before the war, and wakes certain it was last night.",
+            "Dancing is a licensed activity here. The Hush issues permits, refuses most of them, and will not explain the refusals."
+          ]
+        },
+        "If the dance dies, these effects fade over 1d10 days, and the last thing to go is the dreaming."
+      ]
+    },
+    {
+      "name": "Lord of Other Windows",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the lord takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Every window lights at once. Each creature within 120 feet of the lord that can see a lit window makes a DC 22 Wisdom saving throw, taking 21 ({@damage 6d6}) Psychic damage on a failed save and half as much on a success.",
+            "The square narrows. A 40-foot-radius area the lord can see within 120 feet is crowded with facades until the end of the lord's next turn; that area is Difficult Terrain, and the lord has Advantage on attack rolls against creatures within it.",
+            "The lord trades two rooms. Two creatures the lord can see within 90 feet each make a DC 22 Charisma saving throw, and each creature that fails swaps places with the other."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the lord's quarter is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Every house within 6 miles looks poorer from the outside than it is, and its neighbor looks richer than it is.",
+            "Rents in the quarter rise overnight, in handwriting no clerk admits to, and are always paid.",
+            "A person who inherits money in this region is not seen again in the quarter, though their letters keep arriving."
+          ]
+        },
+        "If the lord dies, these effects fade over 1d10 days, and the rents fall last."
+      ]
+    },
+    {
+      "name": "Nation Below",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the nation takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The roof settles. Each creature within 120 feet of the nation makes a DC 21 Dexterity saving throw, taking 21 ({@damage 6d6}) Bludgeoning damage on a failed save and half as much on a success.",
+            "The air goes dead. Sound carries nowhere in the lair until the end of the nation's next turn; each creature within 60 feet of the nation makes a DC 21 Constitution saving throw or has the {@condition Deafened|XPHB} condition for that duration.",
+            "Firedamp seeps up. Each uncovered open flame within 120 feet of the nation is extinguished, and each creature within 10 feet of an extinguished flame makes a DC 21 Dexterity saving throw, taking 17 ({@damage 5d6}) Fire damage on a failed save and half as much on a success."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the nation's workings is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Nobody within 6 miles can say how deep the workings go. Every answer given is a different number, honestly meant.",
+            "Pit ponies and canaries will not go below the second level, and no handling moves them.",
+            "The owners' ledgers in this region show the same shift worked twice, in two different hands."
+          ]
+        },
+        "If the nation dies, these effects end immediately, and the workings are found to have an ordinary floor."
+      ]
+    },
+    {
+      "name": "Returned Room",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the room takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Doors open in the air. Each creature within 60 feet of the room makes a DC 20 Wisdom saving throw or is teleported to an unoccupied space the room can see within 30 feet of it.",
+            "The walls weep. A 20-foot-radius area the room can see within 60 feet is covered in clinging grave-clay until the end of the room's next turn. That area is Difficult Terrain, and a creature that starts its turn there takes 10 ({@damage 3d6}) Acid damage.",
+            "Every mirror in the lair shows an empty chair. Each creature within 60 feet of the room that can see a reflective surface makes a DC 20 Charisma saving throw, taking 17 ({@damage 5d6}) Psychic damage on a failed save and half as much on a success."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the room's cemetery is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Houses in the region are found with one room more than they were built with, always furnished and always cold.",
+            "Nothing buried here stays where it was put. Graves are found reopened from the inside, empty and tidy.",
+            "A family that moves away within 6 miles arrives at the new house to find their old parlor already in it."
+          ]
+        },
+        "If the room dies, these effects end immediately, and the extra rooms are gone by morning."
+      ]
+    },
+    {
+      "name": "Root-and-Rail Concord",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the concord takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The rails and the roots agree. A 40-foot-radius area the concord can see within 120 feet becomes a tangle of sleepers and root until the end of the concord's next turn. That area is Difficult Terrain, and a creature that starts its turn there makes a DC 24 Strength saving throw or has the {@condition Restrained|XPHB} condition until the end of its turn.",
+            "The watching face opens. Each creature within 60 feet of the concord that can see it makes a DC 24 Wisdom saving throw or has the {@condition Frightened|XPHB} condition until the end of the concord's next turn.",
+            "The hollow face calls. Each creature within 120 feet of the concord that has no conscious ally within 30 feet of it makes a DC 24 Wisdom saving throw, taking 24 ({@damage 7d6}) Psychic damage on a failed save and half as much on a success."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the concord's forest is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "A railway runs through this forest that no company laid and no company can find to lift.",
+            "Travelers within 6 miles arrive at a station that is on no timetable, and are always the only passenger waiting.",
+            "Anyone who walks out of this forest alone walks out a day late and cannot account for the day."
+          ]
+        },
+        "If the concord dies, these effects fade over 1d10 days, and the rails rust through within the year."
+      ]
+    },
+    {
+      "name": "Unconfessed",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the unconfessed takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "The veil passes over the square. Each creature within 60 feet of the unconfessed makes a DC 23 Charisma saving throw or has the {@condition Blinded|XPHB} condition until the end of the unconfessed's next turn.",
+            "The ground gives at the knees. Each creature within 60 feet of the unconfessed that is within 10 feet of another creature makes a DC 23 Dexterity saving throw or has the {@condition Prone|XPHB} condition.",
+            "Doors stand open on rooms that should be private. Each creature within 90 feet of the unconfessed makes a DC 23 Wisdom saving throw, taking 21 ({@damage 6d6}) Psychic damage on a failed save and half as much on a success. No player is required to disclose anything."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the unconfessed's parish is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "No door within 6 miles stays shut. Latches lift, bolts draw, and nobody is ever found to have done it.",
+            "Written confessions in the parish copy themselves onto the next page in the same hand.",
+            "Everyone in the region knows one thing about a neighbor that they could not have learned, and none of them will say it."
+          ]
+        },
+        "If the unconfessed dies, these effects end immediately, and the doors hold again from that night."
+      ]
+    },
+    {
+      "name": "Wreck-Parish Confluence",
+      "source": "ML",
+      "lairActions": [
+        "On Initiative Count 20 (losing Initiative ties), the confluence takes a Lair Action to cause one of the following effects; it can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Bells ring from under the water. Each creature within 120 feet of the confluence that can hear them makes a DC 24 Constitution saving throw, taking 21 ({@damage 6d6}) Thunder damage on a failed save and half as much on a success. A creature that fails also has the {@condition Deafened|XPHB} condition until the end of the confluence's next turn.",
+            "The tide comes up through the floor. A 40-foot-radius area the confluence can see within 120 feet fills with knee-deep water until the end of the confluence's next turn. That area is Difficult Terrain for creatures other than the confluence.",
+            "The drowned surface. Three corpses rise in unoccupied spaces the confluence can see within 60 feet and float there until the end of the confluence's next turn. They are ordinary corpses, and a creature within 10 feet of one can be targeted by The Names Not Read."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The country within 6 miles of the confluence's wreck is altered in the following ways:",
+        {
+          "type": "list",
+          "items": [
+            "Every church bell rings at the wrong hour, always two strokes short of the count, and no clapper can be removed that doesn't grow back by morning.",
+            "The sea returns nothing. Wreckage, cargo, and the drowned all stay down, and nets come up cut.",
+            "Mourners in the region can't finish a funeral. The words are forgotten at the graveside by everyone present at the same moment."
+          ]
+        },
+        "If the confluence dies, these effects end immediately, and the coast gives up its dead over the following tide."
+      ]
+    }
+  ],
+  "variantrule": [
+    {
+      "name": "How Maliced Lands Monsters Work",
+      "source": "ML",
+      "ruleType": "V",
+      "entries": [
+        "Every monster in this collection was made by people feeling the same thing together for long enough. Fear, grief, rage, envy, longing, lust, joy, shame, and pride all do it, and none of them is special. Once made, a monster is real and independent: the feeling can fade and the monster stays. There is no ritual of calm and no reconciliation that unmakes one. They have to be destroyed by hand.",
+        "They want territory and subjects, not extermination. A monster keeps its people alive, inside its domain, and feeling, because that is the ground it grows in.",
+        {
+          "type": "entries",
+          "name": "Clan",
+          "entries": [
+            "Monsters bred by the same landscape fight the same way, and each clan carries one shared trait that says how. A stat block's clan trait is always the first trait listed.",
+            {
+              "type": "list",
+              "items": [
+                "Tidebound (coast and sea). Strong in the water, badly weakened on dry ground.",
+                "Underleaf (deep forest). Fights from cover that can be burned or cleared.",
+                "Deepsign (mountains and mines). Reads the rock, and is blunted by an uncovered open flame.",
+                "Crowded Ground (walled cities). Strong against people standing close together, weak against people who spread out.",
+                "Anchored (urban haunts). Carries a physical object that is part of its body, with its own AC and Hit Points, that can be broken or covered."
+              ]
+            },
+            "Fused monsters at the top of the range carry more than one clan's rules at once, in visibly separate organs."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Trigger",
+          "entries": [
+            "The emotion that made a monster decides whom it preys on. Each monster says so in plain words in its own traits; there is no table to look up.",
+            {
+              "type": "list",
+              "items": [
+                "Fear-born things key on Frightened creatures.",
+                "Grief-born things key on creatures below half their Hit Points and creatures near a corpse.",
+                "Rage-born things key on whoever has damaged them, and grow worse the more different people join in.",
+                "Envy-born things key on whoever has not been hurt yet.",
+                "Longing-born things key on creatures with no conscious ally within 30 feet.",
+                "Lust-born things key on Charmed creatures.",
+                "Joy-born things key on Prone creatures that can hear them.",
+                "Shame-born things key on Prone creatures with a witness nearby.",
+                "Pride-born things key on creatures that have just failed a saving throw against them, and are powerless against anyone who kneels."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Counter",
+          "entries": [
+            "Every monster here can be switched off, at least partly, by something the players can discover: a rule from its origin, a condition to end, an object to break, a formation to hold. The counter is printed in the stat block and repeated in the lore entry. Refusing a monster what feeds it is meant to be a real tactical resource, and the published Challenge Rating assumes the party finds the counter for roughly half the fight.",
+            "A monster's counter never requires a character to be immune to anything. If your players work out the rule, let it work."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "At the table",
+          "entries": [
+            "This material is written for a mature table and its artwork is explicit. Nothing in any stat block requires a player to disclose a real secret, describe a real fear, reveal a character's private inventory, or roleplay a confession. Where a monster's origin touches those subjects, the mechanics are deliberately kept to conditions, damage, and position.",
+            "Challenge Ratings in this collection are design targets. They have not been verified at a table."
+          ]
+        }
+      ]
+    }
+  ],
   "item": [],
   "spell": [],
   "monster": [
@@ -76,33 +522,27 @@
       ],
       "trait": [
         {
-          "name": "Emotion Made Flesh",
+          "name": "Tidebound",
           "entries": [
-            "Three generations of one harbor fearing the fog that returns boats without crews. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
-          ]
-        },
-        {
-          "name": "Rule of the Body",
-          "entries": [
-            "Its hunger and feeding require the target to be in Lightly or Heavily Obscured fog. A 10-foot-radius area of Bright Light suppresses its own fog there; an audible struck bell suppresses its fog within 30 feet of the bell until the end of the striker’s next turn."
-          ]
-        },
-        {
-          "name": "Fear Feeding",
-          "entries": [
-            "A feeding target is a creature within 60 feet that it can see and that has the Frightened condition. All restrictions in Rule of the Body also apply. Once on each of its turns, when it hits a feeding target with Cold Bell, it deals an extra 3 ({@damage 1d6}) Cold damage."
+            "The shepherd is strongest in the water. While the shepherd is in, on, or above water, it has Advantage on attack rolls. While it is over dry land, its Speed is halved and it has Disadvantage on attack rolls."
           ]
         },
         {
           "name": "Herding Fog",
           "entries": [
-            "A 20-foot Emanation of Lightly Obscuring fog surrounds the shepherd. The fog does not block Total Cover, prevent breathing, or grant the shepherd sight through other walls. The counter in Rule of the Body suppresses sections of this fog."
+            "A 20-foot Emanation of cold fog surrounds the shepherd, and that area is Lightly Obscured. Bright Light suppresses the fog within a 10-foot radius of the light, and an audible struck bell suppresses it within 30 feet of the bell until the end of the striker's next turn. The fog doesn't block Total Cover, hinder breathing, or let the shepherd see through walls."
+          ]
+        },
+        {
+          "name": "The Bell That Isn't There",
+          "entries": [
+            "Once on each of its turns, when the shepherd hits a creature that has the {@condition Frightened|XPHB} condition, it deals an extra 3 ({@damage 1d6}) Cold damage. The shepherd can't impose the Frightened condition on a creature that is in Bright Light."
           ]
         },
         {
           "name": "Wind Scattered",
           "entries": [
-            "If it takes Thunder damage, it loses its Fly Speed until the end of its next turn; it descends safely up to 30 feet rather than falling."
+            "If the shepherd takes Thunder damage, its Fly Speed is halved until the end of its next turn."
           ]
         }
       ],
@@ -110,7 +550,7 @@
         {
           "name": "Multiattack",
           "entries": [
-            "It makes 2 Cold Bell attacks."
+            "The shepherd makes two Cold Bell attacks."
           ]
         },
         {
@@ -122,15 +562,15 @@
         {
           "name": "Borrowed Bell {@recharge 5}",
           "entries": [
-            "{@actSave con} {@dc 14}, each creature in a 30-foot Cone. {@actSaveFail} 18 ({@damage 4d8}) Cold damage and the {@condition Deafened|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+            "{@actSave con} {@dc 14}, each creature in a 30-foot Cone. {@actSaveFail} 18 ({@damage 4d8}) Cold damage, and the target has the {@condition Deafened|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
           ]
         }
       ],
       "bonus": [
         {
-          "name": "Fear Hunger",
+          "name": "A Shape in the Haar",
           "entries": [
-            "{@actSave wis} {@dc 14}, one creature it can see within 30 feet that can see or hear it. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition of this monster until the end of its next turn. {@actSaveSuccess} The target is immune to this monster’s Fear Hunger until the start of its next turn."
+            "{@actSave wis} {@dc 14}, one creature the shepherd can see within 30 feet that is Lightly or Heavily Obscured. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition until the end of its next turn."
           ]
         }
       ],
@@ -146,11 +586,29 @@
       "hasFluff": true,
       "hasFluffImages": true,
       "actionTags": [
-        "Multiattack"
+        "Bonus Action",
+        "Melee Attack",
+        "Multiattack",
+        "Recharge"
       ],
       "conditionInflict": [
         "deafened",
         "frightened"
+      ],
+      "damageTags": [
+        "C"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "traitTags": [],
+      "miscTags": [],
+      "savingThrowForced": [
+        "constitution",
+        "wisdom"
       ]
     },
     {
@@ -193,7 +651,8 @@
         "proficiency": 1
       },
       "senses": [
-        "Darkvision 60 ft."
+        "Darkvision 60 ft.",
+        "Tremorsense 60 ft."
       ],
       "languages": [
         "Common"
@@ -206,21 +665,15 @@
       ],
       "trait": [
         {
-          "name": "Emotion Made Flesh",
+          "name": "Deepsign",
           "entries": [
-            "The rage of miners whose injuries were entered as fractions on an employer’s tally. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+            "The redmeasure reads the rock rather than the air. It has Tremorsense 60 feet. While a creature within 30 feet of it carries an uncovered light source that sheds Bright Light, the redmeasure has Disadvantage on attack rolls and can't take a Bonus Action. A covered lantern doesn't count; an open flame does."
           ]
         },
         {
-          "name": "Rule of the Body",
+          "name": "Tally of Injuries",
           "entries": [
-            "Its feeding records damage from individual creatures, not conditions or failed attacks. Stop attacking for one round or commit enough force to defeat it before its retaliatory turn."
-          ]
-        },
-        {
-          "name": "Rage Feeding",
-          "entries": [
-            "A feeding target is a creature within 60 feet that it can see and that dealt damage to it since the end of its previous turn. All restrictions in Rule of the Body also apply. Once on its turn, after its Multiattack (or its ordinary attack if it has no Multiattack), it can make one additional attack against a feeding target: {@atkr m} {@hit 8}, reach 10 ft. {@h}9 ({@damage 1d8 + 5}) Bludgeoning damage. This is part of the same action, requires a feeding target, and is not granted when it uses another action."
+            "The redmeasure keeps a count of who struck it. When it hits a creature that has damaged it since the end of its last turn, that creature takes an extra 1d6 Bludgeoning damage for each creature that has damaged the redmeasure since then, to a maximum of 10 ({@damage 3d6}). Striking it with one character instead of four keeps the tally short."
           ]
         }
       ],
@@ -228,7 +681,7 @@
         {
           "name": "Multiattack",
           "entries": [
-            "It makes 2 Iron Measure attacks."
+            "The redmeasure makes two Iron Measure attacks."
           ]
         },
         {
@@ -240,15 +693,15 @@
         {
           "name": "Broken Tally {@recharge 5}",
           "entries": [
-            "{@actSave str} {@dc 16}, each creature in a 15-foot Cube within 30 feet. {@actSaveFail} 18 ({@damage 4d8}) Bludgeoning damage and the {@condition Prone|XPHB} condition. {@actSaveSuccess} Half damage only."
+            "{@actSave str} {@dc 14}, each creature in a 15-foot Cube within 30 feet. {@actSaveFail} 18 ({@damage 4d8}) Bludgeoning damage, and the target has the {@condition Prone|XPHB} condition. {@actSaveSuccess} Half damage only."
           ]
         }
       ],
       "bonus": [
         {
-          "name": "Rage Hunger",
+          "name": "Reads the Ledger Aloud",
           "entries": [
-            "It chooses a creature within 10 feet that it can see. That creature can use its Reaction to make one melee attack against the monster with Advantage. The creature can refuse. If the attack deals damage, it creates this monster’s rage feeding trigger. This ability grants no additional attacks to the monster itself."
+            "The redmeasure names one creature it can see within 60 feet that has damaged it since the end of its last turn. Until the end of its next turn, it has Advantage on attack rolls against that creature."
           ]
         }
       ],
@@ -256,7 +709,7 @@
         {
           "name": "Count the Injury",
           "entries": [
-            "Trigger: It takes damage from a creature it can see. Response: It moves up to 15 feet toward that creature. This movement provokes Opportunity Attacks normally."
+            "Trigger: A creature the redmeasure can see damages it. Response: The redmeasure moves up to 15 feet toward that creature without provoking Opportunity Attacks."
           ]
         }
       ],
@@ -272,10 +725,29 @@
       "hasFluff": true,
       "hasFluffImages": true,
       "actionTags": [
-        "Multiattack"
+        "Bonus Action",
+        "Melee Attack",
+        "Multiattack",
+        "Reaction",
+        "Recharge"
       ],
       "conditionInflict": [
         "prone"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "senseTags": [
+        "D",
+        "T"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "traitTags": [],
+      "miscTags": [],
+      "savingThrowForced": [
+        "strength"
       ]
     },
     {
@@ -332,27 +804,21 @@
       ],
       "trait": [
         {
-          "name": "Emotion Made Flesh",
+          "name": "Crowded Ground",
           "entries": [
-            "A city quarter resenting the warm, prosperous rooms visible across a narrow square. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+            "The envier is made of neighbors and is strongest where they stand close. It has Advantage on attack rolls against a creature that has another creature within 5 feet of it, and Disadvantage on attack rolls against a creature that has no other creature within 15 feet of it."
           ]
         },
         {
-          "name": "Rule of the Body",
+          "name": "Envies the Untouched",
           "entries": [
-            "Close or cover its central window with an action within 5 feet, or deal 15 Bludgeoning damage to it in one turn. Its feeding stops until the end of its next turn. Its hunger never requires revealing a player’s private inventory."
-          ]
-        },
-        {
-          "name": "Envy Feeding",
-          "entries": [
-            "A feeding target is the single other creature it can see within 60 feet with the highest current HP among those other creatures; if the highest current HP is tied, there is no feeding target. All restrictions in Rule of the Body also apply. While at least one feeding target exists, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Rule of the Body can suppress this Resistance. This does not stack with its ordinary Resistances."
+            "While the envier can see a creature within 60 feet that has taken no damage since the start of the envier's last turn, it has Resistance to Bludgeoning, Piercing, and Slashing damage. Once everyone it can see has been hurt, there is nothing left for it to want, and the Resistance ends."
           ]
         },
         {
           "name": "Soft Corners",
           "entries": [
-            "It can move through a space as narrow as 1 foot without squeezing. If it has the {@condition Restrained|XPHB} condition, it cannot use this trait."
+            "The envier can move through a space as narrow as 1 foot without squeezing. It can't do so while it has the {@condition Restrained|XPHB} condition."
           ]
         }
       ],
@@ -360,27 +826,27 @@
         {
           "name": "Multiattack",
           "entries": [
-            "It makes 2 Window Spill attacks."
+            "The envier makes two Window Spill attacks."
           ]
         },
         {
           "name": "Window Spill",
           "entries": [
-            "{@atkr m} {@hit 6}, reach 10 ft. {@h}13 ({@damage 3d6 + 3}) Acid damage."
+            "{@atkr m} {@hit 6}, reach 10 ft. {@h}17 ({@damage 4d6 + 3}) Acid damage."
           ]
         },
         {
           "name": "The Better Room",
           "entries": [
-            "{@actSave wis} {@dc 15}, one creature within 60 feet that can see its central window. {@actSaveFail} The target has the {@condition Charmed|XPHB} condition until the end of its next turn and cannot willingly move farther from the window during that time. This does not compel the target to attack or surrender anything."
+            "{@actSave wis} {@dc 15}, one creature the envier can see within 60 feet. A warm lit room shows in the lead-framed window at the envier's center, and in it the target's own life going better. {@actSaveFail} The target has the {@condition Charmed|XPHB} condition until the end of its next turn and can't willingly move farther from the window during that time. The condition doesn't compel the target to attack anyone or hand over anything."
           ]
         }
       ],
       "bonus": [
         {
-          "name": "Envy Hunger",
+          "name": "That Should Be Mine",
           "entries": [
-            "{@actSave dex} {@dc 15}, one other creature it can see within 60 feet with the highest current HP among other creatures it can see in that range. On a tie the monster chooses one of the tied creatures. {@actSaveFail} The target has the {@condition Restrained|XPHB} condition until the end of its next turn. An adjacent ally can use an action to break the visible binding, ending Restrained. Its attacks against other creatures can break a current-HP tie and establish a feeding target."
+            "{@actSave dex} {@dc 15}, one creature the envier can see within 60 feet that has taken no damage since the start of the envier's last turn. {@actSaveFail} The target has the {@condition Restrained|XPHB} condition until the end of its next turn. A creature within 5 feet can take an action to break the hardened acid, ending the condition."
           ]
         }
       ],
@@ -395,11 +861,29 @@
       "hasFluff": true,
       "hasFluffImages": true,
       "actionTags": [
-        "Multiattack"
+        "Bonus Action",
+        "Melee Attack",
+        "Multiattack",
+        "Restrains"
       ],
       "conditionInflict": [
         "charmed",
         "restrained"
+      ],
+      "damageTags": [
+        "A"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "traitTags": [],
+      "miscTags": [],
+      "savingThrowForced": [
+        "dexterity",
+        "wisdom"
       ]
     },
     {
@@ -455,21 +939,15 @@
       ],
       "trait": [
         {
-          "name": "Emotion Made Flesh",
+          "name": "Anchored",
           "entries": [
-            "A tavern district insisting that its best night must never be allowed to end. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+            "A split fiddle, strapped against its exposed ribs and playing on its own, stands in the merry's space and is part of its body. It has AC 13, 25 Hit Points, Immunity to Poison and Psychic damage, and it can't move on its own. A creature can attack it, or take an action within 5 feet of it to cover it with an opaque cloth. While it is destroyed or covered, Dances on What's Left does nothing, and the merry can take an action to uncover it. Destroying it deals no damage to the merry."
           ]
         },
         {
-          "name": "Rule of the Body",
+          "name": "Dances on What's Left",
           "entries": [
-            "A creature can stand from Prone normally. Its hunger requires hearing its rhythm; covering both ears with an action prevents hearing that rhythm until the creature frees either hand."
-          ]
-        },
-        {
-          "name": "Joy Feeding",
-          "entries": [
-            "A feeding target is a creature within 60 feet that it can see, that can hear it, and that has the Prone condition. All restrictions in Rule of the Body also apply. Once on each of its turns, when it hits a feeding target with Dancer Talon, it deals an extra 7 ({@damage 2d6}) Slashing damage."
+            "Once on each of its turns, when the merry hits a creature that has the {@condition Prone|XPHB} condition and can hear the fiddle, it deals an extra 7 ({@damage 2d6}) Slashing damage. A creature can stand up normally, and a creature that covers both ears with an action can't hear the fiddle until it frees a hand."
           ]
         }
       ],
@@ -477,7 +955,7 @@
         {
           "name": "Multiattack",
           "entries": [
-            "It makes 2 Dancer Talon attacks."
+            "The merry makes two Dancer Talon attacks."
           ]
         },
         {
@@ -489,15 +967,15 @@
         {
           "name": "Splintered Caper {@recharge 5}",
           "entries": [
-            "{@actSave dex} {@dc 15}, each creature in a 15-foot Emanation. {@actSaveFail} 18 ({@damage 4d8}) Slashing damage and the {@condition Prone|XPHB} condition. {@actSaveSuccess} Half damage only."
+            "{@actSave dex} {@dc 15}, each creature in a 15-foot Emanation originating from the merry. {@actSaveFail} 18 ({@damage 4d8}) Slashing damage, and the target has the {@condition Prone|XPHB} condition. {@actSaveSuccess} Half damage only."
           ]
         }
       ],
       "bonus": [
         {
-          "name": "Joy Hunger",
+          "name": "One More Reel",
           "entries": [
-            "{@actSave dex} {@dc 15}, one creature within 30 feet that can hear its rhythm. {@actSaveFail} The target has the {@condition Prone|XPHB} condition. A creature can stand normally; the monster imposes no separate restriction on standing."
+            "{@actSave dex} {@dc 15}, one creature the merry can see within 30 feet that can hear the fiddle. {@actSaveFail} The target has the {@condition Prone|XPHB} condition."
           ]
         }
       ],
@@ -505,7 +983,7 @@
         {
           "name": "The Laugh Catches",
           "entries": [
-            "Trigger: A creature within 30 feet ends the Prone condition on itself. Response: The beast moves up to 20 feet toward the creature without provoking Opportunity Attacks. If it has the Deafened condition, it cannot use this reaction."
+            "Trigger: A creature the merry can see within 30 feet stands up from Prone. Response: The merry moves up to 20 feet toward that creature without provoking Opportunity Attacks. It can't use this reaction while it has the {@condition Deafened|XPHB} condition."
           ]
         }
       ],
@@ -520,10 +998,29 @@
       "hasFluff": true,
       "hasFluffImages": true,
       "actionTags": [
-        "Multiattack"
+        "Bonus Action",
+        "Melee Attack",
+        "Multiattack",
+        "Reaction",
+        "Recharge"
       ],
       "conditionInflict": [
+        "deafened",
         "prone"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "traitTags": [],
+      "miscTags": [],
+      "savingThrowForced": [
+        "dexterity"
       ]
     },
     {
@@ -583,27 +1080,21 @@
       ],
       "trait": [
         {
-          "name": "Emotion Made Flesh",
+          "name": "Underleaf",
           "entries": [
-            "A wooded province grieving people buried beyond the reach of its mourning bells. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+            "While the bellwound is within 5 feet of a tree, undergrowth, or its own roots, it has Half Cover (a +2 bonus to AC and Dexterity saving throws) and moves through those spaces without spending extra movement. Burning or clearing the growth around it, or drawing it into open ground, takes this away."
           ]
         },
         {
-          "name": "Rule of the Body",
+          "name": "Tolls for the Wounded",
           "entries": [
-            "An ally can use an action within 5 feet to wipe a target’s eyes or ring a bell, ending the Blinded or Deafened condition respectively caused by Bellwound. Healing above half HP also switches off its wound feeding."
-          ]
-        },
-        {
-          "name": "Grief Feeding",
-          "entries": [
-            "A feeding target is a creature within 60 feet that it can see and that has fewer than half its maximum HP, or a creature it can see within 60 feet that is within 10 feet of a corpse. All restrictions in Rule of the Body also apply. At the start of its turn, if at least one feeding target exists, it regains 9 HP. This occurs once per turn, not once per target. It cannot regain HP this way while Incapacitated."
+            "At the start of each of its turns, the bellwound regains 9 Hit Points if it can see, within 60 feet, a creature that has fewer than half its Hit Points remaining or a creature within 10 feet of a corpse. It regains these Hit Points once per turn no matter how many such creatures it sees, and not at all while it has the Incapacitated condition. Healing the wounded above half their Hit Points shuts this off."
           ]
         },
         {
           "name": "Sightless Mourning",
           "entries": [
-            "Blinded or Deafened creatures have Disadvantage on saving throws against Bellwound’s Hunger, but not its other abilities."
+            "A creature that has the {@condition Blinded|XPHB} or {@condition Deafened|XPHB} condition has Disadvantage on saving throws against the bellwound's Bonus Actions. A creature within 5 feet can take an action to wipe a target's eyes or ring a handbell by its ear, ending one such condition the bellwound caused."
           ]
         }
       ],
@@ -611,7 +1102,7 @@
         {
           "name": "Multiattack",
           "entries": [
-            "It makes 2 Root Toll attacks."
+            "The bellwound makes two Root Toll attacks."
           ]
         },
         {
@@ -623,21 +1114,15 @@
         {
           "name": "Mourning Pollen {@recharge 5}",
           "entries": [
-            "{@actSave con} {@dc 16}, each creature in a 30-foot Cone. {@actSaveFail} 22 ({@damage 4d10}) Poison damage and the {@condition Blinded|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+            "{@actSave con} {@dc 16}, each creature in a 30-foot Cone. {@actSaveFail} 22 ({@damage 4d10}) Poison damage, and the target has the {@condition Blinded|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
           ]
         }
       ],
       "bonus": [
         {
-          "name": "Grief Hunger",
-          "entries": [
-            "{@actSave con} {@dc 16}, one creature it has damaged this turn that it can see within 60 feet. {@actSaveFail} The target has the {@condition Deafened|XPHB} condition until the end of its next turn. If the target has fewer than half its maximum HP, it also has the {@condition Blinded|XPHB} condition for that duration. An adjacent ally can use an action to end one of these conditions caused by this ability."
-          ]
-        },
-        {
           "name": "The Unheard Bell",
           "entries": [
-            "{@actSave con} {@dc 16}, one creature it can see within 60 feet. {@actSaveFail} The target has the {@condition Deafened|XPHB} condition until the end of its next turn. This can replace its Hunger Bonus Action, not accompany it."
+            "{@actSave con} {@dc 16}, one creature the bellwound has damaged this turn and can see within 60 feet. {@actSaveFail} The target has the {@condition Deafened|XPHB} condition until the end of its next turn, and also the {@condition Blinded|XPHB} condition for that duration if it has fewer than half its Hit Points remaining."
           ]
         }
       ],
@@ -652,11 +1137,31 @@
       "hasFluff": true,
       "hasFluffImages": true,
       "actionTags": [
-        "Multiattack"
+        "Bonus Action",
+        "Melee Attack",
+        "Multiattack",
+        "Recharge"
       ],
       "conditionInflict": [
         "blinded",
         "deafened"
+      ],
+      "damageTags": [
+        "B",
+        "I"
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "traitTags": [
+        "Regeneration"
+      ],
+      "miscTags": [],
+      "savingThrowForced": [
+        "constitution"
       ]
     },
     {
@@ -701,7 +1206,8 @@
         "proficiency": 1
       },
       "senses": [
-        "Darkvision 60 ft."
+        "Darkvision 60 ft.",
+        "Tremorsense 60 ft."
       ],
       "languages": [
         "Common"
@@ -715,21 +1221,15 @@
       ],
       "trait": [
         {
-          "name": "Emotion Made Flesh",
+          "name": "Deepsign",
           "entries": [
-            "Mining villages envying the vein reserved for the owner’s favored crews. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+            "The duchess reads the rock rather than the air. It has Tremorsense 60 feet. While a creature within 30 feet of it carries an uncovered light source that sheds Bright Light, the duchess has Disadvantage on attack rolls and can't take a Bonus Action. A covered lantern doesn't count; an open flame does."
           ]
         },
         {
-          "name": "Rule of the Body",
+          "name": "Envies the Untouched",
           "entries": [
-            "Its envy selects the other creature with the highest current HP within 60 feet that it can see; ties select none. Equalizing current HP or breaking sight prevents feeding on that creature."
-          ]
-        },
-        {
-          "name": "Envy Feeding",
-          "entries": [
-            "A feeding target is the single other creature it can see within 60 feet with the highest current HP among those other creatures; if the highest current HP is tied, there is no feeding target. All restrictions in Rule of the Body also apply. Once on each of its turns, when it hits a feeding target with Claimed Splinter, it deals an extra 7 ({@damage 2d6}) Piercing damage."
+            "Once on each of its turns, when the duchess hits a creature that has taken no damage since the start of the duchess's last turn, it deals an extra 7 ({@damage 2d6}) Piercing damage. Once a creature has been hurt, the duchess stops wanting what it has."
           ]
         }
       ],
@@ -737,27 +1237,27 @@
         {
           "name": "Multiattack",
           "entries": [
-            "It makes 2 Claimed Splinter attacks."
+            "The duchess makes two Claimed Splinter attacks."
           ]
         },
         {
           "name": "Claimed Splinter",
           "entries": [
-            "{@atkr m} {@hit 8}, reach 10 ft. {@h}18 ({@damage 4d6 + 4}) Piercing damage."
+            "{@atkr m} {@hit 8}, reach 10 ft. {@h}21 ({@damage 5d6 + 4}) Piercing damage."
           ]
         },
         {
           "name": "Close the Seam {@recharge 5}",
           "entries": [
-            "{@actSave dex} {@dc 16}, one creature on a stone surface within 60 feet. {@actSaveFail} 27 ({@damage 6d8}) Piercing damage and the {@condition Restrained|XPHB} condition until the end of its next turn. A creature within 5 feet can use an action to break the ore cage, ending Restrained. {@actSaveSuccess} Half damage only."
+            "{@actSave dex} {@dc 16}, one creature on a stone surface the duchess can see within 60 feet. {@actSaveFail} 27 ({@damage 6d8}) Piercing damage, and the target has the {@condition Restrained|XPHB} condition until the end of its next turn. A creature within 5 feet can take an action to break the ore cage, ending the condition. {@actSaveSuccess} Half damage only."
           ]
         }
       ],
       "bonus": [
         {
-          "name": "Envy Hunger",
+          "name": "The Vein Was Promised",
           "entries": [
-            "{@actSave dex} {@dc 16}, one other creature it can see within 60 feet with the highest current HP among other creatures it can see in that range. On a tie the monster chooses one of the tied creatures. {@actSaveFail} The target has the {@condition Restrained|XPHB} condition until the end of its next turn. An adjacent ally can use an action to break the visible binding, ending Restrained. Its attacks against other creatures can break a current-HP tie and establish a feeding target."
+            "{@actSave dex} {@dc 16}, one creature the duchess can see within 60 feet that has taken no damage since the start of her last turn. {@actSaveFail} The target has the {@condition Restrained|XPHB} condition until the end of its next turn. A creature within 5 feet can take an action to break the ore binding, ending the condition."
           ]
         }
       ],
@@ -765,7 +1265,7 @@
         {
           "name": "Spurn the Poorer Vein",
           "entries": [
-            "Trigger: An attack hits it while its feeding target is visible. Response: It gains a +3 bonus to AC against that attack, potentially causing it to miss. This reaction works only against an attacker that is not its feeding target."
+            "Trigger: A creature that has taken damage since the start of the duchess's last turn hits her with an attack roll. Response: The duchess gains a +3 bonus to AC against that attack, possibly causing it to miss."
           ]
         }
       ],
@@ -781,10 +1281,30 @@
       "hasFluff": true,
       "hasFluffImages": true,
       "actionTags": [
-        "Multiattack"
+        "Bonus Action",
+        "Melee Attack",
+        "Multiattack",
+        "Reaction",
+        "Recharge",
+        "Restrains"
       ],
       "conditionInflict": [
         "restrained"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "senseTags": [
+        "D",
+        "T"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "traitTags": [],
+      "miscTags": [],
+      "savingThrowForced": [
+        "dexterity"
       ]
     },
     {
@@ -842,21 +1362,15 @@
       ],
       "trait": [
         {
-          "name": "Emotion Made Flesh",
+          "name": "Anchored",
           "entries": [
-            "The possessive desire of patrons who believe payment entitles them to another adult’s attention forever. Once formed it is independent of the people that made it. Changing their feelings cannot dismiss or destroy it."
+            "A standing ledger of red leather, open on a brass post, its ribbons running out to everyone who owes, stands in the debt's space and is part of its body. It has AC 14, 35 Hit Points, Immunity to Poison and Psychic damage, and it can't move on its own. A creature can attack it, or take an action within 5 feet of it to cover it with an opaque cloth. While it is destroyed or covered, Collects What Is Owed does nothing, and the debt can take an action to uncover it. Destroying it deals no damage to the debt."
           ]
         },
         {
-          "name": "Rule of the Body",
+          "name": "Collects What Is Owed",
           "entries": [
-            "An ally can use an action within 5 feet to visibly tear one of its ledger ribbons, ending one Charmed condition it caused. The fiend cannot charm through Total Cover or target a Deafened creature with its invitation."
-          ]
-        },
-        {
-          "name": "Lust Feeding",
-          "entries": [
-            "A feeding target is a creature within 60 feet that it can see and that has the Charmed condition caused by this monster. All restrictions in Rule of the Body also apply. Once on its turn, immediately after hitting a feeding target, it can move up to 20 feet without provoking Opportunity Attacks, or teleport to an unoccupied space it can see within 10 feet of that target. This movement grants no extra attack."
+            "Once on its turn, immediately after hitting a creature that has the {@condition Charmed|XPHB} condition caused by the debt, the debt can move up to 20 feet without provoking Opportunity Attacks or teleport to an unoccupied space it can see within 10 feet of that creature. A creature within 5 feet of a charmed target can take an action to tear that target's ledger ribbon, ending the condition."
           ]
         }
       ],
@@ -864,7 +1378,7 @@
         {
           "name": "Multiattack",
           "entries": [
-            "It makes 2 Ledger Lash attacks."
+            "The debt makes two Ledger Lash attacks."
           ]
         },
         {
@@ -876,15 +1390,15 @@
         {
           "name": "Collect the Ribbon {@recharge 5}",
           "entries": [
-            "{@actSave wis} {@dc 17}, one creature within 60 feet that has the Charmed condition from this fiend. {@actSaveFail} 27 ({@damage 6d8}) Psychic damage and the {@condition Restrained|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only. Using this action ends the fiend’s Charmed condition on that target after resolving the save."
+            "{@actSave wis} {@dc 17}, one creature the debt can see within 60 feet that has the {@condition Charmed|XPHB} condition caused by it. {@actSaveFail} 27 ({@damage 6d8}) Psychic damage, and the target has the {@condition Restrained|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only. Either way, the Charmed condition then ends on that creature."
           ]
         }
       ],
       "bonus": [
         {
-          "name": "Lust Hunger",
+          "name": "The Account Is Still Open",
           "entries": [
-            "{@actSave wis} {@dc 17}, one creature within 60 feet that can hear its invitation. {@actSaveFail} The target has the {@condition Charmed|XPHB} condition caused by this monster until the end of its next turn. The condition does not compel attacks against allies. A visible ledger ribbon connects target and monster; an adjacent creature can use an action to tear it, ending the condition."
+            "{@actSave wis} {@dc 17}, one creature the debt can see within 60 feet that can hear its invitation and isn't behind Total Cover. {@actSaveFail} The target has the {@condition Charmed|XPHB} condition caused by the debt until the end of its next turn, and a visible ribbon runs from the ledger to it. The condition doesn't compel the target to attack its allies or hand over anything."
           ]
         }
       ],
@@ -892,7 +1406,7 @@
         {
           "name": "Transfer the Account",
           "entries": [
-            "Trigger: A creature within 30 feet ends the fiend’s Charmed condition on another creature. Response: The fiend teleports up to 20 feet to an unoccupied space it can see. This does not reapply Charmed."
+            "Trigger: A creature within 30 feet ends the debt's {@condition Charmed|XPHB} condition on another creature. Response: The debt teleports up to 20 feet to an unoccupied space it can see. This doesn't reapply the condition."
           ]
         }
       ],
@@ -907,11 +1421,32 @@
       "hasFluff": true,
       "hasFluffImages": true,
       "actionTags": [
-        "Multiattack"
+        "Bonus Action",
+        "Multiattack",
+        "Ranged Attack",
+        "Reaction",
+        "Recharge",
+        "Restrains"
       ],
       "conditionInflict": [
         "charmed",
         "restrained"
+      ],
+      "damageTags": [
+        "Y"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "traitTags": [],
+      "miscTags": [
+        "TP"
+      ],
+      "savingThrowForced": [
+        "wisdom"
       ]
     }
   ],
@@ -922,39 +1457,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "Three generations of one harbor fearing the fog that returns boats without crews. Its power was fed by a village or parish. A vast bell-shaped fog creature suspended above tide flats, grey foam ribs and trailing net curtains outlining a hollow dark head, three floating drowned-blue eyes and rope limbs herding empty boats. Its outline remains legible against the fog.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "Nothing is ever seen of it but a shape, and the shape is enormous. In three generations of accounts it is a hunched herder's silhouette standing in its own cold fog, taller than the harbor cranes, moving boats the way a shepherd moves sheep. The bell that sounds with it does not exist; no bell on this coast makes that note."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Empty nets turn toward shore before it appears; the Hush has removed names from the harbor rolls."
+            "A haar shepherd owns a harbor and the three miles of water outside it. It does not sink boats. It herds them: away from the channel, onto the bar, into each other, and back to the quay empty, which is the state in which this harbor has received its boats for sixty years. The town has not moved and will not, and that is the shepherd's whole achievement.",
+            "Clan: Coast and sea. Born of fear. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its hunger and feeding require the target to be in Lightly or Heavily Obscured fog. A 10-foot-radius area of Bright Light suppresses its own fog there; an audible struck bell suppresses its fog within 30 feet of the bell until the end of the striker’s next turn."
+            "Fog rolls in against the wind and against the tide; the Hush licenses funerals here in batches, once a season, to keep the mourning short."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Boats come back crewless, tied off properly, with the catch still aboard.",
+                "You can hear a bell in the haar that is not the harbor bell.",
+                "It cannot cross into lamplight.",
+                "It is the drowned of the Cormorant, all of them together."
+              ]
+            },
+            "The first three are true. It is not made of the dead; it is made of sixty years of the living being afraid of the fog."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Bright light breaks it. It cannot frighten anyone standing in a lit area, and a struck bell clears its fog for thirty feet around the sound. A boat crew with lanterns and a bell can cross its water; one without is working inside its territory on its terms."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Give the party the counter as salvage, not as a lore check: a lantern locker and a hand bell aboard the wreck they are searching. The fight should be run as a chase across open water with visibility as the real resource. Thunder damage grounds it briefly, which rewards a party that works out that it is held up by the weather."
           ]
         }
       ],
@@ -977,39 +1528,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "The rage of miners whose injuries were entered as fractions on an employer’s tally. Its power was fed by a village or parish. A tall mine-born giant with a body of bruised grey hide reinforced by splintered pit props, a measuring chain embedded around its shoulders, an enormous split wooden tally in place of its face, oversized iron hands. A dark red glow escapes cracks without exposed viscera.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A giant built from a counting house: a torso of ledgers and tally sticks, iron measuring rods for arms, and a face that is a single ruled page of fractions. Where a miner lost a hand, a foot, an eye, there is a corresponding figure written on it, and the figures are all less than one."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+            "A redmeasure owns a mining valley and the arithmetic done in it. It does not want the owners dead — it wants the ledger kept, which means it wants the injuries to continue being entered as fractions and the men to keep being angry about it. It breaks doors at night and it takes a count in the morning.",
+            "Clan: Mountains and mines. Born of rage. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its feeding records damage from individual creatures, not conditions or failed attacks. Stop attacking for one round or commit enough force to defeat it before its retaliatory turn."
+            "Pay is short by the same amount in every purse; the Hush has broken up two meetings in the valley this year."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It comes for whoever hit it last, and it remembers how many.",
+                "If you all go at it at once it hits back harder.",
+                "It cannot be hurt by anything the company owns.",
+                "It is fire-proof."
+              ]
+            },
+            "The first, second and fourth are true. It can be hurt by anything at all."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "It tallies attackers, not attacks. The extra damage it returns scales with how many different creatures hit it since its last turn, so a party that lets one character do the striking keeps the tally at one die; a party that all piles in takes the full count back."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Say the tally out loud each round — 'that is three of you now' — so the mechanic is visible by the second turn. It rewards a party that nominates a tank and punishes the instinct to focus-fire with everyone. Its reaction closes the distance to whoever hurt it, so a back-rank character who takes a shot will have it in their face."
           ]
         }
       ],
@@ -1032,39 +1599,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A city quarter resenting the warm, prosperous rooms visible across a narrow square. Its power was fed by a village or parish. A low four-legged mass of lead-grey translucent plaster slime, many small intact windowpanes floating within it, each reflecting a richer room, a single amber eye behind a warped bay window face. It flows over a soot-black city square.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "An ooze that has taken the shape of a tenement wall and is slowly coming off it. Lead-framed windows float in the mass, and the one at its center is lit, warm, and furnished, showing a room nobody in this quarter has. The rest of it is grey and climbing."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Neighbors bolt shutters toward one particular square; municipal records contain neatly cut-out pages."
+            "A window envier owns one square and the four streets off it. It keeps the lit room visible from every window in the district, and it keeps the district looking. Its people are poorer each year and more certain that the money went somewhere specific, which is the condition it lives in.",
+            "Clan: Walled cities. Born of envy. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Close or cover its central window with an action within 5 feet, or deal 15 Bludgeoning damage to it in one turn. Its feeding stops until the end of its next turn. Its hunger never requires revealing a player’s private inventory."
+            "A house across the square is warm and lit all winter and nobody can say who lives there; rents rise in handwriting no clerk admits to."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "There is a room in it that is better than any room you have been in.",
+                "It wants whoever is unhurt. Once you are bleeding it loses interest.",
+                "The window can be put out.",
+                "Whatever you see in the window is a real room somewhere in the city."
+              ]
+            },
+            "The first three are true. The room is not anywhere."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Its armor depends on there being someone unhurt in sight. Once every creature it can see has taken damage, there is nothing left for it to envy and the Resistance ends."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "The charm it offers is harmless on purpose — it does not compel anyone to attack a friend or hand anything over; it just makes them unwilling to walk away from the window. Play that as the horror. The party's own untouched character is the thing keeping its armor on, which is an unpleasant and interesting fact for them to discover."
           ]
         }
       ],
@@ -1087,39 +1670,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A tavern district insisting that its best night must never be allowed to end. Its power was fed by a village or parish. A dreadful antlerless carnival animal with six jointed dancer legs, bruise-purple hide, a stretched fixed porcelain grin and ale-amber eyes, split tavern stools growing from its spine. An unmistakably nonhuman beast on sawdust; no festive human crowd.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A long-limbed beast, deer-boned and grinning, that has been dancing for so long its feet are gone to the ankle and it goes on anyway. A split fiddle is strapped against its exposed ribs, playing itself. It is genuinely, horribly delighted to see anyone."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+            "A merry unending owns a tavern district's best night and refuses to let it end. Its people are not miserable — that is the difficulty. They are exhausted, euphoric, and unable to go home, and the district has been at its own party for eleven years. It takes the ones who fall down.",
+            "Clan: Urban haunts. Born of joy. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "A creature can stand from Prone normally. Its hunger requires hearing its rhythm; covering both ears with an action prevents hearing that rhythm until the creature frees either hand."
+            "The same night is celebrated continuously and nobody can name the occasion; three publicans have been relocated by the Hush without explanation."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It takes whoever goes down. Get up and it goes looking elsewhere.",
+                "Cover your ears and you cannot hear the fiddle, and it cannot put you down.",
+                "The fiddle can be broken.",
+                "If you dance with it willingly it will let you go at dawn."
+              ]
+            },
+            "The first three are true. Nobody has ever been let go."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "Two doors out. Getting up ends its extra damage immediately — standing is a normal action and it imposes no penalty on doing so — and covering both ears with an action stops a creature hearing the fiddle until it frees a hand. The fiddle itself is AC 13, 25 Hit Points."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "It knocks the party down and then dances on them, so the fight has a rhythm: fall, stand, fall. Its reaction lunges at whoever stands up, which makes standing a decision rather than a reflex. A character who gives up both hands to cover their ears is safe and disarmed, which is the same trade the whole district has made."
           ]
         }
       ],
@@ -1142,39 +1741,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "A wooded province grieving people buried beyond the reach of its mourning bells. Its power was fed by a province. An enormous grieving forest plant with a bowed bell-shaped bark torso, hollow hanging root hands, pale closed fungus flowers shaped like eyelids, a mossy bone-white wooden heart behind a closed lattice. An abandoned woodland burial grove.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A tree-sized body of split timber and hanging root, with mourning bells grown through the trunk at every height. The bells are the wrong shape, cast in grief rather than bronze, and they are all silent. Where the bark is open the wood underneath is wet and red. It smells of pollen and turned earth."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Trail marks loop back on themselves; a Hush decree forbids singing the lost-road ballad."
+            "A bellwound owns a wooded province and the burials in it. It wants the dead to stay out of reach of the parish bells, which means out of the churchyards and under the leaves, and it wants the living to keep going out to look for them. It is patient on a scale of decades, and it does not need to kill anyone to be fed.",
+            "Clan: Deep forest. Born of grief. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "An ally can use an action within 5 feet to wipe a target’s eyes or ring a bell, ending the Blinded or Deafened condition respectively caused by Bellwound. Healing above half HP also switches off its wound feeding."
+            "Burials out in the trees are found disturbed and recovered; a mourning period was cut short by decree and the village obeyed without argument."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "It rings when someone dies within a mile, and only the dying hear it.",
+                "It heals while there is someone bleeding near a body.",
+                "It is afraid of fire.",
+                "The bells are from the drowned chapel and can be rung to banish it."
+              ]
+            },
+            "The first three are true. The bells are part of it and cannot be rung by anyone."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "It heals only while it can see a badly wounded creature or someone standing near a corpse — getting people above half their Hit Points shuts that down. It is also vulnerable to fire, and it fights from cover that burns."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Make its healing legible: say the wood closes when it heals, and say what it is looking at. The party should work out that keeping each other topped up is more valuable than extra damage. Its deafening and blinding stack onto its own saves, so a party that ignores the conditions will fail more of them — but any ally can spend an action to clear one."
           ]
         }
       ],
@@ -1197,39 +1812,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "Mining villages envying the vein reserved for the owner’s favored crews. Its power was fed by a province. A regal upright vein of living ore, raw iron plates moving around a coal-black core, lamp-orange gemstones as jealous eyes, many slender metal fingers weighing a little empty pan. A gown-shaped base made of jagged mineral folds in a mine seam.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "An elemental of ore and seam-water in the shape of a woman wearing a mine: galleries for skirts, a coronet of unworked silver, and a body that is cross-sectioned so the good vein is visible running through her. She is scrupulously polite and takes only from those who have not yet been hurt."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "Fresh tallies appear in sealed shafts; the Hush has replaced disaster dates with shift numbers."
+            "A seam duchess owns a mining village through its envy. She reserves the richest seam, visibly, for nobody, and lets the village watch it. Her subjects do not leave, because the vein is still there and might yet be theirs, and she takes a little from the ones who are still whole and lucky.",
+            "Clan: Mountains and mines. Born of envy. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "Its envy selects the other creature with the highest current HP within 60 feet that it can see; ties select none. Equalizing current HP or breaking sight prevents feeding on that creature."
+            "A seam is found opened and worked by no crew; the owners' favor lists are posted and then withdrawn by decree."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "She takes whoever is still untouched. Get a scratch and she loses interest.",
+                "The vein she guards is real and it is the richest in the county.",
+                "She cannot be struck by a man who has taken her wages.",
+                "She will bargain, and she keeps her word."
+              ]
+            },
+            "The first, second and fourth are true. Wages have nothing to do with it."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "She envies the unhurt. A creature that has taken no damage since the start of her last turn is the one she wants, and once everyone has been hurt she has nothing left to want from them."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "The counter is counter-intuitive and should be discovered as such: the safest character at her table is the one who is already bleeding. Her reaction protects her specifically from the wounded, which means the party's damaged frontliner has a harder time landing hits than its untouched wizard — and the wizard is the one she is coming for."
           ]
         }
       ],
@@ -1252,39 +1883,55 @@
       "entries": [
         {
           "type": "entries",
-          "name": "Origin and domain",
+          "name": "Description",
           "entries": [
-            "The possessive desire of patrons who believe payment entitles them to another adult’s attention forever. Its power was fed by a province. An adult-sized fully clothed fiend with an elongated faceless wax mask, a high-collared burgundy silk robe, brass bed-rail fingers, long sealed ledger ribbons and a candle flame reflected in each knuckle. Nonsexual, no nudity, sinister debt collector in an empty candlelit room.",
-            "It keeps survivors inside its territory and repeats the situation that made it. Learning its rule can buy an escape or an opening to kill it; persuasion and reconciliation cannot erase its existence.",
-            "It contests territory with monsters born from different feelings, including those that share its biome. Such rivals may interrupt its hunt, but any temporary reprieve serves their own claim on the population."
+            "A tall, courteous fiend in worn red velvet, with a standing ledger on a brass post growing out of its hip. Ribbons run from the ledger to everyone who owes it, and the ribbons are visible to everyone in the room. It is unfailingly polite and it does not hurry."
           ]
         },
         {
           "type": "entries",
-          "name": "Signs and the Hush",
+          "name": "Domain and habits",
           "entries": [
-            "The same empty place is reserved every night; licensed mourning hours end before its visits."
+            "A velvet debt owns a brothel district through its accounts. It did not come from the people who worked there; it came from the clients who believed that paying bought permanence. It keeps a quarter in debt, and it is careful to keep its debtors working, housed, and unable to leave.",
+            "Clan: Urban haunts. Born of lust. It was made by people feeling the same thing together for long enough, and it is now independent of them. Nobody's change of heart will unmake it; it has to be destroyed by hand."
           ]
         },
         {
           "type": "entries",
-          "name": "Rule and counter",
+          "name": "Signs",
           "entries": [
-            "An ally can use an action within 5 feet to visibly tear one of its ledger ribbons, ending one Charmed condition it caused. The fiend cannot charm through Total Cover or target a Deafened creature with its invitation."
+            "Debts in the district are recorded as settled and remain owed; a house is relocated and its ledger is not."
           ]
         },
         {
           "type": "entries",
-          "name": "Running the encounter",
+          "name": "What is known",
           "entries": [
-            "Show its identifying feature and at least one sign before using its hunger. State visible tethers, covered organs, and remaining condition durations. Describe feeding visibly so players can connect the trigger to its benefit. Do not invent additional immunities, free actions, or hidden stages."
+            "What the people of its domain will tell you, if the Hush has not got to them first:",
+            {
+              "type": "list",
+              "items": [
+                "Everyone it has a hold on has a ribbon. You can see them.",
+                "Cut somebody's ribbon and the hold ends.",
+                "It never makes anyone hurt their friends.",
+                "Pay the debt off and it has no claim."
+              ]
+            },
+            "The first three are true. The debt cannot be paid; that is the whole of it."
           ]
         },
         {
           "type": "entries",
-          "name": "Playtest status",
+          "name": "The counter",
           "entries": [
-            "CR is an unplaytested target. See the individual design record in docs/monster-notes.json for damage assumptions, defenses, and intended counter. No live 5etools import has been verified."
+            "The ribbons are the counter and they are deliberately, visibly cuttable: any creature within five feet of a charmed ally can spend an action to tear that ribbon and end the condition. The ledger itself is AC 14, 35 Hit Points, and covering or destroying it stops the fiend's pursuit entirely."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Running it",
+          "entries": [
+            "Its charm is non-compelling by design — it never turns a character against the party — so the horror is in the ribbon, not in losing control. Keep saying who is tied to it. Its reaction teleports it away whenever somebody cuts a ribbon, which turns the fight into a pursuit through rooms it keeps leaving."
           ]
         }
       ],

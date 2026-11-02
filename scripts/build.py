@@ -164,6 +164,17 @@ def validate(pack, *, check_images=True):
             image["width"], image["height"] = width, height
         print(f"Validated {mon['name']}: CR {mon['cr']}, PB +{pb}, HP and damage dice, lore, artwork, transparent token")
     require(set(lore) == names, "Lore and monsters don't match")
+    groups = {(g["name"], g["source"]) for g in pack.get("legendaryGroup", [])}
+    require(len(groups) == len(pack.get("legendaryGroup", [])), "Duplicate legendary groups")
+    allowed_tags = {"atkr", "hit", "h", "damage", "recharge", "actSave", "dc", "actSaveFail", "actSaveSuccess", "condition"}
+    for group in pack.get("legendaryGroup", []):
+        text = json.dumps(group)
+        require(set(re.findall(r"\{@(\w+)", text)) <= allowed_tags, f"Unknown renderer tag: legendary group {group['name']}")
+        require(group.get("lairActions") or group.get("regionalEffects"), f"Empty legendary group: {group['name']}")
+    for mon in monsters:
+        ref = mon.get("legendaryGroup")
+        if ref:
+            require((ref["name"], ref["source"]) in groups, f"Unresolved legendary group: {mon['name']}")
 
 
 def image_data_url(path):
@@ -247,6 +258,8 @@ def entries_html(entries):
     for entry in entries:
         if isinstance(entry, str):
             parts.append(f"<p>{readable(entry)}</p>")
+        elif entry.get("type") == "list":
+            parts.append("<ul>" + "".join(f"<li>{readable(item)}</li>" for item in entry["items"]) + "</ul>")
         else:
             parts.append(f"<h3>{readable(entry['name'])}</h3>" + entries_html(entry["entries"]))
     return "".join(parts)
@@ -291,6 +304,7 @@ def preview(pack, portable_exports):
         if not mon.get("languages"):
             other.append("<p><b>Languages</b> None</p>")
         sections = []
+        group = next((g for g in pack.get("legendaryGroup", []) if mon.get("legendaryGroup") and (g["name"], g["source"]) == (mon["legendaryGroup"]["name"], mon["legendaryGroup"]["source"])), None)
         for key, label in SECTIONS.items():
             if mon.get(key):
                 sections.append(f"<h2>{label}</h2>")
@@ -298,6 +312,10 @@ def preview(pack, portable_exports):
                     sections.append(entries_html(mon["legendaryHeader"]))
                 for entry in mon[key]:
                     sections.append(f"<div class=ability><h3>{readable(entry['name'])}</h3>{entries_html(entry['entries'])}</div>")
+        if group:
+            for key, label in (("lairActions", "Lair Actions"), ("regionalEffects", "Regional Effects")):
+                if group.get(key):
+                    sections.append(f"<h2>{label}</h2>" + entries_html(group[key]))
         cr = Fraction(mon["cr"])
         pb = 2 if cr < 5 else 2 + (math.ceil(cr) - 1) // 4
         xp = XP_BY_CR.get(mon["cr"])
@@ -313,19 +331,24 @@ def preview(pack, portable_exports):
 <p class="type">{sizes[mon['size'][0]]} {mon['type'].title()}, {' '.join(alignments[x] for x in mon['alignment'])}</p>
 <div class="vitals"><span><b>AC</b> {mon['ac'][0]}</span><span><b>HP</b> {mon['hp']['average']} ({mon['hp']['formula']})</span><span><b>Initiative</b> {initiative:+}</span></div>
 <p><b>Speed</b> {', '.join(speeds)}</p><div class="abilities">{ability_html}</div>{''.join(other)}<p><b>Challenge</b> {challenge}</p>{''.join(sections)}</div></article>''')
+    primer = "".join(
+        f'<section class="primer"><h2>{html.escape(rule["name"])}</h2>{entries_html(rule["entries"])}</section>'
+        for rule in pack.get("variantrule", []))
     count = len(pack["monster"])
     draft = (f"{count} original creature{'s' if count != 1 else ''} for revised fifth edition. CR targets awaiting playtest."
              if count else "No creatures published yet. Theme settled; the coast and sea family is in design.")
     downloads = " ".join(f'<a href="{html.escape(p["path"])}" download>Download image pack {i}</a>' for i, p in enumerate(portable_exports, 1))
     (ROOT / "index.html").write_text('''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>''' + html.escape(title) + ''' Bestiary</title><link rel="stylesheet" href="css/bestiary.css"><script src="js/bestiary.js" defer></script></head>
-<body><header><p class="eyebrow">Conclave Homebrew · Bestiary</p><h1>''' + html.escape(title) + '''</h1><p>What enough people feel, the world makes.</p><p class="draft">''' + draft + '''</p><nav>''' + "".join(links) + '''</nav><div class="toolbar"><label for="search">Find a creature</label><input id="search" type="search" placeholder="Name, CR, biome, emotion, or type" autocomplete="off"></div><p>Import every image pack to load the complete collection. ''' + downloads + '''</p></header><main>''' + "".join(cards) + '''<p id="no-results" hidden>No matching creatures.</p></main><footer>Artwork and matching transparent tokens generated for this collection. <a href="docs/theme.md">Setting</a> · <a href="docs/design-notes.md">Design notes</a> · <a href="docs/monster-playtests.md">Individual playtest records</a></footer></body></html>\n''')
+<body><header><p class="eyebrow">Conclave Homebrew · Bestiary</p><h1>''' + html.escape(title) + '''</h1><p>What enough people feel, the world makes.</p><p class="draft">''' + draft + '''</p><nav>''' + "".join(links) + '''</nav><div class="toolbar"><label for="search">Find a creature</label><input id="search" type="search" placeholder="Name, CR, biome, emotion, or type" autocomplete="off"></div><p>Import every image pack to load the complete collection. ''' + downloads + '''</p></header><main>''' + primer + "".join(cards) + '''<p id="no-results" hidden>No matching creatures.</p></main><footer>Artwork and matching transparent tokens generated for this collection. <a href="docs/theme.md">Setting</a> · <a href="docs/design-notes.md">Design notes</a> · <a href="docs/monster-playtests.md">Individual playtest records</a></footer></body></html>\n''')
 
 
 def main():
     pack = read("homebrew/source.json")
     pack.update(read("data/bestiary/bestiary-ml.json"))
     pack.update(read("data/bestiary/fluff-bestiary-ml.json"))
+    pack.update(read("data/bestiary/legendarygroups.json"))
+    pack.update(read("data/variantrules-ml.json"))
     pack.update(read("data/items.json"))
     pack.update(read("data/spells/spells-ml.json"))
     validate(pack)
