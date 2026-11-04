@@ -89,4 +89,4 @@ and no creature gets an unlisted extra turn because a trigger is met.
 ## Verification status
 
 Local structural, arithmetic, asset, and coverage checks are automated and currently pass. No
-live 5etools import and no tabletop balance test has been completed.
+live toolset import and no tabletop balance test has been completed.

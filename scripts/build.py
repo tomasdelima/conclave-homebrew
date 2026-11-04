@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate local content and build 5etools homebrew exports and an offline preview."""
+"""Validate local content and build homebrew exports and an offline preview."""
 
 import base64
 import copy

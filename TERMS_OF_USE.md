@@ -20,7 +20,7 @@ Commercial use requires separate permission from the applicable rights holders. 
 
 ## Third party rights
 
-Third-party materials, names, and trademarks remain subject to their respective owners' rights and separately identified licenses. No trademark rights are granted. This is an independent fan project, unaffiliated with Wizards of the Coast or the 5etools maintainers.
+Third-party materials, names, and trademarks remain subject to their respective owners' rights and separately identified licenses. No trademark rights are granted. This is an independent fan project, unaffiliated with Wizards of the Coast or with the maintainers of any third-party toolset.
 
 The license does not restrict public-domain materials or uses permitted by applicable exceptions and limitations.
 

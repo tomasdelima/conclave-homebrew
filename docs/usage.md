@@ -1,18 +1,18 @@
 # Repository usage guide
 
-This guide explains how to preview, import, and rebuild Conclave Homebrew. The repository follows the data and asset conventions of [5etools](https://github.com/5etools-mirror-3/5etools-src), with an independent local preview.
+This guide explains how to preview, import, and rebuild Conclave Homebrew. The repository follows a widely used homebrew JSON convention for data and assets, with an independent local preview.
 
 ## Local preview
 
 Open `index.html` from the repository root in a browser. The preview works directly from disk without dependencies or a server.
 
-## Import into 5etools
+## Import into a toolset
 
-Use Manage Homebrew to load the generated image packs listed in `homebrew/portable/index.json`. The preview also links each pack. Import every numbered pack to load the complete collection. Each embeds its images and requires no separate public image hosting. Packs stay below 40 MiB each. If the collection fits in a single pack, it is written as `homebrew/maliced-lands.portable.json`. Actual import in a running 5etools instance still needs a manual check.
+Use your toolset's homebrew import to load the generated image packs listed in `homebrew/portable/index.json`. The preview also links each pack. Import every numbered pack to load the complete collection. Each embeds its images and requires no separate public image hosting. Packs stay below 40 MiB each. If the collection fits in a single pack, it is written as `homebrew/maliced-lands.portable.json`. Actual import in a running toolset still needs a manual check.
 
 For a self-hosted installation, copy the source-specific directories under `img/bestiary/` and `img/bestiary/tokens/` into the corresponding directories in the installation. Import the smaller `homebrew/maliced-lands.json` export. Don't replace the installation's complete data indexes with this repository's indexes.
 
-The modern [upstream renderer](https://github.com/5etools-mirror-3/5etools-src/blob/main/js/render.js) supports `tokenHref` and image `href` with internal paths or external URLs. Stat-block tags follow the [revised bestiary data format](https://github.com/5etools-mirror-3/5etools-src/blob/main/data/bestiary/bestiary-xmm.json).
+The renderer conventions used here support `tokenHref` and image `href` with internal paths or external URLs. Stat-block tags follow the revised bestiary data format.
 
 ## File layout
 
@@ -31,6 +31,6 @@ python3 scripts/check_bestiary.py
 
 The build validates source and lore relationships, duplicate identities, CR range, ability scores, HP arithmetic and Hit Die sizes, proficient saving throws, Passive Perception, printed damage averages, renderer tags, image existence, square tokens, and actual transparent image corners. It regenerates the exports and local preview. Final assets use lossless WebP, including token transparency; portable exports embed them with the `image/webp` media type.
 
-These checks don't replace upstream schema validation, a live import test, or tabletop playtesting.
+These checks don't replace external schema validation, a live import test, or tabletop playtesting.
 
 The roster check also verifies complete CR, biome, emotional-family, and creature-type coverage; that each creature carries its clan trait and states both its emotion trigger and its counter in its own stat block; that the retired template traits are absent; that every creature at CR 17 or above resolves to a legendary group; matching damage and organ-stage notes; and two lossless WebP prompt records per monster.

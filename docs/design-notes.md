@@ -1,7 +1,7 @@
 # Monster design and playtest notes
 
 Challenge Ratings are design targets for revised fifth edition play, not verified balance claims.
-Everything here is newly authored. Nothing has been playtested or imported into a live 5etools
+Everything here is newly authored. Nothing has been playtested or imported into a live toolset
 instance.
 
 ## The three-part rule

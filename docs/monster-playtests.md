@@ -16,7 +16,7 @@ DC, attack bonus, AC, and Hit Points, with deliberate dips where a role calls fo
 conditional defender trades damage for Resistance, and an attrition threat trades it for healing.
 Roles are listed per creature below.
 
-No live 5etools import and no tabletop balance check has been completed.
+No live toolset import and no tabletop balance check has been completed.
 
 ## Tidewrack Hand
 
